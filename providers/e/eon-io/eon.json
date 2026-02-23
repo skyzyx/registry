@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.0.14",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-eon_2.0.14_darwin_amd64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_darwin_amd64.zip",
+          "shasum": "024275b7d9f6ae9b99f76a4efddda2d94806bfb6fb23e6d011350cc2029f3b7f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eon_2.0.14_darwin_arm64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_darwin_arm64.zip",
+          "shasum": "ebd9786390fd74464ef121d3bddf3d7f87a807721262181f9588699073a9bc0f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-eon_2.0.14_freebsd_386.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_freebsd_386.zip",
+          "shasum": "0f347c9d0346ce0bba2a91e3bd545ec2740e509ca9da6fdf73db13427abba99c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-eon_2.0.14_freebsd_amd64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_freebsd_amd64.zip",
+          "shasum": "cfb56ca6ec4f71036855e05f8d5f859e9818db21401b098af1fe20b7c31d36cb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-eon_2.0.14_freebsd_arm.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_freebsd_arm.zip",
+          "shasum": "26add5c0247055f5527a880438d2bca182102f774bb3a9304c88c60d762cd13f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eon_2.0.14_freebsd_arm64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_freebsd_arm64.zip",
+          "shasum": "6657501dedc292a45e2e5050d974253768873e8d6958444f9be9f3213e3ced6c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-eon_2.0.14_linux_386.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_linux_386.zip",
+          "shasum": "26d0409d585b779568d14d53acfbd9ff259ced2f96c298b47775a85a20586f9f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eon_2.0.14_linux_amd64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_linux_amd64.zip",
+          "shasum": "4e3c7ccda15c4dd800bd663f494a6537d5db16e229b708f744551ed93c6dad50"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-eon_2.0.14_linux_arm.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_linux_arm.zip",
+          "shasum": "fb3a9247e3d37eeca2c15b77b4855a5fe25f2232985ccfdf67c6e41f181a2b9d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eon_2.0.14_linux_arm64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_linux_arm64.zip",
+          "shasum": "cd7a1f12710e9e4b36e37fdb92ba8fff6cf72f4c98a78566fcfbe99cce8d5462"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-eon_2.0.14_windows_386.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_windows_386.zip",
+          "shasum": "48985d59039c84d367dcb917a8d1fd8e8a177ca3c6c72295255c9e8b6f0294ef"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eon_2.0.14_windows_amd64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_windows_amd64.zip",
+          "shasum": "13670a2e304990f312ff5352ce825acec3d1be7e34959a4c9e7c1610bb668400"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-eon_2.0.14_windows_arm.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_windows_arm.zip",
+          "shasum": "b306a0abc03f16e2ab6dd5822f6b4397843de39652628e641a202c46d1af4c28"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eon_2.0.14_windows_arm64.zip",
+          "download_url": "https://github.com/eon-io/terraform-provider-eon/releases/download/v2.0.14/terraform-provider-eon_2.0.14_windows_arm64.zip",
+          "shasum": "1ea2d626d704c573b1af1d6712fdddf2c96a63036729fb3eed878fa8b26ab0b3"
+        }
+      ]
+    },
+    {
       "version": "2.0.13",
       "protocols": [
         "6.0"
