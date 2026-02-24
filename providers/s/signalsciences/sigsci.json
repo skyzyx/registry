@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "3.8.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sigsci_3.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_darwin_amd64.zip",
+          "shasum": "d5791ab6ca8332de084155ec67b59d2018ccd1807cd3e258aabcb721423f8f20"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sigsci_3.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_darwin_arm64.zip",
+          "shasum": "5ee85a3ad2765451ac5aff9dc4b27a4a4a27616da02abc101fd4eb4ece583913"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sigsci_3.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_freebsd_386.zip",
+          "shasum": "98d0bb9a0b9c284503b1f87320b2bf82eb76edc0b718bf11b93ea5796492cb13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sigsci_3.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_freebsd_amd64.zip",
+          "shasum": "b83a7be80bbc142821d90d042f056311d14e2c553aa7501e97b4caf7e4124264"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sigsci_3.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_freebsd_arm.zip",
+          "shasum": "8cd7ed9500d318a6edc92f03ad84a3bcce9498a391aa34238eeb7df2ab1457f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sigsci_3.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_freebsd_arm64.zip",
+          "shasum": "3cd99b0e47f6d2bf210c19a1335c6224beb430551b3d08a148f481dd5676426b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sigsci_3.8.0_linux_386.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_linux_386.zip",
+          "shasum": "ec8de93d7a22bc71834491bdb98b8d7b440cb1ee04787321757d3796d04113b4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sigsci_3.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_linux_amd64.zip",
+          "shasum": "60bc603de01f90532752dc65c90edf3ac3eedd9b95db923514b62c6d9d0d6793"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sigsci_3.8.0_linux_arm.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_linux_arm.zip",
+          "shasum": "d6a50a35e5775dbf92aeb0230594e29e17044a7e0feca82ffebecbabb695e850"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sigsci_3.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_linux_arm64.zip",
+          "shasum": "bed2fc156c5f9413834ed6ca8628c8557d9d15cee071764d66bf73c38bac4cdc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sigsci_3.8.0_windows_386.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_windows_386.zip",
+          "shasum": "2bb4f245cea605c0b891c060da7d86ff018a2261f4d0baf11764e439dc0b15aa"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sigsci_3.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_windows_amd64.zip",
+          "shasum": "7ae7c49a74e9dcfa687f4c9c0ecde12da6c4e689afac14e9e079902011db18bb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sigsci_3.8.0_windows_arm.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_windows_arm.zip",
+          "shasum": "ebb4f638e71113f9153f884248db0db79f61f054308ecd4322c8b9490cb35489"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sigsci_3.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/signalsciences/terraform-provider-sigsci/releases/download/v3.8.0/terraform-provider-sigsci_3.8.0_windows_arm64.zip",
+          "shasum": "9b17ad023df398a47337bc2cd022264a4e0423e60ff6ed860a202140f5aeb7f4"
+        }
+      ]
+    },
+    {
       "version": "3.7.1",
       "protocols": [
         "5.0"
