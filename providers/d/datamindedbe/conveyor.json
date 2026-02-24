@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-conveyor_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_darwin_amd64.zip",
+          "shasum": "41cba1a798b7bf70401c6d98150e82150c39936ec03c60ff75563c9b43f58430"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-conveyor_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_darwin_arm64.zip",
+          "shasum": "69ca1e1bc15acac71103e187a224c818abc10bd801d2e593db669a94f48734c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-conveyor_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_freebsd_386.zip",
+          "shasum": "01adde9fa4b519e69ab1d1dfaedb2ee0c21b23c766cca1c24a181225c2e3aad7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-conveyor_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_freebsd_amd64.zip",
+          "shasum": "37ef5df59cc30a6c43e269767b39a6408fdba828a265f94b386cc5b369bdcfb1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-conveyor_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_freebsd_arm.zip",
+          "shasum": "8ee133fac44a0f96e2b85aef3f6134aa334f89bb99862dc4d635d80b9dbd9544"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-conveyor_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_freebsd_arm64.zip",
+          "shasum": "5640caeaaa8cf107edb7f1a3c0452ec404926b6100a49111d7f115e07940eb09"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-conveyor_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_linux_386.zip",
+          "shasum": "d681f65c317b756e40b20bb0377d1cc34a509f00a3c41ca5def7c27b102268bc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-conveyor_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_linux_amd64.zip",
+          "shasum": "8269e71abdec214aaa6da0840bdee126192f374daa94b7edbd72abc5b67b18d8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-conveyor_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_linux_arm.zip",
+          "shasum": "533193c9243dbfc950df7af94fc6a32466260b054512030ef72bea140eb11830"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-conveyor_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_linux_arm64.zip",
+          "shasum": "5a6b9dffb185710d45ee398bd466e632128eda61ed0e2c732c7cb6ddea5131c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-conveyor_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_windows_386.zip",
+          "shasum": "95aec059c0b7bf716a343f49ba507329348ce8cc668200a2b762b3c474674a22"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-conveyor_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_windows_amd64.zip",
+          "shasum": "48d8b92724be96c1a414e6474379aa4e9869ee28cd4ac351f76fea5ac8e72258"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-conveyor_0.7.0_windows_arm.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_windows_arm.zip",
+          "shasum": "dbbbad05bb34ca4f91980ddf1e483ed6af1b69c1497db0062ede324d5ac073d4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-conveyor_0.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/datamindedbe/terraform-provider-conveyor/releases/download/v0.7.0/terraform-provider-conveyor_0.7.0_windows_arm64.zip",
+          "shasum": "23f2f33dcd6c0e7d3c28dd86fce819cb2dc6cf1c1628e74057bd719e7bc948bd"
+        }
+      ]
+    },
+    {
       "version": "0.6.0",
       "protocols": [
         "5.0"
