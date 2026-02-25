@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_darwin_amd64.zip",
+          "shasum": "03512a7a952da97f49553e1d39023803970c6ffb81d29c2f857236be78b83645"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_darwin_arm64.zip",
+          "shasum": "1979244f1e13df99ac83cd1d1b490b4598c97780510b5589cc8174c8f90c545f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_freebsd_386.zip",
+          "shasum": "f75f477600b0b598aed50cef5f944b9a751c3f53bab611d8c5f12f23f031bebf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_freebsd_amd64.zip",
+          "shasum": "b8e68852476cc4b6117f1dabcc5794ef4fd81ea62d55aec1d0191e7ec045bc2c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_freebsd_arm.zip",
+          "shasum": "846d0d6488c9f596adf4df041667bb74452f36fc0772dce04c6b4299493a88ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_freebsd_arm64.zip",
+          "shasum": "46db3e389e297138d3b50dafa8a7b7d62eba6c09b3e0c86e74083d28332eff25"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_linux_386.zip",
+          "shasum": "20558038af203c60616dac36126bdb567f82cb5f83d713cdd311d5cbbad975db"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_linux_amd64.zip",
+          "shasum": "1671b3e0b10bf6db3585fbd3e0a88d04a94586599b04659ed31a05e20b4f56ce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_linux_arm.zip",
+          "shasum": "aa35e2847f3150a1dcd54bf2494cd349dad3d39db9d72a059c11a026e8c4c8f7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_linux_arm64.zip",
+          "shasum": "f44336816227984ff02b8f81348445e5aaf85ed8d926c0a859c916ccaf299f8f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_windows_386.zip",
+          "shasum": "754e55bd683851f13cb34d9c427623b185fe18756bdff7ca8a28a16070e0080c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_windows_amd64.zip",
+          "shasum": "654f16dfc4a7dd07733cd45a4d6cc80aeb90a81fed1d43a328fc0eff874ef1aa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0_windows_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_windows_arm.zip",
+          "shasum": "b3c69c5361738ccee016820471ebecd4e8df3ceaa2811fa9fb4d25921896058e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_windows_arm64.zip",
+          "shasum": "ce31b8764a0408c7bc42533bd55ad6b0bd8a1ccc128d020ae5fc476e5c9ca010"
+        }
+      ]
+    },
+    {
       "version": "1.16.0-beta",
       "protocols": [
         "6.0"
