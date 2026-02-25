@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-helmfile_0.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_darwin_amd64.zip",
+          "shasum": "4d2157fac36d1d2c007682d4cdcaed6dea9ee4aebcc3dbeac301babdbcee2bca"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-helmfile_0.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_darwin_arm64.zip",
+          "shasum": "6320acc659918c4b78e73b5c167d45e798675c4f1abfc1b3e3ff4c169700d7ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-helmfile_0.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_freebsd_386.zip",
+          "shasum": "dc64482cb75d1ffaee16b13b49e1b2cbf0b171375fed033b0c7b0bcd48f3b6b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-helmfile_0.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_freebsd_amd64.zip",
+          "shasum": "fb68e11999d0fb22002dfc663eb7324e3c8b7b66cfb2df0217fc87b2710cd538"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-helmfile_0.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_freebsd_arm.zip",
+          "shasum": "4e5d6014d6c0e723982f6ffda22c63783905ab6ad69053ee6df42c4e15814ddc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-helmfile_0.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_freebsd_arm64.zip",
+          "shasum": "650579cd8c1129c065bf81ec50edc158b2ef41de96755852f9d84fd1bd6e8d5f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-helmfile_0.1.2_linux_386.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_linux_386.zip",
+          "shasum": "02f0989a0e58ea3a667fb2ae9cfd5622462f52d054b338961708ea748c01c86f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-helmfile_0.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_linux_amd64.zip",
+          "shasum": "e1e514ab4d998ae2d19fb32dec64620de9b3ba748d84cfed9a7d17590769e8ca"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-helmfile_0.1.2_linux_arm.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_linux_arm.zip",
+          "shasum": "9b6e9970ae1646c75a9ea4d59a7062bf358cbb099f8283de65a4ab0285c5a246"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-helmfile_0.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_linux_arm64.zip",
+          "shasum": "48a3d294eb6a82b8dd027fea2a43862132dd7b0dae8d5da0355b2a0a0404ff3b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-helmfile_0.1.2_windows_386.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_windows_386.zip",
+          "shasum": "b16150804d0a5af854d42e4256ccb2f18fe8e6d89a92c18772b5a4bb62ae45c4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-helmfile_0.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_windows_amd64.zip",
+          "shasum": "ef126ecca311510f70df471567711119dca0176a3da2fae49956799020dc0593"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-helmfile_0.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/kaweezle/terraform-provider-helmfile/releases/download/v0.1.2/terraform-provider-helmfile_0.1.2_windows_arm64.zip",
+          "shasum": "3c54c36066eb40d630ac5c211ccb0514205e9473b1ebdd3ecc0110375e4cd05c"
+        }
+      ]
+    },
+    {
       "version": "0.1.1",
       "protocols": [
         "6.0"
