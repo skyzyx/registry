@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_darwin_amd64.zip",
+          "shasum": "193a45755f5c26edc557d8c6951a8511f42822e5a73b1677439be762ab3966b1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_darwin_arm64.zip",
+          "shasum": "be0eaf5014799a250a4b1d8fc4929df64671ba57e3bd5176293bb97a42c5cce5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_freebsd_386.zip",
+          "shasum": "865039f6ab8e4790c4f0ce4cd5df32652580f2448c19e060283d94d21cee054c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_freebsd_amd64.zip",
+          "shasum": "22fdc7898b66b44336df6459b9b9f0cea043048176e270f92d9716308d1bea05"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_freebsd_arm.zip",
+          "shasum": "57eef8416909f0fdcba3e464add1aad974e8ee56b99a4fd1ad03275c0ebf3cf6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_freebsd_arm64.zip",
+          "shasum": "763a411d3e95a9bd9381eea18cde4221baf7787bcc1cc0f09528c4a392df8ed2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_linux_386.zip",
+          "shasum": "57cba67ebe19c3b632cc3988dad921e9f34164820fa932af588c71321ffd818d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_linux_amd64.zip",
+          "shasum": "c3b6e696ccef5e8edbfb05ca0c471ba2cb285be23b06dfaadde7e434fd1aa51e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_linux_arm.zip",
+          "shasum": "735958d50854a11dc2619c4d8f0b78264d503625c79d4c8c3a9ed84d34654f61"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_linux_arm64.zip",
+          "shasum": "fe0db175a68ba366dcea546f54c3177bd155764aeaa10e2fe4d74047b34d6e5b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_windows_386.zip",
+          "shasum": "99bd7cf65c1f49b6dd443756afc9d785c7d41da5e012a4889ab9e8288825ee2c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_windows_amd64.zip",
+          "shasum": "a5c5118ef7258f6196dec7e70e635221c49fed40218456624eb37db37e48f4d2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_windows_arm.zip",
+          "shasum": "f5d5d294bc5fe7584b72d670a89b80478ebf9abc2571367f21b66ca232791baf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.2.0/terraform-provider-sonatyperepo_1.2.0_windows_arm64.zip",
+          "shasum": "fb0b89db8ef23dedc303f97775a60d722dcc9733be1d4e6b7a67dab6dd2a029a"
+        }
+      ]
+    },
+    {
       "version": "1.1.1",
       "protocols": [
         "6.0"
