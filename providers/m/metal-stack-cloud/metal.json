@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_darwin_amd64.zip",
+          "shasum": "81103cd3305425524d5f7d6cdecafe2c63a6055469ef010632975ce8715ea1bb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_darwin_arm64.zip",
+          "shasum": "bfc39714cc87f95d46672a33c0d07d2683e19d2904c7a71492b9806046fd414c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.2.1_freebsd_386.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_freebsd_386.zip",
+          "shasum": "ca039b4a9c0cd4cef538a7fb474567f5daa337e1981c8d19c083c4ac1a87a888"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.2.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_freebsd_amd64.zip",
+          "shasum": "f833ce53dc2dfc568bddde1dcc0489e36734107cbe2a6756003ae140c017edf8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.2.1_freebsd_arm.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_freebsd_arm.zip",
+          "shasum": "ab9efba7e75baa0ab64f6d284a1b1253c9a528f72301ca7af791941c7c107f8c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.2.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_freebsd_arm64.zip",
+          "shasum": "b7cfd55efc80595a68973a67a85cc3718f28945236fd6b5a8320d1291e7b60d8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.2.1_linux_386.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_linux_386.zip",
+          "shasum": "13360e1c1d0e1f726aa511727a8e3edf6d4e524dffafa5a056490dbe7063a196"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_linux_amd64.zip",
+          "shasum": "416ca8069f230c58f5a7278755cea51e8301ca93cb86660df69e8bc9be169f81"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-metal_1.2.1_linux_arm.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_linux_arm.zip",
+          "shasum": "317aa3a6e60d03b890a2d40b5d16d961dbd54b2ee5a7596fc6586de00734094c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_linux_arm64.zip",
+          "shasum": "c0151c06fc3c2ac4b888904c209a78a0908d100a61732cb8017b91ce630bfb9f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-metal_1.2.1_windows_386.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_windows_386.zip",
+          "shasum": "0467e838c304e8d5762619ed9f933601cd624b09bf20145bf113eda634e5a39a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-metal_1.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_windows_amd64.zip",
+          "shasum": "71dc8a7bd91bb17285508abc9aa433128faaf9853440ee97cebf28b488eec9b6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-metal_1.2.1_windows_arm64.zip",
+          "download_url": "https://github.com/metal-stack-cloud/terraform-provider-metal/releases/download/v1.2.1/terraform-provider-metal_1.2.1_windows_arm64.zip",
+          "shasum": "7ef3f364b46261eb6bf1c48fd4e4114c9160c5835da834780e44f1e9ee299fb2"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
