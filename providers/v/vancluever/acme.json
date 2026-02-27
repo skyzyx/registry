@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "2.45.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.45.1_darwin_amd64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_darwin_amd64.zip",
+          "shasum": "e28eaf6910e2d4322f497b58e76d6af5c307dcf9cf01036af8f4ad380acaad98"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.45.1_darwin_arm64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_darwin_arm64.zip",
+          "shasum": "84967933ed856a52e3da354b61505eca683ce9dd1b46b54df98adf47b348808c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.45.1_freebsd_386.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_freebsd_386.zip",
+          "shasum": "214908521f95d948f4b84ada925bd41dd4f626ed92bc39b0216c47ff538aaf4a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.45.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_freebsd_amd64.zip",
+          "shasum": "3cd6199a36d648e3c471593d34874a0ab8fa76ded1033f959a0fc78b739befba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.45.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_freebsd_arm64.zip",
+          "shasum": "9aa3fbfc50e715bbc5a5d8e0ecb9ee7ff47e4a1f980444db869ca47f4e8f47f6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.45.1_linux_386.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_linux_386.zip",
+          "shasum": "d64acdc4dd7e1fae67ae1869143bf9878cf37c82c5bb431eca587d5450df298f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.45.1_linux_amd64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_linux_amd64.zip",
+          "shasum": "0159f7cf23df4ca94ba419ae43071d5e560e2750ce3da4025c3d4814aeb3d049"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-acme_2.45.1_linux_arm.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_linux_arm.zip",
+          "shasum": "475e6395faad5c156ac48cd36e1ac62d26dc9c73f7bf61c844e93095e32aac4b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.45.1_linux_arm64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_linux_arm64.zip",
+          "shasum": "4b25d48f9fff52b8b575aa365511eacfc9a34f7bde4dde347858551f295a69b8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-acme_2.45.1_windows_386.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_windows_386.zip",
+          "shasum": "57647a8598f8fe171a075d60761c68e62aae436abe0610e22e3391d0a85532dd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-acme_2.45.1_windows_amd64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_windows_amd64.zip",
+          "shasum": "c65579595a9ce8d3bf42c45d1eac1dad80ca300ec9ef23f84cd793dbe9110e51"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-acme_2.45.1_windows_arm64.zip",
+          "download_url": "https://github.com/vancluever/terraform-provider-acme/releases/download/v2.45.1/terraform-provider-acme_2.45.1_windows_arm64.zip",
+          "shasum": "33181b7fddb208ee62c4c50baee35eb1341553f4b14483b2ddf57a168f36d183"
+        }
+      ]
+    },
+    {
       "version": "2.45.0",
       "protocols": [
         "5.0"
