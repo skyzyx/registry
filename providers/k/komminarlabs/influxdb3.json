@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb3_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_darwin_amd64.zip",
+          "shasum": "ab637ae1757cb40c10cfa66beef221c0bc94984e36011d1650941c5a360b6c66"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb3_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_darwin_arm64.zip",
+          "shasum": "1c15a2d8da7bf4cc15ac8a3bed28ebf27fce22e524cbe5fc3ca666bc0edf8bd0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb3_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_freebsd_386.zip",
+          "shasum": "172b7eaa7856f7f509cf633c41e0665b21876f486adf24e1e3539eff499ae836"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb3_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_freebsd_amd64.zip",
+          "shasum": "40c8b5f9c3d9bb61e100c2c8a3a0d02318e5ff3ea393326576a3fbf8138f2242"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-influxdb3_1.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_freebsd_arm.zip",
+          "shasum": "f1b60ece64078aebf7f276c0caa8b3d4d881be3d3892754ed871ea7a047a32f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb3_1.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_freebsd_arm64.zip",
+          "shasum": "5d92955f3806480bcbea5cbfae463f3634ca10abce7ab7c2d96c6702fc5e7913"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb3_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_linux_386.zip",
+          "shasum": "8367189dcb136a65748faab036fe3ca10b16fc8c149a4628c179a7645ca3c4e8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb3_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_linux_amd64.zip",
+          "shasum": "62afeefa270a947d1dfec6089fc4e8198492dbd12ad0943a6d414527617ddd2c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-influxdb3_1.6.0_linux_arm.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_linux_arm.zip",
+          "shasum": "b794a66ec5b376fc7a0243402f42bbbfe32a5a9fa131a4affb15ebcc1cc5cd68"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb3_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_linux_arm64.zip",
+          "shasum": "7cd753c40216c28334b7ed5e3f2ae66fd9f1c279ee1a54eea1bb9f1f181c9628"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb3_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_windows_386.zip",
+          "shasum": "90d2ee9bba48cd233229f483c78e777cbae15486e703d3ae872f005e984a5655"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb3_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_windows_amd64.zip",
+          "shasum": "7c389e4deb81bb6dc8f7f6ce816fe69ac554a6b90e019548a1a297ca72f9a134"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb3_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/komminarlabs/terraform-provider-influxdb3/releases/download/v1.6.0/terraform-provider-influxdb3_1.6.0_windows_arm64.zip",
+          "shasum": "d1961b4c0d1a541bd63087eaec683ca68ab6a8270f34ff71abb27b7326ebfe63"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
