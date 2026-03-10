@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.0.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_darwin_amd64.zip",
+          "shasum": "d2e05858f3bce00524a23eb757ce4a9ab30f94a6f9412e6297db9fbed5fbc1b1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_darwin_arm64.zip",
+          "shasum": "8c63ce99894e178e4f5f8a88a7190ecb40e4e2a020176c47650a9a1b82caa2a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_freebsd_386.zip",
+          "shasum": "d15ea6c4e4b53dca488f778a280733a90ce7f6292b7e36d64dddf7e3fddf0bf8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_freebsd_amd64.zip",
+          "shasum": "50d8a5d55b9bf2b961894ea3ca907b4de0acd7c04b817925d601a180383de997"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_freebsd_arm.zip",
+          "shasum": "49e257fbb3fbfc0f131810e1beb4a071d72e4b819c23daecc409a5f1596e8abc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_freebsd_arm64.zip",
+          "shasum": "a644d57525c19772605569ee2d0c451999b7455d45c1387dc9c4b2743206a733"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_linux_386.zip",
+          "shasum": "6ab70955ceb5aafadae3ed6f6e839353397c96a036aecfccaa9e64e04bf6b419"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_linux_amd64.zip",
+          "shasum": "44d708ad99aaa0a91002b55b6c7ebb449c4824353fb1aadf2d868a448119e261"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_linux_arm.zip",
+          "shasum": "004b74b49e2ca136c1204bea2af2381ac5356870721c9cc1ca8a0360302de823"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_linux_arm64.zip",
+          "shasum": "57d618d9e01e3f1d43d1820c46ed0d54c097bbdcc8e6b25f7eaa48d20043ee86"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_windows_386.zip",
+          "shasum": "2d3e1c72f109c1f70d69789a837d733468d3fcd6d25ace5b27ccd0d618663e3c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_windows_amd64.zip",
+          "shasum": "10165a17c84adea796451fdafc73030215feed2413106fbf7f35399fee177ab6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_windows_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_windows_arm.zip",
+          "shasum": "c52c68f9c046fed2fb19611af8e36e458c9cb8e1216956e3ef73667caf731ae9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscosecureaccess_1.0.3_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscosecureaccess/releases/download/v1.0.3/terraform-provider-ciscosecureaccess_1.0.3_windows_arm64.zip",
+          "shasum": "f1b2be0df086788f55eb806a951355e9ea86e585ccbb88fed84bec6213de1182"
+        }
+      ]
+    },
+    {
       "version": "1.0.2",
       "protocols": [
         "6.0"
