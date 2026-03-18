@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.25.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.25.1_darwin_amd64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_darwin_amd64.zip",
+          "shasum": "6482713f43ba4b545298c183121a4dd7bf6cd014840e44b4dea8226f81a84024"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.25.1_darwin_arm64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_darwin_arm64.zip",
+          "shasum": "7929230404318eeddccc28963a7cfacd555bbf23ad6f07458553fd831a74cfeb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.25.1_freebsd_386.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_freebsd_386.zip",
+          "shasum": "19c68e337d29b8100dfd3f58c224135642e1d1bfe7a3255dcf94ad06b7f15fcd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.25.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_freebsd_amd64.zip",
+          "shasum": "bfdfee0516278e03d26b430fd88d60c3a55dbc409e6e7fae2c3c9a4f033be326"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.25.1_freebsd_arm.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_freebsd_arm.zip",
+          "shasum": "0b9d9ebf83eec0c29e15f0ed7dceb9b0b81088045b905b2bf9fca65a77780733"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.25.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_freebsd_arm64.zip",
+          "shasum": "731a64abdf3f535cc250f91c369fd0c30ef70629d06f59fb49549af683d67df3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.25.1_linux_386.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_linux_386.zip",
+          "shasum": "25f0afd95dab23541a445defb13cf105bea4949518f9dd37a10200c51495a765"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.25.1_linux_amd64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_linux_amd64.zip",
+          "shasum": "15cd8a77d0f50d4207fa085e643470b6a48fe4ebd303ac42f636fbdb58d966ec"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.25.1_linux_arm.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_linux_arm.zip",
+          "shasum": "a750f6ccf616082a1bd2dd5d69fa436808d45ef25c9c660cc5c0ea4885885342"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.25.1_linux_arm64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_linux_arm64.zip",
+          "shasum": "98a4cbc2eb00cdd8a4a6165ae8ff0504b597034322a3cb799d3aba3b0ef60d89"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bigip_1.25.1_windows_386.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_windows_386.zip",
+          "shasum": "ae1200838e0deceff4e607abbcb1403229b621ea7ad77b7d54ee31954e03a168"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bigip_1.25.1_windows_amd64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_windows_amd64.zip",
+          "shasum": "3b0b97b824bbb56902fed23d383ae5d23762aed6b3d4ab6994a9fdc0efde947d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-bigip_1.25.1_windows_arm.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_windows_arm.zip",
+          "shasum": "f0b554bd72451343f862a52e5a9a61ace5471072a71c5a4194cce3d57392877a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bigip_1.25.1_windows_arm64.zip",
+          "download_url": "https://github.com/f5networks/terraform-provider-bigip/releases/download/v1.25.1/terraform-provider-bigip_1.25.1_windows_arm64.zip",
+          "shasum": "37d71c4742f5e8f8dd366e9c36f08a86beccabed66b6a6785601c22d076de5ab"
+        }
+      ]
+    },
+    {
       "version": "1.25.0",
       "protocols": [
         "5.0"
