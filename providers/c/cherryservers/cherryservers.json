@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.5.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cherryservers_1.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_darwin_amd64.zip",
+          "shasum": "52752b582a0ffeea8974e1ae14283ae2b90fa33134ac8ab36ae0ecc44bd6fff3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cherryservers_1.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_darwin_arm64.zip",
+          "shasum": "38c4178dfb40b469554fc2d7cca4cf009703be5b9286881524b787b8005a9596"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cherryservers_1.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_freebsd_386.zip",
+          "shasum": "8fc55a72b7d131a1b60a91d2a89618daaaee700e5581714925df43ac0b11a568"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cherryservers_1.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_freebsd_amd64.zip",
+          "shasum": "67cf97e825644e3cc24a55f767ef5c82ba5371ea313881c0c8b3eac7be4421f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cherryservers_1.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_freebsd_arm.zip",
+          "shasum": "7f0997e611c37130a856d2e70c65c84ca29ada0533d53ca4208201b03049ea80"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cherryservers_1.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_freebsd_arm64.zip",
+          "shasum": "21d197ea82adcf8828540abc85b55eb6bc98af6cdff64ec2746f101b4826fa76"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cherryservers_1.5.2_linux_386.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_linux_386.zip",
+          "shasum": "66944c503034b4acf113f73dcdffda48110f91d1a5debc692d67d50bdabafd8e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cherryservers_1.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_linux_amd64.zip",
+          "shasum": "ccd94f69c6ee4199809b0007c700cf0a3e4492ee26ff7fdbb79bb87d522d5d9b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cherryservers_1.5.2_linux_arm.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_linux_arm.zip",
+          "shasum": "308a62dd84cace83b03e85a6640a7f8bdc20a4080470cd5e682d6ac9eca46cf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cherryservers_1.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_linux_arm64.zip",
+          "shasum": "6584b18a3314fd59e83b05c7088ca5c17206083d48e0fa5e7db555bddd0ae183"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cherryservers_1.5.2_windows_386.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_windows_386.zip",
+          "shasum": "c57555eb3724dcaaca23f1e27261c106aca90ceaf75fac454c2bfca5045319dc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cherryservers_1.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_windows_amd64.zip",
+          "shasum": "ac88d7e5749ae58b7c71b287b2ab4f53c82804cb33c8f6fab3476e3d277e376b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-cherryservers_1.5.2_windows_arm.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_windows_arm.zip",
+          "shasum": "fb570b14cf57e6b2c37aa74949c365373f895eed0c52f58ad679bbc96c53feb7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cherryservers_1.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/cherryservers/terraform-provider-cherryservers/releases/download/v1.5.2/terraform-provider-cherryservers_1.5.2_windows_arm64.zip",
+          "shasum": "4e8d5471dddd25008cc868faeb773b659efab84cc60759845ed1429caa57548a"
+        }
+      ]
+    },
+    {
       "version": "1.5.1",
       "protocols": [
         "6.0"
