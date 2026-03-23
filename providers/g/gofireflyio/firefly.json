@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.1.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-firefly_0.1.6_darwin_amd64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_darwin_amd64.zip",
+          "shasum": "1facecc964d4b8bb0977ebea7fb01850b1ac6e95b803d6ee4a227645cc52bd9a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-firefly_0.1.6_darwin_arm64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_darwin_arm64.zip",
+          "shasum": "9e7b5fc9624c79a4eefd661132069cfc8f2f4c15d69d8bc3ce33122b94d5def4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-firefly_0.1.6_freebsd_386.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_freebsd_386.zip",
+          "shasum": "e2e0afd1d24a5108f5806c1eab5dd2807a139a007baf0fd0a0c70915ab05dab6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-firefly_0.1.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_freebsd_amd64.zip",
+          "shasum": "e34e6f07e585c3762fed6f6f687d5803dce2be74fd518dc493073c8816ec6a02"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-firefly_0.1.6_freebsd_arm.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_freebsd_arm.zip",
+          "shasum": "15d6777989755ba85d63a6add37735e0ee8d36cae81f82a68c4b59fbb5f69054"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-firefly_0.1.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_freebsd_arm64.zip",
+          "shasum": "1cb5a2131cb8519c70f90cd6d8a0bd70ec327c35fdbd528093363a418ad41a72"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-firefly_0.1.6_linux_386.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_linux_386.zip",
+          "shasum": "978ed0d760d4f6f77db602db52262f9af610a58ca5802d466304a5b58998d1fc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-firefly_0.1.6_linux_amd64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_linux_amd64.zip",
+          "shasum": "6d40bd15a1f91093954aef4d9263c3381cab90ef71d50c65c23b974c87cf9d48"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-firefly_0.1.6_linux_arm.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_linux_arm.zip",
+          "shasum": "757314836885117d2202abd503ade2323ae1e53546bfbd9a7a6a315a19b243e1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-firefly_0.1.6_linux_arm64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_linux_arm64.zip",
+          "shasum": "d12bac67c01cad879fc4a77655e4d3264ac691d7100916cd45470f736a0f5c0e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-firefly_0.1.6_windows_386.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_windows_386.zip",
+          "shasum": "2dc2abbb3f5254c4fd05158be2198cb2d2a1a721a0303f3bba8fb25934f5669c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-firefly_0.1.6_windows_amd64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_windows_amd64.zip",
+          "shasum": "085beb84c109c353b08d2f27984d79224863e0cbec5ae4ca9127888443b7e5dd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-firefly_0.1.6_windows_arm.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_windows_arm.zip",
+          "shasum": "04484ec77106eea43ce9a44aa4f2f951a00394346cbc2a176447d4d2e744125c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-firefly_0.1.6_windows_arm64.zip",
+          "download_url": "https://github.com/gofireflyio/terraform-provider-firefly/releases/download/v0.1.6/terraform-provider-firefly_0.1.6_windows_arm64.zip",
+          "shasum": "47cf5baf970b571e09e78c017d2777df315aaea25ca1a82fd11c178cd57515b7"
+        }
+      ]
+    },
+    {
       "version": "0.1.5",
       "protocols": [
         "5.0"
