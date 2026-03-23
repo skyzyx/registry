@@ -1,6 +1,128 @@
 {
   "versions": [
     {
+      "version": "2.15.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_darwin_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_darwin_amd64.zip",
+          "shasum": "1330b0c1e28973935fc91ed6ed18ded218b9a7409d588ceb76409069a9b88e51"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vsphere_2.15.1_darwin_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_darwin_arm64.zip",
+          "shasum": "aee7664bcd744bf0082606efdda3d20a4d5e7b9d8757823ba29f02c43f98bf1a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vsphere_2.15.1_freebsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_freebsd_386.zip",
+          "shasum": "9205e2c2ff1568cc0a76a711e470fe188873cb26489bc57c47dfff1fd1fb43d6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_freebsd_amd64.zip",
+          "shasum": "1f6fdf3ac4b80a06dc211c0dd8f4ce610488cdb71b7c70af4eafc46674f1004a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vsphere_2.15.1_freebsd_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_freebsd_arm.zip",
+          "shasum": "90ca40501b84a479e3441716cad1d425302e88334c98573cf5b6dfe8e604e26c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vsphere_2.15.1_linux_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_linux_386.zip",
+          "shasum": "1f7a8a84f208344134818f9fc654f79588b20cd198179b514a6d2e745ec088cb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_linux_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_linux_amd64.zip",
+          "shasum": "1fae64af172e39657888aed2d02f6f6383bc6b377659068737a7fe789b3af279"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vsphere_2.15.1_linux_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_linux_arm.zip",
+          "shasum": "93f25bfc16a2654bc55eba290ef75ac6eaf7fa6f2b91a6aa86efa5be062209ac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vsphere_2.15.1_linux_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_linux_arm64.zip",
+          "shasum": "233ac218d9259fc2f23d0f482e3fad8418a979726e01d9c175390d17ca2de466"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vsphere_2.15.1_windows_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_windows_386.zip",
+          "shasum": "8850030721d9432e042f460f5b93d76e7119edeaf5d3c0119967b6fb8bd468d1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_windows_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_windows_amd64.zip",
+          "shasum": "a82c7c3e71165bdfc61e22ce3026854d05611ee53302c189358ffe205b692f05"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vsphere_2.15.1_windows_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_windows_arm.zip",
+          "shasum": "f32161500247610e53cf5a53dd47e4144b10c147c8d492e162caff8feaae1a4e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vsphere_2.15.1_windows_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_windows_arm64.zip",
+          "shasum": "67f60ccb61e01a1c9bd27afb14dc2a55a00c07b84637f732652e068f16021b86"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-vsphere_2.15.1_openbsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_openbsd_386.zip",
+          "shasum": "6d7d5296f5b8c6b9d37c2e6f3ac7279c497d82888409ff3970aaf6e9db461435"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_openbsd_amd64.zip",
+          "shasum": "fc881fe7e96b03136288d3c512ae5db5afc319bffd3c29e6a4e406930c8709a0"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-vsphere_2.15.1_solaris_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-vsphere/releases/download/v2.15.1/terraform-provider-vsphere_2.15.1_solaris_amd64.zip",
+          "shasum": "c89d19cf31e19e348096549ce882c12337d613c40b736dd6f759a67ff6aedb05"
+        }
+      ]
+    },
+    {
       "version": "2.15.0",
       "protocols": [
         "5.0"
