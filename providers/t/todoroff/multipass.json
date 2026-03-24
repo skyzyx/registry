@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_darwin_amd64.zip",
+          "shasum": "8974268ff0c281804a642ec613d27a3a2e08658703bce9bf57f7e85ba3d45c31"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_darwin_arm64.zip",
+          "shasum": "1db0b547d57c9e03093f0cda23cdb55331ab3a57e5431fe6ca12085a155cc03f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_freebsd_386.zip",
+          "shasum": "402e5795c12cfbca6235fbf60b6d599acd939e8f6abe61be508dd69ccdb69703"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_freebsd_amd64.zip",
+          "shasum": "91b0de3f762c99eeb02152f935cbc7e2dd8c2986c80e3dccff278c8061958a6d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-multipass_1.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_freebsd_arm.zip",
+          "shasum": "b1180cb4fb1392c81bf347ee5007a4eb7f5fa44d03806ca797918326280f8885"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_freebsd_arm64.zip",
+          "shasum": "6e2744201483feed76e584e96e8725f0059b5ed3cb1d940329bf1e81a7cb5921"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.5.1_linux_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_linux_386.zip",
+          "shasum": "0d5f8e7d887b98f8153433cc50b5f1549f8668bc18ad2a77ed7c3ba99f16c8c5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_linux_amd64.zip",
+          "shasum": "8e4bb3f3f75840250042036c0b3db19454e18a791a5a73da37774f89910b35bd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-multipass_1.5.1_linux_arm.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_linux_arm.zip",
+          "shasum": "9585fcea5a9c8e52913253eb274f1115d6bedb02ab0052096fc44569b26d6657"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_linux_arm64.zip",
+          "shasum": "b0d22c5bbe0350232943e1426fd1ee8bc6ae0e7c803ea2d78d4ea6134fba152f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.5.1_windows_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_windows_386.zip",
+          "shasum": "a81645fba6baa30527515554c203f3da306de03f5d0795ed3232a8152bebeae5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_windows_amd64.zip",
+          "shasum": "134d5c115006aa9826e7be36912074d51fb5bde5756a235b31d7cf5d6fea2864"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-multipass_1.5.1_windows_arm.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_windows_arm.zip",
+          "shasum": "95594f912cd0585f1288c280d315a376b18b179a4e3ff59d9f3b19bccc1e511e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.5.1/terraform-provider-multipass_1.5.1_windows_arm64.zip",
+          "shasum": "68f409f5660a3d8b0cb79fd09cf0feab21dc51a2f43f0b7cfdabd354d40b3848"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
