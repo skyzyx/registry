@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.7.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ignition_2.7.2_darwin_amd64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_darwin_amd64.zip",
+          "shasum": "60be2dae888a0262347607ce5de7a675a23d5876ac14a08dc2c8840488368c80"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ignition_2.7.2_darwin_arm64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_darwin_arm64.zip",
+          "shasum": "f8157d1048535598300408c4616b8f97e1e9609de0964f47b3014e447361e6c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ignition_2.7.2_freebsd_386.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_freebsd_386.zip",
+          "shasum": "4b08624500d4620722f78f71115b8c3c08dab06b5c820372841c16efbef44608"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ignition_2.7.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_freebsd_amd64.zip",
+          "shasum": "19f04a48afc39970da8cf663d2407bc00e753296f42a3ad6de7c2c5919a567b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ignition_2.7.2_freebsd_arm.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_freebsd_arm.zip",
+          "shasum": "0a586c79cfba0c37b190427a2d1f45d8bd96da2207b4c4e7bd845e26baffda55"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ignition_2.7.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_freebsd_arm64.zip",
+          "shasum": "3434d78393c1ffeaca39ca82c79072e67c443a0e237a84b45864c6ad78f426e8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ignition_2.7.2_linux_386.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_linux_386.zip",
+          "shasum": "9b2f01734131c3b24999ae9ff40a9fbb71fc7c93c65c76599a7a90b4cfe6ee15"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ignition_2.7.2_linux_amd64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_linux_amd64.zip",
+          "shasum": "74d0b53fb4537cb8c37dcea5279f73d7e4874c72ffdb2e09df6ec275b808439e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ignition_2.7.2_linux_arm.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_linux_arm.zip",
+          "shasum": "6eba7f7b908b8dc6a423fc2dd9789d12d54b97664f4472c9900194310ec5c4a3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ignition_2.7.2_linux_arm64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_linux_arm64.zip",
+          "shasum": "56cc2e8874fd2eb432f0cd079c0c797e3810cf8df0c2ac162f71bf9f99a981e2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ignition_2.7.2_windows_386.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_windows_386.zip",
+          "shasum": "f35f2aaa76fd690345b51fb2ea12d6088edb1af2d59cee874aeed52aa276aabf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ignition_2.7.2_windows_amd64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_windows_amd64.zip",
+          "shasum": "598e1a0dd63bc9a5e8ae9e3b31cd1129d740e2779f06271c935df38f0db90d8b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ignition_2.7.2_windows_arm.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_windows_arm.zip",
+          "shasum": "427fd2a006870abbe53fe798e84b1af543b45f664996d8da19cbb9c57db3c5e4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ignition_2.7.2_windows_arm64.zip",
+          "download_url": "https://github.com/community-terraform-providers/terraform-provider-ignition/releases/download/v2.7.2/terraform-provider-ignition_2.7.2_windows_arm64.zip",
+          "shasum": "10c83d4c604f00db3d983ab1b095701820cf35238ae71275f37a0976752cdd11"
+        }
+      ]
+    },
+    {
       "version": "2.7.1",
       "protocols": [
         "5.0"
