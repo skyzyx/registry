@@ -1,6 +1,222 @@
 {
   "versions": [
     {
+      "version": "1.17.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_darwin_amd64.zip",
+          "shasum": "678786da934de7ffad956bd91008495808ecf3c70af2c9686ee78502e0afabc5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_darwin_arm64.zip",
+          "shasum": "0ea989a8f8d99f44fdf690918fd1df1181c4009250769234959d7f922edf4827"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_freebsd_386.zip",
+          "shasum": "6323f7629e4526aa950d9f956e1db3fd791c6a113b2d635d4db9aab045d5d869"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_freebsd_amd64.zip",
+          "shasum": "85abfc7202469aa92f41adb0d6bf845464ea12453b43b287e8c7f975c777ff37"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_freebsd_arm.zip",
+          "shasum": "d33dd5bad4c7bc91b2218e5eca95093131afc3ac1dafa4c0e09188a91f3ec4b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_freebsd_arm64.zip",
+          "shasum": "0e8d2e3cea0cbd10b6793ec53c760a76d983604f61fd9c7720c6e51a9f138f16"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_linux_386.zip",
+          "shasum": "96053e7bc55a5dbe16b8e8f08741061d10089d59e00309e84b376eb77fd06b8a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_linux_amd64.zip",
+          "shasum": "3a1c5fd9543f8b0d1dad9d6182e01465d8585767c4f5558db5e030ae367f002f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_linux_arm.zip",
+          "shasum": "aa76ec9d7f555766501efc50e10014cbf1f26851773b75516ef894ae19f0819c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_linux_arm64.zip",
+          "shasum": "ea7cd25aa5381c44cfed4c717e5c4f07f3a1ef350c480cd91afc2f0d5e256e6f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_windows_386.zip",
+          "shasum": "5eedab7ca40b8cd87e5268478dbc746d50ae10f0ed7b75dcdceb1bfb1ea9bce6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_windows_amd64.zip",
+          "shasum": "b3677689bd746e565b917c98c26494d3e15f62e5f75a3b0611bc1f220d1133f9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0_windows_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_windows_arm.zip",
+          "shasum": "a3509cf85dc7af2b90ac7bccbbc3e67e767dfa6a27fc7c2cfeae7584d8d47a44"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0_windows_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0/terraform-provider-pingone_1.17.0_windows_arm64.zip",
+          "shasum": "9f7f4e8f60ceb9950e5655b2748e6d42c68b579882a7db95660b49013f6c9836"
+        }
+      ]
+    },
+    {
+      "version": "1.17.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_darwin_amd64.zip",
+          "shasum": "3152a316c0fb4d5ee40112a9903f3eea52d2e883c5f575bd481f144ad528d544"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_darwin_arm64.zip",
+          "shasum": "68ccb2f0b44187362eb239c0c36c9eabc0a0a071676fd8978cdbb8fe73402335"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_freebsd_386.zip",
+          "shasum": "a49da87ef2795ce622749190cbfd9cb1bb57786f073471836878a2a0f150d136"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_freebsd_amd64.zip",
+          "shasum": "7c813d42dd9e5578fbe5168d5218d0914818f4b862c5defd52998b4e1ae26e6a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_freebsd_arm.zip",
+          "shasum": "c2d98553636462557a4bfaeeddd30547de2b36284d2744f9fbde605d517237d2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_freebsd_arm64.zip",
+          "shasum": "7a0fb9591b36f6e61493c3f316937954da0b252ca2cc8adcb3f9d9f6d4adfbcb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0-beta_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_linux_386.zip",
+          "shasum": "b53d45ae48f397024729a62467b2edcbba8531d26bc4f68071003648a9346db0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_linux_amd64.zip",
+          "shasum": "5f700d252e42df106f14fa722eb0edd14026a3f17a8c02fe3b65e57eea5d8b40"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_linux_arm.zip",
+          "shasum": "458dd9d70a59cc59657f7e1488346087fbdae9943e9d1bc4b2c6ec6bda397000"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_linux_arm64.zip",
+          "shasum": "4d1a2f1f726e886fdfdda232568e92467f9ff68a0608012f927e7d618e9d4483"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.17.0-beta_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_windows_386.zip",
+          "shasum": "c270f830be087a4c2e0a5b156888d38995706156087593d515fc0e2ed208ebfd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_windows_amd64.zip",
+          "shasum": "9224ceff4be98346ae7db169a75f9e83f7da949c5cb6bdab53c2ca8eef40193b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.17.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_windows_arm.zip",
+          "shasum": "38acdd0167a45240cc473ffb94b644d4ed5b0be398508d53140637222fd12576"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.17.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.17.0-beta/terraform-provider-pingone_1.17.0-beta_windows_arm64.zip",
+          "shasum": "3998a330ebee20a7ae7deb2a23648443c29756975315d5d379f131474e29f404"
+        }
+      ]
+    },
+    {
       "version": "1.16.0",
       "protocols": [
         "6.0"
@@ -105,6 +321,114 @@
           "filename": "terraform-provider-pingone_1.16.0_windows_arm64.zip",
           "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0/terraform-provider-pingone_1.16.0_windows_arm64.zip",
           "shasum": "ce31b8764a0408c7bc42533bd55ad6b0bd8a1ccc128d020ae5fc476e5c9ca010"
+        }
+      ]
+    },
+    {
+      "version": "1.16.0-beta.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_darwin_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_darwin_amd64.zip",
+          "shasum": "7b4e18f2d28d1674e33f93ba1ae759e76e06a085762a85b750a1f7e550078e40"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_darwin_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_darwin_arm64.zip",
+          "shasum": "cae455367f6592b8daa46262de34807609f2ea4166eed2db816165bbe4119503"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_freebsd_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_freebsd_386.zip",
+          "shasum": "d6fde671a6efc610b7f6aae31e9d0265af90676e081661c48d4e07db09b74102"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_freebsd_amd64.zip",
+          "shasum": "fb3882f97339a5949e4e491b2f25873aa49984fbcc300a3103113d6afce1878e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_freebsd_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_freebsd_arm.zip",
+          "shasum": "b953f4018df7a87141d8d5fc5fcb9ad2247659de76d63d3fdf263e2d5e739d15"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_freebsd_arm64.zip",
+          "shasum": "556a5b3c3076bdf3b72f67c2c5f6713cc69b8236d10e0ca25a653a18ebb22ac8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_linux_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_linux_386.zip",
+          "shasum": "fbb1a09164dd6f2a37a09828602038ca21ec4d172ab1b2f51b06683fd4e643e8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_linux_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_linux_amd64.zip",
+          "shasum": "a6b4a3bc98c058453ff7d01606aa7aeb2bb71914cc54bd015095b1fb4e3ebe42"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_linux_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_linux_arm.zip",
+          "shasum": "39b748d2f3166dcf7106e435a5502b7dbd40dec5839a13098ebfcd9b5aae9b00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_linux_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_linux_arm64.zip",
+          "shasum": "87f113fd4ff5c87b219d94dd88e90054c961d8e526488c83a18d42ddb47af010"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_windows_386.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_windows_386.zip",
+          "shasum": "651ba6a1e0975208d709a62048b1800fe7f27941d9ccabf9e455c9f09133e075"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_windows_amd64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_windows_amd64.zip",
+          "shasum": "8670630f2c0b44748d9cfdfbc18a25d2e606e72e754f337c32af55bf39609fd7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_windows_arm.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_windows_arm.zip",
+          "shasum": "e4633d454b750269ffdfb69f746318d4f3bf09518a5c508e313db282c40970b2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pingone_1.16.0-beta.2_windows_arm64.zip",
+          "download_url": "https://github.com/pingidentity/terraform-provider-pingone/releases/download/v1.16.0-beta.2/terraform-provider-pingone_1.16.0-beta.2_windows_arm64.zip",
+          "shasum": "0f25161b79c0885c44c1cd554f81ca4083b0b373b4202417e66ae7b80d30a5df"
         }
       ]
     },
