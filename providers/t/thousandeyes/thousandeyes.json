@@ -1,6 +1,93 @@
 {
   "versions": [
     {
+      "version": "3.1.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_darwin_amd64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_darwin_amd64.zip",
+          "shasum": "1d91326efc07603e4fc84d28c1459e70a3d89fab70c7d6c198450f2d85aaf73b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_darwin_arm64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_darwin_arm64.zip",
+          "shasum": "b38677c61192f8433186374f9192b4320d7e4b351135f5a1c558aade45a9b74e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_freebsd_amd64.zip",
+          "shasum": "f108dc62eca27ee3cc2290f9e43afced55507a569b77b6da6e69b2ec8978160d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-thousandeyes_3.1.8_freebsd_arm.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_freebsd_arm.zip",
+          "shasum": "f2cb9a304cbc37631fc5e471b090b94baaf24ae8f10258fa52c23c679232c31f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_freebsd_arm64.zip",
+          "shasum": "bb21c80df388bd93b9225cc2a6a4b009bf930c5bef86981dfd742fc1ffa2ff0a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_linux_amd64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_linux_amd64.zip",
+          "shasum": "80e2ece5bf2a82ab8d24dc870c2b9f77c2a12ea0c3de538b310898447510f70e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-thousandeyes_3.1.8_linux_arm.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_linux_arm.zip",
+          "shasum": "05bccc44a67d2c12fb54371bd15b8de75d55329b82102164e0ab122707bb14c4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_linux_arm64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_linux_arm64.zip",
+          "shasum": "5f9d17208999c5c383d7b9766a7b4067e5ae096250a603010b245acfb4e597fb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_windows_amd64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_windows_amd64.zip",
+          "shasum": "4512b919d7f2f03de3bb97623d5955b7d1bba3f5b6aab6af6889a508238a7ac8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-thousandeyes_3.1.8_windows_arm.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_windows_arm.zip",
+          "shasum": "dcd21fa0c5f2381806de1ab3a193a177921130a5131ee1994c120f96473344fd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-thousandeyes_3.1.8_windows_arm64.zip",
+          "download_url": "https://github.com/thousandeyes/terraform-provider-thousandeyes/releases/download/v3.1.8/terraform-provider-thousandeyes_3.1.8_windows_arm64.zip",
+          "shasum": "239334fb31c803408cafe38cf3e0930a96a87222e04bd0db137ff7f0e2ba03d5"
+        }
+      ]
+    },
+    {
       "version": "3.1.7",
       "protocols": [
         "5.0"
