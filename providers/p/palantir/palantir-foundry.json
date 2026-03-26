@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.71.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_darwin_amd64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_darwin_amd64.zip",
+          "shasum": "1ed63f1b6057c3841a1ac946c65c797c3137c74726f29a8be8975d0518c1dcfa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_darwin_arm64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_darwin_arm64.zip",
+          "shasum": "29f3ff5d0d68ccace4b92fae2b0aa337044248994aa02900f978ccc369b5ff9d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_freebsd_386.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_freebsd_386.zip",
+          "shasum": "a275788b8cfbe38af9acccdb2b088907a2e0c3be366f603d7606d5127dfeb9bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_freebsd_amd64.zip",
+          "shasum": "8cd838392d39f0f7daf1f5ef432945eb9e0c4999b46dd1c61cb8bdfa99f4e60b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_freebsd_arm.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_freebsd_arm.zip",
+          "shasum": "2623864e5457d4cd145aae19137307a39a346996566ee9d20da2fbdfcaa1b247"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_freebsd_arm64.zip",
+          "shasum": "e38714fb35e48398d7027787a14f569813cfc38e8e36c876c066d9b66da55004"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_linux_386.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_linux_386.zip",
+          "shasum": "d60c44f7ceb54192f4ca87950e1de0e0567da430e964d29b72bdd6e9f9a3c104"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_linux_amd64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_linux_amd64.zip",
+          "shasum": "3cf7a5b36e389b4115204efd001ebc6218b7118e4fca9cdc08aec1b578d4248b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_linux_arm.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_linux_arm.zip",
+          "shasum": "38788e7b331352fd1aaefe7f584a06c7fd0709d9c626eb901ffee160a41caa9f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_linux_arm64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_linux_arm64.zip",
+          "shasum": "4172a35334a121e4f9a627beb8d55e0904ee42161c2c4837f5cdce7398681d70"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_windows_386.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_windows_386.zip",
+          "shasum": "bdac6ba1312b18707e64538926bed39c57d03063e4d6f107c1c234675fd51455"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_windows_amd64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_windows_amd64.zip",
+          "shasum": "3dbc52a8b1d95871a0d557d58f2effba16d69bef77839d85f9a1fcaeef348d39"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-palantir-foundry_0.71.0_windows_arm64.zip",
+          "download_url": "https://github.com/palantir/terraform-provider-palantir-foundry/releases/download/v0.71.0/terraform-provider-palantir-foundry_0.71.0_windows_arm64.zip",
+          "shasum": "f9226a4c36c8e0a59a1f33656696b8ba4bdf6fbbec44b2465839ba527affd9a7"
+        }
+      ]
+    },
+    {
       "version": "0.69.0",
       "protocols": [
         "6.0"
