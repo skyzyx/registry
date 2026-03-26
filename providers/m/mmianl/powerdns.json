@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns_2.0.2_darwin_amd64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_darwin_amd64.zip",
+          "shasum": "5eefe555157c1f6726eb19619337c26165726b17457a0faf898ede9d133180bc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns_2.0.2_darwin_arm64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_darwin_arm64.zip",
+          "shasum": "e37e97454f106f0d485ea7ee5eb31798b8f0408f7bc039010e35516d15afc884"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns_2.0.2_freebsd_386.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_freebsd_386.zip",
+          "shasum": "2557c2122aa87c69eb9708cd929056ca3aaaf4d72bdf2b89a8aa775c7e6653b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns_2.0.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_freebsd_amd64.zip",
+          "shasum": "8ebfd40f2ef197078f9a5e73a371cee982b504922ed5fc57041393bb0fda73b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-powerdns_2.0.2_freebsd_arm.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_freebsd_arm.zip",
+          "shasum": "e99337082b26a7db35ef63e16d6c78ca11f2993085fc51ef1cf9cd7fd2232704"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns_2.0.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_freebsd_arm64.zip",
+          "shasum": "44863862f070930088abad52a87df8f4ec936037d30e7e2512ffa44773f90019"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns_2.0.2_linux_386.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_linux_386.zip",
+          "shasum": "866d20125740c8b19ebc108ac91fbe762f5a28f05fd95902e2e2dd9d1253c6a3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns_2.0.2_linux_amd64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_linux_amd64.zip",
+          "shasum": "47bdc91854fb6d528b620cc7487e6a657d913663776eeff95bf8c6a3ee659ccb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-powerdns_2.0.2_linux_arm.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_linux_arm.zip",
+          "shasum": "fd0f22f206d2bfb5379f45a23ff4f8048556faa1e56f2b8d61a3c557a63f9470"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns_2.0.2_linux_arm64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_linux_arm64.zip",
+          "shasum": "ab2be328726d700811aa90223302e994360779515a3d10330a446fc4b576cadb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns_2.0.2_windows_386.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_windows_386.zip",
+          "shasum": "066e96b20d2af8aaa0602964c54289cf941ad31f2bcffb241b7d05e2071c4337"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns_2.0.2_windows_amd64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_windows_amd64.zip",
+          "shasum": "0a20c8964bd6a7863fc4324af85912adff8ac4e6bdd8a0ced1d4cade04e9e602"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns_2.0.2_windows_arm64.zip",
+          "download_url": "https://github.com/mmianl/terraform-provider-powerdns/releases/download/v2.0.2/terraform-provider-powerdns_2.0.2_windows_arm64.zip",
+          "shasum": "b23e85d9630eadce8907a013ea640a7027476edd8fd113a3f39f4390716e2cb7"
+        }
+      ]
+    },
+    {
       "version": "2.0.1",
       "protocols": [
         "5.0"
