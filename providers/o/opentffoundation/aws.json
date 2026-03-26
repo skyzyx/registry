@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "6.38.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_darwin_amd64.zip",
+          "shasum": "8c15164448e87499e3b02b2b03e1e02811de1cc904c667aeb05aa0a0691320fd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_6.38.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_darwin_arm64.zip",
+          "shasum": "9ddbc6be09d02ca1b882ba5244b024f76a8042e8bfd8ce3c81d0c25c7220d105"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-aws_6.38.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_freebsd_386.zip",
+          "shasum": "36cbab61792be4b457ffbdee994b5bdaa81f356c1e5bca5c9591543e376e79b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_freebsd_amd64.zip",
+          "shasum": "44ec51c2bf9997a8847ef5a3eef1727a2ca73ec0673c21196e860a41ef0c1a06"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-aws_6.38.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_freebsd_arm.zip",
+          "shasum": "4a40b799a132c947f5cb32ed85fc516e5615ff649022fe056cdb70d0467a76fb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-aws_6.38.0_linux_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_linux_386.zip",
+          "shasum": "49ee8f6a637c2a684082e69d7f2e49ef2ddab63f178124a63f4e6069818f440a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_linux_amd64.zip",
+          "shasum": "4d82a141013391371ef2da8fecd52a95740d07978a1c0908f1964c1411ecc508"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-aws_6.38.0_linux_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_linux_arm.zip",
+          "shasum": "eef6dfef9feaac9e9a42af2b9767e23d86d3bae4947b604ba6821b9496d83ed9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_6.38.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_linux_arm64.zip",
+          "shasum": "7282205b4f152b08f944a86ae07f36a1b304153c7b923b5e84a7e7d1a75782a0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-aws_6.38.0_windows_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_windows_386.zip",
+          "shasum": "90e955c80ed582759e4fdc22ca4aefaee5175fd6bf8cf0d0e763d3f9fe38aa35"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_windows_amd64.zip",
+          "shasum": "2db1e7f7530d583927668b33c26749f8c4e832963d18cead76de03b2e886517d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aws_6.38.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_windows_arm64.zip",
+          "shasum": "306afc96243ccf07caa2a2a20863ed098d010b645c547f894ee45d729d6278b2"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-aws_6.38.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_openbsd_386.zip",
+          "shasum": "78507af5ce09f68d4cb02faefb365dba08dc8cd2746c060d3467ba90c6857115"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_openbsd_amd64.zip",
+          "shasum": "0444417955631da2250db30994a21810a5b3388a7c7e9f33243e8b4c4aad45de"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-aws_6.38.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-aws/releases/download/v6.38.0/terraform-provider-aws_6.38.0_solaris_amd64.zip",
+          "shasum": "9f8fc6f328db326bbf04365a1359b76fe1cf39cd890454053bb86db217b37f8f"
+        }
+      ]
+    },
+    {
       "version": "6.37.0",
       "protocols": [
         "5.0"
