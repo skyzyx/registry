@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-standesamt_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_darwin_amd64.zip",
+          "shasum": "6956e0f307b11a210e4f9f9356063f6957bd5b9731771701c5609e215d64e97f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-standesamt_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_darwin_arm64.zip",
+          "shasum": "7c545971f27d2919026b1fb09b9643112e89bfecf46f6112aa6f9ea22315041f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-standesamt_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_freebsd_386.zip",
+          "shasum": "d596e3439153164a42154a8e2c79e9b63bbd8a1c18f3d3d846a794dc37183d7e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-standesamt_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_freebsd_amd64.zip",
+          "shasum": "093141be0a6ab46722eb531007488fe811c5c1abc6a9fd330cf77e942f97599f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-standesamt_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_freebsd_arm.zip",
+          "shasum": "daf999e5f9a40251553925025ed7a7b76a0b3c82c14a1c6ddec76c6077474afb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-standesamt_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_freebsd_arm64.zip",
+          "shasum": "bab4c7fea8744380dccb699d5ac6a950f4adb6690755d03be46e7397bff2d537"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-standesamt_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_linux_386.zip",
+          "shasum": "5ed5c5ce5a5e7487e7d3934d04e9986f29f896059114f52b44d3a40b7414c02a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-standesamt_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_linux_amd64.zip",
+          "shasum": "8a23c16fb89b366508b08d2b51dd7949156706bfa2c7159ae1ab82769eabc50d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-standesamt_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_linux_arm.zip",
+          "shasum": "d5bcce3019353a2f5c35fcfd6934dd5fe6d6c154207c5ca8b6264340ceee6e58"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-standesamt_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_linux_arm64.zip",
+          "shasum": "d0fad31924a56c47f6d2e18fe60367654b85dae87e361853758999d0fee98bd8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-standesamt_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_windows_386.zip",
+          "shasum": "6d16de6aff16460ffd3a91d27738331bb441aab148a195080f3c58f1cf6b9bf4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-standesamt_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_windows_amd64.zip",
+          "shasum": "30046a5dec5d5a13615f1ce336ab98cea0f12ed1a3cceae6c6a54490d00a8b7d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-standesamt_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/glueckkanja/terraform-provider-standesamt/releases/download/v2.0.0/terraform-provider-standesamt_2.0.0_windows_arm64.zip",
+          "shasum": "063e9df20a46568a6d5c1a031feaea2fb0a61baeb59bd940e4765e53b4879c3f"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
