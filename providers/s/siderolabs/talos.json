@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.11.0-beta.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_darwin_amd64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_darwin_amd64.zip",
+          "shasum": "c36eb16882c037ce1f401fc07686ef0762013296917152925d33a9038b2a58df"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_darwin_arm64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_darwin_arm64.zip",
+          "shasum": "fddd754eccf5936ab606e9841b30674e4b7ee95080bf3d36d90f58b9ae380009"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_freebsd_386.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_freebsd_386.zip",
+          "shasum": "12b1737506bdc4503ab699fa2e45d7d4099d26410029af3c0bdf072702a3a399"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_freebsd_amd64.zip",
+          "shasum": "613ada3f3de929225995ef5814e7613d202110fbd1afb7a6507ebb6fb4ee136f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_freebsd_arm.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_freebsd_arm.zip",
+          "shasum": "117ebe0a8256dab44f83415280f5ed401846cefd4ba56cb48996a86becb6a8f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_freebsd_arm64.zip",
+          "shasum": "487a07a23c6e3c343b61ea93a587d90e14447831be80f373fb1021e57998b9d7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_linux_386.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_linux_386.zip",
+          "shasum": "c4dacd9516106896e7c28277707b76d9c2552e7348673fe5ada1807ba201ee7a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_linux_amd64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_linux_amd64.zip",
+          "shasum": "2614854104a06a3dc98ea1ef90992461a47f575eb25af2d486f0aa5bc7dbfcb7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_linux_arm.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_linux_arm.zip",
+          "shasum": "f43a785654b2a11173ec989bb65bbcb3c0406196f3d2ce488251b2a7ff1476ac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_linux_arm64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_linux_arm64.zip",
+          "shasum": "2dcbd483595c7dcd9b48eb93c0f0a9037395f8ce275493f8f6a9eea1ff0143e6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_windows_386.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_windows_386.zip",
+          "shasum": "206e5bda0d8ca6cae65fa5b9aa205f2aa1020a1afd80d24a2590a1bbbfcaecf8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_windows_amd64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_windows_amd64.zip",
+          "shasum": "f91a896b486f945faaeecccd5e4c2b5bcfedca249e9b9fbae848972796c53821"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-talos_0.11.0-beta.2_windows_arm64.zip",
+          "download_url": "https://github.com/siderolabs/terraform-provider-talos/releases/download/v0.11.0-beta.2/terraform-provider-talos_0.11.0-beta.2_windows_arm64.zip",
+          "shasum": "0b6852ed8c61e5a836a990c1c1da6c445bacfaa19f982cb78b501907b59988fb"
+        }
+      ]
+    },
+    {
       "version": "0.11.0-beta.1",
       "protocols": [
         "5.0"
