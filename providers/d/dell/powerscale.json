@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.8.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerscale_1.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_darwin_amd64.zip",
+          "shasum": "57d0dccb92a9252282655b07e29683128f5d6b4388e5db0af0d8f5f62cb5075e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerscale_1.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_darwin_arm64.zip",
+          "shasum": "698ba29dd3d89db6c4a7b2bff768d70ed519a07924aef2db7943e9d4f48c1990"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-powerscale_1.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_freebsd_386.zip",
+          "shasum": "ab69af392d45e7813c8d4929621f52dfab7199553131e7e0297e0e42246cd844"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerscale_1.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_freebsd_amd64.zip",
+          "shasum": "ad81e57b7f58d8494f80d72a0af8397d8f7e13e403478b78b2d97ef3b0badb8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-powerscale_1.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_freebsd_arm.zip",
+          "shasum": "14e207adefb63683ee5e3e02b6a7c15159776201aa610a9063c77edd1c5ab1c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerscale_1.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_freebsd_arm64.zip",
+          "shasum": "82ba348b0431a4f148ee5f4182f94839d3f3cb60ce4df357dc1784b2e45580bd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-powerscale_1.8.1_linux_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_linux_386.zip",
+          "shasum": "deada0004de4a386e00fd7569dd1f55ed0d4ccc686222f8fc4e83b8bd92f46cd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerscale_1.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_linux_amd64.zip",
+          "shasum": "5c6e7cb5c095dad6207b4d6b8a858fc76673d748ef0cc65696a70350708e7465"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-powerscale_1.8.1_linux_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_linux_arm.zip",
+          "shasum": "913040e3442dd56c868fb7020f74d52e9e3cf9a3d8a2f7e122415310e67a9801"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerscale_1.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_linux_arm64.zip",
+          "shasum": "893cdbc5e5fbbbf918a07c5704f5ce93093c48f3002bae29c11e5f22ea86d472"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-powerscale_1.8.1_windows_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_windows_386.zip",
+          "shasum": "1aaba84a105ef752eccb57e88c798807ff6525a0a9fec0d01eabcb8b4a891d21"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerscale_1.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_windows_amd64.zip",
+          "shasum": "7c05c9c42cce34f443597cd474105263c2fca269cc9a12e50c87cbacb8f6c7c8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-powerscale_1.8.1_windows_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_windows_arm.zip",
+          "shasum": "6e9bb07c08aa72f456c9ca11b315fd9f38544e98d5294b035355c50a94d34422"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerscale_1.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-powerscale/releases/download/v1.8.1/terraform-provider-powerscale_1.8.1_windows_arm64.zip",
+          "shasum": "0f563085fbed7cc808b0f5440e6b757614b727a228936cc8f61af1f555e80059"
+        }
+      ]
+    },
+    {
       "version": "1.8.0",
       "protocols": [
         "6.0"
