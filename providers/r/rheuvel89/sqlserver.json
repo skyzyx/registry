@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "0.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_darwin_amd64.zip",
+          "shasum": "ce403e2a1d0136d30a2be793533101472f5ccf2beb7927015839e8a36da7ab7e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_darwin_arm64.zip",
+          "shasum": "cf64d442288253511dfc5d6b62e873fc77548a6f1767eb30abe982cbe29085ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_freebsd_386.zip",
+          "shasum": "66971b637d2ced430516624d58d3b5805311a28c491755f3f2fdb20b694982c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_freebsd_amd64.zip",
+          "shasum": "b90c2ea1bb88bc22c3d4558e6789f5a7f0c3d72ce8480240a7d2075f9df49947"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.2.3_linux_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_linux_386.zip",
+          "shasum": "037003f7b2f022ada592e59668f39f699be8b3032be1a678802e4fcb0d133696"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_linux_amd64.zip",
+          "shasum": "ebb12c6ecf3b4e855376fdec8ba2671f9603a5e674f90e43ba223275f72754d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sqlserver_0.2.3_linux_arm.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_linux_arm.zip",
+          "shasum": "8d0b9ee512b6d0a852b3727f05a0a3b1cf65843659726adc69f98d5d236c6734"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_linux_arm64.zip",
+          "shasum": "f74db84300816e53cd6cfa4c97bb6cb7267ebf793d8dfdef98d98d3c598e329b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sqlserver_0.2.3_windows_386.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_windows_386.zip",
+          "shasum": "076d5b21f5e479902d116c52db0ea16b4e579f3f0f116700ec2ddbc3d86c24a6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sqlserver_0.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_windows_amd64.zip",
+          "shasum": "1a503d5e99cd15c82833bf20ae1c85f2b7f448c7515a7fe0ed10307ff48434fd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sqlserver_0.2.3_windows_arm.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_windows_arm.zip",
+          "shasum": "1d764105f8317a64802d089a547bd4d2a546e278a6ccbecaa78359b572a2a964"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sqlserver_0.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/rheuvel89/terraform-provider-sqlserver/releases/download/v0.2.3/terraform-provider-sqlserver_0.2.3_windows_arm64.zip",
+          "shasum": "762e1f3ef33b085470d0ee48a959766a314ed033804bd0905ac64e0c5d95cbd3"
+        }
+      ]
+    },
+    {
       "version": "0.2.2",
       "protocols": [
         "5.0"
