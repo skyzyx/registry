@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.10.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-flagsmith_0.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_darwin_amd64.zip",
+          "shasum": "131f226b89b596bf03e0a45b344232e248dccc89ae167e49d8cd6041640fec7d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-flagsmith_0.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_darwin_arm64.zip",
+          "shasum": "d70381194d5fe69b8402f08899a5bc34cec5b0d03b1c9b1f4ce7a5d270ff350f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-flagsmith_0.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_freebsd_386.zip",
+          "shasum": "1b2cd761bd84fe38ae530186b9ca2da9959cc31efe31face2521bcea47e44a3b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-flagsmith_0.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_freebsd_amd64.zip",
+          "shasum": "dca90c556f416daa98f5913f67b667bf52e5c131c38b61f0090aa23818097603"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-flagsmith_0.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_freebsd_arm.zip",
+          "shasum": "1e1faf413215c327a980013fffcef6892e7a30acf610300b800922c32922306f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-flagsmith_0.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_freebsd_arm64.zip",
+          "shasum": "b7f7794563f626aea8927c7eff8916c7a913baca5f700fdc4b1116afcd4c47e8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-flagsmith_0.10.0_linux_386.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_linux_386.zip",
+          "shasum": "e5f21a78b4f660eb2f6343ffa727fe127ff596ea40f5a0acf50f1765c64f487c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-flagsmith_0.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_linux_amd64.zip",
+          "shasum": "c96738c6833f11cba31c46acf4dc7b898a19e52805d606b4528f1711bd228f93"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-flagsmith_0.10.0_linux_arm.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_linux_arm.zip",
+          "shasum": "408f49416a2d7b2761d0ba89ffbed01d409824e2c8c4ebec69c645e95a97d33f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-flagsmith_0.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_linux_arm64.zip",
+          "shasum": "49b03d7637d8b1e7b824a52f0866fc950c5bceea9dd0f34de3bbeedde41dba0b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-flagsmith_0.10.0_windows_386.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_windows_386.zip",
+          "shasum": "a8b20ed4fb1967de154c41b9e9ae7aafbc6c52933072a0e0b92c84959abf4acd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-flagsmith_0.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_windows_amd64.zip",
+          "shasum": "3bcb0a00f07530400f98ae3c4697e916aba22033c3f0505090a2e8296dac4e73"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-flagsmith_0.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/flagsmith/terraform-provider-flagsmith/releases/download/v0.10.0/terraform-provider-flagsmith_0.10.0_windows_arm64.zip",
+          "shasum": "852e570e9453aa58a13665097ed17c348900c871e6406ef6d04fb991b4f92763"
+        }
+      ]
+    },
+    {
       "version": "0.9.1",
       "protocols": [
         "6.0"
