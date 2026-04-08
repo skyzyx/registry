@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.36.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfpro_0.36.1_darwin_amd64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_darwin_amd64.zip",
+          "shasum": "23f48c7169d0ba493598966dc9777d74478e83cc8d144748339d2b55b853b256"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfpro_0.36.1_darwin_arm64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_darwin_arm64.zip",
+          "shasum": "3a1e49894bbf9211d39951113b58238fc9d0539804d18257c620210899f3a106"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jamfpro_0.36.1_freebsd_386.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_freebsd_386.zip",
+          "shasum": "1baf2ac970ce0878d44fe48afd90e857bd1860a12943fc05f616b9b71a894dda"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfpro_0.36.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_freebsd_amd64.zip",
+          "shasum": "bd7b6987525a31fae4f83ebfe2be99da62a2f9a20b57522a5c18d7114363af06"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jamfpro_0.36.1_freebsd_arm.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_freebsd_arm.zip",
+          "shasum": "1b58ceff6b6d6c60d21290894f8fd9b75bff1f46244e00d54ecb2efe68c03138"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfpro_0.36.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_freebsd_arm64.zip",
+          "shasum": "0033066772dda12ea394e0b0aac85b30189536ffb91de4c8faa74fb77d6bcc08"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jamfpro_0.36.1_linux_386.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_linux_386.zip",
+          "shasum": "255cd56b2b26155ce5e9b046fa01d72a6d76b34c0deb0b02a4028780773dd3e5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfpro_0.36.1_linux_amd64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_linux_amd64.zip",
+          "shasum": "7e9b8a81fa15881e2165e5156f76164c9438849b390b48505d473cb572b65cda"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jamfpro_0.36.1_linux_arm.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_linux_arm.zip",
+          "shasum": "aec3a8f304d72ccdf32e8aca22dab3e4ee7d50bbcb98795d8c742af6980b63a0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfpro_0.36.1_linux_arm64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_linux_arm64.zip",
+          "shasum": "1814f06f4e8b115450b39fe605a8dd652c073299abb20ebfe2974b77206fe62e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jamfpro_0.36.1_windows_386.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_windows_386.zip",
+          "shasum": "2fcc34165960cb69ea8f00a32f32296db38f510c719ce350e2a0ba9256950ec1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfpro_0.36.1_windows_amd64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_windows_amd64.zip",
+          "shasum": "84768386be525f8d27475018bf4091d3549396e567a4aead458ecaf9cd0e8017"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfpro_0.36.1_windows_arm64.zip",
+          "download_url": "https://github.com/deploymenttheory/terraform-provider-jamfpro/releases/download/v0.36.1/terraform-provider-jamfpro_0.36.1_windows_arm64.zip",
+          "shasum": "7575f24b1e046714eedeae2446db94abb907714b09f0ddbdfea6e551b73ad8c9"
+        }
+      ]
+    },
+    {
       "version": "0.36.0",
       "protocols": [
         "5.0"
