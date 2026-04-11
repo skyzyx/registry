@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "26.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_26.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_darwin_amd64.zip",
+          "shasum": "b6807421a90f0f8963565aa1f4e207fb69b857ecdfb7fa39a51c8bbb53d61263"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_26.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_darwin_arm64.zip",
+          "shasum": "be7b1b564fca3b5e16514723f7b7dc649af12b11a6476f0a1e9e658e51387866"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-github_26.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_freebsd_386.zip",
+          "shasum": "5518505cf3f35f317bfbbf20f41e6433682dd57b16485e62cefb770b1049d21d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_26.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_freebsd_amd64.zip",
+          "shasum": "ba3cdbd0e06a812439831b70b2bda75f12d654eff3d4e8e8550db2ce29b3f473"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-github_26.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_freebsd_arm.zip",
+          "shasum": "187d7e9597da784233a981c04667a946a395becfb75a2b70045e8a556aa718a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_26.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_freebsd_arm64.zip",
+          "shasum": "aa3df05625e8b38c24d5fe9b141c38dc0d9416656ec7f6fc54a98a58392e9b0b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-github_26.4.0_linux_386.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_linux_386.zip",
+          "shasum": "e747240c6ed313e508b05368be152e93eacfa4e1a601e94430fd5c311b253d26"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_26.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_linux_amd64.zip",
+          "shasum": "f86b60170640fbaa06e26d9fe5408053652aff77b03f098d534c656a0bd6f81f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-github_26.4.0_linux_arm.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_linux_arm.zip",
+          "shasum": "c0774ece70d6a9f6fb6db0442233a03a45802b8bd7ece93007cd54e726876e8b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_26.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_linux_arm64.zip",
+          "shasum": "6ff65e6450915c97b665bc9a53e34978c6357eb255c1eb7e9c60ea366362f976"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-github_26.4.0_windows_386.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_windows_386.zip",
+          "shasum": "e8161091250a2f71fb71449f24909d0eb045a302a9675eeb998d791331042ecd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-github_26.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_windows_amd64.zip",
+          "shasum": "6781a3183f39236a23cdcd4489d6f273c34b83462bcc5a12a26c7579db4712eb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-github_26.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/vmvarela/terraform-provider-github/releases/download/v26.4.0/terraform-provider-github_26.4.0_windows_arm64.zip",
+          "shasum": "333f4da5c7de0a96d5c0cbe2e2c86b4f7a0ac7f19bf14f819cb33c077757a808"
+        }
+      ]
+    },
+    {
       "version": "26.3.2",
       "protocols": [
         "5.0"
