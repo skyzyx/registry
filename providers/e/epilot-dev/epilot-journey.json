@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_darwin_amd64.zip",
+          "shasum": "a541f100c8b12aca59602dd32f3bdec713632f93f1dfaee99077e2d99aec7632"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_darwin_arm64.zip",
+          "shasum": "908cbf091bd01c27d890767859fd028ec54c7916345d072af3ec3ef8533631bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-epilot-journey_1.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_freebsd_386.zip",
+          "shasum": "5783f959cf20cc0e2a72b949bc5ab2df102f0a5ba542cae39797d593680017a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_freebsd_amd64.zip",
+          "shasum": "5df43ca55de61958c63446e4644be9ea5f922eaefb14c9c334299bf40b34c667"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-epilot-journey_1.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_freebsd_arm.zip",
+          "shasum": "34235b6e53423aac085aa4429b8dec9432afc7677bc457484f16769fa0a7123d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_freebsd_arm64.zip",
+          "shasum": "a6a9960e5ea7c402dd90d051bf1aa75e801c268595bdc0f295a753e664cae5d7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-epilot-journey_1.6.1_linux_386.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_linux_386.zip",
+          "shasum": "943fd9ec60cb3d9ab60f4236f9331916e7d092d0d21699cc4d7a56d13299aa57"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_linux_amd64.zip",
+          "shasum": "c10952a154a3decf100249026bc78facac6b1a139ede8338ad56302e74c2cd9d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-epilot-journey_1.6.1_linux_arm.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_linux_arm.zip",
+          "shasum": "678afe8f8bf640b36219b8d4ccadb11f0248d824c510dbc8644b78886fc8ed78"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_linux_arm64.zip",
+          "shasum": "357b349dfb583d70ab7062f5ddd2cd4fe6d90dcbfe2c41c3474b63d8170e53ff"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-epilot-journey_1.6.1_windows_386.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_windows_386.zip",
+          "shasum": "57da3757c729e7cf4590cfb1abe75778d67a6912a1cd1e03a8e8d9c10ed223ec"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_windows_amd64.zip",
+          "shasum": "5e29acb7d8ed61e2f8479a81d15e02c61bd0eec1c081baeaee0bde62fe59d86a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-epilot-journey_1.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/epilot-dev/terraform-provider-epilot-journey/releases/download/v1.6.1/terraform-provider-epilot-journey_1.6.1_windows_arm64.zip",
+          "shasum": "7d9945fdcf5a4b18608a17c69a74ca93068ed1cfae26658f4eedd945c8052ae1"
+        }
+      ]
+    },
+    {
       "version": "1.6.0",
       "protocols": [
         "6.0"
