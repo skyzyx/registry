@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixapi_1.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_darwin_amd64.zip",
+          "shasum": "143ef1bdf4e498686626e4875426f6feca64dac1088c2f14871fc9f6f00c40c3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixapi_1.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_darwin_arm64.zip",
+          "shasum": "a088e233c0b915f6d111de9b92e05d01f724d5f51da9f21ea74530c5afc6f656"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ixapi_1.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_freebsd_386.zip",
+          "shasum": "6d1ddd80544d5c796933424a971ea0416e91d670130ab92e15e6566a9d3121d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixapi_1.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_freebsd_amd64.zip",
+          "shasum": "1708ee3f34681fa7b9d7be71c351262649c4b35a0ea9485e6e13e934233b3288"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ixapi_1.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_freebsd_arm.zip",
+          "shasum": "550088fc6ec08b80f4b0e3a406affd07a626b35a7e4aaffff69d9180cc4875ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixapi_1.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_freebsd_arm64.zip",
+          "shasum": "9d5523573ef2c7f787bf193ad413bf650920be967702af016eff123ccb1e219a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ixapi_1.0.0_linux_386.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_linux_386.zip",
+          "shasum": "54cf7b8df38469c099a911e3801acf3d518891115750d8b8e2a66c1c01dcf066"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixapi_1.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_linux_amd64.zip",
+          "shasum": "a2e6e82174b1f54073d32bda014105f9cab99df3b4d2d5a8a4073e70fe4d2b4b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ixapi_1.0.0_linux_arm.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_linux_arm.zip",
+          "shasum": "25382cd8814ff1e5d6c4a0a66ffdb4dcaca2b9b80deb3dd8016a57f99f1062f9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixapi_1.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_linux_arm64.zip",
+          "shasum": "a161f000dfa9bdec8352bef360b6d4b2f5a61a4aada2f6f44926ce08545e05f2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ixapi_1.0.0_windows_386.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_windows_386.zip",
+          "shasum": "b478b591e0bebca91188ab7d7cab294d521efbde2f9f7093b7155587003ee731"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ixapi_1.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_windows_amd64.zip",
+          "shasum": "f718990240f7833a747c30fec615fc79e39df0dd96d67e4b3b5e18cb2078df0a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ixapi_1.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/ix-api-net/terraform-provider-ixapi/releases/download/v1.0.0/terraform-provider-ixapi_1.0.0_windows_arm64.zip",
+          "shasum": "ebd96d47ab45bcf4adcc1f1c668c5f707956eee8769133a40d08d953c898ff41"
+        }
+      ]
+    },
+    {
       "version": "0.9.1",
       "protocols": [
         "5.0"
