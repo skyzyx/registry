@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "2.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_darwin_amd64.zip",
+          "shasum": "21c1fe6633cf20234b1a12164a1ae11570c9202394c4209f6701b3e6f18ededf"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nomad_2.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_darwin_arm64.zip",
+          "shasum": "2d3d8d4a805ca05014503ca70da071e2f124742b2b236f5622fa79f0ca7167ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nomad_2.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_freebsd_386.zip",
+          "shasum": "7dea734118029858b2865061da1e0fe95a4c614026a45de33e373c28a3cee7f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_freebsd_amd64.zip",
+          "shasum": "5d8ca3b524744ae28f6775901925f386140fcd7128d543baa21db47da5418be7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nomad_2.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_freebsd_arm.zip",
+          "shasum": "3fd0e6e585d32917e15e822c7c5484504ca4655c36feb182156538e0ffcbf575"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nomad_2.6.1_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_linux_386.zip",
+          "shasum": "4af4c69842e3773f36c9055e4c64e8e4a962c6ae16f120458a679f2b42d322cd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_linux_amd64.zip",
+          "shasum": "b673b09c81f5d660a539f2461fa4b37f8ad573eb42fdc24ada708968d0094452"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nomad_2.6.1_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_linux_arm.zip",
+          "shasum": "6c55fd4bd9a7d6343297705d1e1e6501dd19e6144c448cede14a40849d4b079a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nomad_2.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_linux_arm64.zip",
+          "shasum": "003e238d4b00948c7a6c3c7993a329883d14ddc9c10dcba34e3723d53fa7b48c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nomad_2.6.1_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_windows_386.zip",
+          "shasum": "5668ea87aafb6bf3f7677e3918f0a92e07a1ec234dea9305d2f0061bcde8a23c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_windows_amd64.zip",
+          "shasum": "a257f8a9ced2b20a76fa9de59c5100fa769c4bb7a23a0961a65995c3a51e993d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nomad_2.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_windows_arm64.zip",
+          "shasum": "50d151217d2ee659e0fc7a95e3d5c47c51c421bc5b577b15c90ae21cb48bfa5f"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-nomad_2.6.1_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_openbsd_386.zip",
+          "shasum": "339987a8ba8fdcd73215bcec8b9540927a1da29a372155663b8b6e729e890e77"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_openbsd_amd64.zip",
+          "shasum": "27096e21705eed30ece6886dbd04d54b1ebb9c5208d195d1cac9784793c9b56f"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-nomad_2.6.1_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-nomad/releases/download/v2.6.1/terraform-provider-nomad_2.6.1_solaris_amd64.zip",
+          "shasum": "45252315783349bf0b66fda302a05efd188f1cce62c40e6679cbad6d962e5ed2"
+        }
+      ]
+    },
+    {
       "version": "2.6.0",
       "protocols": [
         "5.0"
