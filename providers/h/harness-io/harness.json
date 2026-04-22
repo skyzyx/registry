@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.42.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-harness_0.42.3_darwin_amd64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_darwin_amd64.zip",
+          "shasum": "363bea8a2ba7f6c31f25dccf453a37f342bd11ad1376147c922cdeaef08fdaf3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-harness_0.42.3_darwin_arm64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_darwin_arm64.zip",
+          "shasum": "29b53437124504dcc4d10960531a4815a2e27a8db166400c410b4d44a3f86524"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-harness_0.42.3_freebsd_386.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_freebsd_386.zip",
+          "shasum": "7af4c110205802efdc94a2cfc3aee965af78a867a720c7955ca834ba779085e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-harness_0.42.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_freebsd_amd64.zip",
+          "shasum": "cf6e81d7fa64690bcd2b85b0f2ce2151d85c628abe43a1a0aff4c61d6b52f999"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-harness_0.42.3_freebsd_arm.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_freebsd_arm.zip",
+          "shasum": "c1cb83c2531df501e00c31c828cc476be84e1b07a96b02417ea57f69a13f8a75"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-harness_0.42.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_freebsd_arm64.zip",
+          "shasum": "82b64d0ad69f3a572530793861f7d1bda32bc6c978248cfb6d26a83ac4e16155"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-harness_0.42.3_linux_386.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_linux_386.zip",
+          "shasum": "53e58f3326116fd7f905e36a46b396eb748f55eab36261a77769fe950e880fad"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-harness_0.42.3_linux_amd64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_linux_amd64.zip",
+          "shasum": "7bfca7676d2d99ab99f03215784eff0fdf8d042fed0bff5e2b92064afa889d49"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-harness_0.42.3_linux_arm.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_linux_arm.zip",
+          "shasum": "72bd1773f9ea7209c13aa8250225b8498d24df3699ddee54be0a3184ca16c68a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-harness_0.42.3_linux_arm64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_linux_arm64.zip",
+          "shasum": "ab70b72878d6dbe12b5bbadd63637943f537109ee6c71ee758a503f3ac8672a3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-harness_0.42.3_windows_386.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_windows_386.zip",
+          "shasum": "a3aa67bd8de262e7d7eceb2dd58a2bc1899e560e9ec602c30027628e1c117943"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-harness_0.42.3_windows_amd64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_windows_amd64.zip",
+          "shasum": "9e54ace258fe19cd3d9a0bc95d14f319961164f104400deb547a2f9a611d3aab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-harness_0.42.3_windows_arm.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_windows_arm.zip",
+          "shasum": "d618ba961244b4d00a0ce1cacb30a2d2f97b8725f160dbf256027f00c53f0989"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-harness_0.42.3_windows_arm64.zip",
+          "download_url": "https://github.com/harness-io/terraform-provider-harness/releases/download/v0.42.3/terraform-provider-harness_0.42.3_windows_arm64.zip",
+          "shasum": "caf715368adb62e5b095571f782d98a54bd38fdae26d205def3c763ef6aec015"
+        }
+      ]
+    },
+    {
       "version": "0.42.2",
       "protocols": [
         "5.0"
