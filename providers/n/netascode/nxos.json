@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.10.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_darwin_amd64.zip",
+          "shasum": "0427d7c7ecc2e4245ae967dff9402525a793d7e4813375b1b8bff185f50285aa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_darwin_arm64.zip",
+          "shasum": "dc804775978c86a3d5ac4522d7130fc836b0ea77d25a1d91ac3f08a7eab8bf2c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_freebsd_386.zip",
+          "shasum": "8b11dc5e46e6f1ba46ff81b93660c52e20fbb40c6986f321facf9f5e2af592b6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_freebsd_amd64.zip",
+          "shasum": "0b8712c11d45d7554857063ecc8b359485564b96c42ec5b6d7bcf8f0d2d87735"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nxos_0.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_freebsd_arm.zip",
+          "shasum": "64cbfe5d696f2bc5d58aaf3cd0a3b01566a5a87f40f601a31f91f1e51f94a5c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_freebsd_arm64.zip",
+          "shasum": "54f30b88e9504226b756e1ff77093f56220386cc09b03c57fa8f28ea0a4fe674"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.10.0_linux_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_linux_386.zip",
+          "shasum": "e9cd8073628f8c6852125758c41ec34e430be086c3110f132493fae5eb2fe287"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_linux_amd64.zip",
+          "shasum": "8691f887d204e5e94db6d6c9ba9ccf6eaa53c769b9c1a2e0286ebd624833c1d3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nxos_0.10.0_linux_arm.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_linux_arm.zip",
+          "shasum": "98b55d81eaa0752fef221102dd086c6eb944074c6ea4a863a3c39bc58cf72e96"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_linux_arm64.zip",
+          "shasum": "0a1cb425ac9b6a5adc13f1cf10887e5d61604fb4c49d44c2fa1eba21ae8c7d0e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.10.0_windows_386.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_windows_386.zip",
+          "shasum": "a2371a247d7a624d7c064e3a1ed9c1703b202cd1b7741b10ef08b5852857a80f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_windows_amd64.zip",
+          "shasum": "9d1a109f94a493eb69d0ff0a3cf6740bbccdc48d712fabb45ca93086ad3a7232"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/netascode/terraform-provider-nxos/releases/download/v0.10.0/terraform-provider-nxos_0.10.0_windows_arm64.zip",
+          "shasum": "974efbfb926e26183e66eac50a5a614df2ed9dd28be03bac505a5a3ff98f91d2"
+        }
+      ]
+    },
+    {
       "version": "0.9.6",
       "protocols": [
         "6.0"
