@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "1.4.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_1.4.1_darwin_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_darwin_amd64.zip",
+          "shasum": "415579a043d68bd482e179c5885183e9550e29aa1ed9ce68870bc870a19fc605"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_1.4.1_darwin_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_darwin_arm64.zip",
+          "shasum": "76d796ff6ee494404edb46f5e9ed3fe9f7fabb45179724a4e0b90ab758c4fe20"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sops_1.4.1_freebsd_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_freebsd_386.zip",
+          "shasum": "3ab9d3180f5691df97fff6483ac884f502ab79b5f234569c7be1007897600ee3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_1.4.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_freebsd_amd64.zip",
+          "shasum": "3159485b0072416ee24331ead55781823ffff582586707cd3fc14501e7d77d84"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_1.4.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_freebsd_arm64.zip",
+          "shasum": "b15ea83cfa5af5e4e527d1953f23b08707560bbfe6116873ad292e4b1a5f14a6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sops_1.4.1_linux_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_linux_386.zip",
+          "shasum": "1f7c38bb9902b6afa628d2a8a05169e7632d280743c3ef0de198dd62b37397c1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_1.4.1_linux_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_linux_amd64.zip",
+          "shasum": "f5a9f2f0d0fb94eeec99bdb499fc89f86c9177404b076a51e2957b54dd053b2d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sops_1.4.1_linux_arm.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_linux_arm.zip",
+          "shasum": "9f8c0f367250e72a2eb9ac2cd63746dbebee9bb273dc2c9fab933581369945a5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_1.4.1_linux_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_linux_arm64.zip",
+          "shasum": "69653ac5d470f4c2cdda62a9421eee9ede7dbddba8a6fffe2784e61685534103"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sops_1.4.1_windows_386.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_windows_386.zip",
+          "shasum": "1c7351e6e508035b5e987c9ed6971a45af6c7d0e2cd0e150ba6dfd19cd164650"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sops_1.4.1_windows_amd64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_windows_amd64.zip",
+          "shasum": "a9165a6af2143a13fe1e0e52d5ec5d7e46114a047f3cb56deaf0c7e057e35682"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sops_1.4.1_windows_arm64.zip",
+          "download_url": "https://github.com/binlab/terraform-provider-sops/releases/download/v1.4.1/terraform-provider-sops_1.4.1_windows_arm64.zip",
+          "shasum": "6cbfb51f234a62016f17dc7cfc88fa5e16cbac761e2ad05e873747ea1cd173c8"
+        }
+      ]
+    },
+    {
       "version": "1.4.0",
       "protocols": [
         "5.0"
