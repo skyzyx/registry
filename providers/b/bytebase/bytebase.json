@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.17.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-bytebase_3.17.4_darwin_amd64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_darwin_amd64.zip",
+          "shasum": "4dadb4597019435d37fa9335a786b861fb1ec4fed1763b6d6697da2eafe569ac"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-bytebase_3.17.4_darwin_arm64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_darwin_arm64.zip",
+          "shasum": "1354e05a641536fe8aa44347b6ac2b8276e80d8f3adf5a6c3f2b0eeb1c21b8a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-bytebase_3.17.4_freebsd_386.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_freebsd_386.zip",
+          "shasum": "a93f4379327fa2555dac793c937972ef9b1eef588e36fa5bc213f3078eedab5f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-bytebase_3.17.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_freebsd_amd64.zip",
+          "shasum": "0db0838778002d1c0889fb259d282580d98b60cb7727ec2bc5370fa76f9d99f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-bytebase_3.17.4_freebsd_arm.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_freebsd_arm.zip",
+          "shasum": "cc229e3434aca7e859fa8bae4051c4d58d2deef865fc6598b2a19a0d5fceaade"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-bytebase_3.17.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_freebsd_arm64.zip",
+          "shasum": "94eebb0591cd7bd67e39d8db9f37f06201ae58582c9c2c5562b8b9d85374814a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-bytebase_3.17.4_linux_386.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_linux_386.zip",
+          "shasum": "ada5ba8f7823b0b3815b654023540b20b0a5c757221d53f1139ee6aa588e8c88"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-bytebase_3.17.4_linux_amd64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_linux_amd64.zip",
+          "shasum": "431caf4c882042689bb379002b8a985c43bc3645a162275ec16b35f9a0c45267"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-bytebase_3.17.4_linux_arm.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_linux_arm.zip",
+          "shasum": "fe10df0646f9b3113a78e421f28cff917526aa08c73ddb9c2b545af16c53d559"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-bytebase_3.17.4_linux_arm64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_linux_arm64.zip",
+          "shasum": "dc6c641e2ab66bef97caf3b308d0c761ada84f4c8478163bf6f4c495b3c0beea"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-bytebase_3.17.4_windows_386.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_windows_386.zip",
+          "shasum": "b56ced70c0a9ff83f155c3ca75601b2ff7d3960de5d4ecd0c8f9cc0dc7618841"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-bytebase_3.17.4_windows_amd64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_windows_amd64.zip",
+          "shasum": "0b0667a38cb9bcde44742f21277c8044cebd59c38a9cff4bac80b3e6e86e64af"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-bytebase_3.17.4_windows_arm64.zip",
+          "download_url": "https://github.com/bytebase/terraform-provider-bytebase/releases/download/v3.17.4/terraform-provider-bytebase_3.17.4_windows_arm64.zip",
+          "shasum": "ec1cedafc4fa610db208d4408087e16a10d21cc654a2b0884ff5f17a8f393f12"
+        }
+      ]
+    },
+    {
       "version": "3.17.3",
       "protocols": [
         "5.0"
