@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_darwin_amd64.zip",
+          "shasum": "52c49e616ec408410d8c94162a0f0b53344fe344700aaabf4461f5580fe17e33"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_darwin_arm64.zip",
+          "shasum": "0546d4d2126b92aceee0a3b4aeb7d3fe54ec6fe57fb5dbc549fec3fd6f128ab5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jans_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_freebsd_386.zip",
+          "shasum": "605a20f5589d2d367c13ecf639f4f2d318a40b2997424c3e7e694a4c64bde2d7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_freebsd_amd64.zip",
+          "shasum": "1552fb8949b925bb3c4ae348c71415406d18cd39464ba41b53c91e0f78acaa32"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jans_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_freebsd_arm.zip",
+          "shasum": "297cd6615848b5c6b9e0a17afa6d28799fcaf83647ff58aa66d4e58ac90be0c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_freebsd_arm64.zip",
+          "shasum": "7de7c3a555cc440a6fb1c004b33239b661204243c3a00aeb8befcedf928e27e4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jans_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_linux_386.zip",
+          "shasum": "2a56a3f590ffa1c660a1e38b21cb68181ebc1da576d2c3dde23b798affde1d74"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_linux_amd64.zip",
+          "shasum": "4ccd53c4a5cbe4618f9fa59ce34f26ef926b3abcdb39a19cbea816f687ec92cb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jans_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_linux_arm.zip",
+          "shasum": "3b961b1571f7401a40826aea5ae23f510303a48a4a7ffe40800a55d4019f0f37"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_linux_arm64.zip",
+          "shasum": "92d878344ebaa6cdcbe3aca41caf773e81b137826dcaeb0a37b468f9d3dc85f8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jans_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_windows_386.zip",
+          "shasum": "88a2664586d35848f37975f9ab3082075f45f01a036ddfb988309975ac29c8a2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jans_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_windows_amd64.zip",
+          "shasum": "4067afd01b7c954c414a81ddc6797935b851b7066729f8e17cdd64200f5e6301"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jans_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/janssenproject/terraform-provider-jans/releases/download/v2.0.0/terraform-provider-jans_2.0.0_windows_arm64.zip",
+          "shasum": "24fd4f60647b4b752b7fe4ad45ab452e13305e28634ebe0a28de28895e13c38d"
+        }
+      ]
+    },
+    {
       "version": "1.16.0",
       "protocols": [
         "6.0"
