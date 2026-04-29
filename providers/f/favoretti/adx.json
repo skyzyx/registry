@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.39",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-adx_0.0.39_darwin_amd64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_darwin_amd64.zip",
+          "shasum": "b52ff8b903f640e1f06d779872b68dd4713c6ed9ac4cdfc9f291e82ef2bc48c7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-adx_0.0.39_darwin_arm64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_darwin_arm64.zip",
+          "shasum": "cb5840983790df3ff2772f6a9207fb1e5a226f8c73594b02b590edbddcdacdde"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-adx_0.0.39_freebsd_386.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_freebsd_386.zip",
+          "shasum": "56e8c4f6d7dd0bc74487c2b0526a5d8cd8d0e4f784e86a7a435b0a86a49d633f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-adx_0.0.39_freebsd_amd64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_freebsd_amd64.zip",
+          "shasum": "ad6a50ebdb042c8a9aaaf3bb83e69d3810621d16f9f8afbf0891136ab99bcb7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-adx_0.0.39_freebsd_arm.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_freebsd_arm.zip",
+          "shasum": "d6d47ea384c34d6f831c6ddba3a31ca7d106517406a104464576e5901bc74fdd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-adx_0.0.39_freebsd_arm64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_freebsd_arm64.zip",
+          "shasum": "8fb5679766a171b8d14675ba80003fe43c5ee05053abe3d8369aaa50a059d43e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-adx_0.0.39_linux_386.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_linux_386.zip",
+          "shasum": "af7f2c460523870d8dda670d4a8fa3247e62599fcb3e8ed5ef3a9e3b9fae1cc9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-adx_0.0.39_linux_amd64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_linux_amd64.zip",
+          "shasum": "cfc3c2b2c3da5f1c003ffa44b42fa2c2703c3e7df4a2c4cf2e5e92a4bce2abd2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-adx_0.0.39_linux_arm.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_linux_arm.zip",
+          "shasum": "90f09992af5b648f211abde1c73a7fb5fdd7cdf622712974af3a26a8a80603ed"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-adx_0.0.39_linux_arm64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_linux_arm64.zip",
+          "shasum": "f2f41a2f08af049499f31c849168d1aa87b72a760c194678ee8ef3d58c7b3f90"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-adx_0.0.39_windows_386.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_windows_386.zip",
+          "shasum": "40f3eb3f6de1da75488b28787ff3d084d4a8de6c044460bb9eb23e7327640adb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-adx_0.0.39_windows_amd64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_windows_amd64.zip",
+          "shasum": "2eeeedc6b266d24f220494c32880b54d5d73568d2c912da618442b0dfe2716c4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-adx_0.0.39_windows_arm64.zip",
+          "download_url": "https://github.com/favoretti/terraform-provider-adx/releases/download/v0.0.39/terraform-provider-adx_0.0.39_windows_arm64.zip",
+          "shasum": "6ed8a62e4fecfa07b49237d8306afbd259ac591ae2cd4cc36d744ed5bc06bf92"
+        }
+      ]
+    },
+    {
       "version": "0.0.38",
       "protocols": [
         "5.0"
