@@ -1,6 +1,180 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_darwin_amd64.zip",
+          "shasum": "9bb83979100d4e189aea8677da1f61f6510de6f09193185b6a183287b7e320f8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_darwin_arm64.zip",
+          "shasum": "f0e14f98ae8312579625edf25f0163272951b647ab6937ff016809d5d839caed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_freebsd_386.zip",
+          "shasum": "debf72b82ef64730c3076159ebf50bc6c885254e5ecd54456fcf659bbca9b8f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_freebsd_amd64.zip",
+          "shasum": "1fba2a3fae8fe20c6b5f14d66e9d64dd905a8f790abb8b27c39309f8b5155d1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_freebsd_arm64.zip",
+          "shasum": "f9eb5685cbebe57e7f3e9f7754496a958ea01174b4f5484def471bb0df3f7c26"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_linux_386.zip",
+          "shasum": "8dde5df4ffdfb4d0efaed6aca008810f2bb4c65f423e6c6f51c99028b977d02f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_linux_amd64.zip",
+          "shasum": "183523de78ccbddeebee69604b497efeeb44424c500982e332b1924de4fd8107"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_linux_arm64.zip",
+          "shasum": "5dec3b2256e27e693d643cb3515becac5e75d899cb2188135d12aa0dfad13160"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_windows_386.zip",
+          "shasum": "9bd755f2016d8e1fad8f2bc0144f8f091cf17aefd4be036fbe7f9d381ed7c931"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_windows_amd64.zip",
+          "shasum": "71fae73b8ae2ff98f7a83297e71e212e87ceee54fa439b5aec6781ccb928c781"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.6.0/terraform-provider-schemaregistry_1.6.0_windows_arm64.zip",
+          "shasum": "dba84e69f97b7712940b4962d39074bc00060ad8e8a7995b748d98000ab58a5c"
+        }
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_darwin_amd64.zip",
+          "shasum": "9604883975500a845f22983a36a7b6c2c85b8d1e63d1c76dce6bc5edafb8ce35"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_darwin_arm64.zip",
+          "shasum": "bce04109a94041531218a1f7bda707a3b3e776bc96a603fd38414f9d2b2f1a43"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_freebsd_386.zip",
+          "shasum": "303629da19494dc82e630a89761f155d5db9bd9fe51453f8c39480b313e775ed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_freebsd_amd64.zip",
+          "shasum": "b4e914f984a5be29b9101c5d902f86a1febf4d9da759d3ade6dedc821033ecb9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_freebsd_arm64.zip",
+          "shasum": "605d7acfe9516e3e055b6e7b928f036452e94543cfb676d67b803454fd1db17c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.5.2_linux_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_linux_386.zip",
+          "shasum": "463d27da3ae9be113035343a906ef85e7eb6871c933e938831b55dad22b97d03"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_linux_amd64.zip",
+          "shasum": "7b69f41d3926e4215a32d47b42e6d3fdbe286b92d414a087f8d7914f8663d681"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_linux_arm64.zip",
+          "shasum": "50132a1c6c658bd5e5e430fe3533b2eaa8e41afb378762c6bc385508f4fc4d6f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-schemaregistry_1.5.2_windows_386.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_windows_386.zip",
+          "shasum": "bcb801978c0dc0079e9022afa086442cb988ed809386772d9ab7e31de5e3e958"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_windows_amd64.zip",
+          "shasum": "be16e4cb5f4b1babe9b83a04e4276d9ccd245fc18a8c464c1555e7bc37503cf1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-schemaregistry_1.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/cultureamp/terraform-provider-schemaregistry/releases/download/v1.5.2/terraform-provider-schemaregistry_1.5.2_windows_arm64.zip",
+          "shasum": "e6765df2f63f4654ff26f9fad053282a96c1c637d476d16d1f49c6dab98916bd"
+        }
+      ]
+    },
+    {
       "version": "1.5.1",
       "protocols": [
         "6.0"
