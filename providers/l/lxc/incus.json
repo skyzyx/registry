@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "1.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-incus_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_darwin_amd64.zip",
+          "shasum": "31fb100dd3550c1cdbe5fc05793b882685fc41f7540e002f7a408eeed92f4875"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-incus_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_darwin_arm64.zip",
+          "shasum": "080f02cd60e36fe2fc8a8da14d80f0f0f6b11940f5e7ec8ef0326c8519f465c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-incus_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_freebsd_386.zip",
+          "shasum": "9d810936686385e6395d16495b78cf6c53f5c0be6f5f20902ef193843881b65c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-incus_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_freebsd_amd64.zip",
+          "shasum": "ddfebdad366f0e8b7e650b2b1543fa7f1ac23c628f0e8e1c6d9a1f8327d0f814"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-incus_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_freebsd_arm.zip",
+          "shasum": "abe2c6025ba97225c821c8a78c82377e75df55bdd521b620eef63f4846283489"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-incus_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_freebsd_arm64.zip",
+          "shasum": "4dbf46a1ee8e033f87d831664a44396a682933ec1cf33a82ed81ee09a212fded"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-incus_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_linux_386.zip",
+          "shasum": "6b2a9b45185592678310c3c4007c18aedcda737cc9b700fe54eb3bb6b037bb4d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-incus_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_linux_amd64.zip",
+          "shasum": "aa4d56a43f1c23018b79fb1e4baf564f585e231f7c9d723dad8040c2f34fc35c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-incus_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_linux_arm.zip",
+          "shasum": "307a174e2d71f09a996f601964ac88d163bcd8c4eb05681f5fe76f8b94ff0b66"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-incus_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_linux_arm64.zip",
+          "shasum": "e98b5df0092e87be768632444fb946ad6c34e243ff33c7cb2f0aecaf712a13a0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-incus_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_windows_386.zip",
+          "shasum": "30fccdaf3ee006a2a49bb0001ef4dc299cb234fe320ac12fd69b6d336946d967"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-incus_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/lxc/terraform-provider-incus/releases/download/v1.1.0/terraform-provider-incus_1.1.0_windows_amd64.zip",
+          "shasum": "b03bbde29904e3e76a75c8a16fe439a374b3706ef4810bacc69b809b1c1f2cdc"
+        }
+      ]
+    },
+    {
       "version": "1.0.2",
       "protocols": [
         "5.0"
