@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.1.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnsimple_2.1.2_darwin_amd64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_darwin_amd64.zip",
+          "shasum": "53d7c5957014fba502ea7c20908480463e1428f4f41a4b9722bbe2b344623b3b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnsimple_2.1.2_darwin_arm64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_darwin_arm64.zip",
+          "shasum": "733579a80a45f936a0aa842a84dbc4db7904f9adf40a6f0ab0053a8507f82264"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dnsimple_2.1.2_freebsd_386.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_freebsd_386.zip",
+          "shasum": "61d4ec5a2e06c26074ae3768af971da631f721f631122136e899f1ca33cd6a97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnsimple_2.1.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_freebsd_amd64.zip",
+          "shasum": "de27dc6273619b08db664ec3cbbd3632828fdf120cde90274dbd7762d1565402"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dnsimple_2.1.2_freebsd_arm.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_freebsd_arm.zip",
+          "shasum": "7bde285f2daa7b2050fa63bcc886507b106d0e48e3ee13c5b3bfda7c2d303873"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnsimple_2.1.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_freebsd_arm64.zip",
+          "shasum": "53eefcf68088dde6998b255072c8247be7a8ca5e6b2e0258c94e10226f40d2df"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dnsimple_2.1.2_linux_386.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_linux_386.zip",
+          "shasum": "925e8e0e82c0f019b776d0db7fe518c32b2e9b011c59475c70107d3e8287aadd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnsimple_2.1.2_linux_amd64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_linux_amd64.zip",
+          "shasum": "38ca5ac50b70530672e9ab2323d4bbab8c8d9289487f71450acacd6d46ec26c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dnsimple_2.1.2_linux_arm.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_linux_arm.zip",
+          "shasum": "dea1c1814056285497ab4ae81d90c597d234fd7c1cb14654df45f963fffb9f7c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnsimple_2.1.2_linux_arm64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_linux_arm64.zip",
+          "shasum": "f641ce55591483fa716f5d9e6d1daa64bf6871283270340644c6d771e5aaac5a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dnsimple_2.1.2_windows_386.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_windows_386.zip",
+          "shasum": "4d1f6e1409911faefcee3bc9b9f670a9846decc97c486922b5c47b7d0a659a65"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dnsimple_2.1.2_windows_amd64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_windows_amd64.zip",
+          "shasum": "5fabedb1100dc3e41cfd7fcbfcd4c4fb7e4309ffe3e80cbac8adc84c8f2b2831"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dnsimple_2.1.2_windows_arm64.zip",
+          "download_url": "https://github.com/dnsimple/terraform-provider-dnsimple/releases/download/v2.1.2/terraform-provider-dnsimple_2.1.2_windows_arm64.zip",
+          "shasum": "0df7917c9c2566a622b0202ae252ac2d47a816c89359466cbd21541ca28ca01e"
+        }
+      ]
+    },
+    {
       "version": "2.1.1",
       "protocols": [
         "6.0"
