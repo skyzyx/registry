@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.10.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow_0.10.1_darwin_amd64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_darwin_amd64.zip",
+          "shasum": "743e432afaa82155727a46a43f9e12b4427130315e6090387876a3371c4d4aeb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow_0.10.1_darwin_arm64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_darwin_arm64.zip",
+          "shasum": "ad3f79047dab673f931cd12dcdcb0d1f5cd595e89144c8330e3d07e05bce0e99"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow_0.10.1_freebsd_386.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_freebsd_386.zip",
+          "shasum": "ae3ac941dedb7a3c4ff3c52c27e53b3dc8e7979a210bcafda226a231b0d90629"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow_0.10.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_freebsd_amd64.zip",
+          "shasum": "1a16ea68e399aed56d1212849d1f4d060cdbe2fc5ca671728a7b9ba0a86e5a31"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow_0.10.1_freebsd_arm.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_freebsd_arm.zip",
+          "shasum": "85e4ff0e540b5525aeee0f69b0d0880f5a9e03cdc0e5b24b0f81352810f17615"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow_0.10.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_freebsd_arm64.zip",
+          "shasum": "c8278edbcbb14d4aa7bc067dc3d409d04f300d8c53483fdfcb55898092cea3fe"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow_0.10.1_linux_386.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_linux_386.zip",
+          "shasum": "c765bdc95a68113bb8abb02d1f6f200ab52307d5f7d74067308d9ea5f3446043"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow_0.10.1_linux_amd64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_linux_amd64.zip",
+          "shasum": "6f9ffc5f2900dd9f8a73880b017ed8a43b5bde15cfef63ea4a7f0cc4eec8d19b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow_0.10.1_linux_arm.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_linux_arm.zip",
+          "shasum": "9aaa9456235fd1036342d0d9bd15ae5b1bc42dbf3be0f8a17097c6fc98b97413"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow_0.10.1_linux_arm64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_linux_arm64.zip",
+          "shasum": "14c4797262b922844babdfb077549d0e37d9d089274ae71b311f18a4b01cba4d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-servicenow_0.10.1_windows_386.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_windows_386.zip",
+          "shasum": "d4e05d1bf213424efb707ca961403bb9e6e3c5f534bca7e71b681691e774550b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-servicenow_0.10.1_windows_amd64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_windows_amd64.zip",
+          "shasum": "0b64f96db29d1af29f6ab7dbe54298e2d0e245469a4ace76b7ceed4de68c4374"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-servicenow_0.10.1_windows_arm.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_windows_arm.zip",
+          "shasum": "b7241638532a90a03dc0b378e103e35b2f36f0d0de8ebf4b17e4567b65725963"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-servicenow_0.10.1_windows_arm64.zip",
+          "download_url": "https://github.com/tylerhatton/terraform-provider-servicenow/releases/download/v0.10.1/terraform-provider-servicenow_0.10.1_windows_arm64.zip",
+          "shasum": "d35eb5369ac3f23c302c9e89bac21f3b5ef94332776dc960b2fabb8fbe88d483"
+        }
+      ]
+    },
+    {
       "version": "0.9.5",
       "protocols": [
         "5.0"
