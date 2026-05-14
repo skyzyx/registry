@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_2.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_darwin_amd64.zip",
+          "shasum": "cb8ce35666632a8385f139c4f7d242fd612198f07a69306fc2321e76d4f29b68"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_2.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_darwin_arm64.zip",
+          "shasum": "532e58b807dd3f5ebb44b7841e3cc38043e4414b123f43df61f98f47a22bb43b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_2.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_freebsd_386.zip",
+          "shasum": "d6218166ced8b940484a0b272b9a7bafa71ba9cb680b1c3d91c9b79a792e09f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_2.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_freebsd_amd64.zip",
+          "shasum": "c062caa4bbbe0ed818d7567c25cbfd1a47fdc4f0f262d934bb710940a158fba0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-entitle_2.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_freebsd_arm.zip",
+          "shasum": "b996b4ea5e8f5a355bf2c2dde8e7758d1bed4298c2be44caa5dfeb90a4b46346"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_2.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_freebsd_arm64.zip",
+          "shasum": "37d70336815706f1c64d4b819e3d3c3ed3c0806be6a5520f364d4aafb1151204"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_2.2.0_linux_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_linux_386.zip",
+          "shasum": "08da783cf7fc4dea92ff74f3a4e5c9d0bbfb23180290c94d87bada857f7031a9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_2.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_linux_amd64.zip",
+          "shasum": "60dad7dd9c07d97010da91c0b33e8c02dc9ac037444565753a47a4f894eb1246"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-entitle_2.2.0_linux_arm.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_linux_arm.zip",
+          "shasum": "7770e3c1f4d73cb18f0905da37c5f97c69b2b10b36afd65bc835767f7cd385f5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_2.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_linux_arm64.zip",
+          "shasum": "220408e241f9bb227340aa46483e146ec0cd618b27e26a2a41f50ebf19dfd702"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-entitle_2.2.0_windows_386.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_windows_386.zip",
+          "shasum": "cd4245707cf0b3e72ba5acbed9e7af6f6f2efe64b6c6cb4f78c11017bdcabb96"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-entitle_2.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_windows_amd64.zip",
+          "shasum": "272e838efcf28f5560a6cf70052a3fc09157413a497ac76a2a0125e2edb8ac7c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-entitle_2.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/entitleio/terraform-provider-entitle/releases/download/v2.2.0/terraform-provider-entitle_2.2.0_windows_arm64.zip",
+          "shasum": "ee3e2ac8e359fdd1412c26051766b837035dd7f56a7103b8796704f8f6b1693e"
+        }
+      ]
+    },
+    {
       "version": "2.1.1",
       "protocols": [
         "6.0"
