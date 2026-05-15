@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.11.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_darwin_amd64.zip",
+          "shasum": "4e8253547729a40026ea2d6880e2e6d0fe0a0690d56e9d0d720879496ff18071"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_darwin_arm64.zip",
+          "shasum": "40cc096cf7f568745f429b547e6b73936b6ffce00fb8e2b0d7e8ea71f00d5125"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_freebsd_386.zip",
+          "shasum": "751b7ce95ca3bcc7a09eea15c07d78c4d66b930299b8b05568bc03874c10263b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_freebsd_amd64.zip",
+          "shasum": "574dde0724f98a27acb3f2389a3726b78d32217003e714801eb5123471d3b28d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_freebsd_arm.zip",
+          "shasum": "f55ea0d00bd2029fe913be28ea51334f743a5236d1aed9a36684f40ef3b46fdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_freebsd_arm64.zip",
+          "shasum": "7619c03f0e81f35907d488d935618d57a270572b40172e92a1f9f07e42a9d8b7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.11.0_linux_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_linux_386.zip",
+          "shasum": "4749850172db32ca29d813cc24f7a429c827ac67b9ac7e94f16c40a0355e53f9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_linux_amd64.zip",
+          "shasum": "9bf00ece5a937664a91ef25a1289e69610e06de679eb939f01cf52a788684cfb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pulsar_0.11.0_linux_arm.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_linux_arm.zip",
+          "shasum": "18f8aa1686cb07c579a532b1005ae6d4f1d21e425cc7a1be943b110ff9d091da"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_linux_arm64.zip",
+          "shasum": "29691d10272e1f7b6f0b83da40ce4119c5f386a6f1d858a8766846d9bd8624a7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pulsar_0.11.0_windows_386.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_windows_386.zip",
+          "shasum": "1ad59941a6b8dccb8d0f69e20fffaf39b045a98e6b0a305afd521cc66863c805"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pulsar_0.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_windows_amd64.zip",
+          "shasum": "c03cd30307aa83b621ccbf481dcb8f99ae35abfb5a06d4c3b74ed4b43bf12569"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pulsar_0.11.0_windows_arm64.zip",
+          "download_url": "https://github.com/streamnative/terraform-provider-pulsar/releases/download/v0.11.0/terraform-provider-pulsar_0.11.0_windows_arm64.zip",
+          "shasum": "92278466b72fbbfbef02bf3dd53d04c5ba8e0e1f6b7fa611e17dddd6c74ab6f2"
+        }
+      ]
+    },
+    {
       "version": "0.11.0-rc.1",
       "protocols": [
         "5.0"
