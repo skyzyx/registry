@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_darwin_amd64.zip",
+          "shasum": "db0b62416da00ad7c584cb70b9497b71a428e5e97836c0ac4773e4263d3186f7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_darwin_arm64.zip",
+          "shasum": "0937a5981b1f3d75c0c9b10f23b50851e10cacdf986a65fc2cca60f9c0f81ac4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uptimekuma_0.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_freebsd_386.zip",
+          "shasum": "ba2273eb01460a95e36ab8a51842e66d2923c1c37cb54b491fcf88e23f6dce3f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_freebsd_amd64.zip",
+          "shasum": "825794a05c413325b921200e0bdc5dacf9546b62994475498649714a700d51f7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uptimekuma_0.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_freebsd_arm.zip",
+          "shasum": "c88cd399634c4d7eb27e186458ccff33a6a003deae4001e7cd68f3818ee8cdad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_freebsd_arm64.zip",
+          "shasum": "d6843f61a0a734e7849b5a78cea136324682d90ed5581c2677d81bd129ac622b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uptimekuma_0.3.2_linux_386.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_linux_386.zip",
+          "shasum": "fbc3f82e04d0f3c7092ab8c7ab1875f6ef7e99f718288909d8c830eb4c1689f9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_linux_amd64.zip",
+          "shasum": "9ce3f708dd338cecc61ca28a46a80d7aab3f3807aad3457a2a129a3e38c13aae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uptimekuma_0.3.2_linux_arm.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_linux_arm.zip",
+          "shasum": "c05fa0abf61c29d7340b7dc9b630c660d05e805e669a7af44a4d533384be3a73"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_linux_arm64.zip",
+          "shasum": "d878373da23319211f3f0ed3b7256111ac93a4c35cd40de2bdd8cb560f6bace6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uptimekuma_0.3.2_windows_386.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_windows_386.zip",
+          "shasum": "e6eb5c63ccb3bb15c45880c4260bbc45c8a07b2e75c8f21355271dec17b18083"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_windows_amd64.zip",
+          "shasum": "f1a5cda5f802555aacfa5af7511d59dafc1f676814a64f60e7a063f4db2a8822"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uptimekuma_0.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/breml/terraform-provider-uptimekuma/releases/download/v0.3.2/terraform-provider-uptimekuma_0.3.2_windows_arm64.zip",
+          "shasum": "09023c0d0b36137f14220d5dad0e0ea94d13369a55679a24afbd0e04c05bd080"
+        }
+      ]
+    },
+    {
       "version": "0.3.1",
       "protocols": [
         "6.0"
