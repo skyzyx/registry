@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kinde_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_darwin_amd64.zip",
+          "shasum": "236f1de1d4abf0643bed126911177a845a867f488faf6977138e3128d0c9da0e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kinde_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_darwin_arm64.zip",
+          "shasum": "0234a025264e18da86412becb7d1a1059a47bb1b73c8e08237897690dd9d5772"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kinde_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_freebsd_386.zip",
+          "shasum": "b674619c9002b2192dd4d807e921dde0c033a2ba108d9f0d97da5193f6c5ece3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kinde_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_freebsd_amd64.zip",
+          "shasum": "6a156fbc42ca0bc89b9a0d1877695bb96633967979e1c75066d9c7e892a7f77c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kinde_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_freebsd_arm.zip",
+          "shasum": "f8a37f1e1deacdc2d92bd200e2cc33df76d3d66997c4e5970577771dbd223ab1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kinde_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_freebsd_arm64.zip",
+          "shasum": "4daa8c1da16fd922283bef616388f7fce3683690a24e86942bdc8a140af0fa99"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kinde_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_linux_386.zip",
+          "shasum": "f136bb11101cf589e49ffb7821422ec71f0b044ce1949d2e12222bc05bd6f6c7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kinde_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_linux_amd64.zip",
+          "shasum": "9c2563c770040d67ed9c1b2d8e29b1d4630a34b02e613b645fd807279f9899b9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kinde_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_linux_arm.zip",
+          "shasum": "aa9b684da1228d073d2c4f5ffea2f8885b2d022e9bac1237f2757541167333fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kinde_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_linux_arm64.zip",
+          "shasum": "787cb3254c91e645a5564268519be597fd9bf5c6a9ba1d4402be71e6cd1a2d9c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kinde_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_windows_386.zip",
+          "shasum": "7bf204502674027fbe1c481625db3b35ec32100fc97b6b408d36552d6c7788d9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kinde_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_windows_amd64.zip",
+          "shasum": "ca257637767d9cdc51abe3b88ad8d581f7df6241b50047740df8ef2b6e9ae689"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-kinde_0.1.0_windows_arm.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_windows_arm.zip",
+          "shasum": "d1a6e8f720f62d13237741fb35522a14d3271d9b31901862646df3fadf41b5d0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kinde_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/nxt-fwd/terraform-provider-kinde/releases/download/v0.1.0/terraform-provider-kinde_0.1.0_windows_arm64.zip",
+          "shasum": "7894072c8aff1025151b74d4db634ee7c87482177c3d4f670439829fc25e50bf"
+        }
+      ]
+    },
+    {
       "version": "0.1.0-rc2",
       "protocols": [
         "5.0"
