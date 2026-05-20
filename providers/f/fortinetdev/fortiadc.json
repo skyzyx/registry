@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.3.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiadc_1.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_darwin_amd64.zip",
+          "shasum": "7b1a04f42d4255f59381a82c06a72b5a5137d7e811ae454db088716497029bbc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiadc_1.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_darwin_arm64.zip",
+          "shasum": "6ba0d745ce1a27419c6486833c41c3ed075451d102d1708f6285001a3226a47f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fortiadc_1.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_freebsd_386.zip",
+          "shasum": "7c2fbb36edc5daed0a85c298c2ad32d89085cb8f388d405c9aa6e1ce6aa9dae5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiadc_1.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_freebsd_amd64.zip",
+          "shasum": "74bc5c71ba02e8c7c1146be205343f94416bfe0f597beaea9e43f709b35fb153"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiadc_1.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_freebsd_arm.zip",
+          "shasum": "c2373958d45cf179611ab0e7f6fd64b31d92e536edaddead94dcb952426bcd5b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiadc_1.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_freebsd_arm64.zip",
+          "shasum": "8acb4bc91024dcb5aa294a97e1a85233374ff05cea1b5d1967c2955f66bf7ffc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fortiadc_1.3.2_linux_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_linux_386.zip",
+          "shasum": "5a3be3b13d761a0448cda7ea79a4b4620391fc63f2bee401a1f3d1ee5c17fcd6"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiadc_1.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_linux_amd64.zip",
+          "shasum": "2fdf07b07750beb010cff26304f46d0526e8b5e747ebedbf5b52175c836fabf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiadc_1.3.2_linux_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_linux_arm.zip",
+          "shasum": "519d7c498ff241c1e20397c1a8b874f5ce74ea1e8f513b15e4ec548c895a6f0c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiadc_1.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_linux_arm64.zip",
+          "shasum": "694aac099455a95676ec36435565c8bb6329f9015dd582aa8afd304718979b58"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fortiadc_1.3.2_windows_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_windows_386.zip",
+          "shasum": "7031ad379216a3b894f8631a37053f4bdea5a8c1e7cc68d084587088437ae29e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiadc_1.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_windows_amd64.zip",
+          "shasum": "ac9f3ae7eac64ab2cc17de1feebc1c3782d23651ce38edaa627ad11c7b11af02"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiadc_1.3.2_windows_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_windows_arm.zip",
+          "shasum": "35df4ca985f216593d46f2c3cb706ed5ad69a3325327bbec1fc41584480c0947"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiadc_1.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiadc/releases/download/1.3.2/terraform-provider-fortiadc_1.3.2_windows_arm64.zip",
+          "shasum": "dc757265030ca6772a4cae881fdc599e396fd099762967f74c7242b34a401822"
+        }
+      ]
+    },
+    {
       "version": "1.3.1",
       "protocols": [
         "5.0"
