@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "19.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitlab_19.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_darwin_amd64.zip",
+          "shasum": "71efb0fd1a5515e54a7a5df94434ee7e7d40222451d9c408a91a55efbcc022fc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitlab_19.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_darwin_arm64.zip",
+          "shasum": "a0e4468693da538c125d1514b02507411b3e1463fdf9d152686c56a2cf916bb1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gitlab_19.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_freebsd_386.zip",
+          "shasum": "effacc6e5ad89eaa0f73ca13d6c6efac43994e814606d42f5b5e1e86ef71f49c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitlab_19.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_freebsd_amd64.zip",
+          "shasum": "d026d3eada9b8a768b32c31164b12270286ba96829382f3cf32e6db016117d2d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gitlab_19.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_freebsd_arm.zip",
+          "shasum": "caafcab2213ce2ca1edc136b1bae6eba90e00f799cd8ecdb6db39daba6cfba87"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitlab_19.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_freebsd_arm64.zip",
+          "shasum": "3d6634bee9cb59da9d9c05c272c61b2406127a23fc73044f34ce5aa06c0efb32"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gitlab_19.0.0_linux_386.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_linux_386.zip",
+          "shasum": "a1077e760fc910d1eea8433baf1f1b239957247ad62ea2570d956b304c845d95"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitlab_19.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_linux_amd64.zip",
+          "shasum": "8246ad56698f98f9df2c9a5be9a046bb5affeb68f3b98e72b50c2e1249b02b74"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gitlab_19.0.0_linux_arm.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_linux_arm.zip",
+          "shasum": "b915a55739c0b6174ddbcffa49df04a4c2c217907a6dcc919a99ccd163b8e604"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitlab_19.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_linux_arm64.zip",
+          "shasum": "5917978c9bd46c6b9529a87fdcabbb5b5191f3aa899f9080f2cd5f6cdfc75e68"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gitlab_19.0.0_windows_386.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_windows_386.zip",
+          "shasum": "b40bda3fc8882165311ecb774bb5c94c74198c9e1b0cb5840cbc9d0470c4046c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitlab_19.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_windows_amd64.zip",
+          "shasum": "cb93cd1b9dfed271cfb9203040c27989b28567d64d9c78e96a019c4d309085b7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitlab_19.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/gitlabhq/terraform-provider-gitlab/releases/download/v19.0.0/terraform-provider-gitlab_19.0.0_windows_arm64.zip",
+          "shasum": "40d3dfca826a7bfd9ec15030a5e5a09cacd9233e7ec39169a333d058ee5b7359"
+        }
+      ]
+    },
+    {
       "version": "18.11.0",
       "protocols": [
         "6.0"
