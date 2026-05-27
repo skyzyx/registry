@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "1.30.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-portainer_1.30.0_darwin_amd64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_darwin_amd64.zip",
+          "shasum": "df018a5c8935f8d5ffecff3f54db830dbc59316444dc4488bf55b4687d615063"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-portainer_1.30.0_darwin_arm64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_darwin_arm64.zip",
+          "shasum": "4431cdb05b7ebe585d11fab03f2e6a6ce74c78be3d2a19151e038673eec04e85"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-portainer_1.30.0_freebsd_386.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_freebsd_386.zip",
+          "shasum": "fcfbadfc9708fdbc7e53fa640f50ada0bc5d1bccfab2fd51f46623184e28968d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-portainer_1.30.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_freebsd_amd64.zip",
+          "shasum": "39c70044aae86c88da3794997483a358da22bf5eeed5713330c4e9cc44c20734"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-portainer_1.30.0_freebsd_arm.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_freebsd_arm.zip",
+          "shasum": "bead9e016115f3eb48fa88ef87a37f92daa97732c20b5e567ee662633e0d2107"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-portainer_1.30.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_freebsd_arm64.zip",
+          "shasum": "373b10f12648abf26ffb1e965502b461099fc9cafbfde1ddf0997b20095d73f7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-portainer_1.30.0_linux_386.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_linux_386.zip",
+          "shasum": "e011a392f3a7584ec34cfae98bf1970d4a8371cc85793f2087c5ad0551be1081"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-portainer_1.30.0_linux_amd64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_linux_amd64.zip",
+          "shasum": "132c5db6e5bb2fc9120980490ba7f68034d3312548e04fedbeba3095d29c3e76"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-portainer_1.30.0_linux_arm.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_linux_arm.zip",
+          "shasum": "22e19297bd4c021457901975621964292cec12aeeced9737f2ae40281b44dde3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-portainer_1.30.0_linux_arm64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_linux_arm64.zip",
+          "shasum": "16f55cb494806dcefcc6bcc543a6d5ee1a71628dbd7d07ca6ed73079b8261096"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-portainer_1.30.0_windows_386.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_windows_386.zip",
+          "shasum": "5e32528dc672ccca3a7f9f0a04ae8c16d1fb1253c084c2ed62ef476af599c317"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-portainer_1.30.0_windows_amd64.zip",
+          "download_url": "https://github.com/portainer/terraform-provider-portainer/releases/download/v1.30.0/terraform-provider-portainer_1.30.0_windows_amd64.zip",
+          "shasum": "a866cf1920f6e35fed61b2b1577c24afdc0ebf206e31f32b16e6660de7212d93"
+        }
+      ]
+    },
+    {
       "version": "1.29.0",
       "protocols": [
         "5.0"
