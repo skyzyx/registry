@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.11.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vinyldns_0.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_darwin_amd64.zip",
+          "shasum": "7e48a0795ca02ad3fbdb34ed7f1fbe491296fe1d9c2c93d6afce485524dd7f3f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vinyldns_0.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_darwin_arm64.zip",
+          "shasum": "db42d0e5ede8d6756e2e9a2bffb52af2e9e67053ba834834389c01887466aab4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vinyldns_0.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_freebsd_386.zip",
+          "shasum": "7f1058595503a14e86f157918f61bfa48580dfa6ed2618d5c03261eb70897041"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vinyldns_0.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_freebsd_amd64.zip",
+          "shasum": "9c4aa04b0a2e68cd79b5e7f9ceee62edeac4261ca88f00824cb2ed4ebd8fd293"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vinyldns_0.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_freebsd_arm.zip",
+          "shasum": "093fd2bb1f3f10013e0e78f476538dbc6e41a89d4020fd0f68523555497d1f34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vinyldns_0.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_freebsd_arm64.zip",
+          "shasum": "f8134eda7c327c2919c63d4749cfe95ef8d49ff34a334936f4a677775998f0c6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vinyldns_0.11.0_linux_386.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_linux_386.zip",
+          "shasum": "339abac61686db753b9b392dafbb1c94723389538c891ca4471374397d978c3f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vinyldns_0.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_linux_amd64.zip",
+          "shasum": "2ced47eaa6170dfbe46c74075008af1d58ed2b5ffd7cb9630cc053206c9e3fee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vinyldns_0.11.0_linux_arm.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_linux_arm.zip",
+          "shasum": "c6cf0f305ea3e4ec6c2605351a53cbc9f71e87a177ab0821fec3e01435516b2f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vinyldns_0.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_linux_arm64.zip",
+          "shasum": "c9afb6d52fab262a78a8c507cd50710d69adf3d05dfe050faf99ab36021baa84"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vinyldns_0.11.0_windows_386.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_windows_386.zip",
+          "shasum": "e78d8cb7354287fa2d3fcfec0dfe038928caeaee5d102c76288453de3e5c8fba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vinyldns_0.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_windows_amd64.zip",
+          "shasum": "4b6337f1b7bea5880bc6482c40f262eb51b77911bde2ccccf3e86f9ba224e20a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vinyldns_0.11.0_windows_arm64.zip",
+          "download_url": "https://github.com/vinyldns/terraform-provider-vinyldns/releases/download/v0.11.0/terraform-provider-vinyldns_0.11.0_windows_arm64.zip",
+          "shasum": "3e054a0a708a6f28bb58629f061ff88f46b78dcd9897c0d9ed52a62af9fe0d65"
+        }
+      ]
+    },
+    {
       "version": "0.10.4-beta.1",
       "protocols": [
         "5.0"
