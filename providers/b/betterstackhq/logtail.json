@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "10.12.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-logtail_10.12.1_darwin_amd64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_darwin_amd64.zip",
+          "shasum": "66e8aeb3171f30ff67fa9cacae3eee01b81b2e258853e0fda627b3f7e1a9d708"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-logtail_10.12.1_darwin_arm64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_darwin_arm64.zip",
+          "shasum": "139f8bcfd5d2c55e4b132682fd0852c1a0d049b48109104e82d0f973d92ebaed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-logtail_10.12.1_freebsd_386.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_freebsd_386.zip",
+          "shasum": "6333bfa129e1caf1cd289d6a1871734802a545ccbd344cacb5e3727da4857284"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-logtail_10.12.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_freebsd_amd64.zip",
+          "shasum": "fa6d34e6f8b2af2fd342d6689adced4f25c970a3031a883add83165044d388ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-logtail_10.12.1_freebsd_arm.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_freebsd_arm.zip",
+          "shasum": "78af7aa7f30ea16e4d3b9b1c7d30a6f9d5ab35ca9ff99e1183bc4716119abec5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-logtail_10.12.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_freebsd_arm64.zip",
+          "shasum": "56703fa454da0b475e968ca19e40ac054d6cd46dc07750fa24f35af7675fac72"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-logtail_10.12.1_linux_386.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_linux_386.zip",
+          "shasum": "c4d5f33053cfc3e12ddf8cc229f8b998c0fee81000a302fd0fa361a3f78bd232"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-logtail_10.12.1_linux_amd64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_linux_amd64.zip",
+          "shasum": "c56719b01e750da018b6ae01eb4b2c854774f1689069bb719fca72c5ee8ba3df"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-logtail_10.12.1_linux_arm.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_linux_arm.zip",
+          "shasum": "3878a6487ef7d154fe7fd7f90bd0443bfb6f7f3a01f36e32c274af93e133ef21"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-logtail_10.12.1_linux_arm64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_linux_arm64.zip",
+          "shasum": "74f8379d6815d4196ab63ea0402968b1cc1de3737b306b28acee65215837e13d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-logtail_10.12.1_windows_386.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_windows_386.zip",
+          "shasum": "b71a24f402d311fa3deb09c7b5df60c6cd35a96bbe712d4e03a44e8f4e10f4da"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-logtail_10.12.1_windows_amd64.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_windows_amd64.zip",
+          "shasum": "d5a988fdb90be34033ef8bf0c9baf6f1cadf33794bca03760f5ddf5a9e750016"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-logtail_10.12.1_windows_arm.zip",
+          "download_url": "https://github.com/betterstackhq/terraform-provider-logtail/releases/download/v10.12.1/terraform-provider-logtail_10.12.1_windows_arm.zip",
+          "shasum": "49ab230d3710ef31e94f9668bd8b8e1370c6dcb155619c53bd4ec867e4f08164"
+        }
+      ]
+    },
+    {
       "version": "10.12.0",
       "protocols": [
         "5.0"
