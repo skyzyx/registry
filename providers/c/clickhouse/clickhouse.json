@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_darwin_amd64.zip",
+          "shasum": "1cef091c911b28b0279264d6d32665409357d5085165e50592c85f2ee59121ac"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_darwin_arm64.zip",
+          "shasum": "5c65a2239154e0b980b68900b029449b2013872ac3017717de4369cd240491b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_freebsd_386.zip",
+          "shasum": "764862ad3475dcfb248dc832bf36de125cb795bc5f463e076ea40681c762ddcb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_freebsd_amd64.zip",
+          "shasum": "a902439410134c53de4b1e985729018fcf88f7072984dacb5d46728e9f14abe0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_freebsd_arm.zip",
+          "shasum": "da48a38183cb3d7720e6b03958b52838bf4a57f72a4cf937047b3320b2320ce8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_freebsd_arm64.zip",
+          "shasum": "06b1d8e3e19a0342f3d9797ede5bcc2b1fed25b355958a87a615ec1e18f3aaa7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.16.0_linux_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_linux_386.zip",
+          "shasum": "d0a4e3506eb92db81184faf67634809587cde6ff8b15d5369ad416259572c1e5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_linux_amd64.zip",
+          "shasum": "e30468fd13c5b12beb5ef4059531cbcd957b6c5684bec8409efb5573fe0992f4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhouse_3.16.0_linux_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_linux_arm.zip",
+          "shasum": "98bb44c7bd43b919f91c903f187a4384f29e21e4ce553e12feebaa148cf769ea"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_linux_arm64.zip",
+          "shasum": "75171e148382b42f7e7b4857b96a78b0b91678fdefd1bce56e99c18b3b86d233"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhouse_3.16.0_windows_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_windows_386.zip",
+          "shasum": "f024d0dadbe071bbda454c914bd828f9afcc0cbf64c9ad9f67c837622ff83a2a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhouse_3.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_windows_amd64.zip",
+          "shasum": "fd6ccb495e24671b090c0c4d8b8ce6e72f3363b060ef217d22b99e90ad9792aa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhouse_3.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhouse/releases/download/v3.16.0/terraform-provider-clickhouse_3.16.0_windows_arm64.zip",
+          "shasum": "f5f235d0c8625e70efdeba77f7f6b3c41bd9b130abb665e140b408c8324b3615"
+        }
+      ]
+    },
+    {
       "version": "3.15.0-alpha3",
       "protocols": [
         "6.0"
