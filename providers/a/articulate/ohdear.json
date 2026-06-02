@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.0.5",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ohdear_3.0.5_darwin_amd64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_darwin_amd64.zip",
+          "shasum": "325f8e5a34b92e8afc3028ea8d7eb09fb8b1c0f2a155f04d3006199d04370ea1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ohdear_3.0.5_darwin_arm64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_darwin_arm64.zip",
+          "shasum": "592adada229dde8adce8da0dd3d4ab3ec09cb6d16b1eaf855d2650e64767ba80"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ohdear_3.0.5_freebsd_386.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_freebsd_386.zip",
+          "shasum": "5193acc38414dae060f32410f90bc1faceb1d146204daad354a75a40100381db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ohdear_3.0.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_freebsd_amd64.zip",
+          "shasum": "e38a90bfcc37bf2f20d63c08e1350f852d7cc60da4a24eaa4a314159f97c5e97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ohdear_3.0.5_freebsd_arm.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_freebsd_arm.zip",
+          "shasum": "057abae55078c6b3d782966c2c53f00f9d55875ac26b65e33fafaccca899666a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ohdear_3.0.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_freebsd_arm64.zip",
+          "shasum": "fa836f65400d7e8d7d87dadabadf7ed37993756bdda663a465e61d582d26625c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ohdear_3.0.5_linux_386.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_linux_386.zip",
+          "shasum": "6e9dff79ad5a9e383267296c3ace003982120c448511c8b73c8f990b39918b56"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ohdear_3.0.5_linux_amd64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_linux_amd64.zip",
+          "shasum": "f4fdd1bb6351d1a45ec62f14386e6e8e5032d867979ab6c1fa5761c1126fe59a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ohdear_3.0.5_linux_arm.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_linux_arm.zip",
+          "shasum": "2df7f73fe511c903098625e2d8c1f9d8ed9d208229170413fd325356d3c672be"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ohdear_3.0.5_linux_arm64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_linux_arm64.zip",
+          "shasum": "993aa515023f3bbd410c8481e5abb27d29d779605c0387cd31d69b4795c25624"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ohdear_3.0.5_windows_386.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_windows_386.zip",
+          "shasum": "b8a5ba444aea84208a16c6a30db7ed4f13b81443bb9c5ea31d7ddff724ed6f11"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ohdear_3.0.5_windows_amd64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_windows_amd64.zip",
+          "shasum": "a67d54f027ec264a44b57f0eb45b992088b4724ea9f4f45c6f94f94a83743b63"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ohdear_3.0.5_windows_arm64.zip",
+          "download_url": "https://github.com/articulate/terraform-provider-ohdear/releases/download/v3.0.5/terraform-provider-ohdear_3.0.5_windows_arm64.zip",
+          "shasum": "25f7091410209393a58cb9339ee8c4d5b6947552ca9716f42899c841fbe1efc3"
+        }
+      ]
+    },
+    {
       "version": "3.0.4",
       "protocols": [
         "5.0"
