@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-semaphore_0.3.2_darwin_amd64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_darwin_amd64.zip",
+          "shasum": "c74a710b160bfcb4e821040f3bc4c265b2649f2054851461a7e8374e9239e4e2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-semaphore_0.3.2_darwin_arm64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_darwin_arm64.zip",
+          "shasum": "e5024b40915d123774fb6178051e89293e80e5f38278c0fb010f115cde414919"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-semaphore_0.3.2_freebsd_386.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_freebsd_386.zip",
+          "shasum": "f505542e29a001ea916107c28f5ae017419077f72f3d54fc16fd8619f3e15dfc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-semaphore_0.3.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_freebsd_amd64.zip",
+          "shasum": "a4f4febc199e6198eb07c4ff214854037b16565bdc77564439d6724a330452bd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-semaphore_0.3.2_freebsd_arm.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_freebsd_arm.zip",
+          "shasum": "c8c2658c44596c3023b97426065a9861ba0e839d9ec665e8421886364c8e9a19"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-semaphore_0.3.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_freebsd_arm64.zip",
+          "shasum": "43d5368ebd411e82ef5d4b45f2d6e50e3964f8730bcdea8a2b9e82528598d4d2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-semaphore_0.3.2_linux_386.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_linux_386.zip",
+          "shasum": "31bb718444a92cbe25ad52253d2f63ecd5f8c3ad65a32be4add607cbb3faee16"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-semaphore_0.3.2_linux_amd64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_linux_amd64.zip",
+          "shasum": "f9652a150d6b9d40564c4d1225fc710c833d907916a1682257c3a7865bb66065"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-semaphore_0.3.2_linux_arm.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_linux_arm.zip",
+          "shasum": "00a7a4fc25da7996fa78097ffc3fee9a5d2159b68f0c5350b3e5a4ad285b058d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-semaphore_0.3.2_linux_arm64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_linux_arm64.zip",
+          "shasum": "33aceb45aba4805a6961ef36703027d1515499b390dc463c6cfc886d14117224"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-semaphore_0.3.2_windows_386.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_windows_386.zip",
+          "shasum": "f7a6a51fc9d183294a4ec35623467eb1d69fd3f15d72bb6bfc836b3feb8f456d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-semaphore_0.3.2_windows_amd64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_windows_amd64.zip",
+          "shasum": "e8943d17c5e59177bdef1718fc38c97c6fc7fd0917b5d1b7efb24e7b1300cc8a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-semaphore_0.3.2_windows_arm64.zip",
+          "download_url": "https://github.com/semaphoreui/terraform-provider-semaphore/releases/download/v0.3.2/terraform-provider-semaphore_0.3.2_windows_arm64.zip",
+          "shasum": "0e8fd480d485c151842f80c8bfbf4a6bbcdbec7c71beffccf8690cf78986410d"
+        }
+      ]
+    },
+    {
       "version": "0.3.1",
       "protocols": [
         "6.0"
