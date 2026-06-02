@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.12.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdp_0.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_darwin_amd64.zip",
+          "shasum": "f1ef003468a7e3fad3945e4f1a5035644ebee5b79ba4a19658a0763ba0964677"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdp_0.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_darwin_arm64.zip",
+          "shasum": "a0fed2d35dd44c7de0165f2880a7213158605652aaa9ce7e310f027e3bf2aafc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cdp_0.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_freebsd_386.zip",
+          "shasum": "bf982d8dba703d6c05ab235752619f4f8e170e2e5c25439d2ec6a54e6d5555e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdp_0.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_freebsd_amd64.zip",
+          "shasum": "bf05c590a06779b7572921e8ac34c9e4ced7e4a022e8c520fc9aca157f917ae3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cdp_0.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_freebsd_arm.zip",
+          "shasum": "764ef9a5ff372271b162a46b5468cea3758a724af48e0b9307dc9cd9b709cd7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdp_0.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_freebsd_arm64.zip",
+          "shasum": "ef5edc0b0bedf588eb3f130816f53633235d117b7e1165a591131dca15d3187a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cdp_0.12.0_linux_386.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_linux_386.zip",
+          "shasum": "654c799970c94ad76e0ad18a5d770802fe4b43a3ffbfcaff564b489e57df3923"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdp_0.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_linux_amd64.zip",
+          "shasum": "badc5d69d5cb655c671580aabe72c70023c28210c94ab7cf8e4aa5ef662b7d0f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cdp_0.12.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_linux_arm.zip",
+          "shasum": "c492c1987c1baa5f51e1e85041d277332d821404313b679fe13530af69cc6d98"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdp_0.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_linux_arm64.zip",
+          "shasum": "d918f15c509a7ac358d10dd8ec489b185e7b14d5a79ca7e9bac5181928cdc4da"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cdp_0.12.0_windows_386.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_windows_386.zip",
+          "shasum": "642701ca22a12180e06785ea885a431c4828bd14727f425f7137cbb78eeb6ff2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cdp_0.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_windows_amd64.zip",
+          "shasum": "29375279b41c7c3ec96a243e840a60d9751f85b1a55647258ac7be4754e05e7c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cdp_0.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudera/terraform-provider-cdp/releases/download/v0.12.0/terraform-provider-cdp_0.12.0_windows_arm64.zip",
+          "shasum": "c26b559ff76d7c31ae19eceeafa1111a808d72b234a42fdf6f816f5fbe1ab094"
+        }
+      ]
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "6.0"
