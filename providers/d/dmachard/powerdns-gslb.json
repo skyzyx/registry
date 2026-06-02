@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_darwin_amd64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_darwin_amd64.zip",
+          "shasum": "deb4ef7efb2ec0d7d28b6e989c304f53bc732accb36551f97785d82f169e21e1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_darwin_arm64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_darwin_arm64.zip",
+          "shasum": "f3d05a97f567ffcc1c09122574d4cfa6e91067a9438cf3052fe1616f107d92c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_freebsd_386.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_freebsd_386.zip",
+          "shasum": "6d73696dac088fca30da8125b02cff71cfaa945939e303e62e3ee3b4181bdbd7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_freebsd_amd64.zip",
+          "shasum": "357905db601fc964c3e7930a23d66f3ac6e27f7c4e0e7553a60e8a2a4e03bc32"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_freebsd_arm.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_freebsd_arm.zip",
+          "shasum": "42e87634c3b2d445c03f66fcf1d3857e4406c3adfcd1dbd706af88eeef27cad5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_freebsd_arm64.zip",
+          "shasum": "bdbb117aac43acf209e76b73d8d28dd441fb3e6aea6c28edd2f198b0cc7c03c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_linux_386.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_linux_386.zip",
+          "shasum": "89d842a003f2ffc4142a73c81c61ce6472d3d9a8f0e9d520334ebbc7debacb3c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_linux_amd64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_linux_amd64.zip",
+          "shasum": "929019b4eaf1d42ebe7fc59dc1b30aff0311495a3fed59d4378eb782f8c78dcb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_linux_arm.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_linux_arm.zip",
+          "shasum": "1df94933aa4b0621d43363ca4ce28e8ca809f6842be6b312051c7bb282bbb0c4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_linux_arm64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_linux_arm64.zip",
+          "shasum": "d935a76bf7f941ffd786141014efaf1768214b32bdcd4fbd483d4934a8dd13f3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_windows_386.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_windows_386.zip",
+          "shasum": "ec7fff1181f9cdfe714c420f048aadfb3db1d6a55a694f77c17d454d11bf5131"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_windows_amd64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_windows_amd64.zip",
+          "shasum": "a8b07e3408d4aa48c52540bd2ac4ec3aab54c450c9a51fcfd608485d0bbcf394"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-powerdns-gslb_1.6.3_windows_arm64.zip",
+          "download_url": "https://github.com/dmachard/terraform-provider-powerdns-gslb/releases/download/v1.6.3/terraform-provider-powerdns-gslb_1.6.3_windows_arm64.zip",
+          "shasum": "75f7e7094f0b76217ca77fb00b8da7203e907529668cf745c290bf56194c9436"
+        }
+      ]
+    },
+    {
       "version": "1.6.2",
       "protocols": [
         "5.0"
