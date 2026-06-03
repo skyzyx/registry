@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.23.46",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-criblio_1.23.46_darwin_amd64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_darwin_amd64.zip",
+          "shasum": "6ee3e089442e62f08605da4583ad47fac37cf3c732d27409ca576567090523a9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-criblio_1.23.46_darwin_arm64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_darwin_arm64.zip",
+          "shasum": "4bed44556d637f927119654c543fec90656c6921aecd26cfce4975ad60f47f54"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-criblio_1.23.46_freebsd_386.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_freebsd_386.zip",
+          "shasum": "ae575bbd97ffb979b63a9c981fc447b713b6cd466cda8c4d47a3c013eb09516c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-criblio_1.23.46_freebsd_amd64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_freebsd_amd64.zip",
+          "shasum": "cb27eb99acc58886c85d98667ec73341ff6d337da42b898fd8246beb5a816226"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-criblio_1.23.46_freebsd_arm.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_freebsd_arm.zip",
+          "shasum": "ee56edc31b86beedc0eb52c92cd9fe02447087a07049dacaad6f4e19bf3940d5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-criblio_1.23.46_freebsd_arm64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_freebsd_arm64.zip",
+          "shasum": "37fc161fc2f88e107e5b6f7b8c141743dfbb2e50ad5b3c2de04ec1d851941cc3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-criblio_1.23.46_linux_386.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_linux_386.zip",
+          "shasum": "721bdd1e40ad84d4404dae12a63106f2607dd024fca5116b9576dc58e9fce210"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-criblio_1.23.46_linux_amd64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_linux_amd64.zip",
+          "shasum": "c1a7f43ab393591d8f48c301081ed7c7929a54d7859ba413cc2daaf665f5f8b2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-criblio_1.23.46_linux_arm.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_linux_arm.zip",
+          "shasum": "3a22f67a8c7b017beefb6cc6ebece57b01f9ed435f6c97ac0c6327acf75dde67"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-criblio_1.23.46_linux_arm64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_linux_arm64.zip",
+          "shasum": "52cc500ba785a1b3e9c7e56eedb17deb4b8fe9119a972106ac3008b0168f6402"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-criblio_1.23.46_windows_386.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_windows_386.zip",
+          "shasum": "b771ecad4068c347e75d8fb22ac5a61ce45faf3cc6c4e7f309dcbf3aa58f53f6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-criblio_1.23.46_windows_amd64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_windows_amd64.zip",
+          "shasum": "ba850037b0f510ec7a6d3ab08b839d56209b661c8633e9fea7dcb2e7566eff68"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-criblio_1.23.46_windows_arm64.zip",
+          "download_url": "https://github.com/criblio/terraform-provider-criblio/releases/download/v1.23.46/terraform-provider-criblio_1.23.46_windows_arm64.zip",
+          "shasum": "c9599257a4a66988260aaa98289b9d6767d93a144b13a93e392ebd659864cddc"
+        }
+      ]
+    },
+    {
       "version": "1.23.45",
       "protocols": [
         "6.0"
