@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.3.0-rc1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_darwin_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_darwin_amd64.zip",
+          "shasum": "96100d68912cbe2d33372d959fb303623009a74fd6b735764f924e4a54822f7a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_darwin_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_darwin_arm64.zip",
+          "shasum": "0dd3a8b576fe0f4084cdc46521cacfd4933ea3f644e07ce1e627c4092326ca7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_freebsd_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_freebsd_386.zip",
+          "shasum": "93dc4a282f17354073e8048eb7941167db19c2f7874f71981ab4bfcdf9c69f73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_freebsd_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_freebsd_amd64.zip",
+          "shasum": "18521797f52242575dc89e7bc70a5b8b5f328a1a221e10931a9a294ec9ed37e7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_freebsd_arm.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_freebsd_arm.zip",
+          "shasum": "32e6b9c4590932c2b34bbbafb44aa5e7fe442f5e6fd26385494f9d62b0ba1ef1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_freebsd_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_freebsd_arm64.zip",
+          "shasum": "aa46afacbb73936e1ecfc9139c97821f399fae3a9f77f14600d76422745587ce"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_linux_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_linux_386.zip",
+          "shasum": "4526d7ed636d5de6a31eebadfdc81ad1ff4fd555d3bede96be4a2686c4406884"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_linux_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_linux_amd64.zip",
+          "shasum": "77537dcbe10d6d4660011705f2c7857bc7f03587ce0e22855193c5a5342e77b5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_linux_arm.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_linux_arm.zip",
+          "shasum": "88047eb2819f2072541cd006088d33aedcf9c527a2aeef45d504a02f1016f57d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_linux_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_linux_arm64.zip",
+          "shasum": "f4ff4d8586ea345219b3427847df225547fa1dd8af81d0df849ea96e8d62d0d0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_windows_386.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_windows_386.zip",
+          "shasum": "ff4f4ba3698d726f2664af6238b978b1e1d708e99e72cfe1a1aa022ee02b45c4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_windows_amd64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_windows_amd64.zip",
+          "shasum": "a57f9425b7dab27fac83695c0e4b33c07e4feca9d13be11c58dde47c0e46a21c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-airbyte_1.3.0-rc1_windows_arm64.zip",
+          "download_url": "https://github.com/airbytehq/terraform-provider-airbyte/releases/download/v1.3.0-rc1/terraform-provider-airbyte_1.3.0-rc1_windows_arm64.zip",
+          "shasum": "a21993fa90f05405954ff16a2703aa618fdcc68cbb234f1dadf6897ee28b7c65"
+        }
+      ]
+    },
+    {
       "version": "1.3.0-rc.1",
       "protocols": [
         "6.0"
