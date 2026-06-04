@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.12.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-harbor_3.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_darwin_amd64.zip",
+          "shasum": "e35dffca3c5de37b843d2e22cee7f21960d6407f0bbd7cab228d31c3e4c754ea"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-harbor_3.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_darwin_arm64.zip",
+          "shasum": "4fa75a271afdf70c46951f54a2c8bc0cdbba38871c350bd556f56020a99b4e91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-harbor_3.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_freebsd_386.zip",
+          "shasum": "518415404d74536228465079713641a8f0f82125cf6aae3362423c0a28f4ef03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-harbor_3.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_freebsd_amd64.zip",
+          "shasum": "27307ff5e717fa7ee79a3895a1d3ea20149e5aae210e22f02dc07f7721fcc963"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-harbor_3.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_freebsd_arm.zip",
+          "shasum": "9b5c29161081c5bc77c0865a27e372e00b1f3189494a94b96b1de10391259441"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-harbor_3.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_freebsd_arm64.zip",
+          "shasum": "7abf042a8631cd2238940d90a7922ce553922cfd56e0410f60666ba716be7bf8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-harbor_3.12.0_linux_386.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_linux_386.zip",
+          "shasum": "ba791f439c453d01ed576ee54ea11d9a9e5c1a14e19237dd47b1b9a38bda45e8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-harbor_3.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_linux_amd64.zip",
+          "shasum": "575a68fadab9c89c38d55df0c842dc12fc36f31e4a84e542b191034426b15a85"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-harbor_3.12.0_linux_arm.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_linux_arm.zip",
+          "shasum": "f40321199bf5b389da15271a14a1280024057c8a646fffe7ec6c595eabc33495"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-harbor_3.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_linux_arm64.zip",
+          "shasum": "bc533a8b108d129dee3a43ad2dcbbc163aa5411d74ab56c0b85781d3af6e2ded"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-harbor_3.12.0_windows_386.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_windows_386.zip",
+          "shasum": "e09e7ece59e2f4cc84128fe7d4d5cbf0ef94d2f880a29ccf8bcb78bb21a95bc6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-harbor_3.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_windows_amd64.zip",
+          "shasum": "0f047f7501da15d7f73d4fc2b70792eb2cdc96d31a3eb4a5b24731907f4a7184"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-harbor_3.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/goharbor/terraform-provider-harbor/releases/download/v3.12.0/terraform-provider-harbor_3.12.0_windows_arm64.zip",
+          "shasum": "37e6a1fbfef931a5e16287f888c773ec18221f8b9cbde4ed8e09b2ce77019fd7"
+        }
+      ]
+    },
+    {
       "version": "3.11.6",
       "protocols": [
         "5.0"
