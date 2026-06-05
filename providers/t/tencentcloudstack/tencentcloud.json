@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.82.101",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_darwin_amd64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_darwin_amd64.zip",
+          "shasum": "5fac5574b4601c4478a6945d4d540d5c39cb1072693f72a4166057bca7462bf3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_darwin_arm64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_darwin_arm64.zip",
+          "shasum": "70b37d4cdc6d2ec7c51e7069c3e27801390578998ce869510a51f881299968ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tencentcloud_1.82.101_freebsd_386.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_freebsd_386.zip",
+          "shasum": "7aa94c86e8e64fe68135376ede1ec0fbf8c62321cdc216007456b4b0fc2b13fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_freebsd_amd64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_freebsd_amd64.zip",
+          "shasum": "f6641046441d850e1b5a48fdffcdeb97c8a322cbf204752b9af922492d0859b8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tencentcloud_1.82.101_freebsd_arm.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_freebsd_arm.zip",
+          "shasum": "dd66f15ea7ce4291a50c3981effa73d2fb87b8d3c79e31819ad208ea80906abb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_freebsd_arm64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_freebsd_arm64.zip",
+          "shasum": "5a8a27e3c413f60aed25abc7a510e601f10a7a6cb33ca9e84d204212c2973892"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tencentcloud_1.82.101_linux_386.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_linux_386.zip",
+          "shasum": "b0a73676b28b4d2bab15a1e58bca519c9cdedc74c14f5c7661413f47b5de206f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_linux_amd64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_linux_amd64.zip",
+          "shasum": "d116c4bc40d7e428bf894deed26bfc2999c8d4fc48ed469ca1dadda39a4eb34e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tencentcloud_1.82.101_linux_arm.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_linux_arm.zip",
+          "shasum": "7bdbec3f7ce76fe12972ad799ca7b9742bcd0c1bd321b337d703bc03e4f7cf01"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_linux_arm64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_linux_arm64.zip",
+          "shasum": "0a93db34fe6f89e8dd13df153d95356936a8f30077e6226cfb647d3b89124a71"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tencentcloud_1.82.101_windows_386.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_windows_386.zip",
+          "shasum": "c5c2b071aa86bd71b93d1658ac5bd15cb4d505ca13b788a50d9b50a734d1dcd0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_windows_amd64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_windows_amd64.zip",
+          "shasum": "8928ef029effe80e223c8766a28bd2fdf97fc369de851d1c4a2b4eaf18632d94"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-tencentcloud_1.82.101_windows_arm.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_windows_arm.zip",
+          "shasum": "aba6861caad95dee7eb0f58667d9f90ce4a4753c65a4736721e6c0639553aa96"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tencentcloud_1.82.101_windows_arm64.zip",
+          "download_url": "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.101/terraform-provider-tencentcloud_1.82.101_windows_arm64.zip",
+          "shasum": "de634846ff534ed076270d8a2867a81fe84716ee8fc02b17e618972314b0a79e"
+        }
+      ]
+    },
+    {
       "version": "1.82.100",
       "protocols": [
         "5.0"
