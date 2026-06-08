@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.15.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_darwin_amd64.zip",
+          "shasum": "9778a101e26dd6a5fa23c56e3f2e4f0f1beb3cd823554e9122eb3cee01a00a93"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_darwin_arm64.zip",
+          "shasum": "24cbe412494b04b972161abbae23426778dcdb5406e0d3f5c6c1f5a6ef118ba2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_freebsd_386.zip",
+          "shasum": "00311c005574e9a89ace2e613b3044fe32790620ed02b28a005331cdd95bf520"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_freebsd_amd64.zip",
+          "shasum": "aa493a77a6af89041e293552a87e55c02b2915dec6f3903ff2316b311dab6809"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sentry_0.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_freebsd_arm.zip",
+          "shasum": "b7d1a2d084b6a8058ee59fbfacaf42a46b52f49e75408924459ac368d9af762b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_freebsd_arm64.zip",
+          "shasum": "6bd19ad165d343bb68984ba77eed46aa6dda834a27bd118870e4e70f8b29937f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.15.0_linux_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_linux_386.zip",
+          "shasum": "f273f07bb1efc24f40d05e6d207ac9f3d43877c5b97eb96a670507788bf55ed2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_linux_amd64.zip",
+          "shasum": "89bd6d957c0de8aa98af19e2b3e78743a11e649e10df8ace620ee3b328e5f5fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sentry_0.15.0_linux_arm.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_linux_arm.zip",
+          "shasum": "d6c7a10a4c47bcd36fa5955e3b1fba343f7c99ac4e7dc06891f999060c483522"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_linux_arm64.zip",
+          "shasum": "e611431fbd50294620fdc3a3190b480cf59b88d7450cc3d1331c0ee21f846f16"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.15.0_windows_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_windows_386.zip",
+          "shasum": "ef7a0d6cf0b5f30b83f5b36c2bd0b2a1c3f42e9aa865391f79ed44e524dce37b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_windows_amd64.zip",
+          "shasum": "a3227dec4ea0a04e72d5fadbca42236e2a4c3c81126db55d35d3b07507cd7ca4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-sentry/releases/download/v0.15.0/terraform-provider-sentry_0.15.0_windows_arm64.zip",
+          "shasum": "fd027762a9fd9599be72c0504a621962ee5cc84521aa8a8c197552edc5a0bb9b"
+        }
+      ]
+    },
+    {
       "version": "0.15.0-beta3",
       "protocols": [
         "6.0"
