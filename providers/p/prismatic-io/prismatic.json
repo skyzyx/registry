@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.3.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-prismatic_0.3.1_darwin_amd64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_darwin_amd64.zip",
+          "shasum": "43a327ba97efb20c7c3eca5dc6facfcf4a18caa4bfbf7ad176ab38e8445ea2cd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-prismatic_0.3.1_darwin_arm64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_darwin_arm64.zip",
+          "shasum": "1060316b6a72f2e1718a78a8b1af44b7c2d71609b3254c4835126fb06073b94a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-prismatic_0.3.1_freebsd_386.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_freebsd_386.zip",
+          "shasum": "503b4212bdb9b8efd431984d934b5aa1e6c9c8705b6b1516bfa075f62b2c1036"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-prismatic_0.3.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_freebsd_amd64.zip",
+          "shasum": "34f060384a67dbd040cd4f5d04b237354c5ccf653efbad463d23a8f1542e890c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-prismatic_0.3.1_freebsd_arm.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_freebsd_arm.zip",
+          "shasum": "7e5375cd6e64784fe0618b0614fe711989c27d77dcdcdc7ed71f3c86aa4edb0b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-prismatic_0.3.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_freebsd_arm64.zip",
+          "shasum": "2092af24a9a655956cbd3439ed6649c0ac2c8f4ddc4b805a37b59b94369b691e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-prismatic_0.3.1_linux_386.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_linux_386.zip",
+          "shasum": "3048fc87e2093da1da8253f0cdb91d2fb2ddd17ad3c23a5248b94f86094e746e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-prismatic_0.3.1_linux_amd64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_linux_amd64.zip",
+          "shasum": "d493ed58f8321e0708f9de313ae3864c05482f2a56d750686859398673a4a125"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-prismatic_0.3.1_linux_arm.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_linux_arm.zip",
+          "shasum": "e840eb754ffc537f8c2b703cfbee6688ec729e5f354b7980e9f1b0831c31ebc8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-prismatic_0.3.1_linux_arm64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_linux_arm64.zip",
+          "shasum": "a172a27fb60bc5be2f33ac58acbbc7056b006b208c85ae9538cbfb686a15c725"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-prismatic_0.3.1_windows_386.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_windows_386.zip",
+          "shasum": "413aeb0fb61af13a336a54abd5c05b76857466cdc1489d4c5e688ddee2cc15bc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-prismatic_0.3.1_windows_amd64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_windows_amd64.zip",
+          "shasum": "2bf6c2a1601fb68bb8f8905e7ab7b2776de04602bc4dafb28311d429dbecd08f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-prismatic_0.3.1_windows_arm.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_windows_arm.zip",
+          "shasum": "316a4c4209984334677104afe374e5903720134ee287a8bfd3e0ed6d2b78a47c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-prismatic_0.3.1_windows_arm64.zip",
+          "download_url": "https://github.com/prismatic-io/terraform-provider-prismatic/releases/download/v0.3.1/terraform-provider-prismatic_0.3.1_windows_arm64.zip",
+          "shasum": "2b26fff095fae65509256032ed865e689480bc24ffa1141eca0da6f26012c404"
+        }
+      ]
+    },
+    {
       "version": "0.3.0",
       "protocols": [
         "5.0"
