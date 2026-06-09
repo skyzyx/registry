@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "0.48.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-uaa_0.48.0_darwin_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_darwin_amd64.zip",
+          "shasum": "852e5524aabb509837a790ea01e396b949752f3ac60c63b3098e2a3755ae2279"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-uaa_0.48.0_darwin_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_darwin_arm64.zip",
+          "shasum": "bbaf91dfb9e47e2be033f1ce1633ee2c5ef01159fdcfaca580c06ebfd36ef6e0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-uaa_0.48.0_freebsd_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_freebsd_386.zip",
+          "shasum": "923895c8a15d287202c80933895104cf8a107249a3863508ce371890a753abd7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uaa_0.48.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_freebsd_amd64.zip",
+          "shasum": "0e8e49f82f28a9009980fb49c3c2699ab8338ca484cd1fab080dd3e87ecd135f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-uaa_0.48.0_freebsd_arm.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_freebsd_arm.zip",
+          "shasum": "e3fc6d388b504ed6f7c2c718781479b05ba3f6daf0556ed1ace6363904ba5d5b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-uaa_0.48.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_freebsd_arm64.zip",
+          "shasum": "35151b409c77f2a41705bf949a9b2c383c612f50caf51aac00fcfe10c54f553c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-uaa_0.48.0_linux_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_linux_386.zip",
+          "shasum": "e8ccc1f43b5cfb0c09d75f1c8c0b5456022f12a08e44d3d246d4f1d344e7876b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-uaa_0.48.0_linux_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_linux_amd64.zip",
+          "shasum": "ebe2de3b23638e06e0d611c338f967e606fb01ca5a1c38720e96623306bab625"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-uaa_0.48.0_linux_arm.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_linux_arm.zip",
+          "shasum": "b0f6b07d6c0303900c8c81ebc7c54d87d0e63da3dd5401b4632b6acb8262106c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-uaa_0.48.0_linux_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_linux_arm64.zip",
+          "shasum": "c31c4158935ff5350f51183da03ab557ad9c4fe4bdb58ae534a22790aaa46c42"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-uaa_0.48.0_windows_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_windows_386.zip",
+          "shasum": "87e0100778de2896829d927b43acaea33155c3ace3c3e36d18500d9bf67b4718"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-uaa_0.48.0_windows_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_windows_amd64.zip",
+          "shasum": "02c6298d2284973694549064bba131db013312f0cc233704774ccae09b443314"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-uaa_0.48.0_windows_arm64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_windows_arm64.zip",
+          "shasum": "214fd30ca9e76f91325395024f9e1b688c61d7f3b69245d5b4c66ed1e972d3c7"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-uaa_0.48.0_openbsd_386.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_openbsd_386.zip",
+          "shasum": "6de7e79983c3f4fe291182c6ecf60c865834c18b7d7f08e1f7ea72fbd9ed3f09"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-uaa_0.48.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/orange-cloudfoundry/terraform-provider-uaa/releases/download/v0.48.0/terraform-provider-uaa_0.48.0_openbsd_amd64.zip",
+          "shasum": "bf4db9042dce137086f239af6a795cb5f584b562a86c05d908d5ee23c3c9e355"
+        }
+      ]
+    },
+    {
       "version": "0.47.0",
       "protocols": [
         "5.0"
