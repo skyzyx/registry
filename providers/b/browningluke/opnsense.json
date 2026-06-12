@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.23.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.23.1_darwin_amd64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_darwin_amd64.zip",
+          "shasum": "d408424516ca7388c760944eb589d4196d98edeb50163cf0e3d0ec4e10d6bc51"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.23.1_darwin_arm64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_darwin_arm64.zip",
+          "shasum": "fe18461e837679ec72e4f2f40e437646d680cb1fa4f9ee226e318ed1daa27274"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.23.1_freebsd_386.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_freebsd_386.zip",
+          "shasum": "6988551514a91f39396e95f9c1378ea4feedfdb4361f55feae0a62126c885793"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.23.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_freebsd_amd64.zip",
+          "shasum": "c0121656d6a41a849406ce1a789296d3eb3bba4c68af9d6c28bab8e98636f22f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.23.1_freebsd_arm.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_freebsd_arm.zip",
+          "shasum": "c733fea90b9e3dfaec124770fe6fdfe00aac2639d4025cf71c02fe65a280b93d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.23.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_freebsd_arm64.zip",
+          "shasum": "0a68693164dd592e87ab40a4cf7f178d683fe6a4c11ac627a9f153fac7a831e6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.23.1_linux_386.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_linux_386.zip",
+          "shasum": "bb30d30b2c7754a9499f70d8e197dbe8c2f2f8f5df9ee723a23d69874b22e75a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.23.1_linux_amd64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_linux_amd64.zip",
+          "shasum": "13133b73fe15b12ddc19c91a7f9e4d0f662f3bae2508d2907d6b35ececd6ee85"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opnsense_0.23.1_linux_arm.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_linux_arm.zip",
+          "shasum": "334577858b3fc985871d7ab40a533e6700fd8f3a29b164158d6af5932399b53f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.23.1_linux_arm64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_linux_arm64.zip",
+          "shasum": "3c1cbf19dcd6f285c4f3d006761c83a8cf520c9144bac89af0969356e0144902"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opnsense_0.23.1_windows_386.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_windows_386.zip",
+          "shasum": "c68ae52b7037cd33c5a912e199438af0af0483b7e972cf0918f5e03604ace2e7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opnsense_0.23.1_windows_amd64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_windows_amd64.zip",
+          "shasum": "1a3fbbaa26017f50b3fa9d6df59c471ce047ff8f0aeedac51d769a107fcde949"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opnsense_0.23.1_windows_arm64.zip",
+          "download_url": "https://github.com/browningluke/terraform-provider-opnsense/releases/download/v0.23.1/terraform-provider-opnsense_0.23.1_windows_arm64.zip",
+          "shasum": "1db5630d495da669aa619b2ce9a35df97fb9856c16a9e998517742d7da2b002a"
+        }
+      ]
+    },
+    {
       "version": "0.23.0",
       "protocols": [
         "6.0"
