@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-retool_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_darwin_amd64.zip",
+          "shasum": "b699616ac35ebf7f419ea5aa9956bcd1c01435af3568068684279d71546f1a55"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-retool_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_darwin_arm64.zip",
+          "shasum": "b66a418850d54681e5d6a79fb9276824517fc9bdbbdc47b7baa20dd7329eba9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-retool_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_freebsd_386.zip",
+          "shasum": "4195b657210ec409097126963ddff16f40f16bdf62dc5cf58e1a38248c4a51f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-retool_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_freebsd_amd64.zip",
+          "shasum": "1890aecd5338209d8d4cb75742b10e85f604b901791ca5d7019af35aee5fba19"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-retool_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_freebsd_arm.zip",
+          "shasum": "eba09159b72a6055ec2e98103cbf85e9c150a7c11ecad9c07b2ccf79d3a332dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-retool_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_freebsd_arm64.zip",
+          "shasum": "987eeea0e37e68b3650a05e1d8df3d2454b4e9516e3c57005b6fc297b096a3c1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-retool_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_linux_386.zip",
+          "shasum": "e2018fc25f004fcc6f0597d0d8c135c06012883db99eb3dd50135700cc3212b0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-retool_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_linux_amd64.zip",
+          "shasum": "7f52026d5b664d8ef604541603b30fb620f589d124a602a48d7c67fbd4dece53"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-retool_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_linux_arm.zip",
+          "shasum": "912f46689a4547d92e583749a893a5cc28863c7c833b51c8a11ace09e5182882"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-retool_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_linux_arm64.zip",
+          "shasum": "e2fb59f9a506b1c44455e44270faee3bca94c9f1d84aa50802f0257b5d6b8d00"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-retool_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_windows_386.zip",
+          "shasum": "c31e1606ecc1ed8b06a3abd92c82fee3f3e4b1ee3e46d054c042f5cf1702e1a9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-retool_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_windows_amd64.zip",
+          "shasum": "315fdcdf6a020c762d3849e664f8da51fed260b56484d9aae5e373ac21e309b1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-retool_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/tryretool/terraform-provider-retool/releases/download/v2.0.0/terraform-provider-retool_2.0.0_windows_arm64.zip",
+          "shasum": "8d9a22aee9d82e62ec69ee0c71647d32f89955da5cb465a9b934e7e91aeeda36"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "5.0"
