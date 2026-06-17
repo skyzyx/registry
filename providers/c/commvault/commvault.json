@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.2.17",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commvault_1.2.17_darwin_amd64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_darwin_amd64.zip",
+          "shasum": "aaacb948ac1095faef976d6726191fad095d193d66c30fb34463bd7de72d762d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commvault_1.2.17_darwin_arm64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_darwin_arm64.zip",
+          "shasum": "c40bd07bb271d64c20ca8720f31984cafc837c691742e1a0c1c1f11e39693156"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commvault_1.2.17_freebsd_386.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_freebsd_386.zip",
+          "shasum": "cee210b9b814cd15ab650414c4864d39b28951ebb38d5c9e92756127c54b3378"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commvault_1.2.17_freebsd_amd64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_freebsd_amd64.zip",
+          "shasum": "4bc5660ea55e9c1a18270aa7918d530d1243f5c934c1925ddda15435adb72917"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commvault_1.2.17_freebsd_arm.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_freebsd_arm.zip",
+          "shasum": "7858dfd4ac38c526cd095508a16ccce819ae8d670c00351b765fa452457f2046"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commvault_1.2.17_freebsd_arm64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_freebsd_arm64.zip",
+          "shasum": "318dbdfb379c6589bab8c83bbf24f4ece136dc77a2d84043d43ebd8adbea5180"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commvault_1.2.17_linux_386.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_linux_386.zip",
+          "shasum": "9bee329c8e41c508f286fbe44e15e6be596332cf6e6abcd499f2d58ceb29a391"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commvault_1.2.17_linux_amd64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_linux_amd64.zip",
+          "shasum": "e9c23235e5d636a7faa4829067029ad484f0c73dc0b7f5b1a08429b805eca854"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commvault_1.2.17_linux_arm.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_linux_arm.zip",
+          "shasum": "69bf2968258943e4bca109ace80d8955b461a951eb14e3de0dd0e196ecbd6e2e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commvault_1.2.17_linux_arm64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_linux_arm64.zip",
+          "shasum": "970825464a0c7af0361fd52b7735068977b97531c1c935a72d399e7708745db6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commvault_1.2.17_windows_386.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_windows_386.zip",
+          "shasum": "ad2326479bdfed1d47dbd81beff04f1cca127447e4923771356183a02d9361e9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commvault_1.2.17_windows_amd64.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_windows_amd64.zip",
+          "shasum": "871b2c82cb4b96c22d9cecfe90bc5ef58a29698631a2ae3b41281428255d4ee0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-commvault_1.2.17_windows_arm.zip",
+          "download_url": "https://github.com/commvault/terraform-provider-commvault/releases/download/v1.2.17/terraform-provider-commvault_1.2.17_windows_arm.zip",
+          "shasum": "6814502294d76f586d1b3151ea1f2a0865d0052d06ec7a26660bccd7480b27c9"
+        }
+      ]
+    },
+    {
       "version": "1.2.16",
       "protocols": [
         "5.0"
