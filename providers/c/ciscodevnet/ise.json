@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ise_0.3.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_darwin_amd64.zip",
+          "shasum": "13bb42df826787039fcd8df5bd97788bae6b655e1e365a099fc7f40a9698f012"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ise_0.3.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_darwin_arm64.zip",
+          "shasum": "5321878ed95ac9d8a4de3076f6bc6f6e47853a0b7488bbd2fa25809c69d59706"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ise_0.3.3_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_freebsd_386.zip",
+          "shasum": "f617a02c5324fd58bc7a05d5cf52181e675b9bbc2afde2f4a277ce0fc9cc0084"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ise_0.3.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_freebsd_amd64.zip",
+          "shasum": "f7ab35caf50cf715d7de238dd298ab13325b03d8812b26914c7edecc93058347"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ise_0.3.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_freebsd_arm.zip",
+          "shasum": "e4b39fdbdbf0f5b3702abb02801470039040d3176d0a48e90ceaffe4312f3b97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ise_0.3.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_freebsd_arm64.zip",
+          "shasum": "fc34ae37b59499ed85b307a0bcebba186408609acf85e1654f9228437a942bb4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ise_0.3.3_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_linux_386.zip",
+          "shasum": "c533f82a0b83f511feab1045e49077c3b23f7f6276519d71df8fee1e80e72c84"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ise_0.3.3_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_linux_amd64.zip",
+          "shasum": "6b2a65a640770aabdb098ae53acf9805926ee3fb3f035a61c481228aa3ef84e9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ise_0.3.3_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_linux_arm.zip",
+          "shasum": "e95a4e0eee8aa6662f0231c92263b6e260222e312d1d8e0cf4e2ac720c908d9a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ise_0.3.3_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_linux_arm64.zip",
+          "shasum": "b4e5904f4f662c1b8c2842d5e14e1b218ea3165b2b2d3c0a8474444c4737e691"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ise_0.3.3_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_windows_386.zip",
+          "shasum": "91641f0bafe604d55735bc9d97c630563077b3e75371b29ea6cea72a1ac4a19c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ise_0.3.3_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_windows_amd64.zip",
+          "shasum": "28c0bc6b812f1a2daea328b25473094557ad5f7f1e16d260df52d5364f2759ba"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ise_0.3.3_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ise/releases/download/v0.3.3/terraform-provider-ise_0.3.3_windows_arm64.zip",
+          "shasum": "d2055dfd2390a5c23bd6bd34b51045f398cc2461137b56733d3b324a9272c593"
+        }
+      ]
+    },
+    {
       "version": "0.3.2",
       "protocols": [
         "6.0"
