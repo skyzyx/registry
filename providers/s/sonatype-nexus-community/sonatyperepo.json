@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.10.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_darwin_amd64.zip",
+          "shasum": "fb15a508899b389e5cb50457203800a5de65cb7a8412ccf3de0bfaa109c294d8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_darwin_arm64.zip",
+          "shasum": "f6bbbacadc4d3592e6fba7e5d9322d253381979c7f9cf1374993c39c1e94b230"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_freebsd_386.zip",
+          "shasum": "b7d822bb35b7a0b389f3bc39781f21b9da94ed8c766007ab7227cb8a99a3e49d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_freebsd_amd64.zip",
+          "shasum": "0e2322243c401503fbdacf61c6697aacfc12a3f812d9aeac9cb52229f7eef1f3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_freebsd_arm.zip",
+          "shasum": "7aeb643bcbe52d409c4477a01e78e1df3dec0e266adc193c20aa73267e98a200"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_freebsd_arm64.zip",
+          "shasum": "25de618dfc54d60a6ee5a045d9903df6e5c7024920c124cca5fe7ba52ddb9115"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_linux_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_linux_386.zip",
+          "shasum": "225db236adcf0da86edca5b8b4690948da39bed08924e3b61556f7f460a95fa9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_linux_amd64.zip",
+          "shasum": "43dd987451b3bd794164678a2186f91e6e2db6e8837e29b068157e6ad083ae16"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_linux_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_linux_arm.zip",
+          "shasum": "52fb257b95f71bc25923bc700cd5256d79670e7ce1b14ca54d6350318db9e723"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_linux_arm64.zip",
+          "shasum": "c73f1d6c1470307fb1507d5a661ae612ec803375a10764aba62d9b74baba9a0b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_windows_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_windows_386.zip",
+          "shasum": "43596755496b207a08ababa18dd7494282dc424ebd1d6cc0cf952ce7a096d2e4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_windows_amd64.zip",
+          "shasum": "70cd72779e733a158c4dfd3e17332e08621ccae07636820b7a79c2289371b90c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatyperepo_1.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatyperepo/releases/download/v1.10.0/terraform-provider-sonatyperepo_1.10.0_windows_arm64.zip",
+          "shasum": "41f74a3a436509df506feb72e622ebc7f289b987b5fc5ca16df431935777a636"
+        }
+      ]
+    },
+    {
       "version": "1.9.1",
       "protocols": [
         "6.0"
