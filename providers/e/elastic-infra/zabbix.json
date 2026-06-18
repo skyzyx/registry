@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.2.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_1.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_darwin_amd64.zip",
+          "shasum": "ddc5655097e2a3e7a238611bc6ccc9ee70501eb6b267a308e2e6f04e3b4ebb5a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_1.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_darwin_arm64.zip",
+          "shasum": "0fa64902257d34e4369d78b80b77022b8922932eea5984bfa2134ca531fdd596"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zabbix_1.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_freebsd_386.zip",
+          "shasum": "0e28f45d8be6be9c0c6a814b64c9560ac2b58482988ad3730cc3966a2a2435ea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_1.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_freebsd_amd64.zip",
+          "shasum": "5240e4dec72502bb4b65fbb633b63180f7603ba7cb5fe597e8595c1ac9cf595b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zabbix_1.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_freebsd_arm.zip",
+          "shasum": "5a92747cdf75091bdf1ce3e68d9d7803fc8ace427f3b33c5777bea4fb0d91098"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_1.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_freebsd_arm64.zip",
+          "shasum": "8825e417c4942e9e2b508339495a76437fef8297a214f3b1c6134829859c8758"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zabbix_1.2.0_linux_386.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_linux_386.zip",
+          "shasum": "80f362cc9867006cb1a77e1e408609c8e41d4cf132c6f76807ed3e984b5f75cc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_1.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_linux_amd64.zip",
+          "shasum": "1b9e33bdf0823e6191627dae7d63d7fe5598666c927bba223a9a4d9816f14272"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zabbix_1.2.0_linux_arm.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_linux_arm.zip",
+          "shasum": "27c711fcfec27a44c9300765c8bea0092476d0f46e2c3575e0d5b6f0fd1d1bf1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_1.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_linux_arm64.zip",
+          "shasum": "e2e4990830cbcd162190fb3c650f913956c2d1bdf3afce0e34c0d9c356938b57"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zabbix_1.2.0_windows_386.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_windows_386.zip",
+          "shasum": "21f40ed3d5be8a32ecd0073b95ee1cc2d0db29c4144f9b67f7c9f6b7988b72ab"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zabbix_1.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_windows_amd64.zip",
+          "shasum": "ed8980bb6abc81cb976bf272000d40e5ba86035a51752442825e0e21c9be6259"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-zabbix_1.2.0_windows_arm.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_windows_arm.zip",
+          "shasum": "0230a7a9fce661559196fe3194e3b85187da746a8d60d6f74ee960c2eaf88c3c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zabbix_1.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/elastic-infra/terraform-provider-zabbix/releases/download/v1.2.0/terraform-provider-zabbix_1.2.0_windows_arm64.zip",
+          "shasum": "eebf5f3faa65c7e30001f05c123deae51bce9a6f609bd72b2a52c91e17a52eeb"
+        }
+      ]
+    },
+    {
       "version": "1.1.5",
       "protocols": [
         "5.0"
