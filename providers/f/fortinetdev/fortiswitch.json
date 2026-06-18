@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.1.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_darwin_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_darwin_amd64.zip",
+          "shasum": "e173b418b592e3cf6098b0c64115d5e3c13c34b3558b5d0a3308dc403e2a2ed0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_darwin_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_darwin_arm64.zip",
+          "shasum": "50ff8d8bc9d9a3b53df6b67f9dc1fc02183d019e5d8bc902785004fced709bdb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fortiswitch_1.1.7_freebsd_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_freebsd_386.zip",
+          "shasum": "63e14b9507d33b4e144ff698b31c7e1e441733a46c6dac9f2f903b38b1ddc63c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_freebsd_amd64.zip",
+          "shasum": "52dddf828483ab02a7ea0e635e030a548e4e653a7628b2953d5a2c2324c04d84"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiswitch_1.1.7_freebsd_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_freebsd_arm.zip",
+          "shasum": "c4512155931bb4764d1b3f866551f226c32e8cb549f72fa5ecf99649db7e6e73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_freebsd_arm64.zip",
+          "shasum": "050c9374ffd2ada4ceb93431ba0f449659b2946823469e56e8f0f2b720443e7d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fortiswitch_1.1.7_linux_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_linux_386.zip",
+          "shasum": "1f4eb486e5059e15117b8d31ba722702b93aac7bf662923f3ed1ea80a7d590bb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_linux_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_linux_amd64.zip",
+          "shasum": "0ba414fc735c78ec2c9394a4dc23449c417167fc8c740bef38e1e8b7c224c719"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiswitch_1.1.7_linux_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_linux_arm.zip",
+          "shasum": "102379308f04add78bee9b3a6a67263baa625d0bcf409791de177ee6f6d22e23"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_linux_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_linux_arm64.zip",
+          "shasum": "f44c77d2128f2093b1b7e21ba413516f86cca9840da939b40885a18338e33771"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fortiswitch_1.1.7_windows_386.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_windows_386.zip",
+          "shasum": "12fa8dd3e40de1b9485d4848278351a48654970960cac5487e8c2525f3137a13"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_windows_amd64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_windows_amd64.zip",
+          "shasum": "d6b6e935e35cc834fd3da3bb2b5a8f2390845dffacb159b5218a54c3ac51e9c6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fortiswitch_1.1.7_windows_arm.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_windows_arm.zip",
+          "shasum": "f33ac34e6bc31a520916b14bf70d08e493dd434cb6b65e48c9fc08a44926e55b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fortiswitch_1.1.7_windows_arm64.zip",
+          "download_url": "https://github.com/fortinetdev/terraform-provider-fortiswitch/releases/download/1.1.7/terraform-provider-fortiswitch_1.1.7_windows_arm64.zip",
+          "shasum": "df36c5e2f05e2b06b861ff7d2650263ac019028330bfce173837bf5182cfad8d"
+        }
+      ]
+    },
+    {
       "version": "1.1.6",
       "protocols": [
         "5.0"
