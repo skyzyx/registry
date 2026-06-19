@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.9.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_darwin_amd64.zip",
+          "shasum": "ebe903e9d181b2d393bb2b5240358787089b746aa976c59b28f533c1627fd898"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_darwin_arm64.zip",
+          "shasum": "30a03c2c6a152fd00db623d147ceb60ad1d97732f620c85beeaf20689da74a7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_freebsd_386.zip",
+          "shasum": "1fc1f372f03b2c5e91caa402fa06031c19e11ed2ac586345401a0101254f1242"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_freebsd_amd64.zip",
+          "shasum": "c0fe87d1bb582c52edd6f4d2547798541f0b1028ef09dcedcdd72e7e1ac277ed"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keyfactor_2.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_freebsd_arm.zip",
+          "shasum": "d0750fd5b8e095aeda801a97b50311afd46fcdb9dd98899a0fddd59efe956220"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_freebsd_arm64.zip",
+          "shasum": "d455107128a9f9651d8ab8103759194d118cef7f484c4ee788da462cd686f3b1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.9.0_linux_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_linux_386.zip",
+          "shasum": "eb9505095118310e076fe1a381366dc4db150b9192eb4caa4482aae35f321595"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_linux_amd64.zip",
+          "shasum": "e4800b95c6d549e9e76fa724d9fc3e00dc030855c70ac406742787e0ab4971ed"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keyfactor_2.9.0_linux_arm.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_linux_arm.zip",
+          "shasum": "a983ee36a1c0308a34cac7d7870bc058f6d8bd7383177c93cc603126843d1d7f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_linux_arm64.zip",
+          "shasum": "900912070c21cbb0f455bf1f8df79354ea791eb48a29d6535fc565423f7c6182"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.9.0_windows_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_windows_386.zip",
+          "shasum": "e5f52508d5113f34c8e915463bb8ce0348d28bdb6baaf63df1c78debf6915085"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_windows_amd64.zip",
+          "shasum": "6c22b53419e74775d420a662eb779884ccf48325044a9efd5c8305576a6672c3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.9.0/terraform-provider-keyfactor_2.9.0_windows_arm64.zip",
+          "shasum": "f692073932518dd849728c24b89e6b1b94c534e7cf1fb79760d4273c4271e1a0"
+        }
+      ]
+    },
+    {
       "version": "2.9.0-rc.0",
       "protocols": [
         "6.0"
