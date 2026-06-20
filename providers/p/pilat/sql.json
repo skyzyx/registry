@@ -1,6 +1,208 @@
 {
   "versions": [
     {
+      "version": "0.0.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.10_darwin_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_darwin_amd64.zip",
+          "shasum": "6dfd079cf079d5b2c85333cdf4fc103aa7490e9993c717b460cb87818eb0f5a7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.10_darwin_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_darwin_arm64.zip",
+          "shasum": "ca1370f629af53a3229f8440ed9df7945b7f28e15d7097b77a68c5fa3eb74201"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.10_freebsd_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_freebsd_386.zip",
+          "shasum": "e17c86bd819b9d4b59d847b165094e2f4410642c2694de0500512df1cf84ba37"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_freebsd_amd64.zip",
+          "shasum": "c90456c7425efa8018dda576b1c13ca2f0b302e33b9eb89052e1c221b30ac239"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sql_0.0.10_freebsd_arm.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_freebsd_arm.zip",
+          "shasum": "43a0d3ed9a7719edeed979fd4227bf3882618cb79c7ba45021f00a72c0a24901"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_freebsd_arm64.zip",
+          "shasum": "46a4fa55ff9b45c0c974c3d77e1fb5954bd1c88b28bcd7bba7064a48e0618c5c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.10_linux_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_linux_386.zip",
+          "shasum": "0ff11ddd9cfd16c4924b042d16089a9bbd6a0ad83447c9384a673e83b3feca0c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.10_linux_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_linux_amd64.zip",
+          "shasum": "3a89f76403ec67c735f1f9e438325c16a4736362821a5631bc8658820b59cc95"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sql_0.0.10_linux_arm.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_linux_arm.zip",
+          "shasum": "90c8667c82cf0899da05669589e19d32765af5c12daff1875c3a9d75ff7a36df"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.10_linux_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_linux_arm64.zip",
+          "shasum": "fd3d9d37b938357785a3ae3c38f0483316ddb5c238333319821dcdabaf0f56e6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.10_windows_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_windows_386.zip",
+          "shasum": "699cdf813d04d06798e1b789e2e05ac518697184745d5e14233c62ca3eb6a05e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.10_windows_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_windows_amd64.zip",
+          "shasum": "5195b4df3a9bd21ba5d74e18589000c8b02a129e2162a6db1ed5db89287ebc76"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.10_windows_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.10/terraform-provider-sql_0.0.10_windows_arm64.zip",
+          "shasum": "d0b1d9f02662ad379dd67f05f31b66172fb21ad641b8fe4c6bf858623ef9294f"
+        }
+      ]
+    },
+    {
+      "version": "0.0.9",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.9_darwin_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_darwin_amd64.zip",
+          "shasum": "f7749c176cb868d7944e5acbac8c703310c9e25156f3daad77184102a9a6143e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.9_darwin_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_darwin_arm64.zip",
+          "shasum": "eedad757e3ee8b102e07c2b20ac7dc07857e76a43673ae67e7e3e00a664fd366"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.9_freebsd_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_freebsd_386.zip",
+          "shasum": "29486765b647ef473062bc31696a26e70a5bada35af930bb3f2ff5d988f78678"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_freebsd_amd64.zip",
+          "shasum": "b7def9c11c8d4eacc4d490238317677484049235ac2d3cda1e5a3bd28c4f196c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sql_0.0.9_freebsd_arm.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_freebsd_arm.zip",
+          "shasum": "a5c7630e1a587d3f5db69b2d6120380191586f47db524493c92bc94dca42116f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_freebsd_arm64.zip",
+          "shasum": "e784f1309523a4be2a2eb93ef5e5278403d15d787e46dd7d294191196befe434"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.9_linux_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_linux_386.zip",
+          "shasum": "d6656f991703e49e283c2c2ed676a4a671e6e030198b74e067ffe6148a49a8bd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.9_linux_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_linux_amd64.zip",
+          "shasum": "47a7a886abbb4123e31b3b1108f30ad3bed6fb44135168acb44dc68db12fd67d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sql_0.0.9_linux_arm.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_linux_arm.zip",
+          "shasum": "5013807027e2df92fc557d1af301bb41203301dfc9dcf19f09919e3768d2aaf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.9_linux_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_linux_arm64.zip",
+          "shasum": "3222acded2d417d1c9ce41f17df29f29e37b67ff8a56866fc31e40612b518366"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sql_0.0.9_windows_386.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_windows_386.zip",
+          "shasum": "ee28d7e75713cb4e26ab6da3a22636394dfd15a788e492ef605d84e35996cca4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sql_0.0.9_windows_amd64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_windows_amd64.zip",
+          "shasum": "9dbf808bb96c5571df3d0d9027b47722da4638729f5e46d88aae2fca2a971bd7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sql_0.0.9_windows_arm64.zip",
+          "download_url": "https://github.com/pilat/terraform-provider-sql/releases/download/v0.0.9/terraform-provider-sql_0.0.9_windows_arm64.zip",
+          "shasum": "4afcd4a9c2d5dc3c0d0859c57cdd593fc58031676f77a6594687a382807ce442"
+        }
+      ]
+    },
+    {
       "version": "0.0.8",
       "protocols": [
         "5.0"
