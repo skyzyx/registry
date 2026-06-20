@@ -1,6 +1,208 @@
 {
   "versions": [
     {
+      "version": "1.1.10",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.10_darwin_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_darwin_amd64.zip",
+          "shasum": "d220383c27094339764dcae5524e2a5c24dced1e941617208aef5f8308e49ce0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.10_darwin_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_darwin_arm64.zip",
+          "shasum": "aa648a443ae6093555df5bccb36f306eb8588b9f33d0d68aa62a8463a52b7ad7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.10_freebsd_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_freebsd_386.zip",
+          "shasum": "ede47d4b9e9095ed86d98509b192427871608d915e4f5f163ce2d849bf5197c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_freebsd_amd64.zip",
+          "shasum": "5b2eff0024be44fee18d0c3365e08e42f8771007c617dc4246de7924b68c3022"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-n8n_1.1.10_freebsd_arm.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_freebsd_arm.zip",
+          "shasum": "60289282939503fb8386ec9114d8e34c12536c38ecf6fa7a610c483077c7a7e5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_freebsd_arm64.zip",
+          "shasum": "67acd77f88855c697f055ccba6bc29a99e7bb06ac707ee64e9d5d072c272134a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.10_linux_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_linux_386.zip",
+          "shasum": "2f17a787a6285fefbf0547239225d0ee36769457e120928ddb6c11b19b9088d4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.10_linux_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_linux_amd64.zip",
+          "shasum": "e7cf5c13a6e7b53863f0047121cf20692cde29b28421385742f5570fa20bfc99"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-n8n_1.1.10_linux_arm.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_linux_arm.zip",
+          "shasum": "7cbdeacd7c185e9d0cd3d9cf51bd5c1da669bd7448b0628374d88c30be7b8ba1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.10_linux_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_linux_arm64.zip",
+          "shasum": "e77dffdaed2ace9256dd84e0fe9dbad59f596ece59498ad351839d525e26f318"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.10_windows_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_windows_386.zip",
+          "shasum": "e4193c9c98aec599699357500511e60ecba54038194abe52c6e49d1a1309980c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.10_windows_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_windows_amd64.zip",
+          "shasum": "8b805cc7a52f7872694e689e36a02b1834f91646ba02d114eaf0e78baadcfc94"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.10_windows_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.10/terraform-provider-n8n_1.1.10_windows_arm64.zip",
+          "shasum": "a514e9fff2f825d3f127cae9d0b839abe62c60b2afe2d1d1135dd57042adbddb"
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_darwin_amd64.zip",
+          "shasum": "7e7ee23440fe11b5c18539a7ca1a7ec66570a9cd1d56a00fbffbd90a7dc21dcc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_darwin_arm64.zip",
+          "shasum": "1af8c391e8cac9b2d71c0ce19759ed216590dfad4f431926ed45678c882528c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_freebsd_386.zip",
+          "shasum": "6289cc116500f96d2f73967ad0fa215d0ebe4198fc929d16330b5ad5ecf4f6ba"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_freebsd_amd64.zip",
+          "shasum": "11dc1633fce233ae1703839bdd825d726dded3209ef5f18a71071d981a964ab3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-n8n_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_freebsd_arm.zip",
+          "shasum": "5456f111f372e56043aa04aa3cb15831c0d35b8ab1887ed1fdac86c350b8ed3a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_freebsd_arm64.zip",
+          "shasum": "e766f8b06d4b85590995268193f2d990e025e58a4282ae296c9990946e160d71"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_linux_386.zip",
+          "shasum": "5b6575f8ff5503f441d687bbcd2fe8314c6880cbc26f13c332b166382e1b4452"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_linux_amd64.zip",
+          "shasum": "d6485ba5566e32a87e4510eb11f5b5bb45abcd28b7500f85e49735345979c412"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-n8n_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_linux_arm.zip",
+          "shasum": "07894287939145ae3847b1613b3667976239a0e025aab512cee11859f72a260e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_linux_arm64.zip",
+          "shasum": "4f363af87193da220ed53eb9c7f89af1f1150eb1626487458c9a7431ce62a836"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-n8n_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_windows_386.zip",
+          "shasum": "ac7bf1b370c2b16285868f6b541df2844a0ba670aead39691cb72cf0e3ed5675"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-n8n_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_windows_amd64.zip",
+          "shasum": "5b7c287e034cc45f3ca59ab12fdb74677467feda900a056c0f60ad080af68d77"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-n8n_1.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/pinotelio/terraform-provider-n8n/releases/download/v1.1.0/terraform-provider-n8n_1.1.0_windows_arm64.zip",
+          "shasum": "1b3f24af77dcf7e0a472aa2a2d95a3d9eb3b2fdfe02203cdc6408be62f2f86f4"
+        }
+      ]
+    },
+    {
       "version": "0.1.2",
       "protocols": [
         "6.0"
