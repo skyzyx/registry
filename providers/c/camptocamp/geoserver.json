@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.0.26",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-geoserver_0.0.26_darwin_amd64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_darwin_amd64.zip",
+          "shasum": "076ebbb04e8557ef89b476b9b889c7c66d766548900b1dcd89b09f06045b660f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-geoserver_0.0.26_darwin_arm64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_darwin_arm64.zip",
+          "shasum": "f738b1ff259845f2736a7399050cf3981b6e6b284e24669b8011f0f002ddabc2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-geoserver_0.0.26_freebsd_386.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_freebsd_386.zip",
+          "shasum": "5865c14c3995c5c0eba5a43d43bb15ac04bc35bfee1a4e0ac58dec65ede13b11"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-geoserver_0.0.26_freebsd_amd64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_freebsd_amd64.zip",
+          "shasum": "4cb1c3f9dbaa4f52462dab9b79ae74447d097307e73469184b054d5f90a5e8d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-geoserver_0.0.26_freebsd_arm.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_freebsd_arm.zip",
+          "shasum": "64262ad90371980943bce880b9b68ed7d55524de6d9135cec64e51f794a0c14f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-geoserver_0.0.26_freebsd_arm64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_freebsd_arm64.zip",
+          "shasum": "4214153f192792261a93c6a8b8d39cad23e8870c3a7931fa7562f9a1a844215e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-geoserver_0.0.26_linux_386.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_linux_386.zip",
+          "shasum": "99d87671f1d49a19ebba516a620cac2c75803fd6c4172565a79696a2a45364a8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-geoserver_0.0.26_linux_amd64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_linux_amd64.zip",
+          "shasum": "dde1ccfda178deaaad1888976a10e1ad5c1d271bcbf2d2279833212e4730b0ab"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-geoserver_0.0.26_linux_arm.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_linux_arm.zip",
+          "shasum": "998b291ad5a1d419016278c3810575f5911f15bccd6f49dfb4b88aae36ed927d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-geoserver_0.0.26_linux_arm64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_linux_arm64.zip",
+          "shasum": "23b82f6c8d7dc409d85253d31d067808092abeaf230ff0d7add7491751bfa3c8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-geoserver_0.0.26_windows_386.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_windows_386.zip",
+          "shasum": "03386c1e5c022f0455bc45a9c6314c26728aa88376e72d897ab0379b6703f581"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-geoserver_0.0.26_windows_amd64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_windows_amd64.zip",
+          "shasum": "3b9262db1a984db59cc06675166c172a0cac2aae1dddc36b980f8ae9948bf47d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-geoserver_0.0.26_windows_arm.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_windows_arm.zip",
+          "shasum": "cceef21eb64353f52f4d092e8d96518973348377bab37237bd5238295c1a5b38"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-geoserver_0.0.26_windows_arm64.zip",
+          "download_url": "https://github.com/camptocamp/terraform-provider-geoserver/releases/download/0.0.26/terraform-provider-geoserver_0.0.26_windows_arm64.zip",
+          "shasum": "b343e69dd396779effdbd45f59c887f1b86a0faaa012a469edb16987b71bbdc2"
+        }
+      ]
+    },
+    {
       "version": "0.0.25",
       "protocols": [
         "5.0"
