@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.2.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zitadel_3.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_darwin_amd64.zip",
+          "shasum": "9aadece9efc1acea3c22ef755c7287e225bb275b277c5b8533816d38f9b6e90e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zitadel_3.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_darwin_arm64.zip",
+          "shasum": "a4b15e5e3ce57702dc09bfa77b72229177497828d27ea964621633db553462d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zitadel_3.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_freebsd_386.zip",
+          "shasum": "6378cad59fcc72121f7cdfe730616e1b8ed8c6ce18f104cbf10d13284869a3f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zitadel_3.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_freebsd_amd64.zip",
+          "shasum": "005d6759bb04e1941ba49a814cfd636763cb60ef19ecd2ba53f387c2817b59b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zitadel_3.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_freebsd_arm.zip",
+          "shasum": "f27e685ea58316248bcee00952e064b11a2146f26ccdf5cbd0c17da3252bd9c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zitadel_3.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_freebsd_arm64.zip",
+          "shasum": "9f0773e84c62a8830b82091df65f8f5cb1d76ce5053f7b85aaaec43c2fd220f7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zitadel_3.2.2_linux_386.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_linux_386.zip",
+          "shasum": "50e27cc40b735145fff2f5bc6aa6dae04e209b832dc532c797e1fced4eba4406"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zitadel_3.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_linux_amd64.zip",
+          "shasum": "85824f3ae3a8644cd03eb9e3432ac0ac2db2818d3a513e07d247892020fecca5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zitadel_3.2.2_linux_arm.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_linux_arm.zip",
+          "shasum": "9b592f467269a1bc5badbd0550c6561a8a2d3f9042df3de98885945497be9f26"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zitadel_3.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_linux_arm64.zip",
+          "shasum": "ec15d25ba82ebb125043ca5328f955fbf408ca72683147a88985eeab8b1d70bc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zitadel_3.2.2_windows_386.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_windows_386.zip",
+          "shasum": "30772629f03c049b26f2dff50c7fd5a7f635a764ceb473d9c25f87a1a00a5d90"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zitadel_3.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_windows_amd64.zip",
+          "shasum": "c76a7a4848ba55dbdfa3b14a3e8a34cf0504b06e268eeb60b0631252e7fb78b2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zitadel_3.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/zitadel/terraform-provider-zitadel/releases/download/v3.2.2/terraform-provider-zitadel_3.2.2_windows_arm64.zip",
+          "shasum": "b9748e47a885ed47df33e1288fe1717801503cda02d43cb1cb0f1da6eb36cad9"
+        }
+      ]
+    },
+    {
       "version": "3.2.1",
       "protocols": [
         "6.0"
