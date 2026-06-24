@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0-beta.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_darwin_amd64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_darwin_amd64.zip",
+          "shasum": "c1c376278550a4c5d0c613234744a114a190578b1018f1cbd0c1b48b99ac5bd5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_darwin_arm64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_darwin_arm64.zip",
+          "shasum": "39ec1f3a0322e2d51c5203ddab81f5ee7bbd21791f049641048490b4dc6ca491"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_freebsd_386.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_freebsd_386.zip",
+          "shasum": "3898ab1772afa1b85d6230b2d5ecdb43acd60d281560ef2d8ed9af3ea066cdcb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_freebsd_amd64.zip",
+          "shasum": "d1145beb63270cb2748f5a2eba6b25c88ab38dc770a3c846961dfa42162472b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_freebsd_arm.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_freebsd_arm.zip",
+          "shasum": "775d3f28711a7080172d6186b7ad8c6a0548fd45c7a87f69953a2a8ea1efa623"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_freebsd_arm64.zip",
+          "shasum": "560c33a4bfad08432e712f72b3830aa6669b4b9cca7f8073bf9de21969494bf4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_linux_386.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_linux_386.zip",
+          "shasum": "01dc7442c4fd4598df0d1593ff4ecc9122902d2c1ddc7809b708e7c78885141b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_linux_amd64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_linux_amd64.zip",
+          "shasum": "c32984878a988b7aebf592ce1411c33105e47fa682e4eb2fb52d7ac8068bc282"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_linux_arm.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_linux_arm.zip",
+          "shasum": "4dd167be80dac2b925b6688fddcc19188a2b1bd7e9e41c253592a6d821418392"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_linux_arm64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_linux_arm64.zip",
+          "shasum": "b03c35e9c6f1a171b1c58c491b84994c7b99c25e62152ebf410d71aa474ede16"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_windows_386.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_windows_386.zip",
+          "shasum": "a9088e654b9c3e982eb3345721b4e9718dc893372f8a33c4e51e826ea8dfaa46"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_windows_amd64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_windows_amd64.zip",
+          "shasum": "de10e48a1cb27dbda35b9f2c8ae67ad1d6e572c61439f1f02c6e45b7d75aefe0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-taikun_2.0.0-beta.1_windows_arm64.zip",
+          "download_url": "https://github.com/itera-io/terraform-provider-taikun/releases/download/v2.0.0-beta.1/terraform-provider-taikun_2.0.0-beta.1_windows_arm64.zip",
+          "shasum": "6b58c929646ae97f60ff76914cfb94c1b940c3a703ccad5504978f674f949edf"
+        }
+      ]
+    },
+    {
       "version": "2.0.0-alpha.2",
       "protocols": [
         "5.0"
