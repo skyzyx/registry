@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "7.38.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_darwin_amd64.zip",
+          "shasum": "2db5a32a2b2d3251e89eb5ef859eb2dc090bcb677e10cb3d71c6e10728699443"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-google_7.38.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_darwin_arm64.zip",
+          "shasum": "413f9006b07e9bdb9cda7f750b6b5afb31ee4ee59f6f1a207fdfb9e7fb7df7b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-google_7.38.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_freebsd_386.zip",
+          "shasum": "8130fdd8b4ad2d001d40ebb9c61eefaf55fd7ad9319fe210e36f92cb3d5a60c1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_freebsd_amd64.zip",
+          "shasum": "969b3b01c8f389339cb2b14ce6537813ebd766fe17d9fabfadc926943b99ec44"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-google_7.38.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_freebsd_arm.zip",
+          "shasum": "a18591ca98396b29a722b3be85330ed886d40894039b79731d5c167cc2054ca7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-google_7.38.0_linux_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_linux_386.zip",
+          "shasum": "e1395f8746a0e783f589d3dc53c90a33cef4ed2c6a317f7566d95f3119e04f6b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_linux_amd64.zip",
+          "shasum": "16038c8dab073892c60cf655c0ed3ae4b60dd904e11736cbd8fb8da4b5d94e8f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-google_7.38.0_linux_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_linux_arm.zip",
+          "shasum": "f79b03f20a468dbc2262269d2ab5d73b53a8a075b2614503b9489ef2edf09a6f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-google_7.38.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_linux_arm64.zip",
+          "shasum": "adeafc772c4e291b8fb97c75b30fa7dbe57bb8a2c6acd60eaee2bb9f57860d62"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-google_7.38.0_windows_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_windows_386.zip",
+          "shasum": "8a24dd6bcfcad61c0362bb41f6b97d3dd37d4e567e5db5fc24b54c03ff54fe0c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_windows_amd64.zip",
+          "shasum": "6fad60881c98d4cfc8a48dd2336d239627660f72c3720ff7b7573bbe746fe559"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-google_7.38.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_windows_arm64.zip",
+          "shasum": "57a6345713d15b2098b1ca99f3a4ef1bece15e63374ecc1275271994d034397d"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-google_7.38.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_openbsd_386.zip",
+          "shasum": "cac01c2de2745644d80ef13e235cfb7bad89de624f6fc4327b6aa40d0ad54b76"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_openbsd_amd64.zip",
+          "shasum": "ce30a8412647f4845ab3ce6f606bbbfcf1dff36f52f47e8c1be173227dfc13bb"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-google_7.38.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-google/releases/download/v7.38.0/terraform-provider-google_7.38.0_solaris_amd64.zip",
+          "shasum": "3a2f003f114c6de7748b876efd50f4684379323898b1e67f33bf238ac0e95930"
+        }
+      ]
+    },
+    {
       "version": "7.37.0",
       "protocols": [
         "5.0"
