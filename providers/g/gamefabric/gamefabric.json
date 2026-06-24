@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gamefabric_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_darwin_amd64.zip",
+          "shasum": "76d8ba9d56b74292c94d3439baa3f9b90ea1e3a366687b57900cfb28280427ef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gamefabric_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_darwin_arm64.zip",
+          "shasum": "3f50b356521229e5a3319922f63779544f9dba1e2dae0036552280447f17870c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gamefabric_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_freebsd_386.zip",
+          "shasum": "9cff62c4bd89ec6fd4c0bb91347bd89f878aa1690b1cf1727f7475a50ba0c1ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gamefabric_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_freebsd_amd64.zip",
+          "shasum": "8aeee99216bb00c8569cd8a0ed0b5013e33ac692d7f0cf9ba2269a746b16a1b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gamefabric_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_freebsd_arm.zip",
+          "shasum": "b3625e6c0434f5909baf1b98f594aa9933b6b706392fbc5deac7d2346e9470c4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gamefabric_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_freebsd_arm64.zip",
+          "shasum": "0ffd45ab813ed3667b25736c50ba5d7f73b0e0e7a61364d5b095e6b69dbe831a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gamefabric_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_linux_386.zip",
+          "shasum": "85ef130579b04be5973727a2dde5b49b83943449815d3035d5ed5b794689f992"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gamefabric_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_linux_amd64.zip",
+          "shasum": "2d602fd6db595798d797bad9cb1cdceeea7e11b195fd6bd526b99f5e94e6b8da"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gamefabric_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_linux_arm.zip",
+          "shasum": "7f482301086641d6e30d72425cd40c7f592eecbbbf3a555186b8391c6dbbd763"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gamefabric_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_linux_arm64.zip",
+          "shasum": "3449333c743945f8949cd98c9d25a43c3af113ae1a1eed3e39fb1f011c8aa816"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gamefabric_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_windows_386.zip",
+          "shasum": "799ba9f32da6810ba0c9f67202cedd02a81dabb67066bb8fcb78eaad0d6e7719"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gamefabric_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_windows_amd64.zip",
+          "shasum": "83699e69ab7126067737e8a0c94246e8e4519d0d69689675b1ea531a5ace9415"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gamefabric_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/gamefabric/terraform-provider-gamefabric/releases/download/v1.3.0/terraform-provider-gamefabric_1.3.0_windows_arm64.zip",
+          "shasum": "a3311c069d0ab722eb3da461b761e14098a7bc21e8552178f4e68b10b7ce6a40"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
