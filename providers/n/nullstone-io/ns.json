@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.11.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ns_0.11.1_darwin_amd64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_darwin_amd64.zip",
+          "shasum": "b3541c9fee4b362f30ba50cc1daf74d910fae1942e71252f306711ec22d33415"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ns_0.11.1_darwin_arm64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_darwin_arm64.zip",
+          "shasum": "50e49ef17f8edc2c65a434a46994326740a1975ebf28aeea0964cd2dcfbaeed8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ns_0.11.1_freebsd_386.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_freebsd_386.zip",
+          "shasum": "bf68295cbb945321453f51537f0ed1dbeedeb274e600672d53f6f43f953b51b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ns_0.11.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_freebsd_amd64.zip",
+          "shasum": "56c1d3ad611599e1946992bc78f7172f4f5774b38e08c9f3384988cfc844374a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ns_0.11.1_freebsd_arm.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_freebsd_arm.zip",
+          "shasum": "ad17d9f33d1f69c025de5b803a85fe0d937113d4cac22c74fb814a862e3fb750"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ns_0.11.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_freebsd_arm64.zip",
+          "shasum": "d577d8aed3d4389231a21fa3fbca2433a98930f05e54c82ff030279e9871090f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ns_0.11.1_linux_386.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_linux_386.zip",
+          "shasum": "a666ee46523be51cb9445d0fece4441776bbcb7c161cfa374a6195448ed005d8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ns_0.11.1_linux_amd64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_linux_amd64.zip",
+          "shasum": "ce56a788e0cd05cfb094e9834b64bbf51fb570d2626b19e60540b8d56842db70"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ns_0.11.1_linux_arm.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_linux_arm.zip",
+          "shasum": "95f5581d67edbf0923332eaa95805a8388bd48b34d8f8a714c66985b7dc66449"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ns_0.11.1_linux_arm64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_linux_arm64.zip",
+          "shasum": "7fe50367ad319f9e5b07aa925cfa337f98c079d119a48e87f6df2c9772297a68"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ns_0.11.1_windows_386.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_windows_386.zip",
+          "shasum": "2e7aa2baf793e68155ce2e3d1bf17f2fcbb1d33b0986edf8ac37f35c09e0b217"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ns_0.11.1_windows_amd64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_windows_amd64.zip",
+          "shasum": "ede865f1859ffe2788bc0f15ec45de337fece8247e752a0e817a0ad5c85b8031"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ns_0.11.1_windows_arm64.zip",
+          "download_url": "https://github.com/nullstone-io/terraform-provider-ns/releases/download/v0.11.1/terraform-provider-ns_0.11.1_windows_arm64.zip",
+          "shasum": "8947b5f6360b414f3f9f4dc56d2efe6bea981b24ae8c0d76a7b3191d47512897"
+        }
+      ]
+    },
+    {
       "version": "0.11.0",
       "protocols": [
         "5.0"
