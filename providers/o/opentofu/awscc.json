@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "1.90.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_darwin_amd64.zip",
+          "shasum": "c12bce8fdd0db7758712968f69977470c69f1fba0a47e6070a54f34a37c9a620"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awscc_1.90.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_darwin_arm64.zip",
+          "shasum": "42ea1d7500c066e21b46cbdc6a23bd3f8d45a41d9783719d5bade08e06410060"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-awscc_1.90.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_freebsd_386.zip",
+          "shasum": "f38e4eb9ac3ae066fd391fa4392f1ba65aa81afec4d6a16d04f67c8ce99ef7d4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_freebsd_amd64.zip",
+          "shasum": "3a00a0324f1f3fa99c5f90deef87e3456160bb9b4cd0fcda4305664d464fa6fe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-awscc_1.90.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_freebsd_arm.zip",
+          "shasum": "deb3aff1311e6396ff29c64b2fe2d0185a68574042a2798b67f455ba659e5918"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-awscc_1.90.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_linux_386.zip",
+          "shasum": "90b037a6a40253c77dd4c120088a88c3bd23272b27fa2710ca84894b4f3b061b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_linux_amd64.zip",
+          "shasum": "e65af890a34c2bc41cb76b1ca2b33b06a1a1467dfd97889f69e92b3594e653e8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awscc_1.90.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_linux_arm.zip",
+          "shasum": "00fcfe7e7f145a1a4fb534d356f835967a877c07c266bf241fbbf5075ff73320"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awscc_1.90.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_linux_arm64.zip",
+          "shasum": "52cf5de0e6a812a0eea4f656e867623ddb543a3cb10f54d714d28a2546ca3f30"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-awscc_1.90.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_windows_386.zip",
+          "shasum": "03ab082ab05a8c5b9070d516a2c570cc7fcf871086536bb9c52fed2192d2adba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_windows_amd64.zip",
+          "shasum": "49ab0ca03b3affc729411a6175095b796d9a130b0d003fe3df367f0393232efe"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-awscc_1.90.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_windows_arm64.zip",
+          "shasum": "84c1f5a59b13112a2f0301c3da99b8f939fe552f5a0d4d999b5cee6e14a7fed2"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-awscc_1.90.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_openbsd_386.zip",
+          "shasum": "c34c812c89d99d87f75764aa23f104310497c4beff7041f56fe0b74afd06d9a7"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_openbsd_amd64.zip",
+          "shasum": "e5056fade2d60fda589c6161cc662c61ef769d065d81ff2bebcdc721b8080d63"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-awscc_1.90.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-awscc/releases/download/v1.90.0/terraform-provider-awscc_1.90.0_solaris_amd64.zip",
+          "shasum": "27fae3ec24c64384e10b8d5d68ff639e4a7eb609eca8d8fad2f566252b18a8a4"
+        }
+      ]
+    },
+    {
       "version": "1.89.0",
       "protocols": [
         "5.0"
