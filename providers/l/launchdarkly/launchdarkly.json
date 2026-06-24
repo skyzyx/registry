@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.0.0-beta.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_darwin_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_darwin_amd64.zip",
+          "shasum": "5cb22532e137f2945519c01c52a33549c38d34bb35086f8b72b86cadf77e96ad"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_darwin_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_darwin_arm64.zip",
+          "shasum": "bc1b4e7f96ce5d7858fc196e5b52d6aa6ebb98b1ece43a30678e1996ae3eda9e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_386.zip",
+          "shasum": "5a24604b410f84b4017a51a66201f9c177e570df18c804b3a688f64bb20232e3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_amd64.zip",
+          "shasum": "bd96f434e1bf2d9db98f93d660654f0d0f44014e732dc741373740ffe4f54d93"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_arm.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_arm.zip",
+          "shasum": "bacf5e74c99c0a0cada751bfdd50adf713dc5611f5bc3092fbaee14c9128653b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_freebsd_arm64.zip",
+          "shasum": "c5181559143fbd6a7870861e7c1c5e12e3942895db828df3e2d3f73eba08a99a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_linux_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_linux_386.zip",
+          "shasum": "30f118f8a0768166083956ab5537b4e9ec80172ea8cdb5984591b40b6c900e36"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_linux_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_linux_amd64.zip",
+          "shasum": "26cdf8848f8dc8d0bb22cfa645d437702034f03efee97a58dc0a2f66374acab7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_linux_arm.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_linux_arm.zip",
+          "shasum": "e3cc97da3402a8ef496a81b8ab478980097d333e4ed79d2040d13270f58211a7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_linux_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_linux_arm64.zip",
+          "shasum": "a8d2e16aa1f38132c1167194f4b5eb0da5b3b8ba8eede2834589826e173e7640"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_windows_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_windows_386.zip",
+          "shasum": "8418a09dba05dfd23874e998e7cc79d3895aba7cbdeed3277ada7b6ff94fe832"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_windows_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_windows_amd64.zip",
+          "shasum": "6578c59f7e5ef8a587d7a447491f9ba496e10a9276e793447a6fdd0e852be0fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0-beta.3_windows_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0-beta.3/terraform-provider-launchdarkly_3.0.0-beta.3_windows_arm64.zip",
+          "shasum": "5f1a7e662d8160acdba77a93867a0616bc64f6126108a4193d6c2622669f2098"
+        }
+      ]
+    },
+    {
       "version": "3.0.0-beta.2",
       "protocols": [
         "5.0"
