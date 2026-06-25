@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_darwin_amd64.zip",
+          "shasum": "6918f7b3db4d76d657b4ba22dc9ea8452dd8039402d8705911157457de8b9a17"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_darwin_arm64.zip",
+          "shasum": "5c3c430d6d877a7bbed2a83822420a1e6f7ade209a38254efad4228e1cfdda8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-logicmonitor_2.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_freebsd_386.zip",
+          "shasum": "480e3d003a1778a333bb81a5f366eca8c2a26575c9d327cc1606f54bfde64f06"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_freebsd_amd64.zip",
+          "shasum": "4eac32c8eded3b786ba09eece953d7af6a6b22372428ed914006564e58d96c77"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-logicmonitor_2.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_freebsd_arm.zip",
+          "shasum": "8d1b15250f7f7efbcc544a1319c6684e13a1868cb85d6c62b13204de400f0d48"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_freebsd_arm64.zip",
+          "shasum": "2fb52ea54d1a4ad516d874ae40c34e85ec88355e38000260e7b546d1544ca22e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-logicmonitor_2.1.0_linux_386.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_linux_386.zip",
+          "shasum": "2db9ea5e409431ba2ce0fb8ef36a1dbd63f9a7731428ade77669263c819afebd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_linux_amd64.zip",
+          "shasum": "c5ce7125e7839406269d1c0095cf737e5210130b2c866400644a9ff64d1c833d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-logicmonitor_2.1.0_linux_arm.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_linux_arm.zip",
+          "shasum": "2a516cb9ed94d75872a6ea481a78e1a3209539ab3c4ca6507a9daf1bc0d08b08"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_linux_arm64.zip",
+          "shasum": "e77e5885cde117f1633df8d4bf91a2dc78df3b550f14af3dc64917d18dace11c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-logicmonitor_2.1.0_windows_386.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_windows_386.zip",
+          "shasum": "90a7fccd2e5629bddd61037a38e9f8da896f97e52943ab805e01fe8710c34c1f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_windows_amd64.zip",
+          "shasum": "f0215808e8d73b5378df0185ca244a223134e7d64571549bb2e6d1d57439f598"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-logicmonitor_2.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/logicmonitor/terraform-provider-logicmonitor/releases/download/v2.1.0/terraform-provider-logicmonitor_2.1.0_windows_arm64.zip",
+          "shasum": "15905afb57ab21dbff8364f108a035878f9d67a76d3eb423bbce1cd814dfdc68"
+        }
+      ]
+    },
+    {
       "version": "2.0.36",
       "protocols": [
         "5.0"
