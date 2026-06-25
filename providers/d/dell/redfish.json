@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.6.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfish_1.6.1_darwin_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_darwin_amd64.zip",
+          "shasum": "01f590d2e61e305e9273c04f5e6d9a0ea6b447c0bd1fd245702f91a6c60dfd23"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfish_1.6.1_darwin_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_darwin_arm64.zip",
+          "shasum": "af1245aef9f043a457670e5a3a372987caa4acbffd7d9144ab594e6e963f67dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redfish_1.6.1_freebsd_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_freebsd_386.zip",
+          "shasum": "896bf0404a656dfbc236d88df1454fc54d5e2d6634ed789eaab0759e12630e6e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfish_1.6.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_freebsd_amd64.zip",
+          "shasum": "8dc4214c84aea2a4ebe4db8443ef522ba81384d9025711da887c84ed7826e7ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redfish_1.6.1_freebsd_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_freebsd_arm.zip",
+          "shasum": "ad5c13c033bf5fd7bed06cffe3ad38f37d5cdc7206106e44b517051cb25f479e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfish_1.6.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_freebsd_arm64.zip",
+          "shasum": "db254cb0b87c1166d1366c376010823a51cb15ce50f221164f0ba5a584c82211"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-redfish_1.6.1_linux_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_linux_386.zip",
+          "shasum": "413bf9feaa6baff01913addc271f00ce8a25cde35d05baed2b5fe824b42f81e7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfish_1.6.1_linux_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_linux_amd64.zip",
+          "shasum": "ccb3355c12e82ff30c2a42f91cbeaeb5aa8ce7d2ba711b6cd282560b12a9bc9a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redfish_1.6.1_linux_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_linux_arm.zip",
+          "shasum": "1fba2fb44a44da8c205c59dd9d0b280442e450cd399dc7cea5c024661b364efc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfish_1.6.1_linux_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_linux_arm64.zip",
+          "shasum": "ccf74907469b2e18eb21bd7e412db189bfc7a09e9800b28e885e63f1fd478f1c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redfish_1.6.1_windows_386.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_windows_386.zip",
+          "shasum": "c26265c94efe5dc89612f4953522500fe908ec1112f18fd9a745871c86deaa1f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-redfish_1.6.1_windows_amd64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_windows_amd64.zip",
+          "shasum": "fb4b7a6eed45f2eef3bd6998f66b92f707eb096e5b8e5f2710fb16df27881256"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-redfish_1.6.1_windows_arm.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_windows_arm.zip",
+          "shasum": "6f355849fdda1e6a55bdef8c5fe9bb7d25219d2afe41cc351e9c1d09d49ae243"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redfish_1.6.1_windows_arm64.zip",
+          "download_url": "https://github.com/dell/terraform-provider-redfish/releases/download/v1.6.1/terraform-provider-redfish_1.6.1_windows_arm64.zip",
+          "shasum": "16bbb009e0e7558dce3d8c4f9c1c0c27a896421bd810d12382184de387c21268"
+        }
+      ]
+    },
+    {
       "version": "1.6.0",
       "protocols": [
         "5.0"
