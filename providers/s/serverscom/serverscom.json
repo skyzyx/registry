@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.6.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-serverscom_0.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_darwin_amd64.zip",
+          "shasum": "efa13fd62744ffc66e275d6a58db03abdea21e6505a5d367d9ae76d7a1e2e8e4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-serverscom_0.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_darwin_arm64.zip",
+          "shasum": "897546cc504c829a2a29d4083fc1ce1612f670d72d5fd94d856447b55a8187cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-serverscom_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_freebsd_386.zip",
+          "shasum": "b541efc05ecf8a54d22b037e85b369e0f1801a27ed3bb369da954545b60a42dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-serverscom_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_freebsd_amd64.zip",
+          "shasum": "3abd8eb739a8def8583094b298abd0a57c85a62c7e0529fc675c0b724e3d7c46"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-serverscom_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_freebsd_arm.zip",
+          "shasum": "556bd153b8e59f03728d1698a329ff3d16482775aaafcede69e393d58d7bad07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-serverscom_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_freebsd_arm64.zip",
+          "shasum": "fc6ba44d1553846ad2ab3683102501e52328a5606d7c387378cafd1dea97c5fd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-serverscom_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_linux_386.zip",
+          "shasum": "0b635452801a3be802c662b7825afa585f704f924bc28cb1fbb03bdf8a17b644"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-serverscom_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_linux_amd64.zip",
+          "shasum": "b6605fff9daccb2ac20b7c17d7fe456c96aaba875b14238e9e2e153033c59cad"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-serverscom_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_linux_arm.zip",
+          "shasum": "436c5c69c50b1669e2106e7a20713356a0fc25511d1d6e2529669078fbf081dd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-serverscom_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_linux_arm64.zip",
+          "shasum": "5617ca64a695606abbf05cd2d8e3278f372dbf1290442e6808642dbc1e987336"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-serverscom_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_windows_386.zip",
+          "shasum": "42f58a6d23c18881945268a43ce0886ecf542cb48e1124f6bbc6d40af3b0f720"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-serverscom_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_windows_amd64.zip",
+          "shasum": "42520ad76493a036e0230bee1adb5897ff2b89c620ee3688878e32811a47674b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-serverscom_0.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/serverscom/terraform-provider-serverscom/releases/download/v0.6.0/terraform-provider-serverscom_0.6.0_windows_arm64.zip",
+          "shasum": "f950e8fe42c0cc20a04394f0948614b730993bc19a7d07ed6df2ea17445b09e5"
+        }
+      ]
+    },
+    {
       "version": "0.5.8",
       "protocols": [
         "5.0"
