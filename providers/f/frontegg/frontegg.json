@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.7.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_2.7.1_darwin_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_darwin_amd64.zip",
+          "shasum": "ac4e456523314753c439d32a84568cec6e9ea36fce54b715e311b77c262954a6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_2.7.1_darwin_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_darwin_arm64.zip",
+          "shasum": "c764863ea5388fcc1aabc2e46edbb22114a5684d90e4ab72692323940acdd552"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_2.7.1_freebsd_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_freebsd_386.zip",
+          "shasum": "5d89dbf2785b90b3c9aa558bfe5d41ad6766780baff272ced41bcbabdac96c14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_2.7.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_freebsd_amd64.zip",
+          "shasum": "7e15cd41c9b44b98c35f80d363fd7835c6481d0911187f8f79348d42744ce0bd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_2.7.1_freebsd_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_freebsd_arm.zip",
+          "shasum": "a7e3c4321c2503797968be650f2f54dd5752e678195de11fd7fcc756d8cdc9bb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_2.7.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_freebsd_arm64.zip",
+          "shasum": "9dc3cdfe96817fc3c7752768aeca8b41b45c8893678f71ce8d78b6e1bd06b0c7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_2.7.1_linux_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_linux_386.zip",
+          "shasum": "17084a873062f041daa95cb0d5be3d2b638ed1dd363b5cfcb0fdebf6f2ad990b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_2.7.1_linux_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_linux_amd64.zip",
+          "shasum": "386da21550bd0b0e59a14e191cb4d05ce7aebb869dd96bd68cfd7793127b9cc6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_2.7.1_linux_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_linux_arm.zip",
+          "shasum": "6f2e865fe3a476106245f0fce61f96f16507e19c687395a025630100abfabcd7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_2.7.1_linux_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_linux_arm64.zip",
+          "shasum": "c255ff9497974021aa98a09a1b8e2c5e0c41339ab67d20d8396473bfd902746a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-frontegg_2.7.1_windows_386.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_windows_386.zip",
+          "shasum": "242651aa6c7669931e088aa646ebeb298c0cbef2823c9c7b8e5987e628dd7da7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-frontegg_2.7.1_windows_amd64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_windows_amd64.zip",
+          "shasum": "2d31ddb39a4a24bc067e754ac938ec608f3594eea10a87cf559ca928e3983057"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-frontegg_2.7.1_windows_arm.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_windows_arm.zip",
+          "shasum": "da536ab298c52a862bfd832a7e8130296c6396369c9221f7447d796504673747"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-frontegg_2.7.1_windows_arm64.zip",
+          "download_url": "https://github.com/frontegg/terraform-provider-frontegg/releases/download/v2.7.1/terraform-provider-frontegg_2.7.1_windows_arm64.zip",
+          "shasum": "ad1658a85ffd2ab424a8301a934ef7101f34ae7fcadc98c6b746e7e446f1dcd9"
+        }
+      ]
+    },
+    {
       "version": "2.7.0",
       "protocols": [
         "6.0"
