@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "0.12.13",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-duplocloud_0.12.13_darwin_amd64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_darwin_amd64.zip",
+          "shasum": "f2c83c605c1de249cb6e4a9a225ee39b2492ad8267ec0e8eddaf204780541733"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-duplocloud_0.12.13_darwin_arm64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_darwin_arm64.zip",
+          "shasum": "29d4d2f1aec96f3542fd2712cddbe206798791886b5ef34a9cc941c14f0d0106"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-duplocloud_0.12.13_freebsd_386.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_freebsd_386.zip",
+          "shasum": "2b39b7194832d89d7b6dd7b2975dce6118d9acba090fb6a67b11979da26333b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-duplocloud_0.12.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_freebsd_amd64.zip",
+          "shasum": "f272c982b0d53ec657e0a09256b029eebfe378a62b609139a15e6da72ad75a5e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-duplocloud_0.12.13_freebsd_arm.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_freebsd_arm.zip",
+          "shasum": "ddb0a8206e0fcd441701ebcf26bebdbe4a347bb26531123e74aa3a4688dfc12d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-duplocloud_0.12.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_freebsd_arm64.zip",
+          "shasum": "dd0d540b023975acabfe0ca375d3130beae544467e7dac02529326effcc8ac46"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-duplocloud_0.12.13_linux_386.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_linux_386.zip",
+          "shasum": "6a0e2e9b9a9934557d5412644922d192dcbe1fbef92892709ade9adb749f663a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-duplocloud_0.12.13_linux_amd64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_linux_amd64.zip",
+          "shasum": "9e1195cf37b0e29d7ac726392528836b98fdbd43c6ecbbef14be9951915d530e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-duplocloud_0.12.13_linux_arm.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_linux_arm.zip",
+          "shasum": "1b10657077f52332867d329dbc0c4e85b92f7e93bbd3dcc32926514084cc02cc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-duplocloud_0.12.13_linux_arm64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_linux_arm64.zip",
+          "shasum": "9835adf5b18fee576903d441dce9c0288a81746c0e895746774fa8d5aabfbb95"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-duplocloud_0.12.13_windows_386.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_windows_386.zip",
+          "shasum": "7a0a57d85dcffdd74f67dfa353ce71c760280c1c61ad3eff3f1180587d13cbd7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-duplocloud_0.12.13_windows_amd64.zip",
+          "download_url": "https://github.com/duplocloud/terraform-provider-duplocloud/releases/download/v0.12.13/terraform-provider-duplocloud_0.12.13_windows_amd64.zip",
+          "shasum": "f5e2067f092ba47f02de557a0d3a69bfd684fb41470436b156a8c51e8489b6f1"
+        }
+      ]
+    },
+    {
       "version": "0.12.12",
       "protocols": [
         "5.0"
