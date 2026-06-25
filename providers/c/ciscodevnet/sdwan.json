@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.11.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sdwan_0.11.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_darwin_amd64.zip",
+          "shasum": "8a129f83f2f68df65739dde9a5fd60c4d077fa73795357345e1ef521abb215d6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sdwan_0.11.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_darwin_arm64.zip",
+          "shasum": "6cf0b9a22f8d8ed7720ed1d1a6ccc83dc6bfbd9dfd67cc8bc3c2cb5b644b47cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sdwan_0.11.3_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_freebsd_386.zip",
+          "shasum": "2ebd9277267a044aa15d1ac777a3cd66cee3bec8f925ec430ba811e2d1f9a0f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sdwan_0.11.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_freebsd_amd64.zip",
+          "shasum": "a527e3dfad3a6b047c4f4e166111d2db076fe4ff25cc6a55f6ffa8d7a8a6be3d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sdwan_0.11.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_freebsd_arm.zip",
+          "shasum": "45612af5619bb11e5ddd6bafa189c8102604e4c38bb3cd85463917238ad5ade4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sdwan_0.11.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_freebsd_arm64.zip",
+          "shasum": "26aed14e8062ed26b0f8189a63e8e72f172d4b05c96c492822c913a55e7e5e52"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sdwan_0.11.3_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_linux_386.zip",
+          "shasum": "e4ba7b5b3d2e165308f7d44db9c3215e7be7612aa3fe767cebbd4d5614391701"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sdwan_0.11.3_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_linux_amd64.zip",
+          "shasum": "c82f0ebeef81b5962ec95527c1b700d694121178ccec72257488fe2e3b2908a2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sdwan_0.11.3_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_linux_arm.zip",
+          "shasum": "f576538b6b14048fed097340b7f524798eb510781d248a0779bd0007875689eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sdwan_0.11.3_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_linux_arm64.zip",
+          "shasum": "f647ce3b604bbf7bd36584538e7efe2ec1c20b0bb8f235b4dafa1a30bbe41a3e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sdwan_0.11.3_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_windows_386.zip",
+          "shasum": "ecaa50a6c273a4b447865128f8be77df087491bc086026278e7adcbf9da569d0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sdwan_0.11.3_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_windows_amd64.zip",
+          "shasum": "02244adfe3788b5190d1c27bc636db70fe3ed83f77fcbf3dfaef7522f0c942f8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sdwan_0.11.3_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-sdwan/releases/download/v0.11.3/terraform-provider-sdwan_0.11.3_windows_arm64.zip",
+          "shasum": "b88a46324bd9c3a74d3cbf1e746b54c87e19f93279b18353e270fc897da40a70"
+        }
+      ]
+    },
+    {
       "version": "0.11.2",
       "protocols": [
         "6.0"
