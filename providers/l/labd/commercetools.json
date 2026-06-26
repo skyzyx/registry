@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.22.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-commercetools_1.22.1_darwin_amd64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_darwin_amd64.zip",
+          "shasum": "7670092ba488873b97815555ac152c7712de8647108ccd4792ba9171b500d581"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-commercetools_1.22.1_darwin_arm64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_darwin_arm64.zip",
+          "shasum": "66feb6b52cb58e0d09d5f8ce6646d4e0855a42f65cb8e2b8dbacbbce1d737872"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-commercetools_1.22.1_freebsd_386.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_freebsd_386.zip",
+          "shasum": "1cfb0b418af5d5ff814d88fe98ba9500228e84cc0e75abd283b1d4928e87e50e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-commercetools_1.22.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_freebsd_amd64.zip",
+          "shasum": "9809ff118115ccd18ca0d574a5e0f23ce8c0401a869d55f19aeeabb866a24d59"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-commercetools_1.22.1_freebsd_arm.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_freebsd_arm.zip",
+          "shasum": "f4629f56692772609157488057821b26f98c2f5e7c0b988cc600aa286876af77"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-commercetools_1.22.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_freebsd_arm64.zip",
+          "shasum": "a9a5d57120ece35c1d91c9ffb61fcf2730161c8c108b07cfdd5e8514f22d0051"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-commercetools_1.22.1_linux_386.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_linux_386.zip",
+          "shasum": "3977db50de87abd48a84d573efd448a5d4af900f4f942ca20ccb0a1585426a36"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-commercetools_1.22.1_linux_amd64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_linux_amd64.zip",
+          "shasum": "29e5f750b10f6ac6dabca2abe730bb6e31b804c659e8e302b7b772ffc1e2b030"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-commercetools_1.22.1_linux_arm.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_linux_arm.zip",
+          "shasum": "9c1897f425b754f37d9ee7138dcf186e80498c166078c026962d0eadefd5ca09"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-commercetools_1.22.1_linux_arm64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_linux_arm64.zip",
+          "shasum": "a6fb2978e41517bd8472f7905f8f43d7b8e4fa9895e3531d71aa5067e45f8b81"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-commercetools_1.22.1_windows_386.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_windows_386.zip",
+          "shasum": "42f884521ee200f0398cd0d086c443db51d3cb78656bf4abd7581868d6a37cd0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-commercetools_1.22.1_windows_amd64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_windows_amd64.zip",
+          "shasum": "d585c8d813ddb6edaa131126ef7da0923841f80fea8e0836d496c2da342d9594"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-commercetools_1.22.1_windows_arm64.zip",
+          "download_url": "https://github.com/labd/terraform-provider-commercetools/releases/download/v1.22.1/terraform-provider-commercetools_1.22.1_windows_arm64.zip",
+          "shasum": "5ffab11deeab2e604c9ff8f6d82ea7733e94b55b25b950d0dd0427bc7dc7e91e"
+        }
+      ]
+    },
+    {
       "version": "1.22.0",
       "protocols": [
         "5.0"
