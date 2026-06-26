@@ -1,6 +1,128 @@
 {
   "versions": [
     {
+      "version": "2.36.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_darwin_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_darwin_amd64.zip",
+          "shasum": "324ac661a9b4dbacf208202d23a6dd472872a5dbdbf5a9bde7ee709cd00d6e41"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_darwin_arm64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_darwin_arm64.zip",
+          "shasum": "fc655706c6c0966bd67f2025ab579a280d8e8abf088f9e502d28d10fff7c83ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sakuracloud_2.36.1_freebsd_386.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_freebsd_386.zip",
+          "shasum": "5cf7bdd40f6fe916cc25768423a547645fef22b121ce2d2d212f49979a0128ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_freebsd_amd64.zip",
+          "shasum": "d7f2f56ab942aaf55133ae8496d97582e7aead1ff465a1c1ca17571c4ca9d30a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sakuracloud_2.36.1_freebsd_arm.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_freebsd_arm.zip",
+          "shasum": "38f4f3ca62a460b49814be0e8d59bf9cb7bd610f547d227ba86854f8105698c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_freebsd_arm64.zip",
+          "shasum": "969c3f5f965f97825c26d039634e9c1ae4765772c1736089adb10c7c1a3517c9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sakuracloud_2.36.1_linux_386.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_linux_386.zip",
+          "shasum": "506075f15fc34ae181c9c1d3a6c98ea8f284d1dfb910ef3fc97bc09957687bf3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_linux_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_linux_amd64.zip",
+          "shasum": "bfba3d5ec7aa0c55953f68b040e78fd9896a266976343ca6d87b08ea69d8a8df"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sakuracloud_2.36.1_linux_arm.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_linux_arm.zip",
+          "shasum": "46438a2e496b6ebdc338b3a7430ab04855ac3684460783b5ce16b5e2e1f4fb86"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_linux_arm64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_linux_arm64.zip",
+          "shasum": "01e8fc4709f82938cf1bbc44d7775afee102dd78dc2af9d49286684f368cda53"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sakuracloud_2.36.1_windows_386.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_windows_386.zip",
+          "shasum": "1dafde516f5d2414457b1c1d5cb9757eda1258bc3898f0c7bf02de6c5ca2d0ad"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_windows_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_windows_amd64.zip",
+          "shasum": "d5ccacbc471474e06958e582fc2a55da6496e23bdfffe0446194fce0b315c531"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_windows_arm64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_windows_arm64.zip",
+          "shasum": "09760812dfba60fc8e4432d3eae121c3a2ebe25e25da6fc563df9029af4ef2b8"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-sakuracloud_2.36.1_openbsd_386.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_openbsd_386.zip",
+          "shasum": "f79b23cfe91df9ed8f01179c437ba90c6d6b543ce419fcfc37301842f38b0675"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_openbsd_amd64.zip",
+          "shasum": "bb34009b75220c3a072764d0366b4b361223cc937aff23ea73064b420fd80645"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-sakuracloud_2.36.1_solaris_amd64.zip",
+          "download_url": "https://github.com/sacloud/terraform-provider-sakuracloud/releases/download/v2.36.1/terraform-provider-sakuracloud_2.36.1_solaris_amd64.zip",
+          "shasum": "b8f3cdfeb23ca481b2f7838e51b8cda33f59a8f16b71a803237c003728716991"
+        }
+      ]
+    },
+    {
       "version": "2.36.0",
       "protocols": [
         "5.0"
