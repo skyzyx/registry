@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.15.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ovh_2.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_darwin_amd64.zip",
+          "shasum": "97e06f7494706df30c136f4809314d92a25129738cf080e22c5c9e47ec70c4cf"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ovh_2.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_darwin_arm64.zip",
+          "shasum": "fd0e48de826df04e18489d33b0ff35bd776cb6e7704188f67dad66cbb041e5af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ovh_2.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_freebsd_386.zip",
+          "shasum": "22d361f99caa70b07532fce13208fce8b84072cf83eaf6ddfcd9096df88b57ea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ovh_2.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_freebsd_amd64.zip",
+          "shasum": "dcf2a7620abac38e9d8f0a88f2a79de0fddd917ba0facba1108f6581eb1b7f6f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ovh_2.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_freebsd_arm.zip",
+          "shasum": "497f88936649d3c352fdb639ba5ebdabfec8ec7a59d67bf619013e3afbbaefb4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ovh_2.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_freebsd_arm64.zip",
+          "shasum": "be23cf1ecb2eb76c60dad72eb4f9d005c6184cae6e2cf9f13b0462030133644c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ovh_2.15.0_linux_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_linux_386.zip",
+          "shasum": "f6a9977d744ed879a0b3c28a5a800b6a1f49aabe8d71e87ca1d02fe6a77a31ba"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ovh_2.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_linux_amd64.zip",
+          "shasum": "e7c7905954f69f0d5b6cf9bd87572101924e128aa33311856dbbfedd711361d2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ovh_2.15.0_linux_arm.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_linux_arm.zip",
+          "shasum": "d2bf2603741df6fc29a88384f7026fb8b0e982b8a270796e672037d287b41e83"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ovh_2.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_linux_arm64.zip",
+          "shasum": "62e49208e2950daf366b396694dc7de5bba31a8b7a10aac7c021f2c78fd64f70"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ovh_2.15.0_windows_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_windows_386.zip",
+          "shasum": "bf60c1af6db5ca51ff4372fee8e64a21462134d281ae9cb3968ca5b209338c4b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ovh_2.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_windows_amd64.zip",
+          "shasum": "c9e5ad5c063249786595c5b6c3f59791bd21f5157ff0572a4ed2d52ca8141c50"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ovh_2.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-ovh/releases/download/v2.15.0/terraform-provider-ovh_2.15.0_windows_arm64.zip",
+          "shasum": "d944de8032fc01d8488087755bf7fb813e7b8c259e23a7b68ed654905ad19b56"
+        }
+      ]
+    },
+    {
       "version": "2.14.0",
       "protocols": [
         "5.0"
