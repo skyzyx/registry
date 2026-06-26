@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.7.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tunnel_1.7.2_darwin_amd64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_darwin_amd64.zip",
+          "shasum": "663e5bc0073d5e10c707bb6a7487f1c85aa9194fd825f5a3d032ba597e794a17"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tunnel_1.7.2_darwin_arm64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_darwin_arm64.zip",
+          "shasum": "7dbc16dda8fafaa6a90984d5bd71a8d4f5ae76b8357977f5b85297ab16bec214"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tunnel_1.7.2_freebsd_386.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_freebsd_386.zip",
+          "shasum": "c2d6320eb0af5522de7560c0508cf1d42c9ae8bb13bbd03ff9d27c37c6822109"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tunnel_1.7.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_freebsd_amd64.zip",
+          "shasum": "8a7038f1664cac23e2f0d3888ea2c7bd0a27ea49298893f94a4a3a92efc3e0d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tunnel_1.7.2_freebsd_arm.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_freebsd_arm.zip",
+          "shasum": "da08dd9d0d2aa41039ea1ff6a18cecfa1b8d41e087728b746c98f084886c604c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tunnel_1.7.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_freebsd_arm64.zip",
+          "shasum": "17f7eb5dcd43d044f770d6787efb3a7fc3d922b775cd1be4f51e3c98dc602564"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tunnel_1.7.2_linux_386.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_linux_386.zip",
+          "shasum": "5038f5c723278aa5f3e6d94bd98583873efdcb30a7b5e033f01870e03457aee0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tunnel_1.7.2_linux_amd64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_linux_amd64.zip",
+          "shasum": "cf36f2c7c6de352db48a1b8595baafd148a6fce44a628fc1ed4a2b905dbf352a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tunnel_1.7.2_linux_arm.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_linux_arm.zip",
+          "shasum": "0aed915068ce38857495a041fcdfc91e30843379439ca6c4bb15522f8c148503"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tunnel_1.7.2_linux_arm64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_linux_arm64.zip",
+          "shasum": "3719dff0c2440b2f5f943de3ed32d321c5799881512c63599fbcd084e850c72b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tunnel_1.7.2_windows_386.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_windows_386.zip",
+          "shasum": "7f173341691b9085660a0ba19a9036476c22a79b42a280013b5c548f461933a7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tunnel_1.7.2_windows_amd64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_windows_amd64.zip",
+          "shasum": "6f1c4355b1a3774aff94f7eec2376fea6b1c84132dade103cbdd2e0b7dbde730"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tunnel_1.7.2_windows_arm64.zip",
+          "download_url": "https://github.com/dfns/terraform-provider-tunnel/releases/download/v1.7.2/terraform-provider-tunnel_1.7.2_windows_arm64.zip",
+          "shasum": "a2d4b9fbcef3f784aad830af095ab874041f6219b8fa57625aff05a747525ff5"
+        }
+      ]
+    },
+    {
       "version": "1.7.1",
       "protocols": [
         "6.0"
