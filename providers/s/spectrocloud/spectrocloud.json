@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.29.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_darwin_amd64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_darwin_amd64.zip",
+          "shasum": "aff3457cac5d7b3cb27e70293d5c3e22b674844813b997054b938e8073313127"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_darwin_arm64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_darwin_arm64.zip",
+          "shasum": "08f1f0867e7c01a75cb98b00ede7b49da60e3f062f7aa9801d71ddf6a37563b7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-spectrocloud_0.29.6_freebsd_386.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_freebsd_386.zip",
+          "shasum": "4d94af0e175efe57f4ba198453721a41bac44f8bb83252f8229e131d2b0e7152"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_freebsd_amd64.zip",
+          "shasum": "8423dbe7c796233365435ed18cfa903c4377f1401257477a188047fa93bcf501"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-spectrocloud_0.29.6_freebsd_arm.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_freebsd_arm.zip",
+          "shasum": "04fe166a9aa6e7a9280f28d7d8fcf026525b2190934d8e5c17a203f4f6525697"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_freebsd_arm64.zip",
+          "shasum": "5e6568703e0ef7fc066d747227f562e8ef5c1213f2429d12026010810aab9788"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-spectrocloud_0.29.6_linux_386.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_linux_386.zip",
+          "shasum": "95ebb25649755cf765ea7bf811183fa31ef7e65e35ea7231cc8372704097f383"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_linux_amd64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_linux_amd64.zip",
+          "shasum": "da7f03a68866166292e0a2fe4509d80cab15ceb383883f598b86e679d9e40962"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-spectrocloud_0.29.6_linux_arm.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_linux_arm.zip",
+          "shasum": "beeadd20ba5814214f47caf40f568c99de203b0c758d5788ff010500bf32271b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_linux_arm64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_linux_arm64.zip",
+          "shasum": "b9a43360c5e469e41730a2beee381d08a199532d467b1552ae3ec5f2e2262154"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-spectrocloud_0.29.6_windows_386.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_windows_386.zip",
+          "shasum": "16c16141e5e608581e17c375c04c579d9805cd717e901ec218a94c2140e0b662"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_windows_amd64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_windows_amd64.zip",
+          "shasum": "f37af423c0849f30a8686bbe46278b00ee9ab43c1b964ac4a861c9dd42201004"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-spectrocloud_0.29.6_windows_arm64.zip",
+          "download_url": "https://github.com/spectrocloud/terraform-provider-spectrocloud/releases/download/v0.29.6/terraform-provider-spectrocloud_0.29.6_windows_arm64.zip",
+          "shasum": "566f1ef7e5462e896d1d0b3dc170c59f684376240607f73055795de701221dbf"
+        }
+      ]
+    },
+    {
       "version": "0.29.5",
       "protocols": [
         "5.0"
