@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.3.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.6_darwin_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_darwin_amd64.zip",
+          "shasum": "b10cf00eab21c63933be81f72429fdbf2e07ffe7fa302b8f29fb5926ece60a6f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.6_darwin_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_darwin_arm64.zip",
+          "shasum": "566a43c3e1cf82671d89ee20f8be51056ebaf256bb5a0846f01c7da4c4de5c61"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.6_freebsd_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_freebsd_386.zip",
+          "shasum": "b7e74e767777845276cac342ee6c3523ce45a97672b8286f29f34db52c678a7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_freebsd_amd64.zip",
+          "shasum": "3b9e3f24080820e0933746d84eff585e75c2fe9ebad9d003e579a4afe9612551"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.6_freebsd_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_freebsd_arm.zip",
+          "shasum": "c9ffa1274d994616dc51f98c1ac854822125212ba7f9e8776d30a36a49ea5cee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_freebsd_arm64.zip",
+          "shasum": "0d9ba61b0232feda7b064749ee86d4e814fe628fe8b21d2bdc5cd384452e7046"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.6_linux_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_linux_386.zip",
+          "shasum": "65aca7b3a963f2319d30780f25e3b0e8e1aebaa0b35c441c4fca76b34c63d26d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.6_linux_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_linux_amd64.zip",
+          "shasum": "80a408a84cae22df3831d596340268ab4d36c2c6ad919764cf25809daa6d5813"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.6_linux_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_linux_arm.zip",
+          "shasum": "db0cba83b947794cdf223298d3331f09cd0a783361131fd5e1a2d104089a69ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.6_linux_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_linux_arm64.zip",
+          "shasum": "96a115c339050880beab718c051a67457cb714145d80ff725b19b634dcd14193"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fusionauth_1.3.6_windows_386.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_windows_386.zip",
+          "shasum": "a35de5b40e3bdc40983dc0805e27a0122281af1a3d7da39466d6c17f05706a16"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fusionauth_1.3.6_windows_amd64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_windows_amd64.zip",
+          "shasum": "05036de8c80cfcc82f53e94c63e71deb63298aeacbae591434b70672ba5d190c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-fusionauth_1.3.6_windows_arm.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_windows_arm.zip",
+          "shasum": "a060d04c236e32ac71511b3d2dacb61a00f5b57fdc2e7a8dfd45d54625fcd33a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fusionauth_1.3.6_windows_arm64.zip",
+          "download_url": "https://github.com/fusionauth/terraform-provider-fusionauth/releases/download/v1.3.6/terraform-provider-fusionauth_1.3.6_windows_arm64.zip",
+          "shasum": "086a65931fe9a085b2194e11b4fec76e63f7d3e681e43746a0c8fa6acdd5bdee"
+        }
+      ]
+    },
+    {
       "version": "1.3.5",
       "protocols": [
         "5.0"
