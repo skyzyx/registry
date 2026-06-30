@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.16.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.16.3_darwin_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_darwin_amd64.zip",
+          "shasum": "e48862e41af212cf296110efa7709ed65b0e3de3b3e9704452afc2210cbfe38f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.16.3_darwin_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_darwin_arm64.zip",
+          "shasum": "e7dbf9f792879090c10db7e33f79c57baf8c06f46251511661b0230e3ef0743e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.16.3_freebsd_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_freebsd_386.zip",
+          "shasum": "e690971c8b10f669b39bdc4430fa779696c621bba7af39645831214f77de4666"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.16.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_freebsd_amd64.zip",
+          "shasum": "66786731fd999538b6adc66fbb3449218c8a3473339c1238fa8d6702af79bcc1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tharsis_0.16.3_freebsd_arm.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_freebsd_arm.zip",
+          "shasum": "551f81e5ea05ea873b90a5157064cceed8a10ddb318c6faf03f80190cfcb0856"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.16.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_freebsd_arm64.zip",
+          "shasum": "9d57c15a6c73b7bf656fd82fe0930291983df9eeb4d5ef738c955969a39efdfe"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.16.3_linux_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_linux_386.zip",
+          "shasum": "9136cc414b296d6d5098985fadcd51f79c03721618c0528c542b1b440e3f9ac4"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.16.3_linux_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_linux_amd64.zip",
+          "shasum": "5c5ba1766ba2e96757d34f12ac7921357646a1775706b92474012e90f759310d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tharsis_0.16.3_linux_arm.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_linux_arm.zip",
+          "shasum": "c96cf7eeda6add4e233869c253c665037634181b25204f7936431549db43e38e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.16.3_linux_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_linux_arm64.zip",
+          "shasum": "b4dda7bb1a0f9ce59474e10fcc468ec6de0ba36c3c4a42c53b4688a83e728ecb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.16.3_windows_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_windows_386.zip",
+          "shasum": "43642d4a12570e75f7cc2f6d60e953def1ef724259b641501260f25140f00ff6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.16.3_windows_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_windows_amd64.zip",
+          "shasum": "891a8fb1828e591d3edeeb546db341672958adfeae00175bfcd49da3d3b70606"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.16.3_windows_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.16.3/terraform-provider-tharsis_0.16.3_windows_arm64.zip",
+          "shasum": "61d8a6d118da7ccd48675bc838751353dc82a7ffa3f2e62f8ba870ab6443b2e7"
+        }
+      ]
+    },
+    {
       "version": "0.16.3-alpha.1",
       "protocols": [
         "6.0"
