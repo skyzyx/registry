@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "4.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tss_4.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_darwin_amd64.zip",
+          "shasum": "1b91ecc3cc9fce34dce445851b17d2ef8a43e8b0bd522a0472db65c868436139"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tss_4.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_darwin_arm64.zip",
+          "shasum": "0c6274cd2a7f76efa9fd96a358ee9e8e1e17954014ee5818d1918e4cd45d1432"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tss_4.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_freebsd_386.zip",
+          "shasum": "c05e38e15e4375770193687fbc2c1acd92348822db1cbc3f008a7f675b8efb9e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tss_4.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_freebsd_amd64.zip",
+          "shasum": "83668b17481dbd6d596496dbda54d4599332c652b485686a09ba09f7f3cade82"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tss_4.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_freebsd_arm.zip",
+          "shasum": "e17c9e2aa72be7ac6e3fcc78418093301cb527cf0d24f7e92cdde20396f5acfc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tss_4.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_freebsd_arm64.zip",
+          "shasum": "c92af6610febd45a7e4a7610ad0839c32a662acc92242cd3bd097a3f36cc3b63"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tss_4.0.0_linux_386.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_linux_386.zip",
+          "shasum": "0c01c4c4c513e86b366f3d3caa8a08c06b695ec9134c6998ed8fde006c70bf68"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tss_4.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_linux_amd64.zip",
+          "shasum": "ffad9540335bd0d20a3a9ae48c4ff5825678ea4274b7a2e1cc125c09b9fa0b8d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tss_4.0.0_linux_arm.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_linux_arm.zip",
+          "shasum": "ad8b59263a9d676f8f45e00d49e4e3c9dfeceb0b3a23d854d14930bf3153b9b9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tss_4.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_linux_arm64.zip",
+          "shasum": "af19641eec2ac36b41cf8ffbd5369e76eb166820c01f71a581a00a8366187a38"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tss_4.0.0_windows_386.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_windows_386.zip",
+          "shasum": "c0a14d43dfe0020fbcd0a0dacf84d342f3ada49edac75fd9218cd26164def541"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tss_4.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_windows_amd64.zip",
+          "shasum": "c55470579bb469067c071e5ab5a55961c4fb52601c60e1fb2b30d22cc8835d28"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tss_4.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/delineaxpm/terraform-provider-tss/releases/download/v4.0.0/terraform-provider-tss_4.0.0_windows_arm64.zip",
+          "shasum": "dfcaba3d3c579d60dd4d35bd6cff75f17d40c38fc4be58843a7cd1ec53e3946b"
+        }
+      ]
+    },
+    {
       "version": "3.1.1",
       "protocols": [
         "5.0"
