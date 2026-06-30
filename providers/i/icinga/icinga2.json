@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.7.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-icinga2_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_darwin_amd64.zip",
+          "shasum": "8ad66e561861155938d3287204fd0e5ea6ddf4cd9e9edd31ac4647f359486717"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-icinga2_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_darwin_arm64.zip",
+          "shasum": "4bf06d98542470678c87a0186c3e927fe5cd1f0fc79172d8ed023791f92574e9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-icinga2_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_freebsd_386.zip",
+          "shasum": "34d1a6c99c3500b468422d172c01a92b094714a266e42e3be7959a81bdcd719c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-icinga2_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_freebsd_amd64.zip",
+          "shasum": "393624f338ecf0d98cba912f123f8367d4f8730c7d772694bfd020c85efca4c0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-icinga2_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_freebsd_arm.zip",
+          "shasum": "8a62d8a9ad7a588dd7a08a72ba7d71a9c3bf8ad4266e2b9940addb09e023de71"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-icinga2_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_freebsd_arm64.zip",
+          "shasum": "53f40971aaea868484d78d85733c1be42b6d86e574f142b9074c5d2df58ed739"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-icinga2_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_linux_386.zip",
+          "shasum": "7cf262cfcf69c7fd2e4b5f8f210b5df6472185ef433956fd70aac818f733ac4b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-icinga2_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_linux_amd64.zip",
+          "shasum": "4fb77b50f81630788d4b38a3202b85329bd332a31b87a7d1807f10cecce58624"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-icinga2_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_linux_arm.zip",
+          "shasum": "7858b5ccbf6d334ebdbb995857bbbac72bef0d2e744f5c808aaa791ff4f1f225"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-icinga2_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_linux_arm64.zip",
+          "shasum": "f727092d6543854358d343880d4d0a19f08141e8b5a2febd70114c864dd73116"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-icinga2_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_windows_386.zip",
+          "shasum": "d3ed8855af27719099edc854794fd19e24a10667642f5203d9c84841a53c621e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-icinga2_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_windows_amd64.zip",
+          "shasum": "c162f8255ee50ccad1d6c5683246a1f73e2a01e4346b66fcfbd0e310e53cb80e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-icinga2_0.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/icinga/terraform-provider-icinga2/releases/download/v0.7.0/terraform-provider-icinga2_0.7.0_windows_arm64.zip",
+          "shasum": "8c2dd117ecd9840532af978368346aac67be2258dbae62932690868b5565a701"
+        }
+      ]
+    },
+    {
       "version": "0.6.0",
       "protocols": [
         "6.0"
