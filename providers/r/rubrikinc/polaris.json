@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.8.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.8.2_darwin_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_darwin_amd64.zip",
+          "shasum": "1a6132b7c891f93f4fb4bc4d76675d2eccff6f902f0ae892ec80a02bf2efade0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.8.2_darwin_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_darwin_arm64.zip",
+          "shasum": "278b6a2327632d5cecb00e17cd36ad027a8ae07f60e5b1b7ca04022816b68db7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.8.2_freebsd_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_freebsd_386.zip",
+          "shasum": "59d133c4b372c40dfab7d1dfe4ec8fa08d90eec1dabdc9e59468d9d915347ba1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.8.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_freebsd_amd64.zip",
+          "shasum": "ff9ac2b2f53580be38e3066a27b2d37f83547681196562461c6663682e4b7b58"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.8.2_freebsd_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_freebsd_arm.zip",
+          "shasum": "920dba2838506d3535a4e764a4741cdf90c289dea93f2778e894b7b2112c3fb0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.8.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_freebsd_arm64.zip",
+          "shasum": "7dd56c53c030df33851a315b3c908396ad6fe0adf5e5ec906e98f7dd753fb273"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.8.2_linux_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_linux_386.zip",
+          "shasum": "2c1ba400806b33e223b42d5783394ffd56cbfe91ac80504abd7513b639b41ff2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.8.2_linux_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_linux_amd64.zip",
+          "shasum": "a181bb72ab5e5db88ad450632a01e6f164a52ed4cbb3fab83ba6c150d59afc50"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.8.2_linux_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_linux_arm.zip",
+          "shasum": "995be3158664f827dcc652751cf82e30541902c6d5a72eb450ca49a1471f70b3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.8.2_linux_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_linux_arm64.zip",
+          "shasum": "f4ee2293e7bb915699cfb4a1790edd2b7740555811b497597bce9862a45f7dbc"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.8.2_windows_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_windows_386.zip",
+          "shasum": "7220f7dc0856fc2c7fd1883d597d20dad4eb603db6fbc1d703570d6a084c1564"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.8.2_windows_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_windows_amd64.zip",
+          "shasum": "a88242daaaa2c5fbc2bb8a7e09cdab107336d9c84514da3b15a6a2c0af66d088"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.8.2_windows_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_windows_arm.zip",
+          "shasum": "af7a6c5a4da3ff9eb2d6d2e5cebab8e4245aaa31c05d176130873f3d75bd69fe"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.8.2_windows_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.8.2/terraform-provider-polaris_1.8.2_windows_arm64.zip",
+          "shasum": "676700c213cd4b398ddd5439ffc305ff3b986e0868dffa481a9406ee80fbcd86"
+        }
+      ]
+    },
+    {
       "version": "1.8.1",
       "protocols": [
         "6.0"
