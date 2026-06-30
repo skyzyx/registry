@@ -1,6 +1,93 @@
 {
   "versions": [
     {
+      "version": "1.0.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_darwin_amd64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_darwin_amd64.zip",
+          "shasum": "f5c09776fc209372a085b35a1ac2d4609d9fe519ccc127907e9e08340c0f3590"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_darwin_arm64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_darwin_arm64.zip",
+          "shasum": "c3f9d80d50dbd6763a13332608ff4912a2465a63418b0522fefaef241c9beed3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_freebsd_386.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_freebsd_386.zip",
+          "shasum": "6f9d7b875ba446250ebf68e02adc279ad13d45879d644c058fdbad3d097c0513"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_freebsd_amd64.zip",
+          "shasum": "8b120ed84ccf81b0882b833024ff2a241c0a68080c5ce5ed52db2bf73730c00e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_freebsd_arm64.zip",
+          "shasum": "888a83c92e9984b0504d822f8120ad4a5fb095c2f1522736fd52279e7e8afdf2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_linux_386.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_linux_386.zip",
+          "shasum": "0801851e871ca2347db9c4c743df6a0eae7ed2d007484f68355a0e75c837ca07"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_linux_amd64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_linux_amd64.zip",
+          "shasum": "7576ca3b0d78a539a68bb6aa87a0526923c0bf670de0c6758d6fb6358cdf7f04"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_linux_arm.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_linux_arm.zip",
+          "shasum": "b44e5f501382a8c4d3364564ad0675b7417b2c8e26ad70c7e178607e7befa25a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_linux_arm64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_linux_arm64.zip",
+          "shasum": "708837f4dc88ecb265c81d118b336992957fcd2928265026f4ed03c3df631725"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_windows_386.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_windows_386.zip",
+          "shasum": "a4de61a5aedd76a5240be65ec3b65a9f149c49952417e19745fb6c36677ed4cb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-influxdb-v2_1.0.4_windows_amd64.zip",
+          "download_url": "https://github.com/albeego/terraform-provider-influxdb-v2/releases/download/v1.0.4/terraform-provider-influxdb-v2_1.0.4_windows_amd64.zip",
+          "shasum": "4e238d7991a41837a7936c21c3e3db29c62374f6a0e21d7152031123a26d12a5"
+        }
+      ]
+    },
+    {
       "version": "1.0.3",
       "protocols": [
         "5.0"
