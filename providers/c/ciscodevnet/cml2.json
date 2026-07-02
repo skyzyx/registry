@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.9.3-beta1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_darwin_amd64.zip",
+          "shasum": "fc9f734a8b4379983c475f346551a959e635f2b88f40e29865818af8cf76c4fc"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_darwin_arm64.zip",
+          "shasum": "d3189a2b17ff60bc9c42c3de246ba40124ef14f2dde3bb22657a73548ebb60ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_freebsd_386.zip",
+          "shasum": "57c11b899d36c05b8bd86232fdd35384a5a5640ea6dca6bee2fd39151243346a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_freebsd_amd64.zip",
+          "shasum": "96bed71a61fd03b62c6bf154843ce87f16faea9a57e27dc921f553c5db680e81"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_freebsd_arm.zip",
+          "shasum": "926431baa59849547db8ac694c86e0060fd3b808eba86193724eda765d8ca08e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_freebsd_arm64.zip",
+          "shasum": "0e88cc73b4751f7cd238f9111209306305c7ca5bedfb98e65702bb9216037730"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_linux_386.zip",
+          "shasum": "b6d31f71a8608abd4a3c358a6c2d4ea56a0e852d2871eff1dae24baaa5b3fa89"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_linux_amd64.zip",
+          "shasum": "c84a932c5379243d0f8b293c4f54dba7d04ff678a90fce14ac751dcf9bbfdb30"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_linux_arm.zip",
+          "shasum": "430a76161e83082417b22629b26b71f86d5401244a81b72004a80d9f6e432007"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_linux_arm64.zip",
+          "shasum": "e82d585956843648a0e09bc503bef23fa0265361431864ef580b2b27c6a89ef0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_windows_386.zip",
+          "shasum": "978c2fa17b055cf47efed8c9622646d85305ffebda3e03960358f7abc5d2ce8b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_windows_amd64.zip",
+          "shasum": "f861cfcebee1c7caffbf6cbae07c71568478ec60dbc1dae2c103a66dc260a8cf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cml2_0.9.3-beta1_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-cml2/releases/download/v0.9.3-beta1/terraform-provider-cml2_0.9.3-beta1_windows_arm64.zip",
+          "shasum": "4898ff804ef011b75a8165f694e21853b35e51c7fcc6e54f675c2e202b13bc13"
+        }
+      ]
+    },
+    {
       "version": "0.9.3-beta",
       "protocols": [
         "6.0"
