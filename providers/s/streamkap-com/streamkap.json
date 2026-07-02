@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.0.0-beta.24",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_darwin_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_darwin_amd64.zip",
+          "shasum": "8973ac35676fcaaa42b89032ff080dd66ceac3329d2028025a0d2f8706351f0a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_darwin_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_darwin_arm64.zip",
+          "shasum": "5bced4c5879ad4c97fbce1ff4caca4a71a9e5f42a4ae3278620ee92edd007602"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_freebsd_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_freebsd_386.zip",
+          "shasum": "64617f8ee2956407fd326da4791986fa947cfde52e4a891adab4ce90e0d00091"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_freebsd_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_freebsd_amd64.zip",
+          "shasum": "d6249cf44634ee8b0032d8dcb4b27508618e50f949718575c9634cb137bae7a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_freebsd_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_freebsd_arm.zip",
+          "shasum": "2b692eaa35f7e14084f289e41f037f2e74737d1331cd51f57bc0134d4ce51f6e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_freebsd_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_freebsd_arm64.zip",
+          "shasum": "c6cff713daeb7c7f9e97a3f231e5a3c09809ea76ca3ca4ae7aad1e8b79858a6e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_linux_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_linux_386.zip",
+          "shasum": "4d9e259e900c152271fc1c05b955ab0c4062dd132b193f77b8dec384c81b84f5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_linux_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_linux_amd64.zip",
+          "shasum": "5b556ff27b28eeec11b599f5833c25ce401be807fcce26d65df1b0f281830125"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_linux_arm.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_linux_arm.zip",
+          "shasum": "21f132fb97fe18a5efecc117021e2430cd90a5cd40b3201e93e7b4341a9407d1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_linux_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_linux_arm64.zip",
+          "shasum": "cfa41a725da47310802db9ecf5f8c9ea7a099d71b364717daec2d07a0587c3ab"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_windows_386.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_windows_386.zip",
+          "shasum": "7c6d54d28ffda73fd0969f35731d9bf077b93f5ca72a537ec0a7426daa743f7b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_windows_amd64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_windows_amd64.zip",
+          "shasum": "895a164fa28eda12377ca7121d8f22c9936b90e3fb3ae5e19e16a641b348ab0b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-streamkap_3.0.0-beta.24_windows_arm64.zip",
+          "download_url": "https://github.com/streamkap-com/terraform-provider-streamkap/releases/download/v3.0.0-beta.24/terraform-provider-streamkap_3.0.0-beta.24_windows_arm64.zip",
+          "shasum": "5fdd6b3854f2bdee8961c6986a169f09799c3af94ae4ed946370f015433098a1"
+        }
+      ]
+    },
+    {
       "version": "3.0.0-beta.23",
       "protocols": [
         "6.0"
