@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.17.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-coreweave_0.17.0_darwin_amd64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_darwin_amd64.zip",
+          "shasum": "f713a35b515bf509be4880729585fc80fc97f351672cd8dedee9f1129539a615"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-coreweave_0.17.0_darwin_arm64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_darwin_arm64.zip",
+          "shasum": "9d4a839a6e2d8d1468b16cc0efcc93501cc74af84d3ed5828c3e379e2bffce09"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-coreweave_0.17.0_freebsd_386.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_freebsd_386.zip",
+          "shasum": "4b76652d8e35c37614b08fe6b82d3ce734606dead5844b5157a6c361f5fce7ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-coreweave_0.17.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_freebsd_amd64.zip",
+          "shasum": "32093075c79885f1e7ee1de0584397c710b17eff99df261fe269e79378b3e772"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-coreweave_0.17.0_freebsd_arm.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_freebsd_arm.zip",
+          "shasum": "5f3f23afbaa07734f226e016dd0a669aabd2cdad041ae9c4f2a697fbdad09545"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-coreweave_0.17.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_freebsd_arm64.zip",
+          "shasum": "645257cfff717165680943d3567e543599dda12a18c1692dfb7b1de6f4062ea6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-coreweave_0.17.0_linux_386.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_linux_386.zip",
+          "shasum": "5dc13d09a3b17831c402f6910850a3e6e93ce7a4ce3327a0873abfe89c30ac7f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-coreweave_0.17.0_linux_amd64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_linux_amd64.zip",
+          "shasum": "c18dbba6da9e9afd7dd6ea52bd8277ecb65623bfe8d081d614f13d9cfc0ef49b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-coreweave_0.17.0_linux_arm.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_linux_arm.zip",
+          "shasum": "c36ffcccfe30e23b6b1990ccf4d170023bd6a10e099e4f3a1befb010f12fea05"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-coreweave_0.17.0_linux_arm64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_linux_arm64.zip",
+          "shasum": "79baad9328d2ff184cece5d3839ac94e50dbd8fe10a03f15a69e9c37e34c269d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-coreweave_0.17.0_windows_386.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_windows_386.zip",
+          "shasum": "27b64822a6cf831f16de2a2eaf46ef3da21010f186675acae2efecab3d55aeb7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-coreweave_0.17.0_windows_amd64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_windows_amd64.zip",
+          "shasum": "084716e2d8db78ffab70fd25ed7ab134a7ead07f51d0b5e75b84956fe325b9a3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-coreweave_0.17.0_windows_arm64.zip",
+          "download_url": "https://github.com/coreweave/terraform-provider-coreweave/releases/download/v0.17.0/terraform-provider-coreweave_0.17.0_windows_arm64.zip",
+          "shasum": "a219359ad85dc4b28955f9e6b8f0089caac5793c339c81bde87a99657ea8c6e8"
+        }
+      ]
+    },
+    {
       "version": "0.16.0",
       "protocols": [
         "6.0"
