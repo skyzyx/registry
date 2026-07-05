@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_darwin_amd64.zip",
+          "shasum": "1910de5351e7dc971e6c6427af20cff62419f4ca51ae3a1030163fe10b164b2a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_darwin_arm64.zip",
+          "shasum": "6fc98eec52409cc22a2aa63856c0d583d1580ff5f9cd612b0eff1d59a2441317"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_freebsd_386.zip",
+          "shasum": "d3c4debddbbbe6b081789819d1099af604ce12af2243bf4b3ad7aba60934042d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_freebsd_amd64.zip",
+          "shasum": "d69f255d60d468c46162d23208d2df908dd90f19fc033bc609f4e2445f04c926"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-woodpecker_0.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_freebsd_arm.zip",
+          "shasum": "c204705d379640ca0914c82a5967169ccb17ee509b198fcc7b6e87484b276d2d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_freebsd_arm64.zip",
+          "shasum": "81c3b27989e28675fc8cde510fdaa3788ad49b36bfa811ffd2a3aff2c205e0df"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.6.0_linux_386.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_linux_386.zip",
+          "shasum": "6729aae7c8728541b5561fc51dcad72fe4d2b9ff8dabe898994114cdbcad664f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_linux_amd64.zip",
+          "shasum": "4441b5d5350af15eb9672df4e697f5602168554fbbf14af20cc468e8c5d5510c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-woodpecker_0.6.0_linux_arm.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_linux_arm.zip",
+          "shasum": "51e045b15444b9d472ec61817bd786db48c662c1775ffbb6e1b532f526f416cf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_linux_arm64.zip",
+          "shasum": "19f66c3e90a62455c1ca912e0fea49b1084016c938a0177e7b3decb38a054b0c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-woodpecker_0.6.0_windows_386.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_windows_386.zip",
+          "shasum": "302a5291f3bc483ab19aa073bab6667a713be37e0939e726ca2fd4448ba27c8f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-woodpecker_0.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_windows_amd64.zip",
+          "shasum": "e09d600275df14341c8cb97726c1c28aeed83dc63ce462d4f8e101b7be099d7f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-woodpecker_0.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/kichiyaki/terraform-provider-woodpecker/releases/download/v0.6.0/terraform-provider-woodpecker_0.6.0_windows_arm64.zip",
+          "shasum": "fd5cdacb99eedacf129b8d91ccd97e558d50eacf0623566d544287580de7ea51"
+        }
+      ]
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "6.0"
