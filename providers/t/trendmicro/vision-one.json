@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.0.73",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vision-one_1.0.73_darwin_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_darwin_amd64.zip",
+          "shasum": "068665861de44a619d6ec21af6abf291f81120d74fa0c672ca7b2ca427d34567"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vision-one_1.0.73_darwin_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_darwin_arm64.zip",
+          "shasum": "d8e817c5305503d6d4c893ceb208bb20b1ebb8e837f8639d891197c425fd8701"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vision-one_1.0.73_freebsd_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_freebsd_386.zip",
+          "shasum": "3a4d4387819ff47fee8b447c215721bb41580493fef434d8c3d2bdc9a0f0c2b7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vision-one_1.0.73_freebsd_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_freebsd_amd64.zip",
+          "shasum": "ac0e8b87ae8da8cd3527940a286f67226ffe0602c63a53436ae6d3b35b92e37f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vision-one_1.0.73_freebsd_arm.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_freebsd_arm.zip",
+          "shasum": "420e010b08821e499cd2f41b68c9b5ad44d97befe3ab5d9104216d63f9ef0e9d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vision-one_1.0.73_freebsd_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_freebsd_arm64.zip",
+          "shasum": "6fc51366ddc3dc930c92c1645317561cec442e835539736ee572b4cd01b500b1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vision-one_1.0.73_linux_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_linux_386.zip",
+          "shasum": "dbf3a831c46aab24a49909c831491aebc767ad3c69719c09798ffda73dacc53d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vision-one_1.0.73_linux_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_linux_amd64.zip",
+          "shasum": "eb49e464ffccdd9fd7c6109576a43f6c1c966b9a186f72b70f094b0c33f8c3e6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vision-one_1.0.73_linux_arm.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_linux_arm.zip",
+          "shasum": "b32e8afa098ddd7f7a6b871de8de8c39e515d85fa768f38837d47a5af698fa9a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vision-one_1.0.73_linux_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_linux_arm64.zip",
+          "shasum": "917e802879723fd4bc5b967df16d9597ef1647558f13229558f21c96f3833fba"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vision-one_1.0.73_windows_386.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_windows_386.zip",
+          "shasum": "5785fea310ffe9cb6a40991a844a5cca41a60e9f00e629455eaba837e3222f7d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vision-one_1.0.73_windows_amd64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_windows_amd64.zip",
+          "shasum": "40c544bfe4e9b9ce3def8ac1da240c501d99d4fdffa23e8e6e147b633d9b5538"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vision-one_1.0.73_windows_arm64.zip",
+          "download_url": "https://github.com/trendmicro/terraform-provider-vision-one/releases/download/v1.0.73/terraform-provider-vision-one_1.0.73_windows_arm64.zip",
+          "shasum": "e660765d603454011505a4617cb240222f8357ea433801ce7a9bfb4f830e3271"
+        }
+      ]
+    },
+    {
       "version": "1.0.72",
       "protocols": [
         "6.0"
