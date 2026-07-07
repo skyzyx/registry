@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsb_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_darwin_amd64.zip",
+          "shasum": "c38dcc0c1776c5552c71bc57c1dbbfdeb4954440e63966d28e4c560f96c482a4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsb_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_darwin_arm64.zip",
+          "shasum": "a3fde01da62cf2caf2d50f3a52a43dfd63ab0a5ad3516a829678b2340eafe083"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tsb_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_freebsd_386.zip",
+          "shasum": "beb741579b030b5af5bca8897d8435077c8e3728ea693b13f61b3dfe47f45fb8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsb_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_freebsd_amd64.zip",
+          "shasum": "cd7b2643953ca2d166349119894ff08db6c9b59cf3a393bccd63725ec1e9a157"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tsb_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_freebsd_arm.zip",
+          "shasum": "eae0aaa293ed906384b4868feadcbe3642253c673daaf0c4fb8e04422357ff8a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsb_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_freebsd_arm64.zip",
+          "shasum": "a78d56f9d1d3a1664e83f549d28b9674087103f3a9d0e63fc95d94bc1a4e750a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tsb_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_linux_386.zip",
+          "shasum": "90a85b3d9f7cde35068284a688205ba3deafd28f998e96a7c9c5fd33e1b96537"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsb_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_linux_amd64.zip",
+          "shasum": "980fe960ba7f35c16cb297457f11ccd1b3b25e0280f6025392fef8c4b206b3dd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tsb_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_linux_arm.zip",
+          "shasum": "e6117708033f7dbf880ea0adf3f1b5aed024d2d9101343a495e20d27abb16610"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsb_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_linux_arm64.zip",
+          "shasum": "2f6cf90ff0fc4f547252ca6e625705e982322a29b01a6352e73d35bc97ddeef0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tsb_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_windows_386.zip",
+          "shasum": "bcaa632f9959de36f56b08ad79da15381efb67dda73fbacd4b9e530b14f51dfb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tsb_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_windows_amd64.zip",
+          "shasum": "875114e4e35d0c314c56f13eda3589261243534f376b927267cf3d0a932e2b1b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tsb_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/tetratelabs/terraform-provider-tsb/releases/download/v0.1.0/terraform-provider-tsb_0.1.0_windows_arm64.zip",
+          "shasum": "512d602785ce3ebf293e56b5cc3ab438f14e4e5b28433f7cb8095a82423622ec"
+        }
+      ]
+    },
+    {
       "version": "0.0.5",
       "protocols": [
         "6.0"
