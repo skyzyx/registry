@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.8.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-k0s_0.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_darwin_amd64.zip",
+          "shasum": "ddab218bef179491143ceae3cc06638730fb759cb5581380150dfc05c6cea502"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-k0s_0.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_darwin_arm64.zip",
+          "shasum": "58956d4107cac1023fa22db99e60047a15a11e05a673c928127771583ccc8487"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-k0s_0.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_freebsd_386.zip",
+          "shasum": "650a5b5df5d4d5dd29fc4f76fafe8592cd89486fd32e8da3170f15547265090a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-k0s_0.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_freebsd_amd64.zip",
+          "shasum": "8b85e94edd68359e938eed5dd0403aacc055c0ae2562ec4f2f1fe87ea3ac4282"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-k0s_0.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_freebsd_arm.zip",
+          "shasum": "d4bf21a773a915281cbe3110d6ce22a55a002cb1a3c19e68b584ac7188d81cf9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-k0s_0.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_freebsd_arm64.zip",
+          "shasum": "a5968e9128f90de350d2ada7b6e6c29de0ad96a01bdc761562eb0fef4d95912d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-k0s_0.8.1_linux_386.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_linux_386.zip",
+          "shasum": "0900335db85e29f74fde43d8883277b6f1b16ba520d5c0b32195ed9a973634c0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-k0s_0.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_linux_amd64.zip",
+          "shasum": "6adb28428658c87a68bd2217ad18f39909b6504c38aabb19738220e65d335939"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-k0s_0.8.1_linux_arm.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_linux_arm.zip",
+          "shasum": "51dfae3408c729cd5afede1b233d415d40bed68389cedc81c46ec47ecef2c04f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-k0s_0.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_linux_arm64.zip",
+          "shasum": "186c9e2e0ff15a0fba583be1a7357912cd690bdb09d87071df112088dd3e896a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-k0s_0.8.1_windows_386.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_windows_386.zip",
+          "shasum": "76190197767c47946c41b444b01e7af8c828c4809a617b57096783a1961a2bfa"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-k0s_0.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_windows_amd64.zip",
+          "shasum": "e1575022d6ad36f88852bec5e5b6273c48116b8e6ab2fe560515997effa187ab"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-k0s_0.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/cgroschupp/terraform-provider-k0s/releases/download/v0.8.1/terraform-provider-k0s_0.8.1_windows_arm64.zip",
+          "shasum": "9af60ce7e10fed135e127edf0201f321aeb6ac5c332bccc8f5860c638384bd13"
+        }
+      ]
+    },
+    {
       "version": "0.8.0",
       "protocols": [
         "6.0"
