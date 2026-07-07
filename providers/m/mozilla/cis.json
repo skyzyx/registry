@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.4.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cis_1.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_darwin_amd64.zip",
+          "shasum": "db82159dc6c711ca3c91d47826dbd4452417cd0db4cb32c972ce3ff63fc505f9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cis_1.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_darwin_arm64.zip",
+          "shasum": "dc39be4ee56ed794acdcf73b13c50274dc856f3d30bcd74b2dbff033dfc07b17"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cis_1.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_freebsd_386.zip",
+          "shasum": "cb045cf3acbacc52a78d3a10cfade4e403b147ab7d474acc02aaefe1d5d3a512"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cis_1.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_freebsd_amd64.zip",
+          "shasum": "9c5c0519be1821701f4cb498c133218372b56033f0967fc056935a6cbc6bf8a5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cis_1.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_freebsd_arm.zip",
+          "shasum": "90daef202f869b639835b890c0b77a4585f0cfcfccdc643ceb6467f897371e85"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cis_1.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_freebsd_arm64.zip",
+          "shasum": "81a1aa3a824adfb790231170541b3fa683ed82eb29fd4bf95120408269e7703f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cis_1.4.0_linux_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_linux_386.zip",
+          "shasum": "eb6ce05b1b22ffb6821933e71cba669c0901cecb5f30601266a0fa5c2db991fc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cis_1.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_linux_amd64.zip",
+          "shasum": "5f30cac3ecc565fc0233479cb71c47ebe5347a1de2ddfd16ae0b9f96a629abdc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cis_1.4.0_linux_arm.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_linux_arm.zip",
+          "shasum": "74792b9ab6045c66f19ec90c838d616e544f7180b44985fed8af0b79db85133e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cis_1.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_linux_arm64.zip",
+          "shasum": "8bf5ae2ab8f1c3dfbcb99af7966c8e09bafbbde0e463ffc0428d0be40c55b1ba"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cis_1.4.0_windows_386.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_windows_386.zip",
+          "shasum": "c82be03cfc9fc101710086e4675b73e6681836727b405740fa278f2095af0793"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cis_1.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_windows_amd64.zip",
+          "shasum": "6a7edcb1b3536f0411831caf06580f24b945fc756abd041f3527152da6d5e4ff"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cis_1.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/mozilla/terraform-provider-cis/releases/download/v1.4.0/terraform-provider-cis_1.4.0_windows_arm64.zip",
+          "shasum": "95cc051d5280527b10b20f05619e47ffa34fdf7a9b054927a31b7f5a9488e611"
+        }
+      ]
+    },
+    {
       "version": "1.3.0",
       "protocols": [
         "6.0"
