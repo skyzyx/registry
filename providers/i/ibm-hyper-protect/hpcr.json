@@ -1,6 +1,108 @@
 {
   "versions": [
     {
+      "version": "1.9.3",
+      "protocols": [
+        "5.0",
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpcr_1.9.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_darwin_amd64.zip",
+          "shasum": "de1f24cf6511d223a6635aad500e3dc1b177ba5e3c962b51c2e743e3a32cbff1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpcr_1.9.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_darwin_arm64.zip",
+          "shasum": "30505a255e390363e0ee0f14440f05204fe2c4864bc8cfe40081f6ff3d887be1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-hpcr_1.9.3_freebsd_386.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_freebsd_386.zip",
+          "shasum": "b3eade4267e597f6019e78ed8d0ab25921ec355e67a9c0dbab1497cbc3206cfb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpcr_1.9.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_freebsd_amd64.zip",
+          "shasum": "7e1e015b7ee724f84330c00201f5f661ccbbcaa7b391ac79689302a21b89641d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-hpcr_1.9.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_freebsd_arm.zip",
+          "shasum": "e752fd868b0711834e919cd97f05a47b02af1be75de816550be211a38e730f25"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpcr_1.9.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_freebsd_arm64.zip",
+          "shasum": "9b0a1f3a10d2b1774ea5792d81ff3790f4024b5df2f13ede8a832075af8c7caf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-hpcr_1.9.3_linux_386.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_linux_386.zip",
+          "shasum": "53fec64742b9b1ab3c530abb835a0b4bb4ccb6c29368c5f2d5c337e5d75db406"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpcr_1.9.3_linux_amd64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_linux_amd64.zip",
+          "shasum": "3b886cfdede4e2c9f149a76b30894fd15e542994d706fa45f890fb926028acf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-hpcr_1.9.3_linux_arm.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_linux_arm.zip",
+          "shasum": "13e8dfc8574f2d75479226a46dfbbc928bd63ac8d54527de8fd023d35a84e3a5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpcr_1.9.3_linux_arm64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_linux_arm64.zip",
+          "shasum": "600592ae602a2771a3c5bd87af14e74d473c2ceb9b19c385c1b3e5f381eed2ef"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-hpcr_1.9.3_windows_386.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_windows_386.zip",
+          "shasum": "408b448813f43e13b3a144088b783c529b47313358ec7834e072d22e19a697cf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-hpcr_1.9.3_windows_amd64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_windows_amd64.zip",
+          "shasum": "59f96ddd430c7515b7589b0d4193cddd1565530edaacd5f7b1aa0042a11c68cf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-hpcr_1.9.3_windows_arm64.zip",
+          "download_url": "https://github.com/ibm-hyper-protect/terraform-provider-hpcr/releases/download/v1.9.3/terraform-provider-hpcr_1.9.3_windows_arm64.zip",
+          "shasum": "e0cdaab126fe9f0fde13bc6177e565e772c1d540d81051286bf14c9cc7f8fb44"
+        }
+      ]
+    },
+    {
       "version": "1.9.2",
       "protocols": [
         "5.0",
