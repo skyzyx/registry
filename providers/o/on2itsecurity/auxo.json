@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.0.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-auxo_1.0.8_darwin_amd64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_darwin_amd64.zip",
+          "shasum": "675da43ec5f95d2b32343d461ffecac806606a0a50137821a411846a7bd1fb8e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-auxo_1.0.8_darwin_arm64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_darwin_arm64.zip",
+          "shasum": "647ab9e6ef75ad9e250eb17b317b057d68f1674298712d5949fdb6bb71b80e6b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-auxo_1.0.8_freebsd_386.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_freebsd_386.zip",
+          "shasum": "09c750b15e513d4f602f7432feefe482c3e627d6f00bc4360cf4d20c86b62188"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-auxo_1.0.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_freebsd_amd64.zip",
+          "shasum": "6b3ffc63dc098ad27140bb61d7b4123c2148515b890428b2c590d82305e2527c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-auxo_1.0.8_freebsd_arm.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_freebsd_arm.zip",
+          "shasum": "b517568131b60ebd7c7ffe941fc1ed00595b44947c858fa5a93b3144cd819a9c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-auxo_1.0.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_freebsd_arm64.zip",
+          "shasum": "9f1ad7eca6607813d2270a561611aa1442078f5b3c33cae33f50be0ab90586b8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-auxo_1.0.8_linux_386.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_linux_386.zip",
+          "shasum": "db1ed3744708b6e90571228322ef1631568da1248f9fb19b884465d45792cc05"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-auxo_1.0.8_linux_amd64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_linux_amd64.zip",
+          "shasum": "20b3a609087ec2165bef6816c343523d2a0e09c83ebf57b1b3fd2a16cb7d2b28"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-auxo_1.0.8_linux_arm.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_linux_arm.zip",
+          "shasum": "cbf9bba49dde27e2568d4a774b671a34ad2412dfab3876159630ad9470c3f959"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-auxo_1.0.8_linux_arm64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_linux_arm64.zip",
+          "shasum": "553e79494289e6ecd38c0ff179c86e4cb30532320ce6de8b20ecbaab87566c6e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-auxo_1.0.8_windows_386.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_windows_386.zip",
+          "shasum": "9effc71426e999cebdd670b1a450e81f8dcbbcfcac5730fe1fb600df9e934ea8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-auxo_1.0.8_windows_amd64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_windows_amd64.zip",
+          "shasum": "9c1beb7956a4d581e14e5285a3ae1e2f1c994ee1f646649a9b29501737d496a6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-auxo_1.0.8_windows_arm64.zip",
+          "download_url": "https://github.com/on2itsecurity/terraform-provider-auxo/releases/download/v1.0.8/terraform-provider-auxo_1.0.8_windows_arm64.zip",
+          "shasum": "5c2e3dc90ea61d24b1289a11f5088ebcca1046ebffcb05076ffe3f1cb779915b"
+        }
+      ]
+    },
+    {
       "version": "1.0.7",
       "protocols": [
         "5.0"
