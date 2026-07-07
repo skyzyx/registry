@@ -1,6 +1,208 @@
 {
   "versions": [
     {
+      "version": "0.33.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.33.0_darwin_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_darwin_amd64.zip",
+          "shasum": "d8199c93ee016e42597edc0a8bc91201d66b3df59ab8950a41546d91ddfa0297"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.33.0_darwin_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_darwin_arm64.zip",
+          "shasum": "bc2be55c5c0e6cfcf71f56f67f4f0f1d163c90243a641dcebe8223d6e31e77df"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.33.0_freebsd_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_freebsd_386.zip",
+          "shasum": "0bdf2bdaf39bfc08d040d7d01b808396c1825fefec42a1160aa692543da3defe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.33.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_freebsd_amd64.zip",
+          "shasum": "eadedade4b5c0b6eaeec73adb8883e496e9423b6463638c8f808125f72cef044"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-galaxy_0.33.0_freebsd_arm.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_freebsd_arm.zip",
+          "shasum": "1a0b5b4af8e672f462cba4f71d06b922445cb61910d080936e7a51a36026a2d8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.33.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_freebsd_arm64.zip",
+          "shasum": "4268ba39c1f3402e8514bcd9720a3cbc36e5032f2be06649db56950b8f4e7fe0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.33.0_linux_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_linux_386.zip",
+          "shasum": "3bc5505fd2cb09d8fefec45f0ec13b3215912308815d263fbb504972b0d47a62"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.33.0_linux_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_linux_amd64.zip",
+          "shasum": "e4375697512e3e62f9077c5bcfc6af76b10e40ff986edf433c1564a82bbd5a78"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-galaxy_0.33.0_linux_arm.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_linux_arm.zip",
+          "shasum": "2947bd58d3a3d5c7e79b71b0f82de63f9b4958664c8d2e94e9abe4edb318caf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.33.0_linux_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_linux_arm64.zip",
+          "shasum": "e8038ad9028fb6453eea6b15279ffed99dc849cf8be67b8bc8997a7f93e3eb7d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.33.0_windows_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_windows_386.zip",
+          "shasum": "61e707217c3d77c38e8df7670966012640d232bf42ab42ef3f6ba9b7a3dec55b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.33.0_windows_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_windows_amd64.zip",
+          "shasum": "9a553de8ecff01dd97763c130080880150dac98d5667d583beee29e2a33144fb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.33.0_windows_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.33.0/terraform-provider-galaxy_0.33.0_windows_arm64.zip",
+          "shasum": "19bd38607414df2c8cfee362bc7c84c002c1162b37c2475ea092bcc5efafe1aa"
+        }
+      ]
+    },
+    {
+      "version": "0.32.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.32.0_darwin_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_darwin_amd64.zip",
+          "shasum": "af6c58e7a47285ed405d0250fc1f4fce96f1ac9d635bfb1cc3d0f8ab3c5e2a51"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.32.0_darwin_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_darwin_arm64.zip",
+          "shasum": "5b1f8e20efb19612f5e2cfc92dd0b972c6f76a4e56d1c8c5300304d7b1ce468e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.32.0_freebsd_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_freebsd_386.zip",
+          "shasum": "452efa5ac1ed1340cd111beeca0489eb82532c14776a169a7e829974e43b3246"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.32.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_freebsd_amd64.zip",
+          "shasum": "3219aeb860d50006b79b654a9962a42aa8441a39afb280b023bfb7779290a94a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-galaxy_0.32.0_freebsd_arm.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_freebsd_arm.zip",
+          "shasum": "3284eba530f315420fb665aacd7f98f8fc3e6c392a4c523016c839f8621dc2dc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.32.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_freebsd_arm64.zip",
+          "shasum": "5d4d2488e4e55a4a8018922d06f3a784dabdbf882d51e28d695598ee82cc15a4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.32.0_linux_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_linux_386.zip",
+          "shasum": "1e1acd601cd99631f869de0897202ca29505f3a5f11d982bda7eb11a88311abc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.32.0_linux_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_linux_amd64.zip",
+          "shasum": "06c3e8189e94ff9b2d8f4eebff1b05f34d7bd2c8003b6dc5806e2e0f0985f1fc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-galaxy_0.32.0_linux_arm.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_linux_arm.zip",
+          "shasum": "b98c0310eb2be8d17d71bf2a2a4c48a681ec126fcf52a1038c0b6df41b8174a9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.32.0_linux_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_linux_arm64.zip",
+          "shasum": "d1591ecc7624de5d0467a833eb01e3ac8da255f7b736473f69ad1a68202d8d07"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-galaxy_0.32.0_windows_386.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_windows_386.zip",
+          "shasum": "f1767424e933baf6f105eb26bcc3cfb0bdb415e6b0169abe87ee474a34658a9c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-galaxy_0.32.0_windows_amd64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_windows_amd64.zip",
+          "shasum": "5cb030762d776999634dd5bc20376edf61687909e6de5d8d0f71ad9989fc89d6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-galaxy_0.32.0_windows_arm64.zip",
+          "download_url": "https://github.com/starburstdata/terraform-provider-galaxy/releases/download/v0.32.0/terraform-provider-galaxy_0.32.0_windows_arm64.zip",
+          "shasum": "36bd4de10669b321b5fd828bc0693687b283f0db98d9399bf15f4429f4f87ec1"
+        }
+      ]
+    },
+    {
       "version": "0.31.0",
       "protocols": [
         "6.0"
