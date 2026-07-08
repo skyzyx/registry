@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "0.2.14",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-satori_0.2.14_darwin_amd64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_darwin_amd64.zip",
+          "shasum": "90303c4252681fb952c74dbd75483e90ab30561105e3ca6498e688ac31e1a59e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-satori_0.2.14_darwin_arm64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_darwin_arm64.zip",
+          "shasum": "5f9377ac0f0e673b72ffc61d6280608cc68f9c63c9b2400934123a33dab3ceec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-satori_0.2.14_freebsd_386.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_freebsd_386.zip",
+          "shasum": "4c49108c082f297c5a77c9a1dcafe2f9368c37c7103453487d4cd3d92eaba1c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-satori_0.2.14_freebsd_amd64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_freebsd_amd64.zip",
+          "shasum": "e9f768e770ff843e25f97b047dd070777dc875bc06a6ad59d5fb51114ff22553"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-satori_0.2.14_freebsd_arm.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_freebsd_arm.zip",
+          "shasum": "0e42bf0a2119ea52b24807644c29ba81a2fad1442b9ee2c998a9f6613279c0cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-satori_0.2.14_freebsd_arm64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_freebsd_arm64.zip",
+          "shasum": "effc7a205825b5c23c7b78865a043f257feb0261b32da630acfc8b4f3a928946"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-satori_0.2.14_linux_386.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_linux_386.zip",
+          "shasum": "9ad966f7ceff91dc433018ea93bfccc54e2558fdb823a5c5235283b7769aec84"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-satori_0.2.14_linux_amd64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_linux_amd64.zip",
+          "shasum": "7818bc23fb04ef6e5bceb8e3eb79a269090ce9ca0ca10c8101d2824c0a123964"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-satori_0.2.14_linux_arm.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_linux_arm.zip",
+          "shasum": "575f60bd0ba39eef9e3ac621000679eceba1ce2734d2b64973ffb86e2ce8fc17"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-satori_0.2.14_linux_arm64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_linux_arm64.zip",
+          "shasum": "c68a2cbae3b2eb680710a2266c76c516bc4694f3af2e9938f9da3a3259ea4872"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-satori_0.2.14_windows_386.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_windows_386.zip",
+          "shasum": "a1961ca61ce9af2448626ae556c50c01320657187c390221c1c773698b6061c7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-satori_0.2.14_windows_amd64.zip",
+          "download_url": "https://github.com/satoricyber/terraform-provider-satori/releases/download/v0.2.14/terraform-provider-satori_0.2.14_windows_amd64.zip",
+          "shasum": "d81d5faaf53d97156129fbf21d14cd688ad9ff809ec04c84aa3bcad87c7732e9"
+        }
+      ]
+    },
+    {
       "version": "0.2.13",
       "protocols": [
         "5.0"
