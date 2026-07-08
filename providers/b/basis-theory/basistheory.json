@@ -1,6 +1,128 @@
 {
   "versions": [
     {
+      "version": "5.1.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_darwin_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_darwin_amd64.zip",
+          "shasum": "00af0e54cc03a97100c4b7e52c1c218aadad77c20d517476d73ee9e194eb1fa7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-basistheory_5.1.4_darwin_arm64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_darwin_arm64.zip",
+          "shasum": "585305f5d90ef5b20541f6babe6d8b95f9f81ca27e7fe8e26a28d6260cfa0ddc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-basistheory_5.1.4_freebsd_386.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_freebsd_386.zip",
+          "shasum": "68159dec251df28cedb792422bdc3edef472c6d2a16716402edb9e970bb3dd2a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_freebsd_amd64.zip",
+          "shasum": "62059ea3eed3545c9bd4d62fdc3914d55f2d14bf0a9aa438d7d42958be0ec8ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-basistheory_5.1.4_freebsd_arm.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_freebsd_arm.zip",
+          "shasum": "5b98b1a252d2d5ed01984948581894634a454346e1aab57fadd3103295b1f1f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-basistheory_5.1.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_freebsd_arm64.zip",
+          "shasum": "178b9751738837ecd0292b8628bac39edebe81a02169cdd97c34696b251666af"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-basistheory_5.1.4_linux_386.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_linux_386.zip",
+          "shasum": "632e6a65e89e94b17d44045dad7eaa09ca4dfc63300ab7e747ae2d4cb27ce6d2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_linux_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_linux_amd64.zip",
+          "shasum": "22960c0579f30895d3256500f6b4f0c813a213e1962b4da0a158cb3e5193fe93"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-basistheory_5.1.4_linux_arm.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_linux_arm.zip",
+          "shasum": "b3a390db2fb11a0605a19d35b2fbba628e4ad3c8cdb91a58d78363de58d3cac0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-basistheory_5.1.4_linux_arm64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_linux_arm64.zip",
+          "shasum": "18f52070523022983f703f4e8b1d2b243dcb6cee2488f1474acf9f68a79dd336"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-basistheory_5.1.4_windows_386.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_windows_386.zip",
+          "shasum": "a12ccfab9b4e359feb3d7a54966985a38558c2a04294e0aa8ded34c1ab879717"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_windows_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_windows_amd64.zip",
+          "shasum": "e2946d101df8c7791eb5a97c2bb65a5a40a0080d6398ca3993485f1b2f431f4e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-basistheory_5.1.4_windows_arm64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_windows_arm64.zip",
+          "shasum": "4368f47f06c26cced56a003afd0e47c4ca9b7a7351bcd8aec517309c1f11fa17"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-basistheory_5.1.4_openbsd_386.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_openbsd_386.zip",
+          "shasum": "72daf1d3ae0ca69c49096793c806a9695616c2415661eebe03ea519ed4b7eff8"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_openbsd_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_openbsd_amd64.zip",
+          "shasum": "fdc6d6ca99b117c7fe172e0f6cee014b3481ca0076c7348da1e12e6df99c8363"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-basistheory_5.1.4_solaris_amd64.zip",
+          "download_url": "https://github.com/basis-theory/terraform-provider-basistheory/releases/download/v5.1.4/terraform-provider-basistheory_5.1.4_solaris_amd64.zip",
+          "shasum": "45b17af9cd7707aa7296ff808cbed468ec01dc4b8f1484077662477738e9298e"
+        }
+      ]
+    },
+    {
       "version": "5.1.3",
       "protocols": [
         "5.0"
