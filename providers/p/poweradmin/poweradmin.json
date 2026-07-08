@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.5.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-poweradmin_0.5.5_darwin_amd64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_darwin_amd64.zip",
+          "shasum": "d65e510899cf0f1487e8318047f3a4fd78b012a119b5b5de7c99a334e40be078"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-poweradmin_0.5.5_darwin_arm64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_darwin_arm64.zip",
+          "shasum": "ed002b779f9a24dfcb79d495ae755f48f7f013238e5775ecf549051e0b639144"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-poweradmin_0.5.5_freebsd_386.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_freebsd_386.zip",
+          "shasum": "a92c73f5ec67152d69272d31216ef44989170f88beb810255d565617ae2fe1cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-poweradmin_0.5.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_freebsd_amd64.zip",
+          "shasum": "f32f2ffc8f534ef3ee93a77c1ac6b568658311108c9e01bb63a049d58ef03544"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-poweradmin_0.5.5_freebsd_arm.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_freebsd_arm.zip",
+          "shasum": "9598abfd14f580b422ce11cd24b5a57c95503984e436a6ddf0337bdd4dfd3f21"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-poweradmin_0.5.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_freebsd_arm64.zip",
+          "shasum": "60408506000f8475600dbd8cb9e40e810377dbc26c642933046dab1220a7d0f3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-poweradmin_0.5.5_linux_386.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_linux_386.zip",
+          "shasum": "0afbc72a66e299b40bb16415b18abf5bf2cbecdf8985ae0584d2f59840dce427"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-poweradmin_0.5.5_linux_amd64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_linux_amd64.zip",
+          "shasum": "ddaa6dbef248a2b0ab0bf297b5d2a9cebc6c587c499952341061f23837ab5360"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-poweradmin_0.5.5_linux_arm.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_linux_arm.zip",
+          "shasum": "6339128301df1833f612f2223b5c8440cffeac517c95d882e1c619d1e21b35d2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-poweradmin_0.5.5_linux_arm64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_linux_arm64.zip",
+          "shasum": "83494babd3e0203e1221e6320475b39e434dd394774a79daddfc87f079493aa0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-poweradmin_0.5.5_windows_386.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_windows_386.zip",
+          "shasum": "1f602c7085019d5c5e85f5403c86edf9122d14b9ebcb20734a3b3a672f09e66f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-poweradmin_0.5.5_windows_amd64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_windows_amd64.zip",
+          "shasum": "ba1d3aa066847c61450c4ab1250ebee760d6bbe04ccadc656aabba63e95294fa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-poweradmin_0.5.5_windows_arm64.zip",
+          "download_url": "https://github.com/poweradmin/terraform-provider-poweradmin/releases/download/v0.5.5/terraform-provider-poweradmin_0.5.5_windows_arm64.zip",
+          "shasum": "b4c312370868d3b5b9598f3edee72d492c8a4ed71b11247560269aa8d5514e0c"
+        }
+      ]
+    },
+    {
       "version": "0.5.4",
       "protocols": [
         "6.0"
