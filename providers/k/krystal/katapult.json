@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.18",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-katapult_0.0.18_darwin_amd64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_darwin_amd64.zip",
+          "shasum": "4259590d8202cb7d58c548ea566be29a4e37a6922fb0251c5f0d0d70402266ec"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-katapult_0.0.18_darwin_arm64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_darwin_arm64.zip",
+          "shasum": "60debe31a504baa5d982e6921c01e3a727f0a94d41e2c882c853bc07a45d3f1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-katapult_0.0.18_freebsd_386.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_freebsd_386.zip",
+          "shasum": "8773e5bb91e84794123d6c049ba61d81f2ee30056ce773279461546de976985b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-katapult_0.0.18_freebsd_amd64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_freebsd_amd64.zip",
+          "shasum": "5101c70a18585e7dc2ed47df12f775c681c6eb9355cb24934388955bc62d7bec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-katapult_0.0.18_freebsd_arm.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_freebsd_arm.zip",
+          "shasum": "4d5442831a462a35a974104e0f6c4add152dd8b6d7c6ca8341ddd0901c3e03bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-katapult_0.0.18_freebsd_arm64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_freebsd_arm64.zip",
+          "shasum": "46083a9a4bb0940a041807575dff9e97ec8290ec6022301bf508b452259ce9bb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-katapult_0.0.18_linux_386.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_linux_386.zip",
+          "shasum": "1350e250bd29e95203e59ca43c57f8963ea28a0da80c7bcca11445a26a063dac"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-katapult_0.0.18_linux_amd64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_linux_amd64.zip",
+          "shasum": "e7c6d27876554efd38186b0186898153b881e32d825fdb36cbf6aee3929971b1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-katapult_0.0.18_linux_arm.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_linux_arm.zip",
+          "shasum": "0cea0ddec1e4986da67bc2689a98d430d6870312a8f614d4f5a14de311189c6a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-katapult_0.0.18_linux_arm64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_linux_arm64.zip",
+          "shasum": "4213525768c53bd7877da8fb62e614163c5ebca4cc0bb424a69e3e7afedf370b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-katapult_0.0.18_windows_386.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_windows_386.zip",
+          "shasum": "068c636871284e91017528730119128d04f386170be1fc3ec04a0b9e6bfe147c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-katapult_0.0.18_windows_amd64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_windows_amd64.zip",
+          "shasum": "016000429f7b94828648171971d5b48f7f0ce6ea81b1ee0da11d7dbebc38b8d0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-katapult_0.0.18_windows_arm64.zip",
+          "download_url": "https://github.com/krystal/terraform-provider-katapult/releases/download/v0.0.18/terraform-provider-katapult_0.0.18_windows_arm64.zip",
+          "shasum": "faebbfa1624468e9d5448ff5610eb01c3f8672c5bdb6ae01bc082b9c293657cc"
+        }
+      ]
+    },
+    {
       "version": "0.0.17",
       "protocols": [
         "5.0"
