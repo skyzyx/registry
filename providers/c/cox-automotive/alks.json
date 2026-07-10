@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.8.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alks_2.8.4_darwin_amd64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_darwin_amd64.zip",
+          "shasum": "87c9cf015c77778c81e97a15579e68e638bb14579428723d6c4916f3a3287c70"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alks_2.8.4_darwin_arm64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_darwin_arm64.zip",
+          "shasum": "3e3c150d9c82614f8ae51c87dfdfa46fc49194f4b351ce4ee3f63ec5fa94a4ad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alks_2.8.4_freebsd_386.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_freebsd_386.zip",
+          "shasum": "0a3f8e773496cfa26cc81ebfd1e8d5882cab8d5f8cff48f63eec3f60c51e262b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alks_2.8.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_freebsd_amd64.zip",
+          "shasum": "26af4c71d824f672115c282a5defcbcba5c08b4f974602d2981edea809b6d9dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alks_2.8.4_freebsd_arm.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_freebsd_arm.zip",
+          "shasum": "6ba46b2d1a451771ec49a7e3aa918279908b49c2818154589de2cc35f6544324"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-alks_2.8.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_freebsd_arm64.zip",
+          "shasum": "49677a0187f012686a414f0eed0297d1fb3f6dfd50d69e109898de6b9402963e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alks_2.8.4_linux_386.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_linux_386.zip",
+          "shasum": "934d0c83b0a82af41e3956a356ecb48913742b9dbbbc67e1b26bbb5a8365c491"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alks_2.8.4_linux_amd64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_linux_amd64.zip",
+          "shasum": "1d73547c3d9d2d2c361f395dd4ba28a2dd5a47002598dad6c66e2885a9d3dfe9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alks_2.8.4_linux_arm.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_linux_arm.zip",
+          "shasum": "3dd3aadee4f614cfc100652b075f9cc0c67b53dc1bdc1eb80f2437cd1ccabfc5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alks_2.8.4_linux_arm64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_linux_arm64.zip",
+          "shasum": "70a69fd0adb2ac737dbf23e68012f679d94137deb5e3c1a96fb314476bf74994"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alks_2.8.4_windows_386.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_windows_386.zip",
+          "shasum": "1b4322d38863234fe07e696d6f9f27536e626861fe721b5703fd857843d6041a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alks_2.8.4_windows_amd64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_windows_amd64.zip",
+          "shasum": "4b92e80e9cf4cddb47988443c82733226cad944e4fa6497f2325101eb93af011"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-alks_2.8.4_windows_arm.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_windows_arm.zip",
+          "shasum": "63d5c7863ceb9c31b7c7a5ef6dfdb70982a191601ed70abaf7ea66a387e45c96"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-alks_2.8.4_windows_arm64.zip",
+          "download_url": "https://github.com/cox-automotive/terraform-provider-alks/releases/download/v2.8.4/terraform-provider-alks_2.8.4_windows_arm64.zip",
+          "shasum": "ddea3b84e9bb0993efe273ab98d1b03c70ee2a352c8093cfcd3f65b7222b60ed"
+        }
+      ]
+    },
+    {
       "version": "2.8.2",
       "protocols": [
         "5.0"
