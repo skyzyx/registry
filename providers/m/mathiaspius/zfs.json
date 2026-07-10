@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.6.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-zfs_0.6.2_darwin_amd64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_darwin_amd64.zip",
+          "shasum": "c44eb27040372e2ee22c94a44c78591073190d1eb08ea40171445060ea8e99e8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-zfs_0.6.2_darwin_arm64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_darwin_arm64.zip",
+          "shasum": "8f557a8dc640cd7bf641cf092aa041384b2747dd641b53739c38cef6606f7b9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-zfs_0.6.2_freebsd_386.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_freebsd_386.zip",
+          "shasum": "25401af4185e9eb00a28caaa8c4009e15ea353decb769133c0c21c1fea81fd79"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-zfs_0.6.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_freebsd_amd64.zip",
+          "shasum": "d567f3b564133b65cb97ae0e7ee1c383596572f46f07dc7bddc00e9343393978"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-zfs_0.6.2_freebsd_arm.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_freebsd_arm.zip",
+          "shasum": "0a4b949ecbd2d26f15d83e630062edc2c74a9fdb12cd49bf8d271d26ad22f979"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-zfs_0.6.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_freebsd_arm64.zip",
+          "shasum": "9fae6d4794f8029f61751cb55315a10786917ed66fd33b244a5a12cab5b986d3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-zfs_0.6.2_linux_386.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_linux_386.zip",
+          "shasum": "ea871a28e46f130ab9e12701ff0beb9195d386776bde55f44d163ef0d9977be5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-zfs_0.6.2_linux_amd64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_linux_amd64.zip",
+          "shasum": "7d4bb4706b0cf2f35d5e94dec2f28edb3558e2f01800e0db0e8213630d7dfd00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-zfs_0.6.2_linux_arm.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_linux_arm.zip",
+          "shasum": "de6500fff72f1cba305f94901dd3f6089f192fcf2e1953d24af07c292707a175"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-zfs_0.6.2_linux_arm64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_linux_arm64.zip",
+          "shasum": "44329177bfed94d9c761be61b5d7bfd3136dc1b57ff5f88769ec40842bb4bfec"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-zfs_0.6.2_windows_386.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_windows_386.zip",
+          "shasum": "fcb33fb4432269cdd27f8941e443668b78bca2439b8b9eadd6cc6ae38e635a8e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-zfs_0.6.2_windows_amd64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_windows_amd64.zip",
+          "shasum": "7833059933eb3a4a8ee028d78a579742b17d016e55883e5536699aa6634f8aba"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-zfs_0.6.2_windows_arm64.zip",
+          "download_url": "https://github.com/mathiaspius/terraform-provider-zfs/releases/download/v0.6.2/terraform-provider-zfs_0.6.2_windows_arm64.zip",
+          "shasum": "0699a25db0c68f3b8f76ee41069045c87755cb92c91139eb49115a2613467f00"
+        }
+      ]
+    },
+    {
       "version": "0.6.1",
       "protocols": [
         "5.0"
