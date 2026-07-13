@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "4.0.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_darwin_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_darwin_amd64.zip",
+          "shasum": "7fb2b6a65c04ea3d5508d19b4664dad6e6aef4a71214941e42d718a6b6a6ce68"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_darwin_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_darwin_arm64.zip",
+          "shasum": "fa2a0d97a07f5185ac213bedfd8fcdbc33205eb76398b7199764f35527517d39"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_386.zip",
+          "shasum": "8ee26c0d8f90d9a54695aa6dc8e3b84afbe9b8a9880b8ef0528822d199ec5770"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_amd64.zip",
+          "shasum": "62c544d8855f3d841f84575492999991159ef2034cb1c33418dbf9ab6ee5f584"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_arm.zip",
+          "shasum": "efbc39c30affbb4393ede046c27ca399af1d6aa6734e5676178240f26d7503a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_freebsd_arm64.zip",
+          "shasum": "cc0fab828ecff717c3a394aa931c59cdb3f501687ca147fa32a1aa901934f427"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_386.zip",
+          "shasum": "bd22a55b536e4df1991446a464ca56ac36a449d5d482796b682e06a38096eace"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_amd64.zip",
+          "shasum": "d72a1a6334383c44974a62b19066fd52a97714b6ad160cf794681911c010b4eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_arm.zip",
+          "shasum": "1dd2e1644cfc6c02ae1fd813674904386a102f5d29eb54b33078484fb40dfdc1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_linux_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_linux_arm64.zip",
+          "shasum": "1960dd8fbf12c05818e05d68f82363af1d5025457b15636ff78de734d5ac7844"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_386.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_386.zip",
+          "shasum": "ed29bea197ef32adb40323adb56c209f3fe61dfb3045902a0147e96df1661b92"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_amd64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_amd64.zip",
+          "shasum": "d0c2e8e8c542c6569cb5a40185e52141eeae253021f903a5157eb931e8dafba1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_arm.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_arm.zip",
+          "shasum": "35c363d9474ba52e69b1370d55a97e547af276c26e4f456db3ffe2db187ada36"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ncloud_4.0.6_windows_arm64.zip",
+          "download_url": "https://github.com/navercloudplatform/terraform-provider-ncloud/releases/download/v4.0.6/terraform-provider-ncloud_4.0.6_windows_arm64.zip",
+          "shasum": "9d2b92e5808542013517caf30a0950bc31de5bfa26a8a447d980a1ffc1ba60d9"
+        }
+      ]
+    },
+    {
       "version": "4.0.5",
       "protocols": [
         "5.0"
