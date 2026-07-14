@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "2.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_darwin_amd64.zip",
+          "shasum": "cea4a73c90282ac7a8f746a2b57fb64ca6e10bc29cd229a01f80df6e72f4c1dd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_darwin_arm64.zip",
+          "shasum": "3bdbacddbaea15d54813837b1bbd188285b003241d6bb5f90d58729222804cb9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_freebsd_386.zip",
+          "shasum": "a0ce4c12e80fc84d29f807b610d314e0b78ca7ffa67b139fcc6d4590cbe41115"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_freebsd_amd64.zip",
+          "shasum": "3db21f003053dc1f3808c61358cef83c9567ae1db39442258847f74420628bb7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_2.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_freebsd_arm.zip",
+          "shasum": "b151beb7ead3334a09ee410d897f3ef5c1e92c00692d01a188467cdb08488e90"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_freebsd_arm64.zip",
+          "shasum": "d9cbc739f4608084dff0d50b5491a1e72c01968cd62a979d738ebc9729510ed6"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.2.3_linux_386.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_linux_386.zip",
+          "shasum": "3d4e82a7af725effdf3b5d3345fe028b74728468c0ee0086c34654b94dd8dd28"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_linux_amd64.zip",
+          "shasum": "0b87d40a887aa70d8d52471b3f30266aa43c186b127c6d3a61da70852f689910"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_2.2.3_linux_arm.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_linux_arm.zip",
+          "shasum": "a6e01bd67dad3da765a07ffa16fdcf1f7ad7f528aa63da8fa11a40250e4103f4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_linux_arm64.zip",
+          "shasum": "42ba9dbd60460f2ada4240c5019b170a93a4a2f4fe987cc8aa22c0155ab57ab1"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.2.3_windows_386.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_windows_386.zip",
+          "shasum": "9e40af075d2c34f139579e6c12633cd404dadf698b3d6e0e106dbd1c071c5f06"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/arslanbekov/terraform-provider-sendgrid/releases/download/v2.2.3/terraform-provider-sendgrid_2.2.3_windows_amd64.zip",
+          "shasum": "089d0e84e53747fb816863f44b3afd23a01f355ebfce93bff8aed79be9981930"
+        }
+      ]
+    },
+    {
       "version": "2.2.2",
       "protocols": [
         "5.0"
