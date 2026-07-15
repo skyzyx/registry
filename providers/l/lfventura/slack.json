@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-slack_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_darwin_amd64.zip",
+          "shasum": "7631ea2550aa630e06b1ce9f3c21700348ebe4dca9f2ec9f8e0c72317400c342"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-slack_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_darwin_arm64.zip",
+          "shasum": "4544ffa9b834186335ad338c9bee7f63ea4007b1b421f7ad7f72c8297b114469"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-slack_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_freebsd_386.zip",
+          "shasum": "0275081ef400a358ea470c2bf02278a04c9c168c8c92f2909d4f77aaf310e2f1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-slack_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_freebsd_amd64.zip",
+          "shasum": "3269f8fcdea408f2b392d863d4d91eaea61d0b661576ce9278156b16753d5808"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-slack_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_freebsd_arm.zip",
+          "shasum": "1673f0a79bc2df3726b8b729cf1ffeb1b507a706e344856074068314d0686b62"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-slack_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_freebsd_arm64.zip",
+          "shasum": "78d838ba682132d10d1ced06a20d68250852bd872411f974ee7f9a3e57dae08b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-slack_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_linux_386.zip",
+          "shasum": "36645b66ea9594b875677194563e7ead7b76e86cb68c47436342e6238735bce0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-slack_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_linux_amd64.zip",
+          "shasum": "5f2976a185dca7f3756333023efb66de0295430c6bea8432b80c4d44185ae91c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-slack_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_linux_arm.zip",
+          "shasum": "a6b62330f9a7ea452f94fd1d615b357010ce98d8d828c68da8ee0576c04bbe10"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-slack_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_linux_arm64.zip",
+          "shasum": "8a500a956198cb95988c86a8bbb81b860cbfed4e3393ba35ed914c335efd13b5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-slack_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_windows_386.zip",
+          "shasum": "e0b20b78aa17164bbf8c72c5b7a35a52c14575908dadcb38595e4621bde3174a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-slack_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_windows_amd64.zip",
+          "shasum": "74076bf82e721f4c58d67493fa98b7620427854fa6b768c7be6f397b01f8be46"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-slack_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/lfventura/terraform-provider-slack/releases/download/v2.0.0/terraform-provider-slack_2.0.0_windows_arm64.zip",
+          "shasum": "7f91f3ce458dcc3b21e68e3e201f5322ab4d2c85c1dd3d3f93ae8d891b1904d2"
+        }
+      ]
+    },
+    {
       "version": "1.2.13",
       "protocols": [
         "5.0"
