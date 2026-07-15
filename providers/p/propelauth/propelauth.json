@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.5.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-propelauth_0.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_darwin_amd64.zip",
+          "shasum": "cd6207957461cda5d22bff2c41679dc69da5aab5aa249680e1c4a2b3991565ee"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-propelauth_0.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_darwin_arm64.zip",
+          "shasum": "a07242fa4775332cb01476f5fb94934c31f93a1d0d550c34f9c36d41221dc780"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-propelauth_0.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_freebsd_386.zip",
+          "shasum": "c62353429520db1151b12182d51fa90ce6caf19be1dd05eb3bd0d6ee82c5b2a4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-propelauth_0.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_freebsd_amd64.zip",
+          "shasum": "9567b047820489664478072a071e8a1db7a423c58fa91b341b87c2731b55d854"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-propelauth_0.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_freebsd_arm.zip",
+          "shasum": "1032701746074ffb384ef024a985db180eb0b0158d057f16bb819a26317bcde2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-propelauth_0.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_freebsd_arm64.zip",
+          "shasum": "d3cad11bc013459acee1a32409935cbeff6bb2cce69d2694359ef674364605b1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-propelauth_0.5.1_linux_386.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_linux_386.zip",
+          "shasum": "1dc05a05ab08ef7f60f20668363d0e04adeea87fcbfc4df7d030242215887f29"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-propelauth_0.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_linux_amd64.zip",
+          "shasum": "9d4d6882a8ab33e2834e2afacf8c99d90f5cca62228df569e43adb0a1b264db5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-propelauth_0.5.1_linux_arm.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_linux_arm.zip",
+          "shasum": "2a6a35150d711d394108fd6954bbd50018bc1a07238cadc87970ef3b4844c07a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-propelauth_0.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_linux_arm64.zip",
+          "shasum": "1f9a157f2efb9358caed7ebd87bea4099892566e843d03762e9a3111d94eadb0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-propelauth_0.5.1_windows_386.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_windows_386.zip",
+          "shasum": "a50c3ed06795aa19ece2dc927dfc97fc122ebd559ccd6a4d6e01828402ae0e6d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-propelauth_0.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_windows_amd64.zip",
+          "shasum": "348554430892c1645fcd0d4b5767ed272429b15ab8fea9cfc523c5fa72d27ba9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-propelauth_0.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/propelauth/terraform-provider-propelauth/releases/download/v0.5.1/terraform-provider-propelauth_0.5.1_windows_arm64.zip",
+          "shasum": "29b66f9e66b96edffa8b0c4f50070fea9829c917f27f1e38b5c5246631500892"
+        }
+      ]
+    },
+    {
       "version": "0.5.0",
       "protocols": [
         "6.0"
