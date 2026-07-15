@@ -1,6 +1,208 @@
 {
   "versions": [
     {
+      "version": "0.5.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_darwin_amd64.zip",
+          "shasum": "4bb3b8123201986b78b66c3e93a6a208ddfdf818c66eced8e5a817e4e28f7aab"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_darwin_arm64.zip",
+          "shasum": "2d7444e6fa53d3d5edfa8aead1d952ab4d2b66b881af56078ba405e2ae8d4f3e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.3_freebsd_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_freebsd_386.zip",
+          "shasum": "305f5cba617b89b04a397fef924bab63cb6f392eb0914094d9b43d7cc9b7647d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_freebsd_amd64.zip",
+          "shasum": "ffaff3859e072db2db7a773ad7de2548abffe400b88b7574566d4ac572c7a1f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kafka_0.5.3_freebsd_arm.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_freebsd_arm.zip",
+          "shasum": "640bf4cedc08c8b370a1a613e61f3d6b63e972edde0aeed051039dfe483377d4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_freebsd_arm64.zip",
+          "shasum": "31b4c667e57bc940f8e7fae2eb3a44b3507b16ba2802e24f17917bf0794fa80e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.3_linux_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_linux_386.zip",
+          "shasum": "c81dd504ea63b968ef990e9548ed11d909d29bf38e94a317b1c131003bb70495"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_linux_amd64.zip",
+          "shasum": "c5675004aad9d342dada50d5c278ca5307989f6ad89a20d574e5e726641bf7c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kafka_0.5.3_linux_arm.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_linux_arm.zip",
+          "shasum": "b9f1a2a374517484191027853b1e9d28da8c672b6f5cc9e201f5a0edb53bb243"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_linux_arm64.zip",
+          "shasum": "8bf7dd4cf900fb5a54bd8e27424935c8a471f0c509d64b7a1b7ba475cc6a5134"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.3_windows_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_windows_386.zip",
+          "shasum": "2e887f62b15ceea87918f75e56d92db42e79ec347ca667c8d7836905e7210695"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_windows_amd64.zip",
+          "shasum": "2df761879a782c6e26eeebc131eea8a48bd58d6681d1b45017df41fd54d0be39"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.3_windows_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.3/terraform-provider-kafka_0.5.3_windows_arm64.zip",
+          "shasum": "74653eca30c484ff323db82e8fb8e39ed1a64c0e64e45d7ce6e57d10d9b45d45"
+        }
+      ]
+    },
+    {
+      "version": "0.5.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_darwin_amd64.zip",
+          "shasum": "a941bb9713a76bb23027aa40abc073d19c9d8151379d32cfff519729b490b857"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_darwin_arm64.zip",
+          "shasum": "189eb68f94aa1ba798a9150d2e3127c1d4a71f5958aeff50bc096a52e197a9c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_freebsd_386.zip",
+          "shasum": "f0a7bc928aafb03e6818ef6ff7bc222baecb6386a8b8779bbaead982bc175261"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_freebsd_amd64.zip",
+          "shasum": "114b36175bd93aa5b5d23ddf7f72dac8e882b7a4222b4e3f16cef79044115bad"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kafka_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_freebsd_arm.zip",
+          "shasum": "51dedd10f7929ea77adeaa269fdb9d60d280427c04d21478eec13a4e2f62baaf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_freebsd_arm64.zip",
+          "shasum": "f80eabfad4be77be63284ba1db1362263dfbb4d1de9ddd36132626500ee2f63e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_linux_386.zip",
+          "shasum": "b8be84136a5b82405bc6db49bf6415d1fac8c453ede74d9985c0600acc975783"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_linux_amd64.zip",
+          "shasum": "5e6ad7a0fa7a8173603a36cbd9e5ef99c442b81fec10c88cce6f75fb049efc40"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kafka_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_linux_arm.zip",
+          "shasum": "691d687a2b00ba9a375b0a44849677f0f605f785d16d0ee36d6801f5e412b366"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_linux_arm64.zip",
+          "shasum": "b4fda193559b5cada230244d96021bd619ee52fef18ddff7d8307d233a8e3a84"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kafka_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_windows_386.zip",
+          "shasum": "2cb75ec78fc8be1fa3a9ac205b5daa7c1e7fda4dcca47b13fe7daa8875ba58c5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kafka_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_windows_amd64.zip",
+          "shasum": "063fb8146a17a6bf1a98fffc2d24a71ea328437205fc949829bd8bb57894e9e5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kafka_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/pecigonzalo/terraform-provider-kafka/releases/download/v0.5.2/terraform-provider-kafka_0.5.2_windows_arm64.zip",
+          "shasum": "7353dbd0b2c3a8c71384e0b7037a50224f60f6cf56ff5b69cf4edc520ee5777d"
+        }
+      ]
+    },
+    {
       "version": "0.5.1",
       "protocols": [
         "6.0"
