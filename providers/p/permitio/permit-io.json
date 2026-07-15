@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.25",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-permit-io_0.0.25_darwin_amd64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_darwin_amd64.zip",
+          "shasum": "0f25a4da346f8050054609d7a55dd50a45e172fa79245143e991bb8af4b7c374"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-permit-io_0.0.25_darwin_arm64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_darwin_arm64.zip",
+          "shasum": "c76199f5694b31977aceaa07f7e947169ba4e8ed95734aa1454824454cdffca9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-permit-io_0.0.25_freebsd_386.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_freebsd_386.zip",
+          "shasum": "9e2ee044a5b98c3e3b0502ceecaebf5b58f942807941e006824375ca6c681ae8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-permit-io_0.0.25_freebsd_amd64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_freebsd_amd64.zip",
+          "shasum": "84d786b6a2f55081daddc8864b056e48ec6f594ae8768c118308d35be2a05e60"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-permit-io_0.0.25_freebsd_arm.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_freebsd_arm.zip",
+          "shasum": "e09f58fd90f529acb9750fa1746ecc2b906e425013a2ef1ecf06ed846f4df45c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-permit-io_0.0.25_freebsd_arm64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_freebsd_arm64.zip",
+          "shasum": "862c377e41050ccbaaf91bccde6efcb064d6a680d7da1e1f916151a760c37a05"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-permit-io_0.0.25_linux_386.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_linux_386.zip",
+          "shasum": "a83c5aac89cf81a969bc6cf100cdb349ecb269ecf44b2ae889cde6a43b52d1be"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-permit-io_0.0.25_linux_amd64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_linux_amd64.zip",
+          "shasum": "0b3d31d8d7e8067efd27f72ec295acb6ae413b68a18d206d054b8cdaaeaef265"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-permit-io_0.0.25_linux_arm.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_linux_arm.zip",
+          "shasum": "8d2a150a36204e4085fed536bc2966e4bdcd383eec69f4952147cf4f64168090"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-permit-io_0.0.25_linux_arm64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_linux_arm64.zip",
+          "shasum": "e1c1d9a2ad78ec8480e288ae2f2d7e86e82a539c71aa1e678620d7cd2f1fcb77"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-permit-io_0.0.25_windows_386.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_windows_386.zip",
+          "shasum": "512fc00a30719749c1f58a6a6333ab13875e7c8c02fd948a574643c699184af7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-permit-io_0.0.25_windows_amd64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_windows_amd64.zip",
+          "shasum": "3e51477e7d0f3fd6306b7232b495f57dbde6a74cba64b17d1374cebdf388ab12"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-permit-io_0.0.25_windows_arm64.zip",
+          "download_url": "https://github.com/permitio/terraform-provider-permit-io/releases/download/v0.0.25/terraform-provider-permit-io_0.0.25_windows_arm64.zip",
+          "shasum": "07072d17be2b6dca058d15c20cd08de2c38d7dbf3c17227cd4e8296110ff20a9"
+        }
+      ]
+    },
+    {
       "version": "0.0.24",
       "protocols": [
         "6.0"
