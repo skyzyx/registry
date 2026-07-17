@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.17.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.17.0_darwin_amd64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_darwin_amd64.zip",
+          "shasum": "15a1090ff710a26281d066de3645830d17cbf46d2c5e9d5094903aa909d8c3c3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.17.0_darwin_arm64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_darwin_arm64.zip",
+          "shasum": "a67a2f6df44e8030bb238def82348fc023a616a81b0cb00ba9370b5c57794341"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.17.0_freebsd_386.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_freebsd_386.zip",
+          "shasum": "7fd16cbb08ace73e102b556413d463cbe1766fd534b997afdfbacad410831b13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.17.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_freebsd_amd64.zip",
+          "shasum": "9090baa32bf1dc53ff03e252f4f6181e9806f2c646ab201fc29e8f4ee49f7fd4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sentry_0.17.0_freebsd_arm.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_freebsd_arm.zip",
+          "shasum": "4473efe7096129742da14e0ed9bcefa1013f4679f4c1a21697c53cad77ee77c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.17.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_freebsd_arm64.zip",
+          "shasum": "ee3188ac88ebb3d1e614fccab333c4c17a3a921d6c2b27cb97e2f16741fa13bb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.17.0_linux_386.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_linux_386.zip",
+          "shasum": "6f6d1483344c2fcbf23c37e0fd4b9d769de65e7bac36bf5b549b26f32a34e689"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.17.0_linux_amd64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_linux_amd64.zip",
+          "shasum": "ee1c845b7106e4bb020e9d2ebf01d00cd02a90ef19e7ed6e434b5e9af3daed22"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sentry_0.17.0_linux_arm.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_linux_arm.zip",
+          "shasum": "ad059661a5e0804a2c4ffbc4378923f1076a05147e9b800cffd175a9afe8cd15"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.17.0_linux_arm64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_linux_arm64.zip",
+          "shasum": "d5f6ded7c54fa7555ae0f11d1b73dec33f8916082d253f6c664c9891ecbdb803"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sentry_0.17.0_windows_386.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_windows_386.zip",
+          "shasum": "9d4e20943b26e619a9413f174880e99abd9d68af72d12bdf7b187421aa64ad47"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sentry_0.17.0_windows_amd64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_windows_amd64.zip",
+          "shasum": "15413c92d2d4eb8b3cf0935cdb27bf335dc931ab46af71a7e0fe09425542a3b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sentry_0.17.0_windows_arm64.zip",
+          "download_url": "https://github.com/mzglinski/terraform-provider-sentry/releases/download/v0.17.0/terraform-provider-sentry_0.17.0_windows_arm64.zip",
+          "shasum": "d5e9005fc75073bcf7eb7b5c809904e87622a7a384716ec6a831e256b701692a"
+        }
+      ]
+    },
+    {
       "version": "0.16.1",
       "protocols": [
         "6.0"
