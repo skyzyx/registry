@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.0.83",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_darwin_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_darwin_amd64.zip",
+          "shasum": "509aff80b8eb5b5e919c474eb92621937eb2636e062325a47599bd596c9d45c0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_darwin_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_darwin_arm64.zip",
+          "shasum": "4686f19bebfd1d21e1a7c78a6a8f33ab728edd5ca9f45b5ef31424cb45e6d75f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.83_freebsd_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_freebsd_386.zip",
+          "shasum": "3f76132974a11b6b5c9e55f79805d1fab84e80a8c905350946d82ddff0cfa8b3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_freebsd_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_freebsd_amd64.zip",
+          "shasum": "1a38a82b92244af9e08ff701b0341ae9f07a29d11cb1abff8073a7cc174dadcb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.83_freebsd_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_freebsd_arm.zip",
+          "shasum": "ac3fe2f7409d61b5cf112ee8c680cf3b081450d1345ab75040319de94a8c752e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_freebsd_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_freebsd_arm64.zip",
+          "shasum": "1719c7f773a59e7f77fc634e00646ee18317416a0c1e1815cccdd363116990c8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.83_linux_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_linux_386.zip",
+          "shasum": "cb4f10b1e865b2d90250d12976d6de9a9907123b7edc891db47a11c855cc532d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_linux_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_linux_amd64.zip",
+          "shasum": "18ea6d0c5d56cde574fc0729434700803ab05339abe852e188976ce1151a9fdd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.83_linux_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_linux_arm.zip",
+          "shasum": "4a955de86e6147d245b8830fe25906ca939c3668ad92d4c5efda6fdd58a194b5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_linux_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_linux_arm64.zip",
+          "shasum": "fa862277b28d2405df49cfdbe48c4d53f5f716ecc058f54c2d534a7af04e7a4c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-crowdstrike_0.0.83_windows_386.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_windows_386.zip",
+          "shasum": "9a515c5082f29c5dfabb442b99162b03de7e4d02e8f1b67b8cca1a4e50756fc8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_windows_amd64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_windows_amd64.zip",
+          "shasum": "54c40559e8fe583fe8d4800c69de31852a272e7778ec5c3522e51892296ea635"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-crowdstrike_0.0.83_windows_arm.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_windows_arm.zip",
+          "shasum": "ae0697078e696afab84fac97b76eb433db756531efeb85a1844cc812a864f4d3"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-crowdstrike_0.0.83_windows_arm64.zip",
+          "download_url": "https://github.com/crowdstrike/terraform-provider-crowdstrike/releases/download/v0.0.83/terraform-provider-crowdstrike_0.0.83_windows_arm64.zip",
+          "shasum": "7dbb1ea53dd5b674c5e055e2c4d82906d367df0ee833a3dcd7ba2cd7fc906c17"
+        }
+      ]
+    },
+    {
       "version": "0.0.82",
       "protocols": [
         "6.0"
