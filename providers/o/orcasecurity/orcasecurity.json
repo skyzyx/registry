@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.0.56",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_darwin_amd64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_darwin_amd64.zip",
+          "shasum": "f055f231ed32ea1cfa373fef517da66d64a206eea4368a9153a757035d4c7aff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_darwin_arm64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_darwin_arm64.zip",
+          "shasum": "e3c51af22eb70d6bf6a2cbaa35c7b64671bd99df896d6fb6b906c0777faf20de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-orcasecurity_0.0.56_freebsd_386.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_freebsd_386.zip",
+          "shasum": "575a8cb038e477ba76197c80d47d3b6a0505888d46f2adafdf54450dba776d42"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_freebsd_amd64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_freebsd_amd64.zip",
+          "shasum": "b98594b36ea7fbc3f7050f862f7ff9e75b2f1de6b17421d74f46121203351708"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-orcasecurity_0.0.56_freebsd_arm.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_freebsd_arm.zip",
+          "shasum": "e4c87e2dbd3ee0edc79a3ccab5f1791ff8c9ff61c954fa82c0a355c807b31273"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_freebsd_arm64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_freebsd_arm64.zip",
+          "shasum": "122287e86189c38297d8530230607dc24b5d60c6f6d324cbda5e3bc7212ae630"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-orcasecurity_0.0.56_linux_386.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_linux_386.zip",
+          "shasum": "fb35f9194ffc2dd44973532967eeae6d268bebee5984b6e3f4d312890a2a872a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_linux_amd64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_linux_amd64.zip",
+          "shasum": "5343aa9eff7267695debc9764ac78d8aeaaf73acbfc768435bc5f34bbfd13a1b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-orcasecurity_0.0.56_linux_arm.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_linux_arm.zip",
+          "shasum": "f05c69f2f8aca798e863bdce3a5efc5d8769e8bde1f936bf02f3648f3b8da1be"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_linux_arm64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_linux_arm64.zip",
+          "shasum": "a8a2d41fbe891183a16da7d922a66839cc6b330ff586566b9321ac3bed3cbb52"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-orcasecurity_0.0.56_windows_386.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_windows_386.zip",
+          "shasum": "2bafa7d7ac36311d8ddcdc2b92aeb6d89bd02cda5726f1eee6e8a76940063760"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_windows_amd64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_windows_amd64.zip",
+          "shasum": "6a7abb183edd99e6998dc43dec93848c3fa0d56bd2797dab9f5c19d82e0333f9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-orcasecurity_0.0.56_windows_arm.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_windows_arm.zip",
+          "shasum": "f184c32f5fe39e7a9e69e78845f92299fd0abfc6bb3fda92d28c4162cc7c7012"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-orcasecurity_0.0.56_windows_arm64.zip",
+          "download_url": "https://github.com/orcasecurity/terraform-provider-orcasecurity/releases/download/v0.0.56/terraform-provider-orcasecurity_0.0.56_windows_arm64.zip",
+          "shasum": "d43f87c203f8f98ed97165a8a06ba3dac60f804e0adfd3ffc7c29ecf6d4a2dcd"
+        }
+      ]
+    },
+    {
       "version": "0.0.55",
       "protocols": [
         "6.0"
