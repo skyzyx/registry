@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vantage_0.3.9_darwin_amd64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_darwin_amd64.zip",
+          "shasum": "d8f5b358f23fcdc772c991659d0effbf9a0d5b204eae00f55d80aab6066b7310"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vantage_0.3.9_darwin_arm64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_darwin_arm64.zip",
+          "shasum": "09492773e01b8dc8b115d82ad6ce5ac3165d163a078d3b061c48e92011b65f8f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vantage_0.3.9_freebsd_386.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_freebsd_386.zip",
+          "shasum": "e613918ae65166000f348c2ab587e69171daa56ea48f6fdfcb6873e7310c1070"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vantage_0.3.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_freebsd_amd64.zip",
+          "shasum": "0a6f0e710df9288ed23a3346092dce5fc007abcc8bba13e0f72f8f06312051bc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vantage_0.3.9_freebsd_arm.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_freebsd_arm.zip",
+          "shasum": "690bb2425fc4b9cfe1f83854ade1bd2fc1f2fea5d03e634c9a8547e770213fcb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vantage_0.3.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_freebsd_arm64.zip",
+          "shasum": "450d380eff2c1e5ce5622c95775ec547def8b2b0da332df3c7d642e97c5c38f4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vantage_0.3.9_linux_386.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_linux_386.zip",
+          "shasum": "1f56c5a60ed3bc9b76a95aa3a88317c04d0dfdf130172538c560e787494717dc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vantage_0.3.9_linux_amd64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_linux_amd64.zip",
+          "shasum": "993ef6ac1d00bf3281eef30415cf05510f8166f2ed645c4765b84a5deb9f8e24"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vantage_0.3.9_linux_arm.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_linux_arm.zip",
+          "shasum": "5ee65a883b5b8e209c4c1deaf8ac34f18a170343d4c729b4167157c5f5dfa8b6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vantage_0.3.9_linux_arm64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_linux_arm64.zip",
+          "shasum": "86a3a8964a28cfae7e91cf61e83819b7b27dae7b633b99dd95035aaa85ff515b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vantage_0.3.9_windows_386.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_windows_386.zip",
+          "shasum": "2506075c4e68cd4ecfd94e651148a6b2e34f010e2d7858e7e2f129eb5047d72f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vantage_0.3.9_windows_amd64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_windows_amd64.zip",
+          "shasum": "b1809fbbadbae87c11a372a12ef3b24355344ea0e537fb46301a504f4afde02f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vantage_0.3.9_windows_arm64.zip",
+          "download_url": "https://github.com/vantage-sh/terraform-provider-vantage/releases/download/v0.3.9/terraform-provider-vantage_0.3.9_windows_arm64.zip",
+          "shasum": "0d67187dd5267f4aef8cb3b76aff12477efdf3a31f221d2f60d4be41ee121434"
+        }
+      ]
+    },
+    {
       "version": "0.3.8",
       "protocols": [
         "6.0"
