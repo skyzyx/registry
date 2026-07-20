@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.7.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mapbox_0.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_darwin_amd64.zip",
+          "shasum": "d13016d47a9455f04371a727741388646e79549291766039dfd83c12f734ecc0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mapbox_0.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_darwin_arm64.zip",
+          "shasum": "5d68d4ef4bc472459d9e2b45e632cb0a45b4dc26f989441577955159ec2b1a61"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mapbox_0.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_freebsd_386.zip",
+          "shasum": "1140cfe5a2e883113304e507670e5f1781f4692d253b98d1345d4fd8592aa7a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mapbox_0.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_freebsd_amd64.zip",
+          "shasum": "ce122d9fc6f52af9254331692fb891c68217f3c102f64904fbef6b711440bee7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mapbox_0.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_freebsd_arm.zip",
+          "shasum": "a7aa4c7f6a4f3e2b6a63b407d2404f752009c01fc82064f952342684026517cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mapbox_0.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_freebsd_arm64.zip",
+          "shasum": "ec58283ff0d4ee04a16c95a1a6c672e59d8387a2ebe81f80a09b577b73f766c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mapbox_0.7.0_linux_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_linux_386.zip",
+          "shasum": "9934b44f59704f4a0291b0212e9abd1bc8c5e47670f9869cfd31d22cae07d266"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mapbox_0.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_linux_amd64.zip",
+          "shasum": "63ddaa72fbe3aedeceed3224a700fc6c98de71d85395b9644e34de0a331c2a91"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mapbox_0.7.0_linux_arm.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_linux_arm.zip",
+          "shasum": "6747d9c3f9798f1d2cf231ffd9bda2e6c6e7a1542924a0c194d959808f7d764d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mapbox_0.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_linux_arm64.zip",
+          "shasum": "8ef73f2c39e7b4bb94b3e6303ebba6643acd6e33302dc9bba24f4ddc99262c1f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mapbox_0.7.0_windows_386.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_windows_386.zip",
+          "shasum": "e06690e652cd9702d6e40024d6aaeaa11d829bef166a81b64af8d450455cb409"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mapbox_0.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_windows_amd64.zip",
+          "shasum": "a991c7ba07010523c6d0d467de94ffaabd334b50bce8ecff27794f26e3866e33"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mapbox_0.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/drfaust92/terraform-provider-mapbox/releases/download/v0.7.0/terraform-provider-mapbox_0.7.0_windows_arm64.zip",
+          "shasum": "d27e4ee5be9667456343dbd6493a03adff077ab41352a0d683fa94c30709899c"
+        }
+      ]
+    },
+    {
       "version": "0.6.1",
       "protocols": [
         "6.0"
