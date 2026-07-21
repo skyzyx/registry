@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.14.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-akp_0.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_darwin_amd64.zip",
+          "shasum": "1e4b43e82e283fc644fc14dc81d4abe868b4e124aed7eede420fbcde2f1c0a35"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-akp_0.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_darwin_arm64.zip",
+          "shasum": "cd65f7aa144707d2a536bd7bae4d17d9bb1153fd927ebb34e7c4549144fe0fbd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-akp_0.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_freebsd_386.zip",
+          "shasum": "4950e73f9de4836e3345de3324caf7fa65b1fd769dc410d5a8f2f60a904aa039"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-akp_0.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_freebsd_amd64.zip",
+          "shasum": "8aff2ca9309c565c062ec5d6143b9547f4e70bc29ae03b422fac40c7085b196e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-akp_0.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_freebsd_arm.zip",
+          "shasum": "14d92c2a7040beb319735a350a314627149b89923f501ca4588ac6a94a7d3cb1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-akp_0.14.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_freebsd_arm64.zip",
+          "shasum": "7bb94b0e562db62f069d83caf6b51e4ce1990ee8ff5a2aa57029bcc4243e83ed"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-akp_0.14.0_linux_386.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_linux_386.zip",
+          "shasum": "f3a6e79a09db918599b28cd502714c62d1bcecd00890a4c8b1eeb9bb065f6fdc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-akp_0.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_linux_amd64.zip",
+          "shasum": "875d725665898ebf1192a9722db8fe5f36a7b5b350fcf748bd84e42ba9be3f6c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-akp_0.14.0_linux_arm.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_linux_arm.zip",
+          "shasum": "e1d6a60899c6c8f1000088f90f4acf648111239e3fd579965264659cc06e6f8c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-akp_0.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_linux_arm64.zip",
+          "shasum": "d236cd048e775f921b3e99fcb9e8808866578e8e2a9aef8e1b43e0f1984e9b24"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-akp_0.14.0_windows_386.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_windows_386.zip",
+          "shasum": "902e6b8b7e18f4471477e8f438a1b5c508e79e6a0d7fb6b3b3b9eccc136a36ec"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-akp_0.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_windows_amd64.zip",
+          "shasum": "7a9e1b17f53551c3bd9549adbbe9ec377adb357c52b4953068947cad7f1d9fb4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-akp_0.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/akuity/terraform-provider-akp/releases/download/v0.14.0/terraform-provider-akp_0.14.0_windows_arm64.zip",
+          "shasum": "24c9f82af94c34358078dd8f9351f20a5f1e600cf2b123a1b56f84891fb6f120"
+        }
+      ]
+    },
+    {
       "version": "0.13.0",
       "protocols": [
         "6.0"
