@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.3.16",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vngcloud_1.3.16_darwin_amd64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_darwin_amd64.zip",
+          "shasum": "2e52b04b7f250abdf41ad53d07de3f91570344382a5df616d05eee483fd09e35"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vngcloud_1.3.16_darwin_arm64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_darwin_arm64.zip",
+          "shasum": "13ef32a1567f11b6acca179ef38226a76e40a500250fdb5d4770c9d7c84a2d17"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vngcloud_1.3.16_freebsd_386.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_freebsd_386.zip",
+          "shasum": "5597272a1ca29cf2eb889a0c2b53bae0e250eed58c0eb0b7ba2970f2eeb87cce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vngcloud_1.3.16_freebsd_amd64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_freebsd_amd64.zip",
+          "shasum": "a4848ab8d1fa88f1993ded28d8db1fd07beb9b9ea55d051307fc521173fc5b88"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vngcloud_1.3.16_freebsd_arm.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_freebsd_arm.zip",
+          "shasum": "18a7f546d4c1bbc2b45d46c37f2683dc0c2ca3805be192571afa629540826507"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vngcloud_1.3.16_freebsd_arm64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_freebsd_arm64.zip",
+          "shasum": "6df4ba0ece3614dd1c6dd9bce6cf1f2938ede637080d073429b80c0b724d75a7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vngcloud_1.3.16_linux_386.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_linux_386.zip",
+          "shasum": "201233d2ff203af2d66af6698cb24a4fa988130b2d09b38db74770caefe456fd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vngcloud_1.3.16_linux_amd64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_linux_amd64.zip",
+          "shasum": "09260e82a2082b264478d52b4830356131137f1e200314bb03ad128ae0726f0f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vngcloud_1.3.16_linux_arm.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_linux_arm.zip",
+          "shasum": "48c687b8fc711d0436b189c856721bf1361af9718a3465530ebae72b04d9ec34"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vngcloud_1.3.16_linux_arm64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_linux_arm64.zip",
+          "shasum": "408c7815e9bf3994a7c2e114c3f907aed1d14665861a7071dde0fa3e2da182f3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vngcloud_1.3.16_windows_386.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_windows_386.zip",
+          "shasum": "dd9e89d9c59898193f2ac76456e03aa03278a2a487d53e7733fcb9366b274215"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vngcloud_1.3.16_windows_amd64.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_windows_amd64.zip",
+          "shasum": "d49fb53a133a00c0d330b3cc1ad34853994e4eb7f629af75e24d799211e1299d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-vngcloud_1.3.16_windows_arm.zip",
+          "download_url": "https://github.com/vngcloud/terraform-provider-vngcloud/releases/download/v1.3.16/terraform-provider-vngcloud_1.3.16_windows_arm.zip",
+          "shasum": "0c36345c79a902c539eecda53b3232b0ce9ff0947f629e6dd917b96962188f22"
+        }
+      ]
+    },
+    {
       "version": "1.3.15",
       "protocols": [
         "5.0"
