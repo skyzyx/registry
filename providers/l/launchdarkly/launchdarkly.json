@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.0.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_darwin_amd64.zip",
+          "shasum": "be228c6dad310a77aba877cbe80b1cd07239a6ba946753252c6fe0102853f6a8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_darwin_arm64.zip",
+          "shasum": "dd7a78e1c1907bab8f8684e9a59c2dc1be779e63d22a9a48a8cdb0f791fb2c82"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_freebsd_386.zip",
+          "shasum": "16a3fbe4945782122fbc833dfa3c20b9688d840b54467d434909747152196a03"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_freebsd_amd64.zip",
+          "shasum": "52a33c2b39e9618a59319951e073f45c1a8579478b1753845cfd50806c7667bd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-launchdarkly_3.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_freebsd_arm.zip",
+          "shasum": "3f3e2072b2fa17d570c2e69ccc1a128a64972f52b1ade834cd2e5920fb3c5cf9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_freebsd_arm64.zip",
+          "shasum": "128bb693566b0a8fab6346a0d8780ac1a8e8a482ce04017256c98d008647daf1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0_linux_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_linux_386.zip",
+          "shasum": "186e937fde578165e0239029ee22bea706f631cbbbf4b3fd068e30df1d0fe08c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_linux_amd64.zip",
+          "shasum": "0beb3d624d8450fe75e064eba997e6ae5e768f626d4010f68e7eff6476a5449e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-launchdarkly_3.0.0_linux_arm.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_linux_arm.zip",
+          "shasum": "f47ba8ccd2a101ff04ae8d86a044ba2fef7dcdeabf43c92ac2da5952de7092e2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_linux_arm64.zip",
+          "shasum": "66a38cb5b076f44a724101f3c673dc58664242f5d9ce1e82a815af881cff6e30"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-launchdarkly_3.0.0_windows_386.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_windows_386.zip",
+          "shasum": "5243fc6ea8fe52f25e85ed9d58ddb8b17e31f2e9f8fb1290ee3703a925ae29d8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_windows_amd64.zip",
+          "shasum": "f870fed4808de27fb97cf4ba0ac1e15a76d98d56875f3b7f1ef39361564eeda8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-launchdarkly_3.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/launchdarkly/terraform-provider-launchdarkly/releases/download/v3.0.0/terraform-provider-launchdarkly_3.0.0_windows_arm64.zip",
+          "shasum": "02fcb08e6aa614e34468576d7018674e795f6865528ae5db01657dae51d45e52"
+        }
+      ]
+    },
+    {
       "version": "3.0.0-beta.7",
       "protocols": [
         "5.0"
