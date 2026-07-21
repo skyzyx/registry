@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.1.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cachefly_1.1.9_darwin_amd64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_darwin_amd64.zip",
+          "shasum": "05b0f5d3fe2b985ce507a37aa52472a78bbcec33bfdf55c98f9225bda886ecef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cachefly_1.1.9_darwin_arm64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_darwin_arm64.zip",
+          "shasum": "c1d4a71c42fdd114637b5aa18638e2e142049feeb18f5d2b2edae35f4ceda7e0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cachefly_1.1.9_freebsd_386.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_freebsd_386.zip",
+          "shasum": "440f9f0e955544421588e891f054e06c3237e6cdc29748593a2929e22392f8a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cachefly_1.1.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_freebsd_amd64.zip",
+          "shasum": "678b765ae926d54a5fe7d35ec69866596217b2c3178369b771d6afea6fce2625"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cachefly_1.1.9_freebsd_arm.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_freebsd_arm.zip",
+          "shasum": "55a7ee287f0dc35321f532d9a964c9343d728d18cc46cc717e4999f5a9225a3a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cachefly_1.1.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_freebsd_arm64.zip",
+          "shasum": "f459c7bf491413a9463eae8ba480eb452f23eae2df94530b6420ed909db060b9"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cachefly_1.1.9_linux_386.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_linux_386.zip",
+          "shasum": "81bc5a14991f8b60fd20f12690c0011cf84c28ca3d264d3b7e93226be9ec0790"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cachefly_1.1.9_linux_amd64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_linux_amd64.zip",
+          "shasum": "6b4b9e99d1ec1c9d441539f591db7f980d2b4cf427cdb2758b646dc6dc09cafb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cachefly_1.1.9_linux_arm.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_linux_arm.zip",
+          "shasum": "c356b86541d04f46cb9c92b3911121017e82134f26bf867cda4ae27406543103"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cachefly_1.1.9_linux_arm64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_linux_arm64.zip",
+          "shasum": "582d70e1ca6fd423c057f24ff5b053ec58403145868b2c739986c4347b9648aa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cachefly_1.1.9_windows_386.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_windows_386.zip",
+          "shasum": "59feeca52965f9b36a78e7c9082189bebaf9939ee25db8dead92a383c3e386a9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cachefly_1.1.9_windows_amd64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_windows_amd64.zip",
+          "shasum": "e526854805691ae7048f35db92626e4b195a75eb85f3a2a28b3b688f2fd52448"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cachefly_1.1.9_windows_arm64.zip",
+          "download_url": "https://github.com/cachefly/terraform-provider-cachefly/releases/download/v1.1.9/terraform-provider-cachefly_1.1.9_windows_arm64.zip",
+          "shasum": "832cad18fc6883cf9a923c6d1144cbce3d493414e367e4897b7f4067c6458812"
+        }
+      ]
+    },
+    {
       "version": "1.1.8",
       "protocols": [
         "6.0"
