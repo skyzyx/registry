@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.79.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.79.0_darwin_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_darwin_amd64.zip",
+          "shasum": "452080e03cecded9cf3664bec4d6b89914ae33cd6c9f21e149d15122c0f8ebe9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.79.0_darwin_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_darwin_arm64.zip",
+          "shasum": "37e4a6f3ccb7e554091fa9f4bdc95388c6464060529ca8dd6901a8615bd34bb5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.79.0_freebsd_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_freebsd_386.zip",
+          "shasum": "7c1b9d8c8bea27d8067111af38c47ff66abc2193ce6fa3c9f3505288dbb9a380"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.79.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_freebsd_amd64.zip",
+          "shasum": "dbf5bfa14c8eb940f637a0f251ecbcd12016fc26ab8eae03c803f8e6073b64c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.79.0_freebsd_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_freebsd_arm.zip",
+          "shasum": "b4686330c02cff70fd1a180ef86464103da5ec94f2b300cc5fc274e57378332f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.79.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_freebsd_arm64.zip",
+          "shasum": "08410a1fce6cd00a649fa097b4819078490a6285b3bb6124bc5bb6b979483862"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.79.0_linux_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_linux_386.zip",
+          "shasum": "e5507cdb8abdb7f9d37de5b30bb1d5e9e072ec5204e4b0d6f7a2e3ef05113e34"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.79.0_linux_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_linux_amd64.zip",
+          "shasum": "c28572507243bd6cc9d5ad755548a9b8eec5a99e75228896f0088860b2c44a86"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.79.0_linux_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_linux_arm.zip",
+          "shasum": "3361281c6c1d5f8243323e780456ee159d79e91cb5516f2761047e99e37ed3c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.79.0_linux_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_linux_arm64.zip",
+          "shasum": "113da5c2d9a284b4acdb5054c93fedac133b047f97573f70cfd5ad11030ed3e9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-confluent_2.79.0_windows_386.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_windows_386.zip",
+          "shasum": "3f27e4d93f28f319d4548353b4498f72dcb85164b541aa2bdf1d53acdf664b35"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-confluent_2.79.0_windows_amd64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_windows_amd64.zip",
+          "shasum": "73639cf099b94cedab00ea251debdafc358ed7a27f59af45f1e508876624e908"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-confluent_2.79.0_windows_arm.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_windows_arm.zip",
+          "shasum": "18a07d29360f0b1f00e1ff105ead9e7b0026ccbf54442c043d2d2e8a5a91f89d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-confluent_2.79.0_windows_arm64.zip",
+          "download_url": "https://github.com/confluentinc/terraform-provider-confluent/releases/download/v2.79.0/terraform-provider-confluent_2.79.0_windows_arm64.zip",
+          "shasum": "ddd3225d1be368ef73a828974178e8f28a2f5cf636109c38acc13f39d8d532ce"
+        }
+      ]
+    },
+    {
       "version": "2.78.0",
       "protocols": [
         "5.0"
