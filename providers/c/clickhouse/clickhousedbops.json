@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.11.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_darwin_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_darwin_amd64.zip",
+          "shasum": "9cef965eaa43ad4a7e89418b1bfa84533b45b3115ec4bb5ef1b381212ce3f014"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_darwin_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_darwin_arm64.zip",
+          "shasum": "661f830cfbed9be514478e60da48270687a12eb0f777cb9e3c350442e0f152e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_freebsd_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_freebsd_386.zip",
+          "shasum": "ef4d83674b851b685577c7b23859f84a6f44443c161651341a851373bd6f4913"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_freebsd_amd64.zip",
+          "shasum": "004decaf93a1e3cb0613b0641c0967d3923036d1ba4a7e3d5614eea70f458755"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_freebsd_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_freebsd_arm.zip",
+          "shasum": "6d554e8f34cf3d4d3de765a09209dceaa62b3fdf5a66f804b9eec9e86cf94047"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_freebsd_arm64.zip",
+          "shasum": "e2a3f65c0e5e0e87efc7600d2ed95afd8f387198683b144150f5584ce3913123"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_linux_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_linux_386.zip",
+          "shasum": "f253862d64750103b2c801ec692bbf0f24d73d16775b57d528f5437786d33806"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_linux_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_linux_amd64.zip",
+          "shasum": "37a0a72f4e478d20a573d66261ec1ef25ba6303a7bf6b2bd45d459ce079a7607"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_linux_arm.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_linux_arm.zip",
+          "shasum": "e905107c7c63c3cc3e578cfd404de76ce4a040d318cd9abae80e862832f91057"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_linux_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_linux_arm64.zip",
+          "shasum": "dc9f940597501ca35ed03c4e334664a8b4dd9702ddb42fa539aa33fede712d1d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_windows_386.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_windows_386.zip",
+          "shasum": "1414c110a7227f5944c52144a4afabfdee3fc21f9814715fb7a7aee0fdd7e1d3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_windows_amd64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_windows_amd64.zip",
+          "shasum": "247642daddc69e9fb0a83c655e60620f370b8b85560bcc6d3c5116029b81917b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clickhousedbops_1.11.1_windows_arm64.zip",
+          "download_url": "https://github.com/clickhouse/terraform-provider-clickhousedbops/releases/download/v1.11.1/terraform-provider-clickhousedbops_1.11.1_windows_arm64.zip",
+          "shasum": "46b1c71eb4a9d79a468fb7f7c017cb9344debdcaae04f5c3756c6cbacac31cef"
+        }
+      ]
+    },
+    {
       "version": "1.11.0",
       "protocols": [
         "6.0"
