@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitehost_2.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_darwin_amd64.zip",
+          "shasum": "768f4991a2dcfeee65aad212620b25b5fe0246046f064300528b4829fb8b1bfa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitehost_2.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_darwin_arm64.zip",
+          "shasum": "a29d417abccea5c129eee3a3d682df653f723cb6d8d0b36dcf29ccaa0c59e53d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sitehost_2.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_freebsd_386.zip",
+          "shasum": "61f33f02e9f548d4b846c68b084c832d9b35e9fdffd33d07a5891fe95cfff1c2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitehost_2.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_freebsd_amd64.zip",
+          "shasum": "65144c5638513a9ed935e37bb2827a3998faea615512c6a7d9141f84e1df5a2b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sitehost_2.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_freebsd_arm.zip",
+          "shasum": "4bca4a29cdd2ec2b3f586270edc4cbe37a15cdbdd866651e285c5d1884cdfb2d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitehost_2.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_freebsd_arm64.zip",
+          "shasum": "765bbc9534f29d7385b82eb75ec32c276546c8ea37042b5db52df705ebd851fb"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sitehost_2.0.0_linux_386.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_linux_386.zip",
+          "shasum": "dfa60bec1f55ffbc7320be565b326945e99b49a93394f4b8b7801b052e607dcc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitehost_2.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_linux_amd64.zip",
+          "shasum": "52910319b68b36bca10d1ed431837b0c2e4f8875c073dc0df3e03188db6e8901"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sitehost_2.0.0_linux_arm.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_linux_arm.zip",
+          "shasum": "b801b114ae8a309e442532101e72ed5a9e7d421865f95a018ac3c1d77e7cae3a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitehost_2.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_linux_arm64.zip",
+          "shasum": "cbd6b9f8e5cae4c87a9f1a54411a427e1d3acba6ea9c800f6ab99b99f865b99d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sitehost_2.0.0_windows_386.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_windows_386.zip",
+          "shasum": "04e499e569bbc165cea9a048b82ef24ce2a068b2ab3593ae63d610e969c89760"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sitehost_2.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_windows_amd64.zip",
+          "shasum": "8b797b1083e3bd5455f0a049a6c2fed8f8b57da91065cd64b6df2666becf514e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-sitehost_2.0.0_windows_arm.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_windows_arm.zip",
+          "shasum": "76664e10d2261eb513a03fb87a4d47866d79b7fcb1e39561096dd4d1f078d776"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sitehost_2.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/sitehostnz/terraform-provider-sitehost/releases/download/v2.0.0/terraform-provider-sitehost_2.0.0_windows_arm64.zip",
+          "shasum": "acb9ecfc9f95365322aa9c3ece30e4fc67ccb1f46d370fcbd9da3bd2635272b2"
+        }
+      ]
+    },
+    {
       "version": "1.3.0",
       "protocols": [
         "5.0"
