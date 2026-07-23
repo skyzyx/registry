@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.7",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-eyaml_0.1.7_darwin_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_darwin_amd64.zip",
+          "shasum": "9f2882491ac376cefb68fd1d17bbed7dd067cd514a28fefbec894017d7f6f70f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-eyaml_0.1.7_darwin_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_darwin_arm64.zip",
+          "shasum": "1d3d4066f17ab108b52848240ed5968b8ccfffc33e6b8a2d6a29ebe7fe2d2fee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-eyaml_0.1.7_freebsd_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_freebsd_386.zip",
+          "shasum": "50c72451eb8d460d1e7a0af99da50f30341f1c0b5c57cf226d482ba71fd44872"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-eyaml_0.1.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_freebsd_amd64.zip",
+          "shasum": "126d09adabbf2628599a057d522853248938eb5f164b9555b12f5dec5970c16a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-eyaml_0.1.7_freebsd_arm.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_freebsd_arm.zip",
+          "shasum": "6fe17861b5d3429929562b11b9dabc472d544d80c509be1b686788750d0e3f1b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-eyaml_0.1.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_freebsd_arm64.zip",
+          "shasum": "fc13d9348dedaed1b89f331caa4c0ffe5349ef3ea20424da21a8a49b0fa08988"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-eyaml_0.1.7_linux_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_linux_386.zip",
+          "shasum": "d34dac15e2ae0d0bedfe707d7886bbb5a48db91de468253523a857e41bc0537e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-eyaml_0.1.7_linux_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_linux_amd64.zip",
+          "shasum": "5dd19276fd000e96bebbf0a6371824c4a20f6e14ba9349c38031e764eb82a408"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-eyaml_0.1.7_linux_arm.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_linux_arm.zip",
+          "shasum": "259b22994c2938ec889fcffe8c853f7228c0fdf7c8b9e1fa9fc20af50e270d2a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-eyaml_0.1.7_linux_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_linux_arm64.zip",
+          "shasum": "52f5fbb1d670c3a019a05ff5617bc0ac630e13ab4333ea58f7d30aeb94a89591"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-eyaml_0.1.7_windows_386.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_windows_386.zip",
+          "shasum": "10c561506c553969aacf3fc268327c8cb9efae3d03f15d2476eff0f0f2d75ee8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-eyaml_0.1.7_windows_amd64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_windows_amd64.zip",
+          "shasum": "e45f7ad1dc0b2db55ba00dde4fb978a51a6c26d7735792d5943dd3bb139078eb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-eyaml_0.1.7_windows_arm64.zip",
+          "download_url": "https://github.com/ovh/terraform-provider-eyaml/releases/download/v0.1.7/terraform-provider-eyaml_0.1.7_windows_arm64.zip",
+          "shasum": "9f4894a0dd7901f081eb1ee7c894f20697cb34176bb148ace4de528aee9d1c9e"
+        }
+      ]
+    },
+    {
       "version": "0.1.6",
       "protocols": [
         "6.0"
