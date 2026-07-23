@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.13.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-meraki_1.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_darwin_amd64.zip",
+          "shasum": "05cd031a265fc2489bd4b5d1a0d1dac752fb53eb80289e3c97b504cab935a252"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-meraki_1.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_darwin_arm64.zip",
+          "shasum": "8c2e19bd2f570c2cb9b8d44a00bf6171e9f54cbda435efb924aea3d46ea30fb4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-meraki_1.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_freebsd_386.zip",
+          "shasum": "efebe064bca13d5e17c1249490ee955bdc143560ea58b77e37be0a5142ea6442"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-meraki_1.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_freebsd_amd64.zip",
+          "shasum": "ab3f57b2107aea4ee0110338901084169d5a7916f5afd7bf7593db5ceaad7959"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-meraki_1.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_freebsd_arm.zip",
+          "shasum": "e18233c60f0cc567998050e5c1e7a369c1ffbdaa38f75db3a91982d4a2541520"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-meraki_1.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_freebsd_arm64.zip",
+          "shasum": "295bceff6e2a0e080a88b9542fa519deae31cbb1174ba4fbdb99d9f943ba8589"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-meraki_1.13.0_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_linux_386.zip",
+          "shasum": "f4703746df0d4e44858d542cd3c936cea09ab2f2ab94dc435a13f05716245454"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-meraki_1.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_linux_amd64.zip",
+          "shasum": "942156e2d50ae45cd830b13ed0368eee1cc70946887fb7248eaa6c1f84bb274f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-meraki_1.13.0_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_linux_arm.zip",
+          "shasum": "d1deeb5a5b6d58cb0ca2f2abfa4f2c7be225a7cf1f009ece190f0ee1c30eab4f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-meraki_1.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_linux_arm64.zip",
+          "shasum": "290da7237811cb80ebddfab12db0899c0348eee80631a9cce4717b674d6b7297"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-meraki_1.13.0_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_windows_386.zip",
+          "shasum": "c6f144c087e7b4f7935ab2050aae181285d73d77d0bd3ecb2f430eecfba15a25"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-meraki_1.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_windows_amd64.zip",
+          "shasum": "35918b2a7e9197cb26bb1c8e229d2cf3de2b8be60feefe8216d3b2c1141be619"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-meraki_1.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-meraki/releases/download/v1.13.0/terraform-provider-meraki_1.13.0_windows_arm64.zip",
+          "shasum": "c8c2ba7bbb12208698aa0dca16097a8d1c2cfc8c4a578ad70b6ca55d64b773e7"
+        }
+      ]
+    },
+    {
       "version": "1.12.2",
       "protocols": [
         "6.0"
