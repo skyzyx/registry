@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.8.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-redshift_0.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_darwin_amd64.zip",
+          "shasum": "cacff99a57e4ccf5d16238662f1f6437505c02c36a05981b06b7ef6e2749f428"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-redshift_0.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_darwin_arm64.zip",
+          "shasum": "5b88d1c1ed510df9dd133b8321ad1f1b4d6e1518c9a8f24610932587919654de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-redshift_0.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_freebsd_386.zip",
+          "shasum": "932898b13ed490e7a0d9921fbfd85af82f7d862492e7f7653de10487c188ff69"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-redshift_0.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_freebsd_amd64.zip",
+          "shasum": "84848e513e991005a6cdb4cf0fe589c8bfb23435efaae466b844b6038131fd42"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-redshift_0.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_freebsd_arm.zip",
+          "shasum": "dcd83cd200e5b540c726d0cf3b4cf1446d976b3688352de2d0ed95f3689aa3dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-redshift_0.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_freebsd_arm64.zip",
+          "shasum": "5e58f0015bc9ac87002cbd648bbe7eb1a56be0be34bdcb0434d039203a6e7db5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-redshift_0.8.0_linux_386.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_linux_386.zip",
+          "shasum": "c876fbca8cb7245715319a79008c2847062e1641c27833b653609db3389dfc66"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-redshift_0.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_linux_amd64.zip",
+          "shasum": "d471318a8a72518690c33826276c1fb7ca46a7cc69f93bae247389b7d28fe1cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-redshift_0.8.0_linux_arm.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_linux_arm.zip",
+          "shasum": "3e124ff0ac80a90f9f8148bd67960b001595be999b2c079da121f02c289799af"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-redshift_0.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_linux_arm64.zip",
+          "shasum": "62ab73a5f8e20b0e404f7b5ebf0a80228dad030aa1b3f04cba9c6dda056a6a2d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-redshift_0.8.0_windows_386.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_windows_386.zip",
+          "shasum": "34829fd5a2e76399244388e1fccf07a9e01e05c0e6a5f476687b02e3a435c432"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-redshift_0.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_windows_amd64.zip",
+          "shasum": "e25d4a33e04b2ffa673670ffce6d21c146e290e851856d6c2947c9de07be3e06"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-redshift_0.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/dbsystel/terraform-provider-redshift/releases/download/v0.8.0/terraform-provider-redshift_0.8.0_windows_arm64.zip",
+          "shasum": "9836265b92b7d66b481cb5d6d91f57919b64ac0cc846c097cb3e963b7d142835"
+        }
+      ]
+    },
+    {
       "version": "0.7.2",
       "protocols": [
         "6.0"
