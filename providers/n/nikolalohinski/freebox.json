@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.7.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-freebox_2.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_darwin_amd64.zip",
+          "shasum": "169e3d4b9c7b3349caa25e74dd522d760b0e32c97e96ebe85ffeb54cf6f98a65"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-freebox_2.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_darwin_arm64.zip",
+          "shasum": "ed3a825c630e4a2fd36f73369bef7f44219e0e598cdf7c8e966786a81040492a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-freebox_2.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_freebsd_386.zip",
+          "shasum": "0de78cd9e9d32aecea4c7dc505ff4f95bd5d65025710102dbb9bd25364956806"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-freebox_2.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_freebsd_amd64.zip",
+          "shasum": "598b63c0240baf236cb35e75c051b9d8c13f57878e5eb26f9cfedb9f99aff3e9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-freebox_2.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_freebsd_arm.zip",
+          "shasum": "339166728a8297b65e6f0df23aeaa62f92b2d62819202fcf0ff3a18077809cfc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-freebox_2.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_freebsd_arm64.zip",
+          "shasum": "7728ab768dab86cab804f9047e8f469a873dd895493ccff824660101e2e6e4fc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-freebox_2.7.0_linux_386.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_linux_386.zip",
+          "shasum": "7f4c0526932379bca453d68a537705a8940c4e085645f7337e9c2b138b145606"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-freebox_2.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_linux_amd64.zip",
+          "shasum": "dfc5bea1c22eb279318f1c37eaf741f0b7cba4dcbcec02d4558e0eaf1d4e66b2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-freebox_2.7.0_linux_arm.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_linux_arm.zip",
+          "shasum": "00f60d5aef610863ff5ad5715ecb5b5cb08342148f93994cec6150b1e8f0dbb7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-freebox_2.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_linux_arm64.zip",
+          "shasum": "30268665f517630ca99897eef531be1ba1f3d8fed6e3b44b64ed66eaa49204fe"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-freebox_2.7.0_windows_386.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_windows_386.zip",
+          "shasum": "7d28717da86078af4bee067470d9e06ca214339270f066b37ee1400341205b1c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-freebox_2.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_windows_amd64.zip",
+          "shasum": "2fc0a491540e4a1373d4e296891f185c805c27317dc8c6e7dfd6a12f10e24030"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-freebox_2.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/nikolalohinski/terraform-provider-freebox/releases/download/v2.7.0/terraform-provider-freebox_2.7.0_windows_arm64.zip",
+          "shasum": "eaaf26676e9c1196a9f89151bf46f7cd854cdc872216332f83c4de91d7f49d92"
+        }
+      ]
+    },
+    {
       "version": "2.6.0",
       "protocols": [
         "6.0"
