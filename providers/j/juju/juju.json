@@ -1,6 +1,51 @@
 {
   "versions": [
     {
+      "version": "2.2.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_2.2.1_darwin_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_darwin_amd64.zip",
+          "shasum": "5fd3ba80d93345dc52d165dbe40ab77f49d8a54b2d929fda1a50926e3599f310"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-juju_2.2.1_darwin_arm64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_darwin_arm64.zip",
+          "shasum": "b44ec1dc11d267040ab807d81a0c8ff912775e1110837be6edd2adefd78a74a9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_2.2.1_linux_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_linux_amd64.zip",
+          "shasum": "a0070c01b05168798f60087ff1dc817edd21bbc03b25889e58e1ce5d4ae99f3f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-juju_2.2.1_linux_arm64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_linux_arm64.zip",
+          "shasum": "0453459aa7ce142f968ba8efa689c3f24f4e05363b68c864ddaaa37e62c493c4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-juju_2.2.1_windows_amd64.zip",
+          "download_url": "https://github.com/juju/terraform-provider-juju/releases/download/v2.2.1/terraform-provider-juju_2.2.1_windows_amd64.zip",
+          "shasum": "fd6508b360699fbe26a08016985f00428d26612cfa1b7c7d3c47ea595cb1e9c9"
+        }
+      ]
+    },
+    {
       "version": "2.2.0-rc1",
       "protocols": [
         "6.0"
