@@ -1,6 +1,142 @@
 {
   "versions": [
     {
+      "version": "0.8.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_darwin_amd64.zip",
+          "shasum": "962113263566a032be24c28fe961e3f5e9275542efccd1c7f0267e7085b3f577"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitea_0.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_darwin_arm64.zip",
+          "shasum": "7af3c6d56acc1498c52263932b5e28a399dd9a75e69ab80a55c2d521ff974dc6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gitea_0.8.1_freebsd_386.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_freebsd_386.zip",
+          "shasum": "0f38e18254865841f1387c0923e8b53069115d97c6bef2086c38167ef0bd5bf0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_freebsd_amd64.zip",
+          "shasum": "a2031c0492133150c13a117dab28c1bd3c142b1291c25c8c6652b160c12ee9be"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gitea_0.8.1_freebsd_arm.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_freebsd_arm.zip",
+          "shasum": "051f2ac5619cb49ff2eb6a44b29d2b7eebc179328edc6e95bbdf5d8d5654cc96"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitea_0.8.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_freebsd_arm64.zip",
+          "shasum": "2583b8b97862156490d3dc92de7346eac1fa6dd02bbacf005230cf6c69613c9a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gitea_0.8.1_linux_386.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_linux_386.zip",
+          "shasum": "84d17614fa1413349ce287d44d5213abecf578345b8a9710e984df916cf30651"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_linux_amd64.zip",
+          "shasum": "2982095aec84fedbedefd4aa6e734cd4b89455a9f27d01c14e75c5a13b726970"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gitea_0.8.1_linux_arm.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_linux_arm.zip",
+          "shasum": "c76b4efd2efb95d5a7c3756ef611d208cc6f616ff5f6479ff47d66a20b61d88c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitea_0.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_linux_arm64.zip",
+          "shasum": "00cd3e2d328cc7d8bd1ca0c62d6c7188e9f053a0cbe6d90a5708ea471c1719a2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gitea_0.8.1_windows_386.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_windows_386.zip",
+          "shasum": "0fe405e614901e72b681d71d6263868e44154fd533c986c26b30682d28f804eb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_windows_amd64.zip",
+          "shasum": "16989005f1784928dcffb19ef06e5a40a2f52aa6a30f1690f05fb6656e852e52"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitea_0.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_windows_arm64.zip",
+          "shasum": "877bace7dcbf5357ff847113ac404e63d80ee5869de0b692189eeb7401bcbf62"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-gitea_0.8.1_openbsd_386.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_openbsd_386.zip",
+          "shasum": "2a289c124021c62c8c3440102dbd6617b8cd3459e3ed6c0b5a6169163618deb9"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_openbsd_amd64.zip",
+          "shasum": "1de8b10dcff98bc0cb1d3e5ebdf63d3edabeb6f2e43f4f00ce2991cbb13260d9"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gitea_0.8.1_openbsd_arm.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_openbsd_arm.zip",
+          "shasum": "760b31e7c6676a9f28895205fc32d4bab1fe9ac5f796e6769f0a6226f36027ac"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gitea_0.8.1_openbsd_arm64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_openbsd_arm64.zip",
+          "shasum": "0d722044152374786c2601fb5949d330dab637554bdc843a3eb4ae1df259227a"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-gitea_0.8.1_solaris_amd64.zip",
+          "download_url": "https://github.com/go-gitea/terraform-provider-gitea/releases/download/v0.8.1/terraform-provider-gitea_0.8.1_solaris_amd64.zip",
+          "shasum": "f2f80d4eb62ee21bc46673f08802299898fefb25e2d9b533d46e5cf5b9fdbe51"
+        }
+      ]
+    },
+    {
       "version": "0.7.0",
       "protocols": [
         "5.0"
