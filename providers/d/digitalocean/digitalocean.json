@@ -1,6 +1,128 @@
 {
   "versions": [
     {
+      "version": "2.98.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-digitalocean_2.98.0_darwin_amd64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_darwin_amd64.zip",
+          "shasum": "1e7c079e16704cb702edadc39305b608ddaa3a273699d3ed5170228654a2ec48"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-digitalocean_2.98.0_darwin_arm64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_darwin_arm64.zip",
+          "shasum": "6b9d50c88dabc41ea295d976ed1f1a5f682f7288a713d0cdb2f10c0c32ac5a7d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-digitalocean_2.98.0_freebsd_386.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_freebsd_386.zip",
+          "shasum": "ffcbf11615cdb38782367397871e39430393ca583b11785bea6663858e35654a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-digitalocean_2.98.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_freebsd_amd64.zip",
+          "shasum": "040d48e637d7f61999c5df5c2afd4436a1881fd550321f215fccaaaf9296a6cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-digitalocean_2.98.0_freebsd_arm.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_freebsd_arm.zip",
+          "shasum": "6f05ff1bd9b609c815248b02438a54f9bd5865fad140934c28113cb7e0e85145"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-digitalocean_2.98.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_freebsd_arm64.zip",
+          "shasum": "aff81f1101fc5949d906575b0db7d80f33d4b6176e0b466f5c923af9738a7830"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-digitalocean_2.98.0_linux_386.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_linux_386.zip",
+          "shasum": "b71083ec64f098877b91376ec157dc84c7cde93fc99b0cd727ab60f74a91664d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-digitalocean_2.98.0_linux_amd64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_linux_amd64.zip",
+          "shasum": "f129d870d0cd76a6573e504168c8e176e821bf76d7e9499fd517124f2b98e464"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-digitalocean_2.98.0_linux_arm.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_linux_arm.zip",
+          "shasum": "000e881ced54dbeaa0e9bc495c4ea8bc596c42e91295da01baaccafa7e7ce5a3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-digitalocean_2.98.0_linux_arm64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_linux_arm64.zip",
+          "shasum": "1f15c135e332578114ed1653605a6ad6bdf5c8816b43f6eade751b9c4ae9a94a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-digitalocean_2.98.0_windows_386.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_windows_386.zip",
+          "shasum": "ff83e3a640c4a0a02f02931a99994f601e2dab6cdde69189b9032fd174c87908"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-digitalocean_2.98.0_windows_amd64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_windows_amd64.zip",
+          "shasum": "56b5be960e93598a02925e56f4f9f67ce536352bb290681f594af8d490f02500"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-digitalocean_2.98.0_windows_arm.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_windows_arm.zip",
+          "shasum": "1c6492fb1158b2ad69e17f46b751f87e26d7f584ef49104cb706d0672fc88d46"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-digitalocean_2.98.0_windows_arm64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_windows_arm64.zip",
+          "shasum": "b3194706e5538ca46536fee899189e865f292f2a785f81be52d93725d3424d7d"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-digitalocean_2.98.0_openbsd_386.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_openbsd_386.zip",
+          "shasum": "4b4873392ae41a4cedceacdfcd821b3d1927da7637918c11355ee3ee48a6f220"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-digitalocean_2.98.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/digitalocean/terraform-provider-digitalocean/releases/download/v2.98.0/terraform-provider-digitalocean_2.98.0_openbsd_amd64.zip",
+          "shasum": "800e113530f3d5dff8eeeea4354b30d23df27424a061b0383a8d26287dbcf175"
+        }
+      ]
+    },
+    {
       "version": "2.97.0",
       "protocols": [
         "5.0"
