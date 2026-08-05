@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.16.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.16.0_darwin_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_darwin_amd64.zip",
+          "shasum": "95c4d2ca1f3afaa7a7a2979209073676e7aa05b75196cd8f8d970462e576777d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.16.0_darwin_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_darwin_arm64.zip",
+          "shasum": "d586be52c18425710f7244ee49232b4a7c90f9705b672165f048bf40390c5cc7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.16.0_freebsd_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_freebsd_386.zip",
+          "shasum": "326b48a9a7690064e59139475bbfbd148f4e88876d171a0e31a9b81976245490"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.16.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_freebsd_amd64.zip",
+          "shasum": "5b9f725f7f4d1649409c4f0973531ef33866ec1921008825dc070092b807723e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-impart_0.16.0_freebsd_arm.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_freebsd_arm.zip",
+          "shasum": "32a18af3d9cead15530754c8055a9acafd484b4db6be02d9d4f70997b1431648"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.16.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_freebsd_arm64.zip",
+          "shasum": "8be88df923eaf25905735f7a47cfbe1c932b8e146ab9839759069a9345d7e21b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.16.0_linux_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_linux_386.zip",
+          "shasum": "489824e1a72c64231deb74172ed311cc8e801b8093ec935720402484abe36e17"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.16.0_linux_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_linux_amd64.zip",
+          "shasum": "0a1f7445e33dec70107e34b14f8a8ded3a307e81f1edf76c41cee809b61322e0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-impart_0.16.0_linux_arm.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_linux_arm.zip",
+          "shasum": "1d910b409ead06d4923e5b800c4ef7c80edf3a03b59f90b4c27c94a9ea8ce00b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.16.0_linux_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_linux_arm64.zip",
+          "shasum": "b6bd3bc9657b5235e44e86631aa1f808ef17e8d1ebf478a638a2728d3a11a22c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-impart_0.16.0_windows_386.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_windows_386.zip",
+          "shasum": "864a1da4f2fde928ba873e0512aea1ea7194880f885dba373832b547f43167f5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-impart_0.16.0_windows_amd64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_windows_amd64.zip",
+          "shasum": "69df87adb4b6ec05a74c103482e28c3e0a524063e79e938cd3cae375baa57671"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-impart_0.16.0_windows_arm64.zip",
+          "download_url": "https://github.com/impart-security/terraform-provider-impart/releases/download/v0.16.0/terraform-provider-impart_0.16.0_windows_arm64.zip",
+          "shasum": "c940b4fb330c87c4565fc489d3b5561e9493bde015246fb7eacf3fc1e84013da"
+        }
+      ]
+    },
+    {
       "version": "0.15.1",
       "protocols": [
         "6.0"
