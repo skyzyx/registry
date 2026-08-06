@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.12.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mackerel_0.12.1_darwin_amd64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_darwin_amd64.zip",
+          "shasum": "853aa360edfbf6b90e7b7483cb3e386cfd3e717a0d6535021a7c875ff063fa14"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mackerel_0.12.1_darwin_arm64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_darwin_arm64.zip",
+          "shasum": "6c4bc653833227a65f4e2f1f3532f6d1cf383ecc98de2a9edde1e988ec9f4880"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mackerel_0.12.1_freebsd_386.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_freebsd_386.zip",
+          "shasum": "f1f34dcc753ae98c225b5c8f2a3f213b30ab30ec6932dd3da4a40b7a4672d86c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mackerel_0.12.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_freebsd_amd64.zip",
+          "shasum": "e773910f705f8a03d46d9e0cff2c3aff27fa230fde29119d97db9c899bdcdfb4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mackerel_0.12.1_freebsd_arm.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_freebsd_arm.zip",
+          "shasum": "91d191cb91dc5f825675b3ca5489ac7eb8af76fada59ac5c679b85b54d936155"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mackerel_0.12.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_freebsd_arm64.zip",
+          "shasum": "f498b131c8985bc8d5a0879de16e1130bb0b39e5442836d7fdbd8911a231de94"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mackerel_0.12.1_linux_386.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_linux_386.zip",
+          "shasum": "c1a4a381479c0d2cd07cf5c78f7e42a6dc629b9e9b54f0c93d32edd1995485bb"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mackerel_0.12.1_linux_amd64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_linux_amd64.zip",
+          "shasum": "74d30cf23ba7de8a2293e57072c99267757b4ced2bc90167b45fdc39a6fcd231"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mackerel_0.12.1_linux_arm.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_linux_arm.zip",
+          "shasum": "a6caec75b59dbfdd2b04dd78abf0bdd707a281d66877d5350d2390ee4701bb76"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mackerel_0.12.1_linux_arm64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_linux_arm64.zip",
+          "shasum": "ccaea450fc0cc3529f076207d4f7d9df6dfda9aef9c36f69615bf8fd39dfae38"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mackerel_0.12.1_windows_386.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_windows_386.zip",
+          "shasum": "a38a466518919e7eeea393cea163f9039698fb9522455780b6eac7c2d8bfcbba"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mackerel_0.12.1_windows_amd64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_windows_amd64.zip",
+          "shasum": "03ac6584830992eb91cb8d4dd4c61cb795ca0d010b41c9f1f051f4787e6c4f51"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mackerel_0.12.1_windows_arm64.zip",
+          "download_url": "https://github.com/mackerelio-labs/terraform-provider-mackerel/releases/download/v0.12.1/terraform-provider-mackerel_0.12.1_windows_arm64.zip",
+          "shasum": "44db235dec011560e495fd3adad701858dd683c7ecc97b4d25a435f00ed62ac9"
+        }
+      ]
+    },
+    {
       "version": "0.12.0",
       "protocols": [
         "5.0"
