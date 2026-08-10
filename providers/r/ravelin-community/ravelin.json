@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.5.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ravelin_1.5.4_darwin_amd64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_darwin_amd64.zip",
+          "shasum": "3b2a114ea4e44424eb2c07221bcdc1e47c9b2dde3f1db280d2fb3867d75d9658"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ravelin_1.5.4_darwin_arm64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_darwin_arm64.zip",
+          "shasum": "b8c1b7f36e958d0e46adba1f0de2bbd38128f32bcf7eaf7f217e06aab587ee35"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ravelin_1.5.4_freebsd_386.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_freebsd_386.zip",
+          "shasum": "c46934a9fc39b0094e4ee65fb0c3e39f6e386b0df5884639f7483927780a16a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ravelin_1.5.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_freebsd_amd64.zip",
+          "shasum": "f1891790218d0fc0daa9a75fb313040ec937501827e31f636e6e82dc9178a17d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ravelin_1.5.4_freebsd_arm.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_freebsd_arm.zip",
+          "shasum": "4b7186a050e1f2713738047d340a688d353f90f632f9abb10b4f2e63f771ba99"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ravelin_1.5.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_freebsd_arm64.zip",
+          "shasum": "73ec5405fe880b7d637b6dde0ff4d7f8239cc5434963700b2ec6fc886d24b459"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ravelin_1.5.4_linux_386.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_linux_386.zip",
+          "shasum": "f641b5d8cb75033ab4f0d1e00ba95f52058a121e1aa28fef935087896ce8de59"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ravelin_1.5.4_linux_amd64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_linux_amd64.zip",
+          "shasum": "ab1c40377988ce31f5ea998d653fc2abd7377b85732d1ad38ff9f1127810ac79"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ravelin_1.5.4_linux_arm.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_linux_arm.zip",
+          "shasum": "a9b5e05e259d1a8fa3f2a284ca407de3be6b3ef9be9fce3620ba125295b68eae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ravelin_1.5.4_linux_arm64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_linux_arm64.zip",
+          "shasum": "41230cfc84ffbd87b4f653cc3adf8489ce356e4190ed1a988ec648d4dbd0178d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ravelin_1.5.4_windows_386.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_windows_386.zip",
+          "shasum": "884835a0d30976aac5757e1b36506d83e6638fcc73af5b1bd809d279428d3335"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ravelin_1.5.4_windows_amd64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_windows_amd64.zip",
+          "shasum": "184473160d529cc24e60858344b5b1cdc192f61206f69fd0b098b8037420cddd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ravelin_1.5.4_windows_arm64.zip",
+          "download_url": "https://github.com/ravelin-community/terraform-provider-ravelin/releases/download/v1.5.4/terraform-provider-ravelin_1.5.4_windows_arm64.zip",
+          "shasum": "0c8f9ee9bbf629ca48220d466b0f9bb3d156ac8481737a4a7016ca80e680bc9e"
+        }
+      ]
+    },
+    {
       "version": "1.5.3",
       "protocols": [
         "6.0"
