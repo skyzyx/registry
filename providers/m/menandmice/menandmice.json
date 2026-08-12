@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-menandmice_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_darwin_amd64.zip",
+          "shasum": "26c825ac973e1839e00afd944465fc5ff7896284ee356abe72bb92e20dab7f50"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-menandmice_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_darwin_arm64.zip",
+          "shasum": "7a457e28435156158bdf45112a4db010efa4e3c2740beb946a6a4202a854f7fc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-menandmice_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_freebsd_386.zip",
+          "shasum": "dea6b979c6cd3331398606efb9117bf509122f01116e51998b7495df3a671a35"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-menandmice_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_freebsd_amd64.zip",
+          "shasum": "1e7b8fadde0150e54ebb999b64652531a62a0237d565f3e26543e2fce665058b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-menandmice_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_freebsd_arm.zip",
+          "shasum": "ae9e101c53c31cfcbb1a5f1294aae4b8c058448aa505c1e42f69487f3c683681"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-menandmice_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_freebsd_arm64.zip",
+          "shasum": "71bcaf10c45e280d1c9d7bd67da91a9c1aed4533160f9deb298a1243207ad757"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-menandmice_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_linux_386.zip",
+          "shasum": "b743fc82afcd65422297830dcfcee784424ed0eb36e13d619d72d62c5277500b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-menandmice_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_linux_amd64.zip",
+          "shasum": "416c5f809ea995476e7198951d254c6d6389e209e8fc134c102926cf6fe0f5d3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-menandmice_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_linux_arm.zip",
+          "shasum": "f9064bbd0dccfa0c361210997e49d91a5854c754879d72ce9bf20b82665cd313"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-menandmice_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_linux_arm64.zip",
+          "shasum": "f4fe13fb77baff1ffd4d3962809d4b3cdc9f5fd1ebdc344f80edcb1d30e89036"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-menandmice_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_windows_386.zip",
+          "shasum": "72b504d113166f0b908a05a0f0fe73cf569214a1e96cd4d7c0371306307a333d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-menandmice_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_windows_amd64.zip",
+          "shasum": "294d1eb0c1f33935242be3f05e5a85e19b3ddf2fdda55de587efb22b7097d86c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-menandmice_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/menandmice/terraform-provider-menandmice/releases/download/v0.5.0/terraform-provider-menandmice_0.5.0_windows_arm64.zip",
+          "shasum": "5e053c206b7329e15b366b5ad2bf24d48ab8712ab4ae6c59a2677763e856e5e5"
+        }
+      ]
+    },
+    {
       "version": "0.4.1",
       "protocols": [
         "5.0"
