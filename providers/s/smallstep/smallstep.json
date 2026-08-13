@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.8.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-smallstep_0.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_darwin_amd64.zip",
+          "shasum": "8c3112147356c8391ede858038ea62b1c4d0f1e45266ea5749fbec7f7c0a6d24"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-smallstep_0.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_darwin_arm64.zip",
+          "shasum": "1d2a3c0ce761a641b6a411d7f9c27fc8e6a7c2057019a7629136dedcd791aafa"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-smallstep_0.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_freebsd_386.zip",
+          "shasum": "b1b42229381c8886a3b9c5a7715e251e93d72335760041c0fa68d6296ce6122f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-smallstep_0.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_freebsd_amd64.zip",
+          "shasum": "5d6b5fd654d07e28904ff1ec8104ccf62441cfe846a70b3baf25d0a75eedf478"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-smallstep_0.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_freebsd_arm.zip",
+          "shasum": "971e1c8f69150c7d08441a996b91fb0f51d125e60e2c5c5284fa8681312104ea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-smallstep_0.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_freebsd_arm64.zip",
+          "shasum": "c83fa641f78f7a10c856b47b29c57f46fca9fdf43afb130a41f2aec34784eb7a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-smallstep_0.8.0_linux_386.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_linux_386.zip",
+          "shasum": "516fc08ce81243fa2c7c85ba83e8f34fa79839ff37547a5f005fb0036c0964f2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-smallstep_0.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_linux_amd64.zip",
+          "shasum": "aa1202c3da0852fd10e350891d84f4ab0ac88b427a6210eb2920845bed482c54"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-smallstep_0.8.0_linux_arm.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_linux_arm.zip",
+          "shasum": "a4332aae060b160677e39b775b12a25bc6d381eeaf53fa7adedfbbd47b20fcf4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-smallstep_0.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_linux_arm64.zip",
+          "shasum": "f56d0d0b9eb0803df10f0764989faf82423fe8c7bc0d5ac14ddea26c7b3bbb18"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-smallstep_0.8.0_windows_386.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_windows_386.zip",
+          "shasum": "da5978868f9572451c005649461382ce51e28cc34062aefce6ab080f352ebf53"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-smallstep_0.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_windows_amd64.zip",
+          "shasum": "6fb1f0dbc42f57b89bbf7f2901367259649fd1e8a41f6dad3c7cc29cb018954e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-smallstep_0.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/smallstep/terraform-provider-smallstep/releases/download/v0.8.0/terraform-provider-smallstep_0.8.0_windows_arm64.zip",
+          "shasum": "c2db0a67b1500f68a5999316c4ad2be5dbe0e36d30bc31dda324d6090bebefe1"
+        }
+      ]
+    },
+    {
       "version": "0.7.0",
       "protocols": [
         "6.0"
