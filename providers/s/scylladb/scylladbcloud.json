@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.13.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_darwin_amd64.zip",
+          "shasum": "10edc3f2ebdbd73fa88612eb8473189c5e33b703d74edc73b4de3540a2f8e0d7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_darwin_arm64.zip",
+          "shasum": "9f18f4429112292f10a60026b3a5a93dae017d732d353f86d7f2f2c85eaebe45"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_freebsd_386.zip",
+          "shasum": "ab8313940fa9666093d562f8ed3829caeb1405c117fbd2c2f1770a09955b4aff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_freebsd_amd64.zip",
+          "shasum": "a3be4415bc31f9b9c65b37f16859c93c6da967f53ebebb1fa74a153c0b1637e1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_freebsd_arm.zip",
+          "shasum": "23430b11f14c46b67d410142b7721ab07df2bd6575b89a7e3cb7c81a4227e399"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_freebsd_arm64.zip",
+          "shasum": "ae1f09093f96c33ce59a23da0b6f9e8daa8f44a9c9326b6c0f6b23be93bb7b45"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_linux_386.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_linux_386.zip",
+          "shasum": "4728f90b32f88ab32c1dd4d016552e4bad074833c2c3c0a8c76a02c5c112d45b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_linux_amd64.zip",
+          "shasum": "e72ae3cca4b9258e16e5775fc0b6ab4d4af5020cfda5d8f0619d439913774c20"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_linux_arm.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_linux_arm.zip",
+          "shasum": "daea95455796859bb8311fa4b10caed0b819e734dc3cc34dbf3439fcb934328a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_linux_arm64.zip",
+          "shasum": "91274213269956627c7d4182631b875ef2a14ebd545fd4e12218c9e85c168352"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_windows_386.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_windows_386.zip",
+          "shasum": "9421ab8c3cb4470ca63f5e14dc07723aac9913e35fbde7942a088aa30acc0d7e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_windows_amd64.zip",
+          "shasum": "fc36d8b1cf3a54f35e2c5e004e5de9ba8e0003a75f7f750eb9447c3f140663f1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-scylladbcloud_1.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/scylladb/terraform-provider-scylladbcloud/releases/download/v1.13.0/terraform-provider-scylladbcloud_1.13.0_windows_arm64.zip",
+          "shasum": "7abdaa111c13b6cc4154726624e219d761f15ab9cc1a96f6152620f10406595a"
+        }
+      ]
+    },
+    {
       "version": "1.12.2",
       "protocols": [
         "6.0"
