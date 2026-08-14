@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.0.0-beta5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_darwin_amd64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_darwin_amd64.zip",
+          "shasum": "db7f59b9e31b0322435d7c39f6c05b16eadda2454bee4f360d53265a104d6ee2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_darwin_arm64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_darwin_arm64.zip",
+          "shasum": "32f9dfbd8632a5908b87f653c644017a283b881b930883f7201e6e0518e210c8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-alis_2.0.0-beta5_freebsd_386.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_freebsd_386.zip",
+          "shasum": "a2e921312acfb916899f0cc6957715cdd550a1a9aea689e696231c6c56173058"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_freebsd_amd64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_freebsd_amd64.zip",
+          "shasum": "76fa92c4c25b630173cd29b9e2731454627b6ac62f47293170b147be0aab7411"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-alis_2.0.0-beta5_freebsd_arm.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_freebsd_arm.zip",
+          "shasum": "96ef3f8cd16d5be179f164ee1534d9ff729de991bbd4cdc85968be9b18859254"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_freebsd_arm64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_freebsd_arm64.zip",
+          "shasum": "586b865b3bfc30de5abfdf5571f7d9798662fae774d9e289f703121dc691b103"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-alis_2.0.0-beta5_linux_386.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_linux_386.zip",
+          "shasum": "c837468164d89275c5b20e84d38e10aea1cc491fe33944a2a17e6018860cfc19"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_linux_amd64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_linux_amd64.zip",
+          "shasum": "440598f06aafe6ee1310813b89eac8a191efc5bd0f24b20b496909299e06c3aa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-alis_2.0.0-beta5_linux_arm.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_linux_arm.zip",
+          "shasum": "41473983493d8cdd4c190b0592a6f3af0dae7aebdbd9dd08adcdbd1e5866ef83"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_linux_arm64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_linux_arm64.zip",
+          "shasum": "c2c98ee33adfdc4ac3c85322790a37afbdf4fd42d2f0eb50157744013985acfa"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-alis_2.0.0-beta5_windows_386.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_windows_386.zip",
+          "shasum": "a960e3c8a7486f6741cf4b45740c477c231f770b593d4df0e3b1e8e77ab32054"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_windows_amd64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_windows_amd64.zip",
+          "shasum": "390d8d6e6bf1d8975880f82cb435227e667e7a795523fd37dd9e3d1828a03196"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-alis_2.0.0-beta5_windows_arm64.zip",
+          "download_url": "https://github.com/alis-exchange/terraform-provider-alis/releases/download/v2.0.0-beta5/terraform-provider-alis_2.0.0-beta5_windows_arm64.zip",
+          "shasum": "fc521ce8683326b8a1fdf02bbb3d289484ea313ce64988391ba49ff10ceafbfe"
+        }
+      ]
+    },
+    {
       "version": "2.0.0-beta4",
       "protocols": [
         "6.0"
