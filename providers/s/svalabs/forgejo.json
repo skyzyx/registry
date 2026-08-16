@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-forgejo_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_darwin_amd64.zip",
+          "shasum": "836d7ca2bd74648d11ae2a352704cbbbe58c23d6846411ae16a88edbea93a8c3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-forgejo_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_darwin_arm64.zip",
+          "shasum": "9b5b2a6953694d18a23d6e7a3da1791cc0744050032be333947e38c8adef2961"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-forgejo_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_freebsd_386.zip",
+          "shasum": "f4cc816f228d1cf5c261501ef47275a20b03e7b4d9a22fc462cb9ee6468771ac"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-forgejo_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_freebsd_amd64.zip",
+          "shasum": "336957908915b2aa74fa4f1ee2020f16a5738ba034da393521a2d70c31d2eb9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-forgejo_1.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_freebsd_arm.zip",
+          "shasum": "68225e0074f99a66b0c537db796126dce8ef3365d1a40a0d1b5173553a90367c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-forgejo_1.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_freebsd_arm64.zip",
+          "shasum": "d6490f877fac88a7d51908c546e54d377d0558aecb55e265bb093dc732bbe083"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-forgejo_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_linux_386.zip",
+          "shasum": "7c01fcc7e2ca8b97f0c58d51d1218fe903cf32762abf9f2a0a323e706d809184"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-forgejo_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_linux_amd64.zip",
+          "shasum": "a08c6fc50fe3984009cf0d1aa02bab8f9da4841b93e0b02d90bc6090d5e68216"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-forgejo_1.6.0_linux_arm.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_linux_arm.zip",
+          "shasum": "81e73ae491c8c1dc42447fb50ee179546886679f140a7b5510c85f520183d6ca"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-forgejo_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_linux_arm64.zip",
+          "shasum": "41d632b7771b5580c847440c1cc745f08b8d98fabb3f314951e2b86debf232d7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-forgejo_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_windows_386.zip",
+          "shasum": "a6190b02297666ed6bc109b13b834f79b53c2806dbce24306d3147f542980967"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-forgejo_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_windows_amd64.zip",
+          "shasum": "ce2af4a4c9fda2e6e575910c94a1a8389f8ddb4d8c024988fdc9d89340297410"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-forgejo_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/svalabs/terraform-provider-forgejo/releases/download/v1.6.0/terraform-provider-forgejo_1.6.0_windows_arm64.zip",
+          "shasum": "ae6e62ccb3a35f1d8dca68ad235fe4db2df5837402b6e0b6d290a4ce82804c9b"
+        }
+      ]
+    },
+    {
       "version": "1.5.2",
       "protocols": [
         "6.0"
