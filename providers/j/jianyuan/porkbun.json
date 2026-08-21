@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_darwin_amd64.zip",
+          "shasum": "733fd0e9e6e2cc9f4f45f2c2cabead33340e77bc93c7a5aa786a63b101aec808"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_darwin_arm64.zip",
+          "shasum": "ea0992976302923965aae8026a2542529af44641a664fbe3b0150f786f767d8c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_386.zip",
+          "shasum": "dfcb29ab0d31c5dec9b60142bba1a9a70739e1d0a8e641ab75d152f6c781b6f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_amd64.zip",
+          "shasum": "bd8d55483968c7a974930d71c3d87f15cea1b0c6b19b0a56e25926ebb89e332e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_arm.zip",
+          "shasum": "cd3e320f7882ee44e1454018c034e2cf1f79586209403df37383c084fd631f1f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_freebsd_arm64.zip",
+          "shasum": "aad068ca4af888fcf83447d19cdba7f990cc3e327e90df42397478daacfeb458"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_386.zip",
+          "shasum": "ebf99b484a16be8913ed2ef2cf3528e7a640562d07e128fc773d76a69a5d8811"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_amd64.zip",
+          "shasum": "89097c5af57213279cd2afc1d2c59a136dcccf9818d952c01cf843d61fe83df0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_arm.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_arm.zip",
+          "shasum": "c8a042676d4d59b48e5cd338b407d25e2a58604ac712123fda97b3478da4d005"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_linux_arm64.zip",
+          "shasum": "3737789c959d064b711efb1843dc71c51dc64250ec87fb9ac9b0764e006c8a5f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_386.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_386.zip",
+          "shasum": "714f8e5ea21aa13a941606c68b60b5828df30565d8d30cec937e49e32ded8f1f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_amd64.zip",
+          "shasum": "8ee3181a3056c366ec3eb1c06e14659176bf91380ddb52411537245882e7b391"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-porkbun_0.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/jianyuan/terraform-provider-porkbun/releases/download/v0.3.0/terraform-provider-porkbun_0.3.0_windows_arm64.zip",
+          "shasum": "a83c84fa5b90547bb4ab309e9bcc1ff87303c693c515d1f3592cd06cf295d641"
+        }
+      ]
+    },
+    {
       "version": "0.2.4",
       "protocols": [
         "6.0"
