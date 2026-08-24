@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.28.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_darwin_amd64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_darwin_amd64.zip",
+          "shasum": "f75efd4a2a3e1b626beb41a2f4f85ef07013f73346909ec75f85408fa916acaf"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_darwin_arm64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_darwin_arm64.zip",
+          "shasum": "f7a633aba447e26f713d652931baa1fa75b65fe6a7542e515a1aecef761e5d01"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jamfplatform_0.28.1_freebsd_386.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_freebsd_386.zip",
+          "shasum": "2fd9229a73c286ff10c1d6df93ac1ff7bdb4734f94bf265202f3d8d52c34f1c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_freebsd_amd64.zip",
+          "shasum": "0989f1b24c496a2dd1765b6991e6e3d45a381c49b9ad249c37986177bac0bb73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jamfplatform_0.28.1_freebsd_arm.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_freebsd_arm.zip",
+          "shasum": "1743f6d212be698aa4d932f8ce4e00ffe8d7f3df343ebbfc950ccf1397754e0a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_freebsd_arm64.zip",
+          "shasum": "33d7f6b47c9f79dfc4c46dba513ee4a9cd5a4b37e5aa9badfa6b71129acdff94"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jamfplatform_0.28.1_linux_386.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_linux_386.zip",
+          "shasum": "aac700182ecae8bcf219bffe185c72126ebefa99b40b2d323a488bf7ce5a27db"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_linux_amd64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_linux_amd64.zip",
+          "shasum": "8e790e5660e55229aed6c2e312e756604fe239038d28f4cf436ee258e4f592fb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jamfplatform_0.28.1_linux_arm.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_linux_arm.zip",
+          "shasum": "5ba31ce579c930c3fd7f5942f7cd1722838b45088d37e97134f06b6b3e487d49"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_linux_arm64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_linux_arm64.zip",
+          "shasum": "8b486c5b925127c1a383c427231bd3e9006587a83eec19681db3aeeeac0e3763"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jamfplatform_0.28.1_windows_386.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_windows_386.zip",
+          "shasum": "b1b7f8db612814df37b961041ef02a438286a5f7a9d7a1069a3a8086a11146ab"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_windows_amd64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_windows_amd64.zip",
+          "shasum": "340ac9db0390c959cf65c523371619cf0fe9e5992556f2c59a6c0645857ccef9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jamfplatform_0.28.1_windows_arm64.zip",
+          "download_url": "https://github.com/jamf-concepts/terraform-provider-jamfplatform/releases/download/v0.28.1/terraform-provider-jamfplatform_0.28.1_windows_arm64.zip",
+          "shasum": "f208c8f50b09b50e8f76d1a5a434e11b02fdcbc6c80678a3c8f2ee03a792e617"
+        }
+      ]
+    },
+    {
       "version": "0.28.0",
       "protocols": [
         "6.0"
