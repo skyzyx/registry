@@ -102,6 +102,107 @@
       ]
     },
     {
+      "version": "2.10.0-rc.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_darwin_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_darwin_amd64.zip",
+          "shasum": "cf639bab1095dac92b8a903f28204746e265695eda3aee2f1ce523e1c029a29c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_darwin_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_darwin_arm64.zip",
+          "shasum": "fa178129b6f6511e2197526ee82143eeb373c25bce8e22a9ec699e28f8f4b07e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_freebsd_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_freebsd_386.zip",
+          "shasum": "493ee973dd8c88ad3196bfa4ff263d1f0b286b11396ce04fc6d1d8bed8891e14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_freebsd_amd64.zip",
+          "shasum": "3ca748651f29615cf62af5e4d9ab1b7876ce37d671465bce5a8848c71cad2021"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_freebsd_arm.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_freebsd_arm.zip",
+          "shasum": "9b286553622a433d1553c5fe7d7ff73e1cdac8efa0b8ed9cdffed5e38d0e8be6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_freebsd_arm64.zip",
+          "shasum": "4daf0e8389c7c626c88c81f96a87b9f264e91069be3537c08f3b2450d128d853"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_linux_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_linux_386.zip",
+          "shasum": "c1ec20228bda8bfd004c9e82d909c44a1ab37c27eb619cac6b4287ec0831ed3b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_linux_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_linux_amd64.zip",
+          "shasum": "735d91da1c3b2939556dbda7719371ce173f271fdc7d62d81e46f3415909ac9f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_linux_arm.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_linux_arm.zip",
+          "shasum": "9b9015ee87d2e1fb2330b1f837ab3f9cf013ee9d9ac873321122408b63ebdd95"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_linux_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_linux_arm64.zip",
+          "shasum": "386c2f80e999385369321171b5646578dc27c2a19649c3af6f984457738e719f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_windows_386.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_windows_386.zip",
+          "shasum": "29f239fa45e93c22f48e109c6f03f19e934a367077f68ad88607eb2366f6d679"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_windows_amd64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_windows_amd64.zip",
+          "shasum": "916b3c88dcba62e99ea0253fe356a060aed3b4527dc646d16c34ea7133632927"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keyfactor_2.10.0-rc.0_windows_arm64.zip",
+          "download_url": "https://github.com/keyfactor-pub/terraform-provider-keyfactor/releases/download/v2.10.0-rc.0/terraform-provider-keyfactor_2.10.0-rc.0_windows_arm64.zip",
+          "shasum": "5984955f3042c99925b725a0c0074d94737b9e4e9a755c03b30d0581c11e76c7"
+        }
+      ]
+    },
+    {
       "version": "2.9.1",
       "protocols": [
         "6.0"
