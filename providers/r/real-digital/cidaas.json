@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.13.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_0.13.0_darwin_amd64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_darwin_amd64.zip",
+          "shasum": "8e88ffb68688342ddaf5deefef880c982b60c37fedb09337738221a005bee3b5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_0.13.0_darwin_arm64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_darwin_arm64.zip",
+          "shasum": "5f3d8e403fd6041496702e26c2a3e0860f6983c090be207725bb82b956bbd170"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cidaas_0.13.0_freebsd_386.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_freebsd_386.zip",
+          "shasum": "1543e486178aaec91d677e7049d397b53497d475680bcb3941e5d5046b48e948"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_0.13.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_freebsd_amd64.zip",
+          "shasum": "f150b90a9f2f34e43f0011226ae062d2bd012dcd3c653df1e1044030522e3338"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cidaas_0.13.0_freebsd_arm.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_freebsd_arm.zip",
+          "shasum": "acb1361f914404172cd65c5eb3b006243c971ef2413aba4c10bcf4e207a8ec81"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_0.13.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_freebsd_arm64.zip",
+          "shasum": "4c96d2554f948c575a05cae0bf07760ce36288c825c26b15cc99748a159be5e8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cidaas_0.13.0_linux_386.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_linux_386.zip",
+          "shasum": "dbb41b6cf79146e8ae47e59c88eab344e8e8d423caf7685aa47500638c8d1721"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_0.13.0_linux_amd64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_linux_amd64.zip",
+          "shasum": "cf88acde7ba341006496ba50af56b62d3238a4575b5efc3fe1b76d5a71c905cc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cidaas_0.13.0_linux_arm.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_linux_arm.zip",
+          "shasum": "deb9bebab8c50d3f475786e7db198278f19901ac22491676dde23e045de71a8a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_0.13.0_linux_arm64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_linux_arm64.zip",
+          "shasum": "83f195d9b5644b35c9636cd7b5fc17b26faec554f89da7a42017efe4055b83c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cidaas_0.13.0_windows_386.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_windows_386.zip",
+          "shasum": "9c1dc226287f9e821bd3f66574e56ccdc41e55c9e0faa70be2e9d4fea033a048"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cidaas_0.13.0_windows_amd64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_windows_amd64.zip",
+          "shasum": "548b927bfb38b90e3a9eb584d1e0fa2867d78da260037cc5a93c6c4056c855ee"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cidaas_0.13.0_windows_arm64.zip",
+          "download_url": "https://github.com/real-digital/terraform-provider-cidaas/releases/download/v0.13.0/terraform-provider-cidaas_0.13.0_windows_arm64.zip",
+          "shasum": "c0be260982a08d2fc8e817390269871ddaaff450c2da3aade576f11635bb82cf"
+        }
+      ]
+    },
+    {
       "version": "0.12.0",
       "protocols": [
         "6.0"
