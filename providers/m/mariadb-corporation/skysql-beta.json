@@ -1,6 +1,2009 @@
 {
   "versions": [
     {
+      "version": "3.5.7",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_darwin_amd64.zip",
+          "shasum": "76052e906f17f02d6f9f185c6bbae2fdf7d9072abc7632543384c0e0429ae834"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_darwin_arm64.zip",
+          "shasum": "8fd5a5d7e03e8b7397b2c6d11c9ba84d9189d58860554956a8cdc6eeab943726"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.7_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_freebsd_386.zip",
+          "shasum": "70bc1cce96448d85dc50dc1883e3320ae6310c96c961ac3a40f44f9cf395fa58"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_freebsd_amd64.zip",
+          "shasum": "fef9030ff677330046c9c22927b9d706016db67dfc1cd03daf45a5ae921c600e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.7_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_freebsd_arm.zip",
+          "shasum": "f5ecf7c9b0c37741c51601590eb000d1bdd4c854492497ef180927903d871e1a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_freebsd_arm64.zip",
+          "shasum": "156b129a81f79a0373cf363daa8ac662389ab57ccdfbbe82a50e72399eb42f95"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.7_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_linux_386.zip",
+          "shasum": "ebc8774ab20af980718398915ee8bb401c1ca4a1dcb0abbf506cd9b1a2aee559"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_linux_amd64.zip",
+          "shasum": "f3f7f90269e4fefbd18e6648413288bcaf220586c0ac0d521d5b47a95bd18249"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.7_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_linux_arm.zip",
+          "shasum": "f8470e6dbaa7187c3ad35b20d30aa9c94ccebb63cad70aaa62d90033757a88d6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_linux_arm64.zip",
+          "shasum": "cb3185b0aabb4f1b872ff4e458c7617a8f3b68dc631612b7da215c9e209ce1b2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.7_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_windows_386.zip",
+          "shasum": "0a20b2a681bfe1341108f0a41b684c309f0f08e06f66a08dbfc51e91a1d1abd1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_windows_amd64.zip",
+          "shasum": "2e72f23bba2dc0e0023169ead3c54400b2137ee77b4a9f79fe9ef183e6559c20"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.7_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.7/terraform-provider-skysql-beta_3.5.7_windows_arm64.zip",
+          "shasum": "c3b05e8fd3b71281a4f3a5879d680cc16c74274b86d3726f427146df00a67e09"
+        }
+      ]
+    },
+    {
+      "version": "3.5.6",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_darwin_amd64.zip",
+          "shasum": "e73f5a40277506ed9381a77b8af8bdde8fa031b6def4d3e721cb814e07e73e9e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_darwin_arm64.zip",
+          "shasum": "f1161cd49af616a571f7e267f221afc0d641ee7331ce9c35b679ffeb753c5ffe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.6_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_freebsd_386.zip",
+          "shasum": "236a0544961b17699fffba0fe7ccde1851faa9a74ea9d49a829d78202903fff1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_freebsd_amd64.zip",
+          "shasum": "918ecd34055a12716c95645776919649662d435452463c14f0a6095281640d70"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.6_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_freebsd_arm.zip",
+          "shasum": "b231f9ed728af49253d20a09ee20cf69b62bfb00f90eb7fb86f91e08328993b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_freebsd_arm64.zip",
+          "shasum": "4f206bf666388432eb98f1a249217216f3a822a6eff65a63e86e89e9e7d4db79"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.6_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_linux_386.zip",
+          "shasum": "66a3a688d23c7dbd4e98df3420d9a9d9a3c28b0e18c25e4bc5a72934fe95739f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_linux_amd64.zip",
+          "shasum": "db4516b5a31957e670b5af1820e86bd7a70ab6d2c9f85daa4b4321b67dcac20a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.6_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_linux_arm.zip",
+          "shasum": "69a9b10c8946f8fc470ce3b823b00525e5c5cd2f9bb4457c1b9f42080ff535ce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_linux_arm64.zip",
+          "shasum": "207d3c1b957f307a9ac0999fef0be6dee669d441b1f07d18c10cb3d3f73703d8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.6_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_windows_386.zip",
+          "shasum": "7797cf6b030804a6e52d866554daad6375982dfef4d1c77f368f999f12c86cd4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_windows_amd64.zip",
+          "shasum": "16e7cbfee4691c7676a3a51cc27c299bdb9963f734e7b853e32baba810bcc7a8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.6_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.6/terraform-provider-skysql-beta_3.5.6_windows_arm64.zip",
+          "shasum": "818a4a3437f91a5a0d353b677fb9c0a8c17b5a8971acb224e45a631bb869da0d"
+        }
+      ]
+    },
+    {
+      "version": "3.5.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_darwin_amd64.zip",
+          "shasum": "71789a963f25e9dc6476a233eb4b031f04223fac4725f6eb388ebbdee9278afe"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_darwin_arm64.zip",
+          "shasum": "01303a34399f01313a6f491818545b61d55f005e93a7000c44ddcc245d69e3f2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.5_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_freebsd_386.zip",
+          "shasum": "2067eba69b28a07c0c5641269efcbc9d219e9d8123d8cdd61c08166d201eb83a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_freebsd_amd64.zip",
+          "shasum": "78ab299d5e17b15a795464f7413b1a1af4529e094d51b508afd296d79dba1f34"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.5_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_freebsd_arm.zip",
+          "shasum": "066cdacaeeb28566c9946c4646c56f336db1af3ece1db1ad500a9fe115fbe697"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_freebsd_arm64.zip",
+          "shasum": "e4443ac9d6854d1591d6c8b63e567311f6a7a44d677aeeb30abae8770a47e276"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.5_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_linux_386.zip",
+          "shasum": "ff67c7de5e6a5b98cfacb7210a5c6fb30a4501723c9d60624b540f9862f3d174"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_linux_amd64.zip",
+          "shasum": "50343c88dbda956854f1b2e08ac08e89ad79fe0aef5e670503b1958b3cca5bb2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.5_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_linux_arm.zip",
+          "shasum": "825a30567d20b358b7c7075659cf022a36d109234c237084771cadf5307c9b49"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_linux_arm64.zip",
+          "shasum": "a0351280b03e7f52d17a335ba57f1199e25e1130a0e4c79ab4226b472406be1e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.5_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_windows_386.zip",
+          "shasum": "c9ddcd6f5ba1a063e31674c7ee1f112db69a1c05cacb6324f9867f9ce4b2da92"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_windows_amd64.zip",
+          "shasum": "a50caedb42101fe0fdb5b2eb7c4be30ecb9b5191b1c9d2c7223132ea12f09732"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.5_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.5/terraform-provider-skysql-beta_3.5.5_windows_arm64.zip",
+          "shasum": "3bc6f2b9bb1441dd7d5eef7c8a4fdf7fa9764b982d1384bae7b7c46d6eecbc4e"
+        }
+      ]
+    },
+    {
+      "version": "3.5.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_darwin_amd64.zip",
+          "shasum": "1922742cf3f36ad2b95a9edc189d2ef650281a149437afa7d84faaeccee9501b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_darwin_arm64.zip",
+          "shasum": "8c4c893f33d6b49795d704371e91130417f8c1eb5ac9c798beedfe36bfb02565"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.4_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_freebsd_386.zip",
+          "shasum": "c11f2104a36c8ef0a44ea5f60bd058eb551aa365d4e9506e9c957fb101c3c0ef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_freebsd_amd64.zip",
+          "shasum": "eb26bfc91bf8062d677750074a8f6c13ec1aa0de405cde392481f51a6c422640"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.4_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_freebsd_arm.zip",
+          "shasum": "84e64e4cbd855daf1bc761812b80fc553d05a1b42ea5395ee1fe49c0b83b4c9b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_freebsd_arm64.zip",
+          "shasum": "e2c81debe4f7d4284569d489169f1249f69487e06cc576c9c130d2d643177871"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.4_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_linux_386.zip",
+          "shasum": "b3c13a5a0bf7081da30b932b6b5ef162694ccc0efc25a364f44d8a1d74a7f1d0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_linux_amd64.zip",
+          "shasum": "d2034d938d41975318bd77bd9d57d6ad90c78e95a2a747c874316966591d0d7c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.4_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_linux_arm.zip",
+          "shasum": "5081a3f8d915b32367737311fba086478b1bfec4d71e620b6f73fff71162f38c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_linux_arm64.zip",
+          "shasum": "f2cab98a4369547b3577a9dbf2b09a1823403799ada3ba7fbd65ad07509452a7"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.4_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_windows_386.zip",
+          "shasum": "f4782dbaa0945a007f1473f80640f7d091fb2b27c8b0d0a3aaf9876f73e5cb8d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_windows_amd64.zip",
+          "shasum": "16c28ee297c080076a973c066311ebf1f8f63b7084e35f3b55c82c57cb09a7f0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.4_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.4/terraform-provider-skysql-beta_3.5.4_windows_arm64.zip",
+          "shasum": "50e22342d0284f3105fd20b352303e28321ba123497dd3edce348808ad477c29"
+        }
+      ]
+    },
+    {
+      "version": "3.5.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_darwin_amd64.zip",
+          "shasum": "af1f2068e4ed211f3bef773d559b852af4b637bad805b74bcd6604b97ef54c36"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_darwin_arm64.zip",
+          "shasum": "15fa4e0edf896519a15be86bf68d74d8c0adadd807641406918539379fe4d42e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.3_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_freebsd_386.zip",
+          "shasum": "7b4d01155c1faaa85f3809af9f18b6549257ce0136518b0f62e25b20a023ab40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_freebsd_amd64.zip",
+          "shasum": "bdbe7493452998206ee0ac7d64f444b31a07692d161944dcae3276e6d04ccf1a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.3_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_freebsd_arm.zip",
+          "shasum": "0e32dfdec317fb8057bf42be6a19ed0cabb5e7a2a26d5193db8e268ea7de905d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_freebsd_arm64.zip",
+          "shasum": "197f0f1140ee909dfe91f507eda2e080d66772f9cb881c270c38cb855f1b0ffc"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.3_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_linux_386.zip",
+          "shasum": "552d14e142e1cc484f91a1e38595aacd4962601f70ffab31d50b3dc69249cce2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_linux_amd64.zip",
+          "shasum": "9956b99cae443cdee5a1bd162955f936e49e5b634f5e96c6d00a39eabdbd265a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.3_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_linux_arm.zip",
+          "shasum": "3760f39d6ada1ad9b4bb5caa6267cc4a8923cb36fe94ad914da2b8bc86722958"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_linux_arm64.zip",
+          "shasum": "46edcc0818a1d440acf7cd281fc58ef71b812c2b7b4eb16c3a3e4ece350d77ec"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.3_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_windows_386.zip",
+          "shasum": "b26d1e44b83550627cf8a55adb2ba97b1ca9589a333d59d639ead691054d96f2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_windows_amd64.zip",
+          "shasum": "23d97353e01eaaeb1605e097ae544168b5817f1228380d17cfc9805a49dc3884"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.3_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.3/terraform-provider-skysql-beta_3.5.3_windows_arm64.zip",
+          "shasum": "010fddafea11797dbeff33bdff8ac88aa5a337480a6e7100ec8d791e8d0cce6b"
+        }
+      ]
+    },
+    {
+      "version": "3.5.2-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_darwin_amd64.zip",
+          "shasum": "f858fa0cc627068cfac74cadce92dbff9bcd9e2dcfb5f1f220ce579bf6ed1448"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_darwin_arm64.zip",
+          "shasum": "d761982b0847e3af148592c1796b5f36bed50b6266c2b58ede8a44ab35a5226b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_freebsd_386.zip",
+          "shasum": "2d9c2c465e1f2ff2d7a5247e0fbd3c5b462e2dae6f628a732965629b8f57574b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_freebsd_amd64.zip",
+          "shasum": "3d3315663abc34bf842480f929f565b1746f6cbd82095fde80ec2f4d7d768597"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_freebsd_arm.zip",
+          "shasum": "ee1bcf9b830fb7fca32562315bee56fc59627a62c0387c1b5dabe2414180728e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_freebsd_arm64.zip",
+          "shasum": "0464f6476999495f2a0ce4e052edf6e2f68423e8b8b02ef2bb7308fb6c977db5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_linux_386.zip",
+          "shasum": "24039a1500b93298fb8dd999f565621786d031c5e89633c6a1f36d5521d5cb06"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_linux_amd64.zip",
+          "shasum": "5ffcdfea4d13ae23b285908e2d0e80a3301bccdea9454bd513cbaaea829d1cdb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_linux_arm.zip",
+          "shasum": "03dd88eb67b52bc7810c0ab8554fdffc8eab5eff6bd7595cf57d1e19c76745f7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_linux_arm64.zip",
+          "shasum": "a6f914efe5f5becb31e6d5209a754b61928f78ba69c76c39fb97ef4bb770735e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_windows_386.zip",
+          "shasum": "f659c63e7f539a773fdc1923b20c277186bfd7495bc0d0222edcaa527fb0c640"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_windows_amd64.zip",
+          "shasum": "73be0d2e4c091b6e2c435162ab30c1867a542ec8c6a1bbecfb6addc05686a427"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.2-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.2-beta/terraform-provider-skysql-beta_3.5.2-beta_windows_arm64.zip",
+          "shasum": "ac339d99c23a94c30515519176b9b2f7910c8cc32550e3710938f81db60b0f4d"
+        }
+      ]
+    },
+    {
+      "version": "3.5.1-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_darwin_amd64.zip",
+          "shasum": "5943469fb5dbb04d1b9a1968424db05344fa601a53a1a5a1e303a14a620bfc14"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_darwin_arm64.zip",
+          "shasum": "4c6e216e876fecab241cbfc19cf89af0650f732007f60e061b9a490b09d4f4ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_freebsd_386.zip",
+          "shasum": "7a360d4745e8af2f4e098b57d72a80f35467e381aa4a6d6d82e95c51554537a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_freebsd_amd64.zip",
+          "shasum": "1f3fa86e97342d3d95466e5f8a522833d62391dd5fed3590fa41ac99e108fed8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_freebsd_arm.zip",
+          "shasum": "54b55e4f411390b293497a3f4119ce36a602ffe3a686906ee02317760781ae5a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_freebsd_arm64.zip",
+          "shasum": "36ab2071bd6f83c50e1b67f073aa7fe1086e5dc46309e55a263c0943236308ef"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_linux_386.zip",
+          "shasum": "fc5c71f725124887150caea737e9489294b804186345775dd1bb77a171619d11"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_linux_amd64.zip",
+          "shasum": "e2fc02c90fe121a38d99f1fc8f7a5e925801be1da53f350c3ae61c1961961d03"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_linux_arm.zip",
+          "shasum": "daa2312d1e81039e0d8766127af24dc8d42cd2112da142438f131da60d629212"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_linux_arm64.zip",
+          "shasum": "07c0157e631c6b7c90dab872e61ddeacf74a2fb0d6a8820d72647a9552113139"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_windows_386.zip",
+          "shasum": "f801beff06d3460e2a57ec43e9afe29d383aca90adc3bc8ff8fa7a61c474a70b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_windows_amd64.zip",
+          "shasum": "8cd269816cc6494128fb407bfd5119cb9d46bbce1140a07fe35fdc33d1cdbe84"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.1-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.1-beta/terraform-provider-skysql-beta_3.5.1-beta_windows_arm64.zip",
+          "shasum": "814c92ac529f7e0ecd373ff310aed899c6f1bff31be17ab65f74a16686a356a9"
+        }
+      ]
+    },
+    {
+      "version": "3.5.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_darwin_amd64.zip",
+          "shasum": "133116bb0fa7f6cd685bf46d9daacec2f1182581aa97491443f0543814ee6bfa"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_darwin_arm64.zip",
+          "shasum": "1bc7f213531ee0b2511221cc750d708352fdc4d66b43fe882d57d8ae15c0d43c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_freebsd_386.zip",
+          "shasum": "901c6ca6902304ee92fcb494d46edd430a194abcd6fbcb41b1c0eed8f6f4248b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_freebsd_amd64.zip",
+          "shasum": "8b1237ce5394c73a9378b1883369ee53863bc48928cd90026a33b3b3d8d432d5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_freebsd_arm.zip",
+          "shasum": "23f8dfb1fe0123ef7b434747bc489d10a02c35b1f5ea654603602d1f7ef05fd9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_freebsd_arm64.zip",
+          "shasum": "f5dac75af3fc8a0e12909e09a5f39069e0b1c187f9ff8434ba5f50ebfc3fffb7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_linux_386.zip",
+          "shasum": "de74f3acfb33db9a574e624dd4773703027d620e0f25c4b86d4c534b19191a15"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_linux_amd64.zip",
+          "shasum": "1ed414e17744125277936c9e60780c51f1604ece6185e7031f780089186d118d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_linux_arm.zip",
+          "shasum": "40b93e6b11ece9e9bce590432f5a7ab4e2fb5aa714b2d518d6af889123ea0e2f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_linux_arm64.zip",
+          "shasum": "41e309275915442e44a2e67672fc796602261630639f33b7819f92db54ca78a2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_windows_386.zip",
+          "shasum": "f5746ae2a9f8e869e8a230b8dfefe3a83637ba6d270831a7370fcaae6c2fa59d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_windows_amd64.zip",
+          "shasum": "03b3aaaaddd49bfe6fe1a3694b529c529d3c4cf6ef17b31ed40af616da36adda"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_windows_arm.zip",
+          "shasum": "81251180bee66e556511b27dbf09c4507b5c94151b1637df1ca448550f54df42"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.5.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.5.0-beta/terraform-provider-skysql-beta_3.5.0-beta_windows_arm64.zip",
+          "shasum": "15023568ace12da84b0cc9dcb876b4eef28ec0f5b1cc90ca3409a204f41b482d"
+        }
+      ]
+    },
+    {
+      "version": "3.4.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_darwin_amd64.zip",
+          "shasum": "7c0058f2b2898ef0119be7f65f94ec37aa3ed0b52627db538782afb91d9d58b7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_darwin_arm64.zip",
+          "shasum": "94a6e68b127a6e467b4655df7e05729ef04bd7a269f8673c76671be3dd5d4632"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_freebsd_386.zip",
+          "shasum": "1c006f812c9f69eb5611e1080703b16af8f435664efb62982c5ad3bc1ad17da7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_freebsd_amd64.zip",
+          "shasum": "5eed496108caa5fb967cea51298de58e38a78c57f116abeeb0e340b293747519"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_freebsd_arm.zip",
+          "shasum": "ab55d9f55ac06d27d8c234e8c9f4273e21c939ed6507481bfad7f426dd4d3765"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_freebsd_arm64.zip",
+          "shasum": "d0e92c3b9a3fae354ce9da2c01d65feb62e125202398f37aaa2fb9751808015d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_linux_386.zip",
+          "shasum": "d8b89423d642e13a80e31e23de6a11d427d044a44605bb518ed47a7dba18fd82"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_linux_amd64.zip",
+          "shasum": "5ed1e4a59ac2eae7fface6e64d43365cf8fb4cf4cf1e21fc67b394ac5dd5005c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_linux_arm.zip",
+          "shasum": "e3e0328a59aa81650b86ac72ab494cb0dbb70db74d6067955a1dc1f571ff2730"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_linux_arm64.zip",
+          "shasum": "a58936ccc65cb6c551e8d4b6a5672002201ddf5fb80779d5613db586412fd874"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_windows_386.zip",
+          "shasum": "c34ef59b5200cb76426e0e851b354ae8c6f5d452f87ad612f589a6a558e660c2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_windows_amd64.zip",
+          "shasum": "1484206805a545874dfba9125f3ac08351cbc48a29a479bf742d196aa9941bc0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_windows_arm.zip",
+          "shasum": "c77de9080eb1cf7ef495a9e7a682ded1ebc146fb4ba0baddf6534c24a830a5c2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.4.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.4.0-beta/terraform-provider-skysql-beta_3.4.0-beta_windows_arm64.zip",
+          "shasum": "9ce9fc7ce7d9327c623cd3b01e87b9157f59cad0a859e9f9e8bdd8268c4f8b52"
+        }
+      ]
+    },
+    {
+      "version": "3.3.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_darwin_amd64.zip",
+          "shasum": "38993340f91092025a0657fabd4e7ede9d305e71ec037bc57eaa8aab2e5f86b1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_darwin_arm64.zip",
+          "shasum": "330916352be3f3871f848abf0d4b08cb462a86f2b6399e6e3dc5c56657fb3c52"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_freebsd_386.zip",
+          "shasum": "c906a88b1125de86a4bedcfdf159742aff9cf109c3c3cd841253c68948611a8d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_freebsd_amd64.zip",
+          "shasum": "359677369dd32f1de9074f258159dd62093fd0d3b380061a9f5665f9b8fd0dd0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_freebsd_arm.zip",
+          "shasum": "7c2df585cd6c1b7a0dbadaf66eec0a00fa744edca9a75c2ea187f03558f03131"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_freebsd_arm64.zip",
+          "shasum": "25b1de9228733220822f72d6407322c59e4fe2843fde03d1d0d7e747c3a2c515"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_linux_386.zip",
+          "shasum": "bfd66848ea09d938acf7cf325fe65bd0d9b5ed9bc11fed323d51732a80798767"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_linux_amd64.zip",
+          "shasum": "cffbf2d9876b9876d8886692f7012e25d76da3cb5b266256e3269bceb660e2f3"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_linux_arm.zip",
+          "shasum": "26908bac1e094b9fac961177cacf4104cc4defd527e7bd677ed7b495580ccd62"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_linux_arm64.zip",
+          "shasum": "05c1924e7871e4564502a65569102b893c0e3a45668d224bc6acf1084a6c75cb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_windows_386.zip",
+          "shasum": "3d888f76fd41a18354c3ef88e3b6691673cf5c789b5e9a7dd49627a94ce66a77"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_windows_amd64.zip",
+          "shasum": "9637f71cbf14c1d813fd0c8a326089f9b3e9cf03abe62b8593626dbe8d8e92cb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_windows_arm.zip",
+          "shasum": "ef4b470fa5399674ca6851987176aa919d2b962a0a826c08b4857a28bc6bc6cc"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.3.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.3.0-beta/terraform-provider-skysql-beta_3.3.0-beta_windows_arm64.zip",
+          "shasum": "03fc9f45241c24b0621aa4d4754086eafc7e32a74cb607d559c1d11b53c239ad"
+        }
+      ]
+    },
+    {
+      "version": "3.2.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_darwin_amd64.zip",
+          "shasum": "48d413057088c225693d3b2e4925d2c551c1aed83f6af7b245e35abd581e48c0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_darwin_arm64.zip",
+          "shasum": "fce63505ac17a6ba7f89be6196e030672034620f39c8630a8a5b6c9e2d76a80a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_freebsd_386.zip",
+          "shasum": "a0616043f7631e31b189d579513ecacb32410c2025a3cf3a9e60f9fafbe8ad39"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_freebsd_amd64.zip",
+          "shasum": "def5e23fbe9acc91f399dd342422d8ea33bce5d2c9c8cd516033e8b396a40a5e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_freebsd_arm.zip",
+          "shasum": "61362b2529824752282cc9dcdc00bd097a8db4a5f0cfd460a9f2115987b08cd8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_freebsd_arm64.zip",
+          "shasum": "b86582bdda6ecc808db8d38080279fb206411c2728d9bcd8767b06233469ba46"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_linux_386.zip",
+          "shasum": "5005ef0d78e5ba57ac4b70742407997e928c9317444bf73e82547adafe27207c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_linux_amd64.zip",
+          "shasum": "2fa110508020920600aa4c97f813420c71ba25086d456560fe6af3ec70b4aad7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_linux_arm.zip",
+          "shasum": "69a567d2501dc0699d2d0eddbe7f378cb1645356817b8f9fb1b059acdf148df2"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_linux_arm64.zip",
+          "shasum": "02568ce240cac130620118806536376aec593c66e9e81a98e13162c8c88d76c5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_windows_386.zip",
+          "shasum": "a123e53fff535d008e1fd877953ed471d104cd1923ddcf0ffd11b002ac71148e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_windows_amd64.zip",
+          "shasum": "3f8acc137e2bbea9a3a762e10430f588e3db21b0263f41e62a0eeca40057f04d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_windows_arm.zip",
+          "shasum": "4d354e6327d99946bd61c3863490fe663482b798846eeee0b6403ff7973648ca"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.2.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.2.0-beta/terraform-provider-skysql-beta_3.2.0-beta_windows_arm64.zip",
+          "shasum": "abccdab96ee258c50d9725bafc3b4c88fc8acbe1e67d9b92e89d0d942f1f111e"
+        }
+      ]
+    },
+    {
+      "version": "3.1.5-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_darwin_amd64.zip",
+          "shasum": "c8d6bbb8d1cf2fa6c39af3327e795c4accdee0e63308c9a1e476e1db94b999a7"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_darwin_arm64.zip",
+          "shasum": "958452a90ccb72f87e05859db460e4e4805d28bf077f1193411d1823a70b0abe"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_freebsd_386.zip",
+          "shasum": "a001645689a088d23f7cbd9d507bce57eed72ec7e1a116daf477ec40570bb9d5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_freebsd_amd64.zip",
+          "shasum": "8517c2d2fe67060a1679b91f58cfa207c9f1f718bfb29f5810c34ab0804c580a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_freebsd_arm.zip",
+          "shasum": "94dfe8a6a14b5de832b46ef9b454699a7e9c5cdfaedfd183ad0420ad08210bef"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_freebsd_arm64.zip",
+          "shasum": "53724af062b4109ae8ba2e4cb948f810d75d2552db0f05164d0c819ed7d365e3"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_linux_386.zip",
+          "shasum": "8eda980157ef85c02b52b9c7e4c5bb20e10950277efcc3fd80ebc9e6b187de6a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_linux_amd64.zip",
+          "shasum": "3391d690b194fb30510493e7167a2726ac1909613f849798af1c899d06f25cc8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_linux_arm.zip",
+          "shasum": "cba31c6b79020151d3f80c6c74a425c82e4c52da706df126708fe1a6f27b6052"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_linux_arm64.zip",
+          "shasum": "a5f506f7a52ff1fb5e1f90c7f743a8d3861977f57b9dd00657737055ae6d4e6b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_windows_386.zip",
+          "shasum": "8ded15d0f25c6588cb517603506873f44d44d601ffd739ce3b5640a94441508c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_windows_amd64.zip",
+          "shasum": "fd8f91174e6b66dd0b6ade4ce76775d5473a13f34927c4db1b1c6aeb837a39d7"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_windows_arm.zip",
+          "shasum": "9e88907c8e9bc3151148be307322025ea99b9536b43382ed990cd4e44b0c7bf2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.5-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.5-beta/terraform-provider-skysql-beta_3.1.5-beta_windows_arm64.zip",
+          "shasum": "e1e4e8236b707a8fbd566950aa49448081965c0a783bd55e680ba2e4025f350e"
+        }
+      ]
+    },
+    {
+      "version": "3.1.4-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_darwin_amd64.zip",
+          "shasum": "d3c3928d727cdadbc663ebfd07ec02775689b51d7a0c258f1a75e2739c1bfa11"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_darwin_arm64.zip",
+          "shasum": "1e5d1b8a8bb3f0d552b6eb2022816476283363aaf6d30f4858c79ec4a9f4809e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_freebsd_386.zip",
+          "shasum": "2eb6e976829cb3b90f43bf822cdf3f7b3df21f90a3c17d2e08db2dbf98805440"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_freebsd_amd64.zip",
+          "shasum": "6c8cc5c4250f59e0e10721917039d9a56515d2807b6e32ba7d0be606c4463a47"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_freebsd_arm.zip",
+          "shasum": "17408e7e237c9e9e6c4632c29c4683e81688d0b355c298c4dd6b196407401cc0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_freebsd_arm64.zip",
+          "shasum": "43d15eac7159953c53cd7e9b67c735ca28b7a62ab98f6b7a671bf8460164d285"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_linux_386.zip",
+          "shasum": "fb01ad3760d03bbf46154de6bf22b24490d44eb39e15e991f68b2af5b7bd2a83"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_linux_amd64.zip",
+          "shasum": "6e688c965a47233023cbcce02b79de146418c2fc08cc9053735acf6c8f633bdf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_linux_arm.zip",
+          "shasum": "f1f69e421398b195f5656462bac46d734de003cb48e9575a9cb9986c5aed68ab"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_linux_arm64.zip",
+          "shasum": "f27d7abae57c346567b609ecd27a1aca65a5f254126e9ae2944cff2b72f3689a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_windows_386.zip",
+          "shasum": "452a26f041cd47ec2cd178e88f53d9712afbf0270a449c1405140424179937c2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_windows_amd64.zip",
+          "shasum": "8a0c922577694b6005b63e957312ffe2fdfc0db06d4ef8f61eb5436193594017"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_windows_arm.zip",
+          "shasum": "4ca177a33bf8aa63d65deecfef7f7f458979384eb1b30da745b331b683648b55"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.4-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.4-beta/terraform-provider-skysql-beta_3.1.4-beta_windows_arm64.zip",
+          "shasum": "4c7fdad31a02a710a040b81598073b32e99d6c31eb67130943644bf89f762300"
+        }
+      ]
+    },
+    {
+      "version": "3.1.3-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_darwin_amd64.zip",
+          "shasum": "590289ca15f7c725c4689b2167d2051132c8c5930254bd46bd12abc8f1025440"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_darwin_arm64.zip",
+          "shasum": "f0c85d667f131f761cd6f58fa8bd5f5af49ce8ebad1790fa99a31a8a463eb547"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_freebsd_386.zip",
+          "shasum": "1542e8e426f1bf00eeedae6a98c016985e692005e62db812a7706c01fb8d2f70"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_freebsd_amd64.zip",
+          "shasum": "2221880ea07f9b9345e25409c1d438d8984054bd9d1bfea23df9728bd067b243"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_freebsd_arm.zip",
+          "shasum": "a6b7d1253794fa19ffae2e2dab9a147e3837b455df5338f2417f8b6774fd6027"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_freebsd_arm64.zip",
+          "shasum": "4701dc2288b58c1fd7c99687b5f5a0d71743db305ad2928aec22755c4f0b57f4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_linux_386.zip",
+          "shasum": "86b4a990255db30cff4a7b0ca96345d767f60d595176a42434ef586ddc1f59ba"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_linux_amd64.zip",
+          "shasum": "8026bb13496e84bbb3c03dcf3adf8ed196e197b9393080aaf9e1b335baf08537"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_linux_arm.zip",
+          "shasum": "5b87b6fcfc55d2c6ef22b0cd026b16c2b2ed2ca9cdc6b81326a7a54e13c9937c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_linux_arm64.zip",
+          "shasum": "c6cc692177db68aea5e1841f1266d44e66943beaaa18df6d6eea3cf583e523bd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_windows_386.zip",
+          "shasum": "20f125ec36b9a7a4d35c14633f722d02c1acf90163b1419a086b8ed58c908c9c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_windows_amd64.zip",
+          "shasum": "3826a6acfb1431ba8a4f5556b7315d26e012f52109ff64bacd7619afc10eaf63"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_windows_arm.zip",
+          "shasum": "f7b7420cc9c723ea0059c08fafde33a7a27d5f670b9d6572a0cd1783a60a1f5a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.3-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.3-beta/terraform-provider-skysql-beta_3.1.3-beta_windows_arm64.zip",
+          "shasum": "a8e079bbc546495a04ccc635e1f63078a5f5cc0a13a95ee82200466ea06c0de6"
+        }
+      ]
+    },
+    {
+      "version": "3.1.2-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_darwin_amd64.zip",
+          "shasum": "34bd0e350f721790c129aa714b095ab2df5a6fd7e090cd295f489636574d7eec"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_darwin_arm64.zip",
+          "shasum": "5270bef38dc535692810e405512cee57e2ca6c6241861856ef836a0bc8530d7e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_freebsd_386.zip",
+          "shasum": "7dc0031059073922bb85019343c850a8fc70507a8bbaaea540aecec1bad32af2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_freebsd_amd64.zip",
+          "shasum": "5da75aebcfa63ff46809562d8d17c47582d3f9b409175b10746d3dde7337d795"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_freebsd_arm.zip",
+          "shasum": "4afdeb899cd39b3fb5f7e9ba32968756fd196d4a2b5d1ac3114122b25aa0892c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_freebsd_arm64.zip",
+          "shasum": "d2ae48d0122c7b98b8afd2f6fee716135c503808e7681fbd494d4e4bd3ee5cec"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_linux_386.zip",
+          "shasum": "151a539be2fef79667daabe3fb1bbb939e2292d0505516ba08bf7f9fb0432d8f"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_linux_amd64.zip",
+          "shasum": "794f3cd373077a803fe903cba7ae9f47b39fcb8b478c733ac5acb9b2ade0a0fe"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_linux_arm.zip",
+          "shasum": "c045ccb956731598db41a29531c06226ecba3c05c5cf3a869fd0c9ad8947fe4c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_linux_arm64.zip",
+          "shasum": "8548c1381ee3a99f81f673eb2618d1851856731bbea87c312a76ce2417da48d5"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_windows_386.zip",
+          "shasum": "7e9d85ff2898905536592ae60bfe6a46d21e6905cfc30ce5930b3207b6597f75"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_windows_amd64.zip",
+          "shasum": "f408e407bedaf2b5e67a0e3194954b10f42558385e1327dbd1fd83bcab16ab9b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_windows_arm.zip",
+          "shasum": "610415fa76759f9679166102bc97261b6c38898a8178a744914644df917a2fdb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.2-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.2-beta/terraform-provider-skysql-beta_3.1.2-beta_windows_arm64.zip",
+          "shasum": "b8abca30045241fb91853902a7a1ba81c33c03b2984eb311c2cd484fcc7e4e05"
+        }
+      ]
+    },
+    {
+      "version": "3.1.1-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_darwin_amd64.zip",
+          "shasum": "cd8384ebb889883feb46e34ecac045e2ffbcd9ef45fb40daedfa7e16a8da9e74"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_darwin_arm64.zip",
+          "shasum": "c13255a060f8ff7e91080fff66523bd2bb834163aebef27d6e9a44454eadde6c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_freebsd_386.zip",
+          "shasum": "058d5e385285b59f41036b385157c847f6450742770f0df4648685bb4829d529"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_freebsd_amd64.zip",
+          "shasum": "1f18e6c06b7bf974d2209ae0f5df26afac9320851e5299c48950b5638f8a82b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_freebsd_arm.zip",
+          "shasum": "a39fbe05a03f1389aa00f38459ab6c48fd0163e6f4263bff6bd40a72d66f0728"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_freebsd_arm64.zip",
+          "shasum": "a37e2ba2446fb5c846f451702149be7277ddeaceb26c493aca5a15f8d784fba8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_linux_386.zip",
+          "shasum": "ade67e5ec3db7b3446e64a0532df51cb46354e2461cdea3bfe0f5e4d94f9ed07"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_linux_amd64.zip",
+          "shasum": "f5d872252525209304722f5aca3bf464d756ca0cb4e3b63db12ab4ecb3f90861"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_linux_arm.zip",
+          "shasum": "10e8b1dc61a254dff831f5d5666e2221cc5d98c5c9e4d7ac75cac96f6841da49"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_linux_arm64.zip",
+          "shasum": "dedf0f7e6be616439bdccdabdd9fa8d9540621635e3103e845d2c88a61940001"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_windows_386.zip",
+          "shasum": "90b6f89fff926f1252116a76ef01d67ff9ba1731bc9f01558070a122c74775db"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_windows_amd64.zip",
+          "shasum": "5d3f1f02ef522518a11729978153ca17caf28808471243c2d2a3fb72d6dc58a6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_windows_arm.zip",
+          "shasum": "a2d9f281a1e80988daa5a4c88a4b33c52ce8d049290297a1e550b0d05d50152d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.1-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.1-beta/terraform-provider-skysql-beta_3.1.1-beta_windows_arm64.zip",
+          "shasum": "4507b0c1f3e213862c0c677cd01cf422b06365425041f775675276f38f25a618"
+        }
+      ]
+    },
+    {
+      "version": "3.1.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_darwin_amd64.zip",
+          "shasum": "d8a528fb846a7dd114b1076982c2ae7898913e45243dabf39b80641bfdccf61a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_darwin_arm64.zip",
+          "shasum": "eb9828a98731db83405f7631ef63d7942b51bcc3ed80dd8c1adea75dce1fa099"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_freebsd_386.zip",
+          "shasum": "7fc1ab58161336bb68e978182a035871222093da9f75f4d07507cbfc8bbcf413"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_freebsd_amd64.zip",
+          "shasum": "b50c24e5cf96dddc9c400aa7f86eaa97eb50365dcb77ee0c2ee108aa658e56b1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_freebsd_arm.zip",
+          "shasum": "6a4816b9c5a35c97180ae37a3ec3734b904f816d4326435b274f323820e46559"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_freebsd_arm64.zip",
+          "shasum": "9583433cf7f5c6ca1b7daed6c6f4cddfc595216d6a3fbcd83cee9ca848e9b21c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_linux_386.zip",
+          "shasum": "0330f2ddfa8e2f03b7d39b9ea7ed90c79135ee8c602f5115ed78b401eb091293"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_linux_amd64.zip",
+          "shasum": "4a51621c00cc3f5c1598661963761352868613a8bd11cfc9311b8a4c7bfe8cd8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_linux_arm.zip",
+          "shasum": "2fa7b78ccf33eea1d40a5824498c80e585a3c975ee9924e604801bf95d337dfb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_linux_arm64.zip",
+          "shasum": "e5f290f7325c915fc827a1790a18c7f5df6a7ae3552ccb449576f1ce997936f4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_windows_386.zip",
+          "shasum": "00a1d4eeee0e084497ca2d183b902b2e2226f060f21dce9dc7d61a2f22191dbf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_windows_amd64.zip",
+          "shasum": "18298789af694eac535ec391ff4877ef085ed0631d5ebe224af489840dbc0d0d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_windows_arm.zip",
+          "shasum": "ff9431975e82417052d754784ad2174bcdc780fabfb23a8a98131aa0e52b706e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.1.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.1.0-beta/terraform-provider-skysql-beta_3.1.0-beta_windows_arm64.zip",
+          "shasum": "8f414b3786b2c3bd1622fc213f4b66437125b5cb74dc80a51d683b5d08a50ea6"
+        }
+      ]
+    },
+    {
+      "version": "3.0.1-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_darwin_amd64.zip",
+          "shasum": "77fe1aea699bb87a949c333e883b48548349ea0bbf653eb891370e8dc094600e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_darwin_arm64.zip",
+          "shasum": "f06e184cfbfe7db91076f3ffea694c093f2152cc2fb10c2bb4493151757be37c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_freebsd_386.zip",
+          "shasum": "e6b0a60b420c1ed261f43136f8e69a148089f4c84c8a7ee9c1940677c40801b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_freebsd_amd64.zip",
+          "shasum": "eee176705335832c07d02415fe7b1ca438aa3ab370fe3a958628e0711cb4d61f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_freebsd_arm.zip",
+          "shasum": "c0d6db20cee7067a6985b51d1b13e7c2a4b97dde02e92f0017f45cb4921c639a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_freebsd_arm64.zip",
+          "shasum": "eebfdb5adb77b06b89fc1296542feff6b16a22b144c10ecff71e042bec93d7c2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_linux_386.zip",
+          "shasum": "1fef3a348085c58d174187ffdd750af096d8b744d92e733321d2e8b9845b272c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_linux_amd64.zip",
+          "shasum": "db77a829a5e6858cdebab32f0c5cba2aec3569cb84763dbd66206799906a06c0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_linux_arm.zip",
+          "shasum": "6400bd4acc9facb2e19a4a6f338ed7cff7bcd6a843d3a013f06edba6b58232ae"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_linux_arm64.zip",
+          "shasum": "5814f9a9fb3dc1842940c3650aaba86c3ec42b0ded0df8bd10c195c4cf0e123c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_windows_386.zip",
+          "shasum": "82246df71b26a080ecd117f24d8ff842a1e506af5883a0d4f0477bc3b7785f66"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_windows_amd64.zip",
+          "shasum": "6719d948bc537e07d3240dc1bd4d7252c61abde15944af612d11a5e029907fd9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_windows_arm.zip",
+          "shasum": "5125a6f1be09ce4e9e7c4f99fe9f0869c94596ae31b506a9ba4f59ceda0ee5ce"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.1-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.1-beta/terraform-provider-skysql-beta_3.0.1-beta_windows_arm64.zip",
+          "shasum": "c0f10ec01dfcc808ece5d5a52786df57fc8f9df0873547104673365a134dacbd"
+        }
+      ]
+    },
+    {
+      "version": "3.0.0-beta",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_darwin_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_darwin_amd64.zip",
+          "shasum": "1660d80cac3689680b39119e5da97aaf8dae035bb25dd84bb11cf39710177c69"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_darwin_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_darwin_arm64.zip",
+          "shasum": "a6341b0bfbce808d61cd8a7d39f666e8e47c376e8afe0303b31bed3376438ca8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_freebsd_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_freebsd_386.zip",
+          "shasum": "c48147e240d9c43cd715b12f4f932be1912d650aaee639c63b9187650455bd9f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_freebsd_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_freebsd_amd64.zip",
+          "shasum": "62ea2e63cf5114b4dc25a9065d265d7d3e99c1cd8a3e1dc38b23f007525bcca2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_freebsd_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_freebsd_arm.zip",
+          "shasum": "cf88117373ea86a93e29a489cdf6c1e92db4fbcbda9b2861fd5445966486e85d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_freebsd_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_freebsd_arm64.zip",
+          "shasum": "b4d6534a31403a58369af132146718a5133ad513373d735cfc3f716e9ce834f2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_linux_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_linux_386.zip",
+          "shasum": "179fab4d716e4eb5f4711a5584812ed038db846b5aae7dbd5d7a04bfcb6755c0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_linux_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_linux_amd64.zip",
+          "shasum": "05a26d8a8632058506edcef771b18d3530c9daa0c76af5fe0c595d6ba1362bac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_linux_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_linux_arm.zip",
+          "shasum": "190f30ef50f2be63a135bd63eaecaae1bf20d272f6763b407ad4301f810a704a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_linux_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_linux_arm64.zip",
+          "shasum": "7434d60163755a3798cdd3de679d04f8554f5b13a55aff61e8fa09e5c485db3b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_windows_386.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_windows_386.zip",
+          "shasum": "10623620087d67c59b9dd5ff1583f369d7a575908a810519cba3c5d4a5fb0bdd"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_windows_amd64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_windows_amd64.zip",
+          "shasum": "32982c4b2bb603643377f5f55a7e240a3dd024d1c7ebfe4ee0b087217059f368"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_windows_arm.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_windows_arm.zip",
+          "shasum": "ca9ef2ac03290c21e7079f47a15a373199aed9f11776621e906d0ac1619e712c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-skysql-beta_3.0.0-beta_windows_arm64.zip",
+          "download_url": "https://github.com/mariadb-corporation/terraform-provider-skysql-beta/releases/download/v3.0.0-beta/terraform-provider-skysql-beta_3.0.0-beta_windows_arm64.zip",
+          "shasum": "2e38690848f11b40277297163efab31fb3f7d940bb89ad57b1c76ba4cbcd0362"
+        }
+      ]
+    },
+    {
       "version": "0.4.7",
       "protocols": [
         "6.0"
