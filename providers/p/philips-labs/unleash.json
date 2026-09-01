@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.4.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_2.4.0_darwin_amd64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_darwin_amd64.zip",
+          "shasum": "97a53cd78163e41bb4c833d089f5f72f6f1aa0749dc57c9a1734f7d1d6eb47ce"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_2.4.0_darwin_arm64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_darwin_arm64.zip",
+          "shasum": "84f4bc4ac0dfed79542ac84f9231c8fe2ef8f0e56e8f65ab10d1aad838c5abec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_2.4.0_freebsd_386.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_freebsd_386.zip",
+          "shasum": "e76347faf3394d040ef8c8a82408b6c0c7392add091719f320f6a8730bc88f62"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_2.4.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_freebsd_amd64.zip",
+          "shasum": "96281571ec3d465821cc9e1530471ffe74f3f5d5b6591e2ae140fe7c1a250889"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-unleash_2.4.0_freebsd_arm.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_freebsd_arm.zip",
+          "shasum": "983b5c1ef6e3470c0bb10ba9f21815a541caa278a3eac7c01e148f971c0e251d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_2.4.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_freebsd_arm64.zip",
+          "shasum": "6af4a5b9a13afccccbebcb476b5a1b1c1f0c2046387852eb4026e9735b64153a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_2.4.0_linux_386.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_linux_386.zip",
+          "shasum": "f22436175eea34f4fe453e2d2502650432f0f4d968173f2b75868f60db7f46df"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_2.4.0_linux_amd64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_linux_amd64.zip",
+          "shasum": "cc0a41a3dce99ac64e033e3abdea0b011464ccde087434b92cf60925edd79601"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-unleash_2.4.0_linux_arm.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_linux_arm.zip",
+          "shasum": "e82a85873a8fd020cf05c380dbd1af1fea6276f32906c78e97a61eca0d92cef6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_2.4.0_linux_arm64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_linux_arm64.zip",
+          "shasum": "dc5c69fd677840768a2a02bf49013dfd496f27459c8c054d26cf62495eae8088"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-unleash_2.4.0_windows_386.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_windows_386.zip",
+          "shasum": "830689afd4eb828a1d4e3257d812abf18eca29ad4f441a1371d50c72dcd4020b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-unleash_2.4.0_windows_amd64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_windows_amd64.zip",
+          "shasum": "c6ed81fa4e5094c4c2cd09710310423d91f724cd09c7b1603d5880d6825f7a5d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-unleash_2.4.0_windows_arm64.zip",
+          "download_url": "https://github.com/philips-labs/terraform-provider-unleash/releases/download/v2.4.0/terraform-provider-unleash_2.4.0_windows_arm64.zip",
+          "shasum": "96ee83076a6555ef880a6f8dc73e0ef63104cc608167d22c7f3c37291f7b2967"
+        }
+      ]
+    },
+    {
       "version": "2.3.0",
       "protocols": [
         "5.0"
