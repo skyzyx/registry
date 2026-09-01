@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.8.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_darwin_amd64.zip",
+          "shasum": "abb5099a3aae1fb28be090621504e3c1e67ad57ca41a66fae092d6e7a44042f9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_darwin_arm64.zip",
+          "shasum": "a25ad38cd62a8122c38fdcf633e572c0a22243457e6cae46949692c0d78f11e5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-temporalcloud_1.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_freebsd_386.zip",
+          "shasum": "e055d892ec714fb0e716e30156d3152ba8f21eb3a018334b1915f72174c33992"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_freebsd_amd64.zip",
+          "shasum": "a70513040d3405be35406776b24c34e03d1be4d426303f8deafe896c7806506b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-temporalcloud_1.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_freebsd_arm.zip",
+          "shasum": "1737c72cec7b2894b614b30ba9bb2bb585e757801eb2cddf0e2703df2405f827"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_freebsd_arm64.zip",
+          "shasum": "ac05be61d726e4a4f6063d834c7fbfe103cbb4b6c233afc66203387b84256448"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-temporalcloud_1.8.0_linux_386.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_linux_386.zip",
+          "shasum": "b4d09615b14415af101735cc177f3588266da9e66a4c23719c81250c22ab9ab2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_linux_amd64.zip",
+          "shasum": "5f143aa3ae4899bad5d86c53dab82a5dbef23142159ba1545ebab9b81b829cd6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-temporalcloud_1.8.0_linux_arm.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_linux_arm.zip",
+          "shasum": "52c36439a91a1813f6ea2bfe7f1980a0cc13ef47000f51505f09303faaf92d55"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_linux_arm64.zip",
+          "shasum": "d6a80459a4c44ee85558e530e122d3a63350194f54129831fba4ade6a9fc288c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-temporalcloud_1.8.0_windows_386.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_windows_386.zip",
+          "shasum": "56862ea47a1d9de7ffcd757364ca1ea80c9b1ca8280e9ea64ff13470036ccc3c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_windows_amd64.zip",
+          "shasum": "5353f171af802b891944638d34d257e0e1494ddf12c94c8479c095064f6311e9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-temporalcloud_1.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/temporalio/terraform-provider-temporalcloud/releases/download/v1.8.0/terraform-provider-temporalcloud_1.8.0_windows_arm64.zip",
+          "shasum": "05988296f029267a4c6888ee85841a52edb28c66bffcbca25bfa0fd027ffc32d"
+        }
+      ]
+    },
+    {
       "version": "1.7.0",
       "protocols": [
         "6.0"
