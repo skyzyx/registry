@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.18.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_darwin_amd64.zip",
+          "shasum": "4ef201772763626a6a613dd7e101fc84d84f50b358b403e06e82744b9f4dc36c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_darwin_arm64.zip",
+          "shasum": "447f9859d8cd809946bd607bc325ac87e4b4441100fadf5939ec5a62cd94a785"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_freebsd_386.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_freebsd_386.zip",
+          "shasum": "d057c2b68663770f620c6c39417ac4b88a629f6440e8044740befb64eab97bdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_freebsd_amd64.zip",
+          "shasum": "ed8b5dad5b69a56d4cc9cb19643924abf85d677e7bf611626956b16dca9b40e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_freebsd_arm.zip",
+          "shasum": "a9f0d0149eae9cfc7c9e2404c619f22ef8443211d89022618e622888ae74e4cb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_freebsd_arm64.zip",
+          "shasum": "d62496f0901d2dfa000985a8365ad7e6c492d765e4b2d00e664a1438f94e9788"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_linux_386.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_linux_386.zip",
+          "shasum": "e7e5b3fa59f99fc6c15d1f4bf08ae3ba738ca9f4261766fa20dd6f970f010a08"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_linux_amd64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_linux_amd64.zip",
+          "shasum": "dfee60bbfcb867a977b91b71d88e7c50aa36da5f2ddec97d9a07b52b83322bf1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_linux_arm.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_linux_arm.zip",
+          "shasum": "920496192f57a562d27c57acf239b1fb436bd611aab97d2721e50a218ac5dc18"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_linux_arm64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_linux_arm64.zip",
+          "shasum": "7a0e0926c7ed31cd2f63d18f1b6b86d0a0667c636fb5270ecb5f75daaffafc99"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_windows_386.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_windows_386.zip",
+          "shasum": "5327b83b3e39dbd57c4f0ea9ae2a0ed47e95a58baedcc198c106613a388d840e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_windows_amd64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_windows_amd64.zip",
+          "shasum": "0af0f57afbe2f39cc675b73b2cd63db4d7f17c4fcfad9be0a814894fbeeeb3cd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudfoundry_1.18.0_windows_arm64.zip",
+          "download_url": "https://github.com/cloudfoundry/terraform-provider-cloudfoundry/releases/download/v1.18.0/terraform-provider-cloudfoundry_1.18.0_windows_arm64.zip",
+          "shasum": "7a6bebe3fac5b462c4de3af030abb7049605f459f9b18b306235f3d5fc63d7a5"
+        }
+      ]
+    },
+    {
       "version": "1.17.0",
       "protocols": [
         "6.0"
