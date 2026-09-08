@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "32.1.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_32.1.3_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_darwin_amd64.zip",
+          "shasum": "81cf65fbd84698d76145e459860be1ca177f5cf2c8c45f27c301f18ae383a8fb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_32.1.3_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_darwin_arm64.zip",
+          "shasum": "f840758044b0555726933073fab09f75ff7724a6a54846023026a62d3bf6d25e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-avi_32.1.3_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_freebsd_386.zip",
+          "shasum": "01d2823159eb96074660c9b3e7fac6a5c7b8a49c13922858f3fbc369a7c6b159"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_32.1.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_freebsd_amd64.zip",
+          "shasum": "461312fd07945cc5f29fffb2dff5dd2939f3dad272fe079805e0ca0f9568c7d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-avi_32.1.3_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_freebsd_arm.zip",
+          "shasum": "d29aec4aaa359dc0b0412dfa3878d9d4041ccc35b8aa5694612c7214aff4eb91"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_32.1.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_freebsd_arm64.zip",
+          "shasum": "2d2baceb74d17135b66acfdf80aef73d565a605e64e15a488bdb81d693bab757"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-avi_32.1.3_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_linux_386.zip",
+          "shasum": "3098564e9d67dc8e4c4413d7e61a729c2af017233322de27d0a7d619e8a7f695"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_32.1.3_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_linux_amd64.zip",
+          "shasum": "211f1938c2857b3f675fcf9e58e662e9b4643d52e3c89e6420f011fa4ddf4cc5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-avi_32.1.3_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_linux_arm.zip",
+          "shasum": "c97f155828496eeff60361a8c37559d41d30135ada49b9d4cfc2dfefeb461ab5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_32.1.3_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_linux_arm64.zip",
+          "shasum": "211f39112694bb904a313b21785557ccef67b982d469caf865f552cc41072531"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-avi_32.1.3_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_windows_386.zip",
+          "shasum": "1ae8c76d0513c53664783fade73b80bc87bb9a8a7cfc0d04ff228d9c22b06b17"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_32.1.3_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_windows_amd64.zip",
+          "shasum": "34d5300e3a2ea9687a216ee2d3a86e8390bb5e319574884cfe7d2b10dd910994"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_32.1.3_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.3/terraform-provider-avi_32.1.3_windows_arm64.zip",
+          "shasum": "87ee75162bedb5227dcc2500b73eb4efe504cc6b0f810581e193b7650b73a16e"
+        }
+      ]
+    },
+    {
       "version": "32.1.2",
       "protocols": [
         "5.0"
@@ -199,6 +300,107 @@
           "filename": "terraform-provider-avi_32.1.1_windows_arm64.zip",
           "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v32.1.1/terraform-provider-avi_32.1.1_windows_arm64.zip",
           "shasum": "2eb71b6850768ba4969b399e476376abb4a4fc299e73a74fcb3a91fb4219799c"
+        }
+      ]
+    },
+    {
+      "version": "31.2.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_31.2.3_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_darwin_amd64.zip",
+          "shasum": "36bf72a56a99d33c257b842f2f9d52d01dceca591efb2f6b557f6159e46497b3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_31.2.3_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_darwin_arm64.zip",
+          "shasum": "951481d4a2ae66e9f95330461db17075d76ef0616e15d5fd88d06834bdbb05f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-avi_31.2.3_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_freebsd_386.zip",
+          "shasum": "3874022c2eff427384b774a4145ddfb19f68fea93846998fb442a3206d04e793"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_31.2.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_freebsd_amd64.zip",
+          "shasum": "a55199745dd30ec7ad665162448f9939afec16e53edf2315b898644770966436"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-avi_31.2.3_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_freebsd_arm.zip",
+          "shasum": "a11f25453043bfedb5cb54c07400e2a7eeda4aecbd734f0c5edf7a85d5cc5a1e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_31.2.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_freebsd_arm64.zip",
+          "shasum": "b158d21280ce3b31c958ea16b2970404900866699b539efa2a48df6c7b05c63f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-avi_31.2.3_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_linux_386.zip",
+          "shasum": "53e2316c9198b50bdf26b41b9d759a192b43b82e3dcee95af4dbc2b4b13a2956"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_31.2.3_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_linux_amd64.zip",
+          "shasum": "e66fdd9694e4cf04357ba1fa6353726610548624ae09a3a3b4b78346dce73430"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-avi_31.2.3_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_linux_arm.zip",
+          "shasum": "d0af395c919ed67005efa5c7835a60291da99dfa8942d8c8a3b1e4dc04e09f30"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_31.2.3_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_linux_arm64.zip",
+          "shasum": "5c7ae9c56cf43cab1194510cb9f33b41f3cae4f25ff9ed1bce759a76ee2521ff"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-avi_31.2.3_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_windows_386.zip",
+          "shasum": "72fcf3c62d1c3a2920505dd6dca52ed36ea43f7213ec1bae1514600d4314bcf6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-avi_31.2.3_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_windows_amd64.zip",
+          "shasum": "92ed961e773289b45bbef4a524ad7b296057a0f82841aaf33acf3a3b430fb014"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-avi_31.2.3_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-avi/releases/download/v31.2.3/terraform-provider-avi_31.2.3_windows_arm64.zip",
+          "shasum": "b46a1a32d71408772f114d106a410cab4390bbf24897920570ddd7930db70d35"
         }
       ]
     },
