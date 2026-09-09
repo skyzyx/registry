@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.5.5",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sys11iam_1.5.5_darwin_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_darwin_amd64.zip",
+          "shasum": "93c1f3ea6e7472b2a25bffce5561bb0462b6d02c1b45b17a750fc1379f04ff3d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sys11iam_1.5.5_darwin_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_darwin_arm64.zip",
+          "shasum": "ad73d08ef59d6984512dd7ed674bcc953b3158dff2d969a53afd44eb5c1e4944"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sys11iam_1.5.5_freebsd_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_freebsd_386.zip",
+          "shasum": "03b5c5489f3fdb5466fb44a3e20deed1e00ca2d5a4efe5d7d0f27df7b8a09070"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sys11iam_1.5.5_freebsd_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_freebsd_amd64.zip",
+          "shasum": "f8e30a61b28b0236522eda8cdcec55955d70221756fa79b734aef8f54c18d8b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sys11iam_1.5.5_freebsd_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_freebsd_arm.zip",
+          "shasum": "c504b41a17ffb479880787e8bb6d4dfcafc39f6cac223ffe2e20807c920d67ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sys11iam_1.5.5_freebsd_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_freebsd_arm64.zip",
+          "shasum": "44fa5eda8aa8b55f9dc2c8dd345aa4bb92efb5cf5da869d3a4cdbba69c36a140"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sys11iam_1.5.5_linux_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_linux_386.zip",
+          "shasum": "8ca84866ed458f29da3088cbc7e62f94672cf0749aeac37c6734af179d7a8aa2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sys11iam_1.5.5_linux_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_linux_amd64.zip",
+          "shasum": "bd2cc6d169558ed81c561b3b292dafd8bb5c1a41e86b5d77996df6c7a45bf2b9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sys11iam_1.5.5_linux_arm.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_linux_arm.zip",
+          "shasum": "da958a50b8651fc8fbfdbd045dc08d4749e8abd0015b9d79395a57287737a83a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sys11iam_1.5.5_linux_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_linux_arm64.zip",
+          "shasum": "1bf967358760309f2f8c5e76042e7703269c74aaf16db0dfe1467818b6f9e56a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sys11iam_1.5.5_windows_386.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_windows_386.zip",
+          "shasum": "986a064974c24c9c9d86e0360e4310c2e73133999073d9d94a232e4d3b82fe48"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sys11iam_1.5.5_windows_amd64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_windows_amd64.zip",
+          "shasum": "25dcee47e000be916e74b19f6340e273fcbd2c1571051cdd7733fe4587d413b5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sys11iam_1.5.5_windows_arm64.zip",
+          "download_url": "https://github.com/syseleven/terraform-provider-sys11iam/releases/download/v1.5.5/terraform-provider-sys11iam_1.5.5_windows_arm64.zip",
+          "shasum": "3b2a76749b0af0bc137fe159f4f8f9e4623f98a1ce16ee155e9375b26f966531"
+        }
+      ]
+    },
+    {
       "version": "1.5.4",
       "protocols": [
         "6.0"
