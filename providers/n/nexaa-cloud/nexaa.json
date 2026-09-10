@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.6.9",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nexaa_0.6.9_darwin_amd64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_darwin_amd64.zip",
+          "shasum": "30d3c8d2d8ca0904f2205f27d3d293ff65a76221d47d71e3db48e87fd4f328ba"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nexaa_0.6.9_darwin_arm64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_darwin_arm64.zip",
+          "shasum": "e525eccc01a55eef079739ed1cf146370f7d4d36ec6f47af2f4f96c0438fd833"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nexaa_0.6.9_freebsd_386.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_freebsd_386.zip",
+          "shasum": "d02a3a19486630b0a11166716f2fba3c38a5650f7f8e37642db19e9c49aa267b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nexaa_0.6.9_freebsd_amd64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_freebsd_amd64.zip",
+          "shasum": "6cc954b4e7c3c49e440aac0013fd2ed57b1effe7a3a6d14bad316464951f9dc5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nexaa_0.6.9_freebsd_arm.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_freebsd_arm.zip",
+          "shasum": "d0c09140aba989797787853531bf5f480fdf754b8186718e82eb3f37a4c758ab"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nexaa_0.6.9_freebsd_arm64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_freebsd_arm64.zip",
+          "shasum": "bfed23f624bb6c9cb66519a2d310bc4c40fd6e10f8b1fe5cfcc0b1acae5811c1"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nexaa_0.6.9_linux_386.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_linux_386.zip",
+          "shasum": "b87d3ad0b7d877421b36aa5463f703f6fdd7c233572d2f98c2d48282c32f6f1b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nexaa_0.6.9_linux_amd64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_linux_amd64.zip",
+          "shasum": "2f71e94f3c48ac61c47e436c1a3ea0364d45e197bd3dc3cb3a5e6528b702608a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nexaa_0.6.9_linux_arm.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_linux_arm.zip",
+          "shasum": "b13d20cd8d47e61b6bdd2fb6999457e12badbd446940bbc69e85748fc978b1dc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nexaa_0.6.9_linux_arm64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_linux_arm64.zip",
+          "shasum": "bddab983895d0dee451569e8ad2a9951807ed524d73ccb1b20924e3be32bab53"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nexaa_0.6.9_windows_386.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_windows_386.zip",
+          "shasum": "320684ff186d9e6aa79461317c824d44050819d8f2d8cad2e112bce8b3fb22b0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nexaa_0.6.9_windows_amd64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_windows_amd64.zip",
+          "shasum": "56b0cd604c815c5f017604944cc57dfa5be5669fe6c417ff554e2980dd4d9995"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nexaa_0.6.9_windows_arm64.zip",
+          "download_url": "https://github.com/nexaa-cloud/terraform-provider-nexaa/releases/download/v0.6.9/terraform-provider-nexaa_0.6.9_windows_arm64.zip",
+          "shasum": "805bcfe9169b18e2a0341b21de9652b242e82e874a6595143738e22f9ddb6915"
+        }
+      ]
+    },
+    {
       "version": "0.6.8",
       "protocols": [
         "6.0"
