@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "2.9.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_darwin_amd64.zip",
+          "shasum": "664e4988e9af6a1067081667ea0b8253bf73501fa4dc673be174a11ce30524e5"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-local_2.9.1_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_darwin_arm64.zip",
+          "shasum": "73e545dec5d7360ae56a16296e7958fd38f41548393ed225c40800859a448f9c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-local_2.9.1_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_freebsd_386.zip",
+          "shasum": "81b99c2fa5264971769bf8ec45c7e40d64278279c6bac8dd985cd47e5696e77e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_freebsd_amd64.zip",
+          "shasum": "7edbfebc8787d096d5f16c478bf1b5648226b09935689547d57a361929522105"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-local_2.9.1_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_freebsd_arm.zip",
+          "shasum": "a6b5f492526e3f55a3e2630fc53869617c32ff70cb77e4e41ec1f79bbfd910f4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-local_2.9.1_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_linux_386.zip",
+          "shasum": "20b7a42f13342dc542667b71b3fa5314e62eaf5f6a7f0a2750671fae28ad3614"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_linux_amd64.zip",
+          "shasum": "5f25e3e5e58d516e3c81ef1ba712bdab3a40e45028bbb62c7ec98659a6dab65f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-local_2.9.1_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_linux_arm.zip",
+          "shasum": "1418b8844bbf5ac941afa1ff2ec3e1c61f923a2777d8aa7ec4a6e6b8e66df57c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-local_2.9.1_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_linux_arm64.zip",
+          "shasum": "1127941790dbded1031144cd3617ecb44cdac28dbb4fd32b231f9b9f5f3c957c"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-local_2.9.1_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_windows_386.zip",
+          "shasum": "8f0a539b6887429a259949fc800bf4e9cbb97a2087847fcf551e5ce26095dd06"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_windows_amd64.zip",
+          "shasum": "dba1e69536bf91578b7b7b47cad79ac2cf8f24bf6b3cbff35d72378312eb3f2c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-local_2.9.1_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_windows_arm64.zip",
+          "shasum": "89f4619b7159cff3b0791630bf71425781cce2eb5729b9bff60627448c66aa7a"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-local_2.9.1_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_openbsd_386.zip",
+          "shasum": "6b1d932d6885898253ff7a9d359830203bb5050fc38347ad80f18ca4eef72b54"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_openbsd_amd64.zip",
+          "shasum": "e46d5aa5a69ca8a30e1d640f3999444b8ff896d9ab8c1e5ff88f9a430918886f"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-local_2.9.1_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-local/releases/download/v2.9.1/terraform-provider-local_2.9.1_solaris_amd64.zip",
+          "shasum": "c36e59fd7814d3fcf33bb673149b14f4491bed4d441bd74bb419c82ae429cc6e"
+        }
+      ]
+    },
+    {
       "version": "2.9.0",
       "protocols": [
         "5.0"
