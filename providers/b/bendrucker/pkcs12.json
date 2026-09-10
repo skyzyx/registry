@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_1.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_darwin_amd64.zip",
+          "shasum": "eb875295385d4616dc9ee2512e961821b92377555aff012fcfa9daaff474f7cb"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_1.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_darwin_arm64.zip",
+          "shasum": "0c9490586c9c96ccb847b3f545295ddb544fff88b6056dcdc37a5149c37e2374"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_1.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_freebsd_386.zip",
+          "shasum": "0565c5a06616839dac8a6093ac38774931d6a32de99076334a4e882fa98008b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_1.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_freebsd_amd64.zip",
+          "shasum": "32b4608ce9e1a8e3626e7719a218cbcb3c7c4515c42491380178d3315d32f0cf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_1.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_freebsd_arm.zip",
+          "shasum": "e3155ba26a3a21eb8fe803159e473e5975bdcceced7de75620e738c515f95274"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_1.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_freebsd_arm64.zip",
+          "shasum": "2faa27c6f005c9272aa4cb279fe67f51d95330aa31f9d93f70454c4cac3c7244"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_1.1.0_linux_386.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_linux_386.zip",
+          "shasum": "cf3d763e01d19c8e6cab2a736b328577f7b9b2a239d5fa797dc2ab2513d020de"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_1.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_linux_amd64.zip",
+          "shasum": "caa5cc155e9bf48806d09f81c3f7df07ed527baa71551ccecdba9c431b23b537"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-pkcs12_1.1.0_linux_arm.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_linux_arm.zip",
+          "shasum": "3c7007ef9c49bfbef5a195cf99cedbc43f9e44ce8ed63605848998cdf3efd06c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_1.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_linux_arm64.zip",
+          "shasum": "1cf418a5d91f81ff2c2e29655ae501178626191dfffbe8af4214cecd7cbd8bce"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-pkcs12_1.1.0_windows_386.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_windows_386.zip",
+          "shasum": "9e34f44a05b6f6ffee55942261df35be05a1d4bc767eaa5bbdffd7c0d68783c3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-pkcs12_1.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_windows_amd64.zip",
+          "shasum": "66e69d9200583c6e6b830c1460302d8b1eb42681213eb4c581518db42965ef0d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-pkcs12_1.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/bendrucker/terraform-provider-pkcs12/releases/download/v1.1.0/terraform-provider-pkcs12_1.1.0_windows_arm64.zip",
+          "shasum": "a285f496665486b4e51b3c0f63af765579b16b7967a20ad024604832b2990456"
+        }
+      ]
+    },
+    {
       "version": "1.0.1",
       "protocols": [
         "5.0"
