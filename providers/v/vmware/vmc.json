@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.15.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmc_1.15.10_darwin_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_darwin_amd64.zip",
+          "shasum": "7b35b62a38260903144ce3994329577c3f10b07430084c6b9cc00761c434a1b8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmc_1.15.10_darwin_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_darwin_arm64.zip",
+          "shasum": "9a3b72e1466d10fc6d20bd9efec5e744591d256933349b057d8a22b17a3b7147"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vmc_1.15.10_freebsd_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_freebsd_386.zip",
+          "shasum": "6da17f8e4ba374f09c3ab015aeac4f7023bdbcd05b18177fff769b5820405d7c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmc_1.15.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_freebsd_amd64.zip",
+          "shasum": "25010bb2fdd6051ab19d261e29c5e7da8c1644d924784dbf020831ed7180a31b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vmc_1.15.10_freebsd_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_freebsd_arm.zip",
+          "shasum": "bf8e9267e546ff4dcafbcf1f2cc6f0767c54d9677d4b53556907dc80d1bcfe28"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmc_1.15.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_freebsd_arm64.zip",
+          "shasum": "4f94fd0cc5b0d26a3b93e83f4b9908a73626e4583d720f1a71b245a2da62251e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vmc_1.15.10_linux_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_linux_386.zip",
+          "shasum": "43a13ee8546d64ddecf7ae5228e94b94f7accae5a996d443d0a1b76f5f4c13fc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmc_1.15.10_linux_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_linux_amd64.zip",
+          "shasum": "dd6216a125344e4117ab594035b0f66d885fca1d1547905b7a5a847d0e6c121c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vmc_1.15.10_linux_arm.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_linux_arm.zip",
+          "shasum": "fcf488272a0ccac968f5bd85dedcc6e9e9d60b477a8aeef5653be61a3ad24d6b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmc_1.15.10_linux_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_linux_arm64.zip",
+          "shasum": "b02ee1dba121913f858c3dab0788474f00f45fc711ce96605aabc7c07c3f7302"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vmc_1.15.10_windows_386.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_windows_386.zip",
+          "shasum": "46543c3f023caf551d354debd9b3378ee89b417eb93c1900dab63c5552a32751"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vmc_1.15.10_windows_amd64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_windows_amd64.zip",
+          "shasum": "44d29ab589f0f3f2cc420f15dd6edf8f338302252eb5a85ed37f0130f901afd1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vmc_1.15.10_windows_arm64.zip",
+          "download_url": "https://github.com/vmware/terraform-provider-vmc/releases/download/v1.15.10/terraform-provider-vmc_1.15.10_windows_arm64.zip",
+          "shasum": "855e0b339f229a12f5d4214f0dadfcea63ba195e288b119a58317cb255dc5067"
+        }
+      ]
+    },
+    {
       "version": "1.15.9",
       "protocols": [
         "5.0"
