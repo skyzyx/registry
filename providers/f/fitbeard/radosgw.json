@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.7.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_1.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_darwin_amd64.zip",
+          "shasum": "6624f4f1e153bf28630f4f3754e1a590acfa87f73d3a4378fd309d38076d0469"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_1.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_darwin_arm64.zip",
+          "shasum": "6b5b874185c2dc281433b1707bf4bf3d1de68b6e052d482452373c6f6cb2947a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_1.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_freebsd_386.zip",
+          "shasum": "d8db7c68f726439f937f93205eb32529ad94424e84ba1ff482483eab8d3abdea"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_1.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_freebsd_amd64.zip",
+          "shasum": "d355c12d2c114fe8c73afcdd3cfea2e607deb3ac09d712fc0fc829665fc0cccc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-radosgw_1.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_freebsd_arm.zip",
+          "shasum": "c178a37664caa2ff54fe5fd55b25dbd749933bfb6ff26aebb74383f4a31a426c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_1.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_freebsd_arm64.zip",
+          "shasum": "ff2559bcb7f25b6450b41921c6642a065c0a8fe0343a3bda20e1e40746a8bc94"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_1.7.0_linux_386.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_linux_386.zip",
+          "shasum": "2c0ab39d4f770f165ea51be3ed99fd51d8b2c7b9351d502ecdd1efba99bc9c82"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_1.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_linux_amd64.zip",
+          "shasum": "8acc5a410c9d4244d3f97ae3141dbf8d8b8c8165064378d6b9a13d3d84bb4cd8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-radosgw_1.7.0_linux_arm.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_linux_arm.zip",
+          "shasum": "76d77b4a33f8b9a5e4284c413948e955e872dce1a811b7d60f25096742f69e87"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_1.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_linux_arm64.zip",
+          "shasum": "3f84b91c01a86cffd0d7ebde5e593f6688e8d3986ca7ddf61448121531812e0f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-radosgw_1.7.0_windows_386.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_windows_386.zip",
+          "shasum": "e589fdccd0ad2afaaef1d4aa96400595a3e718323d2b8ae9ffc7da74337c6ac2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-radosgw_1.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_windows_amd64.zip",
+          "shasum": "125be3ad0043b0ee90b1a4c97948e677447b15e8db6ae36b1eb04ae6688e9677"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-radosgw_1.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/fitbeard/terraform-provider-radosgw/releases/download/v1.7.0/terraform-provider-radosgw_1.7.0_windows_arm64.zip",
+          "shasum": "7cc337db5ca1e0f62b7c3033216a4d1dc22ee1e881de81d56da560d6ea060db8"
+        }
+      ]
+    },
+    {
       "version": "1.6.2",
       "protocols": [
         "6.0"
