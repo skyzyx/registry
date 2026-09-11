@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.14.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ecl_2.14.0_darwin_amd64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_darwin_amd64.zip",
+          "shasum": "ecca579941f41e5bf92948b93f6f7e3f3e4ad1a4b02f7b668ff0244585b6e8ec"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ecl_2.14.0_darwin_arm64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_darwin_arm64.zip",
+          "shasum": "b6fd6c0fb3986d75eea0b8e44acfdc9072c78ca638c4613b46eee1850cf6b4d2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ecl_2.14.0_freebsd_386.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_freebsd_386.zip",
+          "shasum": "66f4b18af8d85988adb3690503186c4768ac46c7a3b7708c3a7d50f4ce364d57"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ecl_2.14.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_freebsd_amd64.zip",
+          "shasum": "dcd4f504a2d35958e59a3440382414ea62b3374ab5170624fadb35fc43d50a73"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ecl_2.14.0_freebsd_arm.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_freebsd_arm.zip",
+          "shasum": "4b78fe46e69a0df7e23c301e3a9d13ef39515c282cbb4a2576c86ca459ac120a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ecl_2.14.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_freebsd_arm64.zip",
+          "shasum": "d3f0be3c2ef319e84a894da66e74a6b06aca3480cbf5d48d154d6d0bdffa7001"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ecl_2.14.0_linux_386.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_linux_386.zip",
+          "shasum": "e7683ae8325d2a98788579e805039f87a7087bd4b738566bff89f923851934c2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ecl_2.14.0_linux_amd64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_linux_amd64.zip",
+          "shasum": "c2b31ccae69eadbebbf32d73487a40774693f6ae5ff46fd5c3bc60d7fd0c2933"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ecl_2.14.0_linux_arm.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_linux_arm.zip",
+          "shasum": "5a69d02e730253b3a5c27315544493397230d6f4b9ef04c766426161c2ed96d0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ecl_2.14.0_linux_arm64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_linux_arm64.zip",
+          "shasum": "a9b35981c7c6cc18227def2a6ae494d0d7e6ac54a0778ac240ee9b14944185e6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ecl_2.14.0_windows_386.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_windows_386.zip",
+          "shasum": "6dd2f47e726ce6d2e93ec85f947afe0c80211658f63bce7dcc9b02c8c76a6f68"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ecl_2.14.0_windows_amd64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_windows_amd64.zip",
+          "shasum": "30ba4a281c9ba6e87ab53ee143db1eeb9a945e20b2536df3d9072ca9c546461d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ecl_2.14.0_windows_arm64.zip",
+          "download_url": "https://github.com/nttcom/terraform-provider-ecl/releases/download/v2.14.0/terraform-provider-ecl_2.14.0_windows_arm64.zip",
+          "shasum": "420465e4bca19e74549a02bc2ad0eacf33808d112514d4c979b5376532767f5a"
+        }
+      ]
+    },
+    {
       "version": "2.13.1",
       "protocols": [
         "5.0"
