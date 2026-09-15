@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.7.0-rc3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_darwin_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_darwin_amd64.zip",
+          "shasum": "3a4f4d3071d2c5efeacbef472190e37332fb894d5e9208ca0a4a1778e178f4ef"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_darwin_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_darwin_arm64.zip",
+          "shasum": "8d1f24d515e7d9db51341c27e4b85d28acfb3bcfce5e029cfd4c4724202bd9ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_freebsd_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_freebsd_386.zip",
+          "shasum": "794dfeaabb8ea543e6a3d5fb43b93227717fbaef30f0ca83468c3290984a346e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_freebsd_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_freebsd_amd64.zip",
+          "shasum": "c168e42c5e68b90dce418cdf1ea1a7521f7832c6201d8605926fb1b7e2091f89"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_freebsd_arm.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_freebsd_arm.zip",
+          "shasum": "4adb399c0672ff6fd1b898c2db55fefb425655d0a1ee09517bc64d706c4c1631"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_freebsd_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_freebsd_arm64.zip",
+          "shasum": "133aaa6e12afd103bfc728e5a2a003544494834f67cc17a0acad4a457f1c950d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_linux_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_linux_386.zip",
+          "shasum": "45e861ee88bb2b4c5c5c70f5638896f65bbc27cc8a8a3be1d14270a472a5e848"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_linux_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_linux_amd64.zip",
+          "shasum": "73c42e301c16c4ec21a1d59dd1e7ade809dab45ddaedbf8eb2b30cab2ae307ee"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_linux_arm.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_linux_arm.zip",
+          "shasum": "7127822fed090cba4916a836cf5927af04841dafcbe94e8fcc0130a4fa6e946e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_linux_arm64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_linux_arm64.zip",
+          "shasum": "deb763ed4f7ec001b62e42ce3f918155891daf13367393c8a5fceb608ce78472"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_windows_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_windows_386.zip",
+          "shasum": "5ad2440e1d49c2f21f0b106f19d9b8f29fda5e1dfb549f6167626e16c87fd82b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_windows_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_windows_amd64.zip",
+          "shasum": "cc79faa840fb688a7de1c30ef8e3f4c6be463f7cf99427ee26a80d37507b8534"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_openbsd_386.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_openbsd_386.zip",
+          "shasum": "ddbdacd91e5f96b213a66a4fb6f9696dee814b25f5533d51bd199c4742d63e56"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-cloudstack_0.7.0-rc3_openbsd_amd64.zip",
+          "download_url": "https://github.com/cloudstack/terraform-provider-cloudstack/releases/download/v0.7.0-rc3/terraform-provider-cloudstack_0.7.0-rc3_openbsd_amd64.zip",
+          "shasum": "16ccc6089978fa6f5e4c8c2ca1e4388da9562122efc0ca61fb88e30d17d0ae19"
+        }
+      ]
+    },
+    {
       "version": "0.7.0-rc2",
       "protocols": [
         "5.0"
