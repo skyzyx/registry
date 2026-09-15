@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.5.2",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-circleci_0.5.2_darwin_amd64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_darwin_amd64.zip",
+          "shasum": "8e7956d25c3056587300ebc4e37cc27b0c8ff57c6d4863083a3cb0e95e9f6897"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-circleci_0.5.2_darwin_arm64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_darwin_arm64.zip",
+          "shasum": "61b0bdb69b439eb04398687c363dec97455fe68ee6b3726753d6d69afccfd502"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-circleci_0.5.2_freebsd_386.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_freebsd_386.zip",
+          "shasum": "0e07ccad3b8235c8d2278d1a8d0af18f9dfff8d90f64c76e25674b9c0828c1a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-circleci_0.5.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_freebsd_amd64.zip",
+          "shasum": "595f7d26662c23c5b93bcafe28e1014ec1b49fefdb5934533ecb73ab72bef2f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-circleci_0.5.2_freebsd_arm.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_freebsd_arm.zip",
+          "shasum": "6d6ab980ab2d640dc86e95eadb6a9e25ef3071546dfeddadd60c49d4b6b88b25"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-circleci_0.5.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_freebsd_arm64.zip",
+          "shasum": "6d742150b0e85238d8f19c11373e72c104f80113db6bc274031574c4479b3943"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-circleci_0.5.2_linux_386.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_linux_386.zip",
+          "shasum": "e7e3cc227d73b1be8a1610dc87c855567a860b668d8bef5987ca45e6ddb1b95e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-circleci_0.5.2_linux_amd64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_linux_amd64.zip",
+          "shasum": "31defac1aa5bf8e2b988ce571ad03fb0eba5d56645f11e94677c8a918fa912f0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-circleci_0.5.2_linux_arm.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_linux_arm.zip",
+          "shasum": "db41dadd9d6b60523e25457098d153dd57d6fc1c09dcff556081c86fcbf5c070"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-circleci_0.5.2_linux_arm64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_linux_arm64.zip",
+          "shasum": "8b93b190d3e8a65452ad5201792e21833b70eba7902161ac754480933b3d3b5d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-circleci_0.5.2_windows_386.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_windows_386.zip",
+          "shasum": "43ba8d7f8ad2694791024fc698a04dcb4094d8f4d2176f15b948497f21b5f18d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-circleci_0.5.2_windows_amd64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_windows_amd64.zip",
+          "shasum": "b1fc20bde7d140b8fe80588f415b882264081d5b03eb5b4d32f468cf697663ca"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-circleci_0.5.2_windows_arm64.zip",
+          "download_url": "https://github.com/circleci-public/terraform-provider-circleci/releases/download/v0.5.2/terraform-provider-circleci_0.5.2_windows_arm64.zip",
+          "shasum": "e45dc40e98c3598787af9a20a74c203d3955a4c9b0e7a945276c8a3923fccaaf"
+        }
+      ]
+    },
+    {
       "version": "0.5.1",
       "protocols": [
         "6.0"
