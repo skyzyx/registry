@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.4.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-netactuate_0.4.8_darwin_amd64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_darwin_amd64.zip",
+          "shasum": "e89103be1b4bc3a483a692e712f177f1f4c4c779b9f2af33fda252d20edc22a2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-netactuate_0.4.8_darwin_arm64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_darwin_arm64.zip",
+          "shasum": "65ead7549de19030c1a715680cbb9c94933a32d5d74c7fb6f9ddbdb6ffc30265"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-netactuate_0.4.8_freebsd_386.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_freebsd_386.zip",
+          "shasum": "b56a687ee5294555fa821d05cb02dd82ced24c647fe65458b70c722d90b9749f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-netactuate_0.4.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_freebsd_amd64.zip",
+          "shasum": "76f22e3e1c42a12f800606e1b2773a7f9565cab4590a6fafbf64bb2c746938bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-netactuate_0.4.8_freebsd_arm.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_freebsd_arm.zip",
+          "shasum": "7b7fd64f1142f8b23646a137d199a516ae4551de99b8c5becfc92e3045480920"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-netactuate_0.4.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_freebsd_arm64.zip",
+          "shasum": "6d7edffc81bbff253bb634b36cc061c5ed0bad4c3f06a0034bb170ca0510e0e5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-netactuate_0.4.8_linux_386.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_linux_386.zip",
+          "shasum": "64ff0511c71d7e2eeb4f9be84cb397ae44ff02167774a2a10e6587393c56aa3b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-netactuate_0.4.8_linux_amd64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_linux_amd64.zip",
+          "shasum": "9b87fb21b8f3bbcf8bdadd2088c25a096c9066b1432b213a11538c21f6bb7160"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-netactuate_0.4.8_linux_arm.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_linux_arm.zip",
+          "shasum": "5a42072f75394ba489ab5215ec870373154c8277d25ae3b2818891d355824882"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-netactuate_0.4.8_linux_arm64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_linux_arm64.zip",
+          "shasum": "db4d1615e130760c3f758136adcefe90efc0b49cfe715bf63e99d0a1dbc0d65e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-netactuate_0.4.8_windows_386.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_windows_386.zip",
+          "shasum": "68e6265a54d3a0bdb0cceedf2b5db78f0062930a0159fb26297a43b7500dfbcf"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-netactuate_0.4.8_windows_amd64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_windows_amd64.zip",
+          "shasum": "0678a2760498215d92d75dd42917e0b7dbf2460974cd9cc22369b5a5e3f7b871"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-netactuate_0.4.8_windows_arm64.zip",
+          "download_url": "https://github.com/netactuate/terraform-provider-netactuate/releases/download/v0.4.8/terraform-provider-netactuate_0.4.8_windows_arm64.zip",
+          "shasum": "8fccba922d02f65d8a7960abbd08f79b0f57d4c24e1ad28b68ce9f49970a4baf"
+        }
+      ]
+    },
+    {
       "version": "0.4.7",
       "protocols": [
         "5.0"
