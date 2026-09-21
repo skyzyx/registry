@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.0.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb_1.0.1_darwin_amd64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_darwin_amd64.zip",
+          "shasum": "4a41d73999495f9221e6fd2c161bfdc0adb762203517f73d9846468de3c81144"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb_1.0.1_darwin_arm64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_darwin_arm64.zip",
+          "shasum": "575dd6d0f547d0208ce54e074dceadc01fe04cb11896dba89fdf4e930afd94da"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb_1.0.1_freebsd_386.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_freebsd_386.zip",
+          "shasum": "58850f8fc6a697483d9312a1b893a5d5818f80332b3921e2d9ef40a486580b8e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb_1.0.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_freebsd_amd64.zip",
+          "shasum": "11f15f5198627b17a9f20179cdad046e53cb6dfbfbfa8366c73d30ab1b8c3100"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb_1.0.1_freebsd_arm.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_freebsd_arm.zip",
+          "shasum": "b4b1c8fc089a166bf6dc38875108dcf109af1bff6d3860fb53367614d856ffdb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb_1.0.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_freebsd_arm64.zip",
+          "shasum": "6a49daf9470c36781c24f23aadc9a8e6689f8af992255c5f11e460696da30f00"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb_1.0.1_linux_386.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_linux_386.zip",
+          "shasum": "11b65f9fd132125f33fcdd913fb03c69c89e141f658d887c26033ba9238bdbc1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb_1.0.1_linux_amd64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_linux_amd64.zip",
+          "shasum": "21a4152beb1d35f2b8c3ac228b7812a6875964b9db9e131c27bd6f6e7a4e9f73"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb_1.0.1_linux_arm.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_linux_arm.zip",
+          "shasum": "ae62c1a0d1606506e4acd3eb886b735f5ce5f751287c54d97651846f4cebdaba"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb_1.0.1_linux_arm64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_linux_arm64.zip",
+          "shasum": "357918fe4a90b8844e9ed8a483e8ae1341085e1183f14cb588bb60e0a918d415"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mongodb_1.0.1_windows_386.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_windows_386.zip",
+          "shasum": "7ac2e5a59b659b239d40b528e2dc79044fd1e4f11fdc68b450751edc332d8a2e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodb_1.0.1_windows_amd64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_windows_amd64.zip",
+          "shasum": "2a7b81b145371d1ca9cae69324fac00b28e62d0a14b1ee155bbc20f29475e6c8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodb_1.0.1_windows_arm.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_windows_arm.zip",
+          "shasum": "6033cd4ed32ac4becdd763263de93e8681e68d9d6992eb91b35a5338c9bf5ec8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodb_1.0.1_windows_arm64.zip",
+          "download_url": "https://github.com/kaginari/terraform-provider-mongodb/releases/download/v1.0.1/terraform-provider-mongodb_1.0.1_windows_arm64.zip",
+          "shasum": "7f86a872d1debc693608cde72f6d04c0e11549e30f8f5356953721025855a4ed"
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "protocols": [
         "5.0"
