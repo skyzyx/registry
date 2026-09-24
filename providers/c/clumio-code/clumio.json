@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.24.1",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-clumio_0.24.1_darwin_amd64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_darwin_amd64.zip",
+          "shasum": "bd7cfc648873da26db47743e5576f6f7e2324ed8918887742a8ece3f467eaea0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-clumio_0.24.1_darwin_arm64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_darwin_arm64.zip",
+          "shasum": "df3fbec9f3b290c7d52b079a8a6291164319ee3b35a817d6848159d7e98c21c9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-clumio_0.24.1_freebsd_386.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_freebsd_386.zip",
+          "shasum": "fd46d6f93302eade0bcd84127f42a967ac398593031e4cab58da06b38da66f12"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-clumio_0.24.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_freebsd_amd64.zip",
+          "shasum": "b1dd4dc5a43d069ef09be09128f7fe42b7bc61a306915d6fa713e8d2dea9522f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-clumio_0.24.1_freebsd_arm.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_freebsd_arm.zip",
+          "shasum": "e3ade11040edfaa07bdf3cc24a94f752e4c63b71336f9ad6abbce74f0fa859a7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-clumio_0.24.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_freebsd_arm64.zip",
+          "shasum": "e0b44745ef122687e1bfed03ae11df3947202fd493c0ee3cde0f0639fa80047d"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-clumio_0.24.1_linux_386.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_linux_386.zip",
+          "shasum": "360062e470ceaaf0a2bac1531a49b413d911d3098105cc25efe52830bbc83342"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-clumio_0.24.1_linux_amd64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_linux_amd64.zip",
+          "shasum": "5fee53b0125e706f0d6f11712b82db7ce0c44bdd07ac501ec2a1adf2d1d03cd9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-clumio_0.24.1_linux_arm.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_linux_arm.zip",
+          "shasum": "2b7db2b989cb2f36eaeb6cf7d989d7898a7093fb87c204b98602e34f64b0e759"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-clumio_0.24.1_linux_arm64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_linux_arm64.zip",
+          "shasum": "4fc0b37fee2f58c7d7fb487313d5fe3347718c08d73e20b021c6e777817535c9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-clumio_0.24.1_windows_386.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_windows_386.zip",
+          "shasum": "8188c2bde3b323f0bd00bc08e1ed2bc29a14eff93e9c026796faa84a61b96bd1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-clumio_0.24.1_windows_amd64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_windows_amd64.zip",
+          "shasum": "63fbd32419a4e20b4740c835c0b79fdf277d4df0f50ed1e366b12c52b99bbfad"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-clumio_0.24.1_windows_arm64.zip",
+          "download_url": "https://github.com/clumio-code/terraform-provider-clumio/releases/download/v0.24.1/terraform-provider-clumio_0.24.1_windows_arm64.zip",
+          "shasum": "03ec42218a885e3c6451fcf6a02be318cbafdb00f8b0802876bd0b3678f7efed"
+        }
+      ]
+    },
+    {
       "version": "0.24.0",
       "protocols": [
         "5.0"
