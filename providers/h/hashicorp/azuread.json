@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "3.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_darwin_amd64.zip",
+          "shasum": "6428224b7e4a389c3e45c26e04fb462324439cf750cca3dcb658b35229b323ff"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuread_3.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_darwin_arm64.zip",
+          "shasum": "6ce60cf4cbb7f755d80f0020b013688a4b0fd605c15253aae29555cce2b97b18"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-azuread_3.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_freebsd_386.zip",
+          "shasum": "440b77b17998064b5327be1c3c01136c9bae37cba08872a5e46981e46007e65f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_freebsd_amd64.zip",
+          "shasum": "74c1f83290dd59cda68770e9d5631642a002bcdd3bf389b031194642a6b8e42d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-azuread_3.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_freebsd_arm.zip",
+          "shasum": "edd9c4f82584a907604ae8f82cec43116b57d5efbc1c43f4e2be0f1c2c76152f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-azuread_3.10.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_linux_386.zip",
+          "shasum": "66941b05b2b2ecb787c07294025b7479adfed6a6e888d15258e9e7a65ad40984"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_linux_amd64.zip",
+          "shasum": "504017a69b92a9bee4e80f6bd92073f094b3d658d46ffdcc4d38de8304b94781"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-azuread_3.10.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_linux_arm.zip",
+          "shasum": "26a486a446881abdb1d206ffc07e28b7db7334e8758c96c486d3deb10ee33de7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuread_3.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_linux_arm64.zip",
+          "shasum": "26cd799b325ec7eff4ce531d3380fe981bdd90b71502698a58e6a73636ecd3f4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-azuread_3.10.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_windows_386.zip",
+          "shasum": "8ff9ced6764ef20f337b59801a83fe3b281c9463965be1d91e22694720750e0b"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_windows_amd64.zip",
+          "shasum": "ff4fe2c97db132b2c00039bed4d8398c20a31b238714f11549e4ce8271b4169f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-azuread_3.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_windows_arm64.zip",
+          "shasum": "6f7f2bf1f42953f55deafb15e7f8da992cc3d4f1098c02aa6cb43448d2d38154"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-azuread_3.10.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_openbsd_386.zip",
+          "shasum": "c2e7ade3f9f9b66a97eb22eb1c54e4b9bb1361e7a9b89c87c175c435044ac385"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_openbsd_amd64.zip",
+          "shasum": "15107b4c2ad39c05e35bd5adafaf72dd9d6e7ec493bfc823cc9fae58e8df36ff"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-azuread_3.10.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-azuread/releases/download/v3.10.0/terraform-provider-azuread_3.10.0_solaris_amd64.zip",
+          "shasum": "1d5390da92013c4eb478579721957b8208c89faaa827a8d12f1cf32269a7e8c4"
+        }
+      ]
+    },
+    {
       "version": "3.9.0",
       "protocols": [
         "5.0"
