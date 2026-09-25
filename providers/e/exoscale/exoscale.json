@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.73.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-exoscale_0.73.1_darwin_amd64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_darwin_amd64.zip",
+          "shasum": "6f59dbd99a1b425b6bdaf14323f0cfc7cc9ae1060f099ce58522ae9c872c5b7a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-exoscale_0.73.1_darwin_arm64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_darwin_arm64.zip",
+          "shasum": "25a4901068102540755583f2916823a96a4660d30582fa4707369310fc00ef04"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-exoscale_0.73.1_freebsd_386.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_freebsd_386.zip",
+          "shasum": "26ccd902534afb40c48d0a26f920db435ca894aae5cca84870c0a131b177cf3d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-exoscale_0.73.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_freebsd_amd64.zip",
+          "shasum": "9b03859b029a8f1288978988c96f1436403aef915612a3af60e86fa3a98f41c6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-exoscale_0.73.1_freebsd_arm.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_freebsd_arm.zip",
+          "shasum": "1bdf47ba3b8a7eae79b1acb39cb0cd3d240274890a8eb3a4802fa2590a0a818d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-exoscale_0.73.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_freebsd_arm64.zip",
+          "shasum": "f8a3bf389d19b4cce72a5713cb6f8a3c4f859335e3d007d741602821a54aadd4"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-exoscale_0.73.1_linux_386.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_linux_386.zip",
+          "shasum": "aa2d55a3ef154d04de10145a1bac0f81abb2d85fffda40a149339f43a7833020"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-exoscale_0.73.1_linux_amd64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_linux_amd64.zip",
+          "shasum": "e515c5b5b6b955b59a5e5ac392eb27ce0fc7886d56569960974a23eeb95b740d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-exoscale_0.73.1_linux_arm.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_linux_arm.zip",
+          "shasum": "0b8be8f17a396500c86ad4c2c337d41cd9f1bf9c04d56bf63a3da4d7a3d318d6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-exoscale_0.73.1_linux_arm64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_linux_arm64.zip",
+          "shasum": "13a05f446c4114d7ccb065d3bc7f073ebfb2ffd35baa3bc6f20f5bb76ee6171b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-exoscale_0.73.1_windows_386.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_windows_386.zip",
+          "shasum": "6756eadcd9a978c7c12a243c994b46e0fbd6d00c228f9da9088ec30b5614e668"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-exoscale_0.73.1_windows_amd64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_windows_amd64.zip",
+          "shasum": "b111a882156676d2693eb4bf9719601378c51f6bcd1065e6af2341056858e6e0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-exoscale_0.73.1_windows_arm64.zip",
+          "download_url": "https://github.com/exoscale/terraform-provider-exoscale/releases/download/v0.73.1/terraform-provider-exoscale_0.73.1_windows_arm64.zip",
+          "shasum": "7a08af0c618a9e64ed9cd99aac3d35fcabdd652da62ac02bb2445bf0b12b3d6c"
+        }
+      ]
+    },
+    {
       "version": "0.73.0",
       "protocols": [
         "5.0"
