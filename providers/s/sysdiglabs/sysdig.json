@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.11.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_3.11.1_darwin_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_darwin_amd64.zip",
+          "shasum": "ef8f6d1c077946c1bb7e3db261d3cbfeaecfe66de45882438b1eb235488d8fa9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_3.11.1_darwin_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_darwin_arm64.zip",
+          "shasum": "865b6a40745b920d9af82df4f5ad9a885ea6b09167d0d7d4756a8e595ff421b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_3.11.1_freebsd_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_freebsd_386.zip",
+          "shasum": "781340de0aa9bbc8488d5b857078e1864def3a493825a332e51d0426bbf3c69d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_3.11.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_freebsd_amd64.zip",
+          "shasum": "47553772d18116c9e48f10816a2c58b2e282a3b173cac03770102f2bfef64aeb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sysdig_3.11.1_freebsd_arm.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_freebsd_arm.zip",
+          "shasum": "15a63401ca2e65c8f6ae099cd0fa7bef4852deaabefbaaab7489384ed1be3b14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_3.11.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_freebsd_arm64.zip",
+          "shasum": "3b0b006b3b1fb31fcae26fcb8d1a7b4a2cb7025e37e1514dc7895aba355c83e8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_3.11.1_linux_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_linux_386.zip",
+          "shasum": "eabd4f71c470d372baaef2dace1c4024b2fbbb58b0b41e3256b2b83dad1144b1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_3.11.1_linux_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_linux_amd64.zip",
+          "shasum": "38255749ceb8e8e6e85cc4aba68098ce60f58201346286bc5c49dd2ddab18f80"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sysdig_3.11.1_linux_arm.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_linux_arm.zip",
+          "shasum": "9c68e783623e798d9a8def9032a2283196cdbe811d546ecbe5213caaef82571b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_3.11.1_linux_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_linux_arm64.zip",
+          "shasum": "ac861614082a6f3c46bc35bed014c710aa63d7588502cd26ecf4c034c0e9b5c3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sysdig_3.11.1_windows_386.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_windows_386.zip",
+          "shasum": "9b4cfd58d15d24ff16093a18060776c128ae39d28bd0f9eabee2ce80fc16fb27"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sysdig_3.11.1_windows_amd64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_windows_amd64.zip",
+          "shasum": "5908d1e58453422f5e91b75bfaf1e6a5b949e53c10f4177d9ab2d84dc6c34102"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sysdig_3.11.1_windows_arm64.zip",
+          "download_url": "https://github.com/sysdiglabs/terraform-provider-sysdig/releases/download/v3.11.1/terraform-provider-sysdig_3.11.1_windows_arm64.zip",
+          "shasum": "9cc6ff24522df24b86a10ee3c0a6ff2087786f7f27f6ab5ee357fab6aa2303b3"
+        }
+      ]
+    },
+    {
       "version": "3.11.0",
       "protocols": [
         "5.0"
