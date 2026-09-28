@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.8.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.8.0_darwin_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_darwin_amd64.zip",
+          "shasum": "c449dda849bf17ba017027e09431d7aeee2cac528033362f1fb2f0e22d1a30dd"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.8.0_darwin_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_darwin_arm64.zip",
+          "shasum": "73f607e6bdf9945bd5459587339b147abf82c740c7d66b971f857e74ab9cff66"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.8.0_freebsd_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_freebsd_386.zip",
+          "shasum": "9c33c2ed608927ec204e2e52ca49c9ceb87dc7d3d505fcf90b9c85eea4ffd1a0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.8.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_freebsd_amd64.zip",
+          "shasum": "212715a97f44497c4798c279154cf26de1720ebea1eec2593e6f4291eac32159"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-multipass_1.8.0_freebsd_arm.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_freebsd_arm.zip",
+          "shasum": "748029d9746e456c0270091e45e5200dcdfff2b5785e3b1b4c1501cf2f787a60"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.8.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_freebsd_arm64.zip",
+          "shasum": "6d20b04501d5638b72df6250128ba43679a73fc2dda7872f5487b5e5481d887b"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.8.0_linux_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_linux_386.zip",
+          "shasum": "a6d5c93097d82b961ed2b9c01035049303b155462b39ee5659e3b27a288164a0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.8.0_linux_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_linux_amd64.zip",
+          "shasum": "53501a4fefea0742b61940ea5ffcd10a226e28269d0e00553f98b9f44c60ab94"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-multipass_1.8.0_linux_arm.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_linux_arm.zip",
+          "shasum": "e9acb0d26bbafc888ba1ce2584716b2126e5606d16e9db4a7de9e32b51bf06cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.8.0_linux_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_linux_arm64.zip",
+          "shasum": "3c172294f70f52508ef9ea3b2a293e6a31d0f13fb49bd4c512e3146aa34dbe91"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-multipass_1.8.0_windows_386.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_windows_386.zip",
+          "shasum": "c893b5e0f1599d2fc108f2adb3a1a81bbc547e5975351eda4288a6db38eddb99"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-multipass_1.8.0_windows_amd64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_windows_amd64.zip",
+          "shasum": "4ed3fcf61413b2d7c0802b4ac58ee00b20e4feab898d6bcae1b0d570d1e672b4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-multipass_1.8.0_windows_arm64.zip",
+          "download_url": "https://github.com/todoroff/terraform-provider-multipass/releases/download/1.8.0/terraform-provider-multipass_1.8.0_windows_arm64.zip",
+          "shasum": "a1e96ecf001a9c388d41b227fae4d4cf09e41a6c9f20a27c0b017ce5b8d0631e"
+        }
+      ]
+    },
+    {
       "version": "1.7.1",
       "protocols": [
         "6.0"
