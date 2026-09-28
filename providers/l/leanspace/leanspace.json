@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "11.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-leanspace_11.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_darwin_amd64.zip",
+          "shasum": "5ff57057ae31752414ec2c681108a3c579264b8f099ae535b0c93191a0d3e65b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-leanspace_11.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_darwin_arm64.zip",
+          "shasum": "27546f82348a51579b9057e14cec4d126b1b7abd91822216e636c9149b9ff4cc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-leanspace_11.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_freebsd_386.zip",
+          "shasum": "648dc8289117524c6b22b09df18c3f4f4e346db486f5b11a00b57b6ab55ed057"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-leanspace_11.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_freebsd_amd64.zip",
+          "shasum": "f7e0802426e2ac42bf9f36fd73feb6f34637d050cd730a5aab8374d6763bb365"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-leanspace_11.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_freebsd_arm.zip",
+          "shasum": "16e05d15e3010555f55640098ed8effef32acf61d0400412c477a6bf9f9a8783"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-leanspace_11.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_freebsd_arm64.zip",
+          "shasum": "aaa17d735dc11a3af5ab670c7c6df3af1dcd7940da08c81fd3dcccc7dde9c0a0"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-leanspace_11.0.0_linux_386.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_linux_386.zip",
+          "shasum": "10a02f53a4effb7a2d95de2c1c1798cd9febdf16e9b1c35134aa8577128c6929"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-leanspace_11.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_linux_amd64.zip",
+          "shasum": "2795c738973eddda9e1a64309cd80d073040f7967fb0d87785d6a0e29633e066"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-leanspace_11.0.0_linux_arm.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_linux_arm.zip",
+          "shasum": "3bfbc5c0dff17331ef237554ce2ead4d54e8b6a0ce8cd820cecc3ef8dd362889"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-leanspace_11.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_linux_arm64.zip",
+          "shasum": "b1d5a3a68672c09902354638cf4758f764c61606605e9d028a256ce2a5fd668b"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-leanspace_11.0.0_windows_386.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_windows_386.zip",
+          "shasum": "9768a0c6a6ea8fea6886d8a2cfacb3dab8b84009d3ecae76c18f292438c3f60d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-leanspace_11.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_windows_amd64.zip",
+          "shasum": "3e3deb308ec60b2900b1159b575c1a11b88b0b25c264297d915a7b8ef4da72ff"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-leanspace_11.0.0_windows_arm.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_windows_arm.zip",
+          "shasum": "eba77ec78fe77693a26bd9a9ae83b116f97b39604b4d32d37f73c4f191c86d42"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-leanspace_11.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/leanspace/terraform-provider-leanspace/releases/download/v11.0.0/terraform-provider-leanspace_11.0.0_windows_arm64.zip",
+          "shasum": "aa5d38fb5cd734a2b2110264018c556b050eca6a849b2a27098dcde9da2cf039"
+        }
+      ]
+    },
+    {
       "version": "10.14.2",
       "protocols": [
         "5.0"
