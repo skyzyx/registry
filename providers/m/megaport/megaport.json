@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "1.19.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_1.19.4_darwin_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_darwin_amd64.zip",
+          "shasum": "eae1f2fd4218892eb021efbe201c54493030fe17a135cc899155397177eb6085"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_1.19.4_darwin_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_darwin_arm64.zip",
+          "shasum": "abc1f10a6cbcf844d54c004e9ecf8c95756f10a57d82467ca569f56ce1474e48"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-megaport_1.19.4_freebsd_386.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_freebsd_386.zip",
+          "shasum": "eac4abb5c2e94d0a3e136d6b3874f01756eaf862155a8fa354a89e18527a9ab7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_1.19.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_freebsd_amd64.zip",
+          "shasum": "3d2414abbf610e3d0dc23f7b4b7cb12e17d20a715548d5c8529089b034c1aa6c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-megaport_1.19.4_freebsd_arm.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_freebsd_arm.zip",
+          "shasum": "8193439051deea1d12e020bc77809f0c9fec49fec6e5d23d69cf2084a09c604d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_1.19.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_freebsd_arm64.zip",
+          "shasum": "15e024f9144c138c78e3ca7cd20360971a2327f73de71cd1e27ea450b85f5cda"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-megaport_1.19.4_linux_386.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_linux_386.zip",
+          "shasum": "bcb55ebaae96e683b4d76a4ca3fdc63085fecc9aec9a446f13028f95b31e6ca5"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_1.19.4_linux_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_linux_amd64.zip",
+          "shasum": "8b04017b9110a84d1f5409a6e9243edf7dd0144861ed153cb67f6aa0f862237a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-megaport_1.19.4_linux_arm.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_linux_arm.zip",
+          "shasum": "1c2ce5f967470a55f620a52dfddd0194ac9262aa43e6e0bc2957ced4c0035da7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_1.19.4_linux_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_linux_arm64.zip",
+          "shasum": "a06e9747b79e6c1bc63ef4fd9ca66978c0959d4e92740141286603525b3744bc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-megaport_1.19.4_windows_amd64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_windows_amd64.zip",
+          "shasum": "50887aa656a0de8dd369104745925d220a425b3c4bfd8f28e17c9ffc4cf795ae"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-megaport_1.19.4_windows_arm64.zip",
+          "download_url": "https://github.com/megaport/terraform-provider-megaport/releases/download/v1.19.4/terraform-provider-megaport_1.19.4_windows_arm64.zip",
+          "shasum": "e133b7c3cabef64d71c561a6eb4cbc5ea52fcc6aa04fb2848cb9b518384624c2"
+        }
+      ]
+    },
+    {
       "version": "1.19.3",
       "protocols": [
         "6.0"
