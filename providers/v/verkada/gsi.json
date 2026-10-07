@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.6.5-rc1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_darwin_amd64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_darwin_amd64.zip",
+          "shasum": "eeb378a0e326aca9acb0a17b8596598780930078991e7531ccfa5b602caf7f8a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_darwin_arm64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_darwin_arm64.zip",
+          "shasum": "7e4226b9cd49b02a322382488c1386e3a44b9199aeed9d0007a577fb449892ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_freebsd_386.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_freebsd_386.zip",
+          "shasum": "af4e6cb5a74a39950085f12e51976efb580442a10ccaeb35174c9c6b8d0c00f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_freebsd_amd64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_freebsd_amd64.zip",
+          "shasum": "47071ead624a808788aec30097fadbdf1595fbbde680d404d559bb0d255973b2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_freebsd_arm.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_freebsd_arm.zip",
+          "shasum": "a903019ca4a994382444a797cda256d58899d782a3185f1c1aad4a87d6b6e0d0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_freebsd_arm64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_freebsd_arm64.zip",
+          "shasum": "ee510319a65670023e7e1d307edfe872a1458a80f9e50a77a137344df7f42489"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_linux_386.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_linux_386.zip",
+          "shasum": "6ca2be0f99e8c6ec5707ee887620b575601dafbeee5c3302943704508672377c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_linux_amd64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_linux_amd64.zip",
+          "shasum": "82dde019d19bb9131d951152d49d3b1aa2f8944bb4afdf5d3bd8c980edbc81f7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_linux_arm.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_linux_arm.zip",
+          "shasum": "8697012e6d4b78c8be269c35de9b3e9ac19911077062c307fc9d9633ebf3688e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_linux_arm64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_linux_arm64.zip",
+          "shasum": "c4823cff38b5fa2369120f28754da60c8b989e0a467d50cffb7611491157a976"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_windows_386.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_windows_386.zip",
+          "shasum": "1b36a5b65452bf3b7b3bf2476f3fdbd253f74bb20aa1ce9957ae2bf29d7ffadc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_windows_amd64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_windows_amd64.zip",
+          "shasum": "0b95187e687fd129011b56400d7d20439bfdd2f660026b3ea050e76ded848e56"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gsi_0.6.5-rc1_windows_arm64.zip",
+          "download_url": "https://github.com/verkada/terraform-provider-gsi/releases/download/v0.6.5-rc1/terraform-provider-gsi_0.6.5-rc1_windows_arm64.zip",
+          "shasum": "3dac49d56a4cbedeade533f547f54e3a2788e42b22f8f0266c6a6d26c7fa89ad"
+        }
+      ]
+    },
+    {
       "version": "0.6.4",
       "protocols": [
         "5.0"
