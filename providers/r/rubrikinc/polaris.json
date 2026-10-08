@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.11.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.11.0_darwin_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_darwin_amd64.zip",
+          "shasum": "887c54ec08ff03e0cc37b00278bd8a59311cc34d609009a5d8ab533675ffce2d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.11.0_darwin_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_darwin_arm64.zip",
+          "shasum": "4ba71a79270ee2b962a3b8ea77f5d3ffeb6f3d8441c6dfcfbb96f1256b860e75"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.11.0_freebsd_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_freebsd_386.zip",
+          "shasum": "861f0c67b7cabee2ec1e17471bf9ac208f37aa724ecbfd658c965c4ab1759ff9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.11.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_freebsd_amd64.zip",
+          "shasum": "ad6316737846185aa7f694aa86b51e0bdc1ea8051c765cc656c6dca03b4bdc6e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.11.0_freebsd_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_freebsd_arm.zip",
+          "shasum": "2e065d9b6e0648eb0fa889ae99461e1923ca5929083d10c530c02757b8eb719c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.11.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_freebsd_arm64.zip",
+          "shasum": "509fd4cc3b03b0d90779578c22c6ebf7224ebdc2ffe2ca98e95add6797d710fa"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.11.0_linux_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_linux_386.zip",
+          "shasum": "e06bf74676aca467251cb4de8ffb2899d9257fb65ddf5ece3509ac7c46cdc978"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.11.0_linux_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_linux_amd64.zip",
+          "shasum": "16aa3e8131b2ad15a456c2ee87f6fbad191c0a63ade1dcf3aa3cbc2b8bfaa2bc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.11.0_linux_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_linux_arm.zip",
+          "shasum": "ed1cd9c1f1e59c8278f1cd62e39e13f42f350d213cd080d7c82cadc0160e38b6"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.11.0_linux_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_linux_arm64.zip",
+          "shasum": "58b9caed70c898454a9bc189b9f97715548534742904f472865009c8f0220d4e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-polaris_1.11.0_windows_386.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_windows_386.zip",
+          "shasum": "dbdfe20b230df0c729f3d34c2f99f4eb76d28f78907cc44f3a114466be934800"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-polaris_1.11.0_windows_amd64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_windows_amd64.zip",
+          "shasum": "882623488d2c5aabad88a91b1b34a004c379ec5ecd1a883c056b97a9049b4711"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-polaris_1.11.0_windows_arm.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_windows_arm.zip",
+          "shasum": "504375479e46d2f8b8d4893b3c3a0f0ffbca75d79ea3d73bf7563a6574e9d66a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-polaris_1.11.0_windows_arm64.zip",
+          "download_url": "https://github.com/rubrikinc/terraform-provider-polaris/releases/download/v1.11.0/terraform-provider-polaris_1.11.0_windows_arm64.zip",
+          "shasum": "3db8a42f3faa3838fc3f2bd8e715ffe2a16b1491fa1060fc86eaeb3c9da93937"
+        }
+      ]
+    },
+    {
       "version": "1.10.0",
       "protocols": [
         "6.0"
