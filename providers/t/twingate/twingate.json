@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "5.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-twingate_5.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_darwin_amd64.zip",
+          "shasum": "c7559ceae288fc9c220de620cfa9d7f15eac40db23669c61ce4c35d8b7e6407e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-twingate_5.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_darwin_arm64.zip",
+          "shasum": "750eeee6a92e9d797e12ae64feca67d65e07eb525707646c638ff50d5f2d4500"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-twingate_5.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_freebsd_386.zip",
+          "shasum": "62bdb3d0954fa79cc48eda6f87a71fcbe3de9ff5b58d81e97212939af49a43ff"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-twingate_5.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_freebsd_amd64.zip",
+          "shasum": "41a3cc53d82d614d1eac39a8fc6af4714f5312f6115d4c06cd9019dc180fdea8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-twingate_5.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_freebsd_arm.zip",
+          "shasum": "b9509a6134e68eb4d554f268b886dc06d24b2b4b4d7f7ca52cdc08e09c2fc470"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-twingate_5.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_freebsd_arm64.zip",
+          "shasum": "bdb69fef60cd4e0c9e3825d575057ae344ab519692204d44220e17d36e06d35f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-twingate_5.1.0_linux_386.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_linux_386.zip",
+          "shasum": "95a627401e3075386a6711060456b4a7535ca77e3c4e8cafc1f5a630dc8cfad1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-twingate_5.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_linux_amd64.zip",
+          "shasum": "185e0942d168f8f4129935c2c723202e3963735133365b24748148b5dfeb91f4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-twingate_5.1.0_linux_arm.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_linux_arm.zip",
+          "shasum": "a40ad884ca3280c2a908e4cd9382b4ed51998c5cebff95bc19bde4dc3d7d03d7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-twingate_5.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_linux_arm64.zip",
+          "shasum": "bdf57dc4e6969249b845cfaaddd638a285b5d6487d7329b3467fadf5847d313e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-twingate_5.1.0_windows_386.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_windows_386.zip",
+          "shasum": "68f3beef4073c9ea364fa8a051c1a57b743b970a4b1468dedd35e5bb78bb3829"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-twingate_5.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_windows_amd64.zip",
+          "shasum": "746099937df5f2e58451e2e2cc7e34c9f6ee0a9c4593c1832a51addff2e8dd2f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-twingate_5.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/twingate/terraform-provider-twingate/releases/download/v5.1.0/terraform-provider-twingate_5.1.0_windows_arm64.zip",
+          "shasum": "36d364066f90ac1d893f2b7086820becb27e3e6aebf6cfce382540fa8c5b4ac8"
+        }
+      ]
+    },
+    {
       "version": "5.0.3",
       "protocols": [
         "5.0"
