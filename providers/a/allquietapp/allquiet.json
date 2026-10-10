@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "3.2.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-allquiet_3.2.4_darwin_amd64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_darwin_amd64.zip",
+          "shasum": "73481d63b076b75de51061b5ac9a2099006a7f42c6d491b596a64ebb8abd6095"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-allquiet_3.2.4_darwin_arm64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_darwin_arm64.zip",
+          "shasum": "d546f30f52528f72779259a33c0d55424beabfeb562ded8186b4e315f02bb87a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-allquiet_3.2.4_freebsd_386.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_freebsd_386.zip",
+          "shasum": "f2f4b966563e67a721b96b879dfaa59d1ea8a7a2bfbb5c41eceb8bba0063239b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-allquiet_3.2.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_freebsd_amd64.zip",
+          "shasum": "cceb3ce57eadbb68e6874e58cb82214b76e5799191ac9103aadc07759c3c98dd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-allquiet_3.2.4_freebsd_arm.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_freebsd_arm.zip",
+          "shasum": "070920429fe2d2c7f437695d3586fecc51dcf73537c9139cea9832e686a4fc13"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-allquiet_3.2.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_freebsd_arm64.zip",
+          "shasum": "b472f348c60d60ea17ad78029ae8e61bc401463f4427cc180fdc26cb02e580fd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-allquiet_3.2.4_linux_386.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_linux_386.zip",
+          "shasum": "65f3325ab57968354a99f47056db0bb7ed642ef625e3de7ccb69842bec631519"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-allquiet_3.2.4_linux_amd64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_linux_amd64.zip",
+          "shasum": "bd7b808ad2324d90505b749849a44af58913463edece65b495b22cf7c81ae825"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-allquiet_3.2.4_linux_arm.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_linux_arm.zip",
+          "shasum": "57a0de881a085316d6886505f7d0c6a840de281fbd23b1c3334de7915e23296f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-allquiet_3.2.4_linux_arm64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_linux_arm64.zip",
+          "shasum": "f94f2182308f7be97b6f9bc54f2ea9d853bb97b439abe6cf462172ba36ff32e4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-allquiet_3.2.4_windows_386.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_windows_386.zip",
+          "shasum": "f6e9d985c0a9398a758f774b21cda4b7ee1573963e9ca6652ae3dd92ec03a7d8"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-allquiet_3.2.4_windows_amd64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_windows_amd64.zip",
+          "shasum": "b7872324c192c265b9cd482a3473abb4e009e587ac585910cdd53b67453f0eb8"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-allquiet_3.2.4_windows_arm.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_windows_arm.zip",
+          "shasum": "e1af6111fe02a777d3865f24eb39fbe85d07910a0c55463cc75bba799103dd29"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-allquiet_3.2.4_windows_arm64.zip",
+          "download_url": "https://github.com/allquietapp/terraform-provider-allquiet/releases/download/v3.2.4/terraform-provider-allquiet_3.2.4_windows_arm64.zip",
+          "shasum": "13091668759854a16deebf7e2ff8c9e0d178c782fd688cd9d4a80dd52b86c40a"
+        }
+      ]
+    },
+    {
       "version": "3.2.3-pre",
       "protocols": [
         "6.0"
