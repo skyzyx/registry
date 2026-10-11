@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_darwin_amd64.zip",
+          "shasum": "75af352bd45d04543caf3b4568f491584b44ddad9caaf115ceeccbce2e64714f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_darwin_arm64.zip",
+          "shasum": "0eb203304df21d03bfc85e28a7131ac0fb82275718600453ec7cfb8fcd7baaa1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_freebsd_386.zip",
+          "shasum": "828fa121293b6207e3c88640db3506983adabb77261d737878ca7891a899ab99"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_freebsd_amd64.zip",
+          "shasum": "132c44c4f8b26f666371c235f0395535b1d10c73de51a8838364a80bb24a69a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kea_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_freebsd_arm.zip",
+          "shasum": "11566e3e7345539299534f73f6572de3dbbf1421f7719721b81e8ceb35ada015"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_freebsd_arm64.zip",
+          "shasum": "57570377b479b1956c856ff429a70800fecfbcda57e74dbfaae21811a3cbe3a5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_linux_386.zip",
+          "shasum": "9bde9718b3a7d3ce0151fd7d9f5021c2cff383760a157d5fd5838412a7a6d782"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_linux_amd64.zip",
+          "shasum": "6eaae5160948d2bba4d727a2038744a85a202de06dd2b38a20fc5b7f666f8534"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kea_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_linux_arm.zip",
+          "shasum": "f59b3ca8cb5dd347cf3fcda0724cecf38426c86742869bd8b6b55923d34e3ed1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_linux_arm64.zip",
+          "shasum": "ea5c6bf5e5f0fb8522b20ff337d9366ce5d4f18b1fbd6a42dd3e26ed2babafc6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kea_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_windows_386.zip",
+          "shasum": "7a0a24fd64c0052f63835d4873acf3ee6ec2370186b203be548d10e3752ba820"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kea_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_windows_amd64.zip",
+          "shasum": "e5b5d0ba768825a1062614109688ed487142244bac8d9ea910a2dd67eeec9ad0"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kea_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/wfdewith/terraform-provider-kea/releases/download/v0.2.0/terraform-provider-kea_0.2.0_windows_arm64.zip",
+          "shasum": "e5141d4f3652f7363abc1a2f04b2243934fbe210336fad50337eaa788589d061"
+        }
+      ]
+    },
+    {
       "version": "0.1.0",
       "protocols": [
         "6.0"
