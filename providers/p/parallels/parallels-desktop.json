@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.7.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_darwin_amd64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_darwin_amd64.zip",
+          "shasum": "c22add9f762934cb9cd295392394e7c7dcb93a839c2b71263b51dd995f9883c3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_darwin_arm64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_darwin_arm64.zip",
+          "shasum": "0d4ae2ff8b31607949d1e1b9161504732fa15ba1a0b559e8ee12ac24c0d24c7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_freebsd_386.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_freebsd_386.zip",
+          "shasum": "c1e9a93351ac8c84f10a87856449ed665034b9ad495b31cae9e9eb4764f023a5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_freebsd_amd64.zip",
+          "shasum": "053f279d9d484dc97f93220cb2fa561e21b2068d50b7f92a48a44c09d8841d07"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_freebsd_arm.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_freebsd_arm.zip",
+          "shasum": "363371edd6318afcea1ab0dccc7ac162b077a83f553bcf4b32d25f8b4f8f0ef5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_freebsd_arm64.zip",
+          "shasum": "5b167f7eab7874b368a5a7214f6868c83ca46f80de387a46c8ba43a454678313"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_linux_386.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_linux_386.zip",
+          "shasum": "ad86a26f2f8411b96de666f357d66e41a02102bc935aa35222d27093d8ea6896"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_linux_amd64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_linux_amd64.zip",
+          "shasum": "3cf840e4acb3d9b941d5b571d10fb2f4494dea0807902e84c2daf73e0ab8dd01"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_linux_arm.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_linux_arm.zip",
+          "shasum": "f2e71df7eee678efea0f6cb160dcb97223c5e70f4570f4036c575ccabff30fe5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_linux_arm64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_linux_arm64.zip",
+          "shasum": "db2dd6cd2a72c4563155aba10a545d51df94ec0541b3eed58be898bc24f74439"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_windows_386.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_windows_386.zip",
+          "shasum": "ef3fb4bb54ef3d46dbcd133c464929301079673ad15b5ab475eb7999b9a89859"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_windows_amd64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_windows_amd64.zip",
+          "shasum": "11ba962216b2ebe8e2b5ae69eb184153a14cc73f90e62a72240c6b9341b4bcb2"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-parallels-desktop_0.7.3_windows_arm64.zip",
+          "download_url": "https://github.com/parallels/terraform-provider-parallels-desktop/releases/download/v0.7.3/terraform-provider-parallels-desktop_0.7.3_windows_arm64.zip",
+          "shasum": "c4f83abef164deb0de2ecdb807dd8f360b78f34aafbb377b18bcc5b2bc0169e2"
+        }
+      ]
+    },
+    {
       "version": "0.7.2",
       "protocols": [
         "6.0"
