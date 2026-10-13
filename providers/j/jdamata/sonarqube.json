@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.16.28",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonarqube_0.16.28_darwin_amd64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_darwin_amd64.zip",
+          "shasum": "f4619867fc163106d6a18c3fe45ff0544a54f95f0d44d308eccd85bf073269d8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonarqube_0.16.28_darwin_arm64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_darwin_arm64.zip",
+          "shasum": "163f5d6d72ac799059231e58e88c51581bc964f9a03acccd2bec67eacc72da5c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sonarqube_0.16.28_freebsd_386.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_freebsd_386.zip",
+          "shasum": "d59a23043545d1ed9f29f9301b6f9d8610046971882af4fde7766b0a36716d52"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonarqube_0.16.28_freebsd_amd64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_freebsd_amd64.zip",
+          "shasum": "75a873ccb980359996306ace351c23af763d10f61cb74162cbe96b40c2453c62"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sonarqube_0.16.28_freebsd_arm.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_freebsd_arm.zip",
+          "shasum": "2f50743492c6f49fae334a221e825ed14415da8a4d6ec4a82ddd58cd2c3546ae"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonarqube_0.16.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_freebsd_arm64.zip",
+          "shasum": "5acdee98f4095e0b2eb66ad882558da8ad0e711203f1bdcbf689716f43f361bd"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sonarqube_0.16.28_linux_386.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_linux_386.zip",
+          "shasum": "f6b15d445661ba61557b7282212211263388f5d626fe0ebab7b328cd65a48fee"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonarqube_0.16.28_linux_amd64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_linux_amd64.zip",
+          "shasum": "a6895fc08ff7df37742d1d502c6dfe0b6f6ab6360843547a4d10c48cd6887816"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sonarqube_0.16.28_linux_arm.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_linux_arm.zip",
+          "shasum": "9b16078e56d124c31202f4e202dd01a832b741126762a6647722c34609258e03"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonarqube_0.16.28_linux_arm64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_linux_arm64.zip",
+          "shasum": "7630c79e12502fe92aa993f24f7e27df56b069b0867a1458241a146e9a83ae15"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sonarqube_0.16.28_windows_386.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_windows_386.zip",
+          "shasum": "4a3350bf13e956321522b96762aa4e0a5c01bd8c85c429a26359652294aa45fb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonarqube_0.16.28_windows_amd64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_windows_amd64.zip",
+          "shasum": "8078988380b26fc7d8001cccf2b7a51323a46e087a8980218f7cd5a3d465e995"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonarqube_0.16.28_windows_arm64.zip",
+          "download_url": "https://github.com/jdamata/terraform-provider-sonarqube/releases/download/v0.16.28/terraform-provider-sonarqube_0.16.28_windows_arm64.zip",
+          "shasum": "68fdef965a129326f003a524e9e898c63308c8823cc9e0346bb472e6f7661132"
+        }
+      ]
+    },
+    {
       "version": "0.16.27",
       "protocols": [
         "5.0"
