@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.20.0-pre",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_darwin_amd64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_darwin_amd64.zip",
+          "shasum": "b026a693ec90299dcb4b3acb2ab83c53ab73f489bf20d07b881837cb2d8255f3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_darwin_arm64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_darwin_arm64.zip",
+          "shasum": "3831a50f98a41de60e77e5a04c80d2fcfad7cc8d38faeabb6e06ebbcbc92271b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_freebsd_386.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_freebsd_386.zip",
+          "shasum": "e6b94882a087ef2880dd73b66c74cfc0e27b1beb77496d3894c8dd1f8e99cdbd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_freebsd_amd64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_freebsd_amd64.zip",
+          "shasum": "f6f246d4dc5d4bb2b64297471b3d0bb2c8f80b54e34a9d0e0fd3d494965fc4ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_freebsd_arm.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_freebsd_arm.zip",
+          "shasum": "07c667fba14cae3d9c7bd00b321da2444e96a23a2101aa6c20bd2b0875492313"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_freebsd_arm64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_freebsd_arm64.zip",
+          "shasum": "a33e1498b89a437b36cb3e4a43a3dffe8208109b2f0c9315bcd83472d774ab97"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_linux_386.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_linux_386.zip",
+          "shasum": "5628f58f9b17aa0dabd493adf5ff4d1d93469e0a20ac5456e0ce2edb2ff40477"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_linux_amd64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_linux_amd64.zip",
+          "shasum": "1aabce0a94c50df9d5409ce113905e8494c131547fe965f992679c9277a5cd7e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_linux_arm.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_linux_arm.zip",
+          "shasum": "ce49ce73c6488ba643ddfa7e765613344ead5f24520b9eadac8a4de26db37a45"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_linux_arm64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_linux_arm64.zip",
+          "shasum": "1d200e3ec05a95bc41638a8c0ab4ea551f800bd581ebe06da5e1adfb967a24f2"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_windows_386.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_windows_386.zip",
+          "shasum": "735f66ec8ce2e027c92b7c16251bec4b08d93e35bb81ba406a9b68408b578edc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_windows_amd64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_windows_amd64.zip",
+          "shasum": "22b8e519d49f24d12643ea2e4998822db4a3f3b5a45b7054230b71122d308dbb"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mongodbatlas_2.20.0-pre_windows_arm64.zip",
+          "download_url": "https://github.com/mongodb/terraform-provider-mongodbatlas/releases/download/v2.20.0-pre/terraform-provider-mongodbatlas_2.20.0-pre_windows_arm64.zip",
+          "shasum": "305e2cef73694fe0da603b08e90cd85660887af54b103e662e770b4fcf847b19"
+        }
+      ]
+    },
+    {
       "version": "2.19.0",
       "protocols": [
         "5.0"
