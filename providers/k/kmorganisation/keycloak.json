@@ -1,6 +1,135 @@
 {
   "versions": [
     {
+      "version": "1.2.6",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_darwin_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_darwin_amd64.zip",
+          "shasum": "46cec59d3cada4a500ccdc317cbf624a8a19f0129516e028df4cc0aaf6e15d0a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-keycloak_1.2.6_darwin_arm64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_darwin_arm64.zip",
+          "shasum": "a1622c26e1a051a02a22fb592ebd8420a46467e322b90f4d6c06e943523b90e9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-keycloak_1.2.6_freebsd_386.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_freebsd_386.zip",
+          "shasum": "d2a1ef384cbe8d1171be9ad2522362eb9478cad8daff8573b5e1e47b6aedfa08"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_freebsd_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_freebsd_amd64.zip",
+          "shasum": "ce10cec72ca0acf56fb9c8294f0af308d3c3b75f99197584226c14a693be5a39"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-keycloak_1.2.6_freebsd_arm.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_freebsd_arm.zip",
+          "shasum": "ae14c6931f0fe793e0a7b60566c39d6748ed0d7ceb6c9195b96b0d77ae9a4361"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-keycloak_1.2.6_freebsd_arm64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_freebsd_arm64.zip",
+          "shasum": "5032cc96a4534b502d6b340b9b052d391f121431fc953a3fe6d1eaa8a174e3e7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-keycloak_1.2.6_linux_386.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_linux_386.zip",
+          "shasum": "e0ba0bf7375518201db4102c652069487911e4365e1543b37a77caf29c9091b3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_linux_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_linux_amd64.zip",
+          "shasum": "ce4932ce3b7c20fab3c3f09bc15144dab207745636ec56e2f7a088709ed65e7d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-keycloak_1.2.6_linux_arm.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_linux_arm.zip",
+          "shasum": "188feaa123d4b81f3df2804cf6aeb5e58a863492e2cf378c8cd81afbccdc2bdf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-keycloak_1.2.6_linux_arm64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_linux_arm64.zip",
+          "shasum": "f8e2cd2a08d46184a3081d6705efcc877c0dd9640d2e855bcde0c11ad6ed4893"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-keycloak_1.2.6_windows_386.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_windows_386.zip",
+          "shasum": "c0838d208ca8919f4c08a1c049770e998b3563461bd3651acbd64ad499a80546"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_windows_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_windows_amd64.zip",
+          "shasum": "8800dcc2cc11174200430aa0462cf7d2962b246901a386120040a025e872810b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-keycloak_1.2.6_windows_arm.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_windows_arm.zip",
+          "shasum": "c139f1570b677db9e4429550c09fd0e7bf12d52221069f473d77205f55a2ad1e"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-keycloak_1.2.6_windows_arm64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_windows_arm64.zip",
+          "shasum": "c92fdd0f9b36815b1565a1727a432b9dc6f575b82bab5ba93bd86ec837e43c9c"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-keycloak_1.2.6_openbsd_386.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_openbsd_386.zip",
+          "shasum": "8620ca4c2f21dbbd83dfb163cee48b3e1aa02f74bbe6816218da830d06e548b3"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_openbsd_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_openbsd_amd64.zip",
+          "shasum": "1d79ebec49c572f8eaf04ef76a0ef4550278845030945643d6c0fdf0005f029a"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-keycloak_1.2.6_solaris_amd64.zip",
+          "download_url": "https://github.com/kmorganisation/terraform-provider-keycloak/releases/download/v1.2.6/terraform-provider-keycloak_1.2.6_solaris_amd64.zip",
+          "shasum": "e1813132d5a0f1666386bd98d41afbda389479970f3af083fc99ba52d179100b"
+        }
+      ]
+    },
+    {
       "version": "1.2.5",
       "protocols": [
         "5.0"
