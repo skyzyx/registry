@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-crusoe_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_darwin_amd64.zip",
+          "shasum": "0ba82169fad8f8ba4b8ef6bcfb5402e9aee736d3b47091aa546efcc19ec74362"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-crusoe_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_darwin_arm64.zip",
+          "shasum": "acf39eb366c05c0c0f2cd65ce688dcb5a3b8fadb333de29c3db1d2176e4a7643"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-crusoe_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_freebsd_386.zip",
+          "shasum": "dff83080d0eec066c8283037c6412b0cfcab38695d7277e51ebe76f1468f1739"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-crusoe_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_freebsd_amd64.zip",
+          "shasum": "8ea46ccbfb3c4c9cd6a1d96582047edd940eddf12e6b554bc5ebb4243d98e19a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-crusoe_1.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_freebsd_arm.zip",
+          "shasum": "65e9d65602cd6aa5fbcd671d6b579e317de6cf8ef2c7803ea0a2d7573bf91033"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-crusoe_1.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_freebsd_arm64.zip",
+          "shasum": "8701f10452e3f54f49a82a8bfb3b38496b19904b8e8f65d7d3f51195379c7f57"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-crusoe_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_linux_386.zip",
+          "shasum": "ed9166477da6c9fff8d1ae75e41b38b95f2d12eb26c5e1889420175d3d38ff5c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-crusoe_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_linux_amd64.zip",
+          "shasum": "a7b00ac724bee0199c2e6ee8af369f754d9ebe52eb3a34f22b89cc5033ec3e67"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-crusoe_1.6.0_linux_arm.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_linux_arm.zip",
+          "shasum": "3b3a7a597e3fbea8dcb583b02c3aa221adfa03931eb0bb653acd4a2f7c27ced0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-crusoe_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_linux_arm64.zip",
+          "shasum": "0ab71a2fc80d7db0d3d341ab33fd43dfd9885f272bad7bb106b3eabb3d792827"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-crusoe_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_windows_386.zip",
+          "shasum": "5929ff9d49ec1b110b529d17155c0148d52208bed602e7887ddc55c92c5a99b4"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-crusoe_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_windows_amd64.zip",
+          "shasum": "386e95265dfa117407b29598c361489e4ec3f27ea4a97bd44b2873f79129d3cd"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-crusoe_1.6.0_windows_arm.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_windows_arm.zip",
+          "shasum": "cbcd87099535a77eb53e54feda6ba11f031ba11395bf6ef67ff5f68e9a894050"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-crusoe_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/crusoecloud/terraform-provider-crusoe/releases/download/v1.6.0/terraform-provider-crusoe_1.6.0_windows_arm64.zip",
+          "shasum": "9240bdc9bfe438c828df03dbbeb12593376909883ecb9b9b25208c2f186c9407"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
