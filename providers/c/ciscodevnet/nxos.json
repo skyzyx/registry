@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.18.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.18.3_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_darwin_amd64.zip",
+          "shasum": "51c49410fbf04fd58d62a3c5a8f4772da4625a5cd31d9b1f725a789e7f782ece"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.18.3_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_darwin_arm64.zip",
+          "shasum": "41537699a75d6efcbec1749b8256291bf7cd5e048cb0f59b940d0c2ab83dba97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.18.3_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_freebsd_386.zip",
+          "shasum": "f5e2f3c4ad6b6c00b107e22dd31827bb682ccd2ebbd593c54bdbed23bfc51b10"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.18.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_freebsd_amd64.zip",
+          "shasum": "6f655df83a62bb1b1a67b95fd8eb76d6ffb23357a8af33f9c34a36dcb8da3c2a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-nxos_0.18.3_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_freebsd_arm.zip",
+          "shasum": "77a18fa693eaf8a7d1e83ce8db72fd5c8f294b3a796a7e127e8cbdb8d0cbb406"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.18.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_freebsd_arm64.zip",
+          "shasum": "74f856a490e4602758b77445db1ec0c5e710c81e258b15eff4219c6282d19907"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.18.3_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_linux_386.zip",
+          "shasum": "dc556e9d7b679d5571959e14b02e4ea48042286c215475c6244f152db0735c43"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.18.3_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_linux_amd64.zip",
+          "shasum": "de54a289f70dc81c2b5a6ee11f36ccafa3f03b1949d995647cdc2b8094acecdf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-nxos_0.18.3_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_linux_arm.zip",
+          "shasum": "640be7a5c39b689abb0f7d22f61567a96f61f166e445c5a2feed3a7039a20e85"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.18.3_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_linux_arm64.zip",
+          "shasum": "7cae29e8fa47c9bfe9b23104f3e8ac26dc23cee1e258a5e978d80954a16d7b90"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-nxos_0.18.3_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_windows_386.zip",
+          "shasum": "726272654bed9b433a7658613821c869764ea495c9576cc6913066c1bd5e943f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-nxos_0.18.3_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_windows_amd64.zip",
+          "shasum": "bd492e9bef0e7ad27e4360c32a8937dd55bb779fdb94e59b095c33e61687314b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-nxos_0.18.3_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-nxos/releases/download/v0.18.3/terraform-provider-nxos_0.18.3_windows_arm64.zip",
+          "shasum": "c3bec6cfb27c7017f7119ddf888d8f5dacf77842da90b436858322dc9db6b3e9"
+        }
+      ]
+    },
+    {
       "version": "0.18.2",
       "protocols": [
         "6.0"
