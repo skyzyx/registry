@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.16.0-rc1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_darwin_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_darwin_amd64.zip",
+          "shasum": "29372d0a8212bb45a915b1abb3e523e5595b615d579eeafa2fc64e8a9add47a3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_darwin_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_darwin_arm64.zip",
+          "shasum": "ccc45349a9326c3616b0617ae4764d93b175c98784ac61170c272fc0da31de2f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_freebsd_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_freebsd_386.zip",
+          "shasum": "bd59edcf22bfc58b56338811b72cceaa5f0fcc2e4525f03ae7db76213f91ebdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_freebsd_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_freebsd_amd64.zip",
+          "shasum": "6e288bff622449245a002180ad4bc565ab5ca8246940082b21ea2fe68545190a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_freebsd_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_freebsd_arm.zip",
+          "shasum": "d8408079e8f9fd54a553aacc52f996c31c7614c1e9cd1231a438e8dd9edeccdc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_freebsd_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_freebsd_arm64.zip",
+          "shasum": "9c9c8fbc770e6006d591486f11a3db4c89469bcadbc749c4004b4234d78c5b3a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_linux_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_linux_386.zip",
+          "shasum": "42b1c18a5d9920193b9fc655f1b71070bf6f04c4eaf9d18472dc9ec8391bc630"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_linux_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_linux_amd64.zip",
+          "shasum": "4fe7ceea9bf43321ca7e916c80f3ee8b9c6e2713830750fe5274956e7c0ee405"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_linux_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_linux_arm.zip",
+          "shasum": "e036eae1c0de910ebfc8a818b79294c319f1d9380fc4f7d00ff0aee0419d2723"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_linux_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_linux_arm64.zip",
+          "shasum": "2c3fc4ba5be76c7b16987c88927a9941dfb66ead8ce26901c01177d5e99047e6"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_windows_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_windows_386.zip",
+          "shasum": "e0d4e7773e6823002dc4944177eb42fcafaaa40552d102e0eace4fe0f978a6a1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_windows_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_windows_amd64.zip",
+          "shasum": "3377923fbb0dd8725e4bad77d9ac87473450a4cd1a6b6fc250661e672caeeb6a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ldap_0.16.0-rc1_windows_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-ldap/releases/download/v0.16.0-rc1/terraform-provider-ldap_0.16.0-rc1_windows_arm64.zip",
+          "shasum": "385dffdbf7b532a74bbed8f898e706b993f218d4790c2ed1bf05748333c12c6c"
+        }
+      ]
+    },
+    {
       "version": "0.15.0",
       "protocols": [
         "5.0"
