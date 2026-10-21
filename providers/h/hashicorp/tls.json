@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "4.4.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_darwin_amd64.zip",
+          "shasum": "bf10e653a783d1768064dba0bce24cc4bfefaea596637d672762894e3fc8edbf"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tls_4.4.2_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_darwin_arm64.zip",
+          "shasum": "6b2fe79bf52aa93889367702d398903eb2b4d90a9b21ec41eb6a8ae5c6104754"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tls_4.4.2_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_freebsd_386.zip",
+          "shasum": "03113db04163731ed3d4481d74c4ea173a3b0c784c6c5e9d538a71a8febb1a2b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_freebsd_amd64.zip",
+          "shasum": "1e058587013063c9520d0b51a352baf2ed2040ee59f51bd206af376743632c40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tls_4.4.2_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_freebsd_arm.zip",
+          "shasum": "93f93a9f716d7487b25da485c88a6528bd567006beed8d3215aa33b88756d4f2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tls_4.4.2_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_linux_386.zip",
+          "shasum": "b8111fd4300e9976c3c5ea315c2f355809b8bc7e57dfdc1349a3205c742a4778"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_linux_amd64.zip",
+          "shasum": "9607e7c627014eb6a1d583860b572291283adb50bd6e8be5a7a7821e42b3d31d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tls_4.4.2_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_linux_arm.zip",
+          "shasum": "15af558cae5d5c999edc09c53a43bc7181be70c72b2994d76acc43ee9f5ac60b"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tls_4.4.2_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_linux_arm64.zip",
+          "shasum": "389ff6f4f3b757eaea7c8f0b437e286e50a00907231e6e8887e9b76c2f78ed99"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tls_4.4.2_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_windows_386.zip",
+          "shasum": "5bd13a3c1176da78fc6b63600b3f165179eac769df7526016ac84659136faed9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_windows_amd64.zip",
+          "shasum": "9c6a9bfb35e1a6132948591be6ec6e66d85a241408747374a079f74d7d0abfb5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tls_4.4.2_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_windows_arm64.zip",
+          "shasum": "8f100786d15dbaaa409a4db227b23dae9f057da875a4795106a19455b63b72b9"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-tls_4.4.2_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_openbsd_386.zip",
+          "shasum": "545345bae17db1ff5eccf03c5978a20dec1196b0af396ba21e2082fb9fbad393"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_openbsd_amd64.zip",
+          "shasum": "d97c004bf4df670b6628a3e52782ca9d44a4025772eaa85aca5f6effff9e21ef"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-tls_4.4.2_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tls/releases/download/v4.4.2/terraform-provider-tls_4.4.2_solaris_amd64.zip",
+          "shasum": "2288ddf016342fcced7efa5e7c028437451f2ab0bbba7bc2bd495411aaeda1a1"
+        }
+      ]
+    },
+    {
       "version": "4.4.1",
       "protocols": [
         "5.0"
