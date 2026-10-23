@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "4.0.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-synthetics_4.0.0_darwin_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_darwin_amd64.zip",
+          "shasum": "33d7667deda00fb1b641b5f92b3f26994602790bb21793872d06e93f5aa89759"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-synthetics_4.0.0_darwin_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_darwin_arm64.zip",
+          "shasum": "2b0529589146329353e479b1d2c3b4ca5d911ebce818b9e5c424ea48db87d0a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-synthetics_4.0.0_freebsd_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_freebsd_386.zip",
+          "shasum": "6877f7e20cec0147ae8bf6a22bf9de8bdec3632104fd8d32dd102b4a05af40e2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-synthetics_4.0.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_freebsd_amd64.zip",
+          "shasum": "e8a13f14cebc320ddc6a3f0fdfd0fd07577bf24b47ac97f30b7f5443c7210563"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-synthetics_4.0.0_freebsd_arm.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_freebsd_arm.zip",
+          "shasum": "93485b3685373c16b1e269810a33d92a0d1a7c97f938b4a716f243844547df47"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-synthetics_4.0.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_freebsd_arm64.zip",
+          "shasum": "98309350b23ef0fd6d1ec22b0a99e63a8865494cf6104bacaaec3bc3f888e043"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-synthetics_4.0.0_linux_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_linux_386.zip",
+          "shasum": "dad08898831689193913286d0a826e4a42c802098cbdec80cbd53d46dcd07ba8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-synthetics_4.0.0_linux_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_linux_amd64.zip",
+          "shasum": "af2f22966d3179fa2279f87d86f074b9594ad515f41acc08f465fd4ef8ec1ff1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-synthetics_4.0.0_linux_arm.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_linux_arm.zip",
+          "shasum": "72d2058f1cf9b9e560cffc08a7fe1403cd0e3b2d745c587c311d30ab5caa908f"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-synthetics_4.0.0_linux_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_linux_arm64.zip",
+          "shasum": "ea26c88f80bf42ec8c91aca63c4dfdd7d5bacd07f72de55ed070a4fbb232df63"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-synthetics_4.0.0_windows_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_windows_386.zip",
+          "shasum": "a01b18a7a3d8338cfa46f6569fa138e4c1c3bebb5d36a5575580f0491ca9d3d1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-synthetics_4.0.0_windows_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_windows_amd64.zip",
+          "shasum": "57282e0cb84e0360b876fe2e8ca22f1742f05c6d9128e1f6cc1acc364507c06d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-synthetics_4.0.0_windows_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-synthetics/releases/download/v4.0.0/terraform-provider-synthetics_4.0.0_windows_arm64.zip",
+          "shasum": "1b9bd7e2880790b83899540a4f60c0a326e04401133ce2fea3507a3969594ad1"
+        }
+      ]
+    },
+    {
       "version": "3.0.0",
       "protocols": [
         "5.0"
