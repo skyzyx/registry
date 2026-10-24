@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.3.22",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_darwin_amd64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_darwin_amd64.zip",
+          "shasum": "4adc5a318225ac6afecc31b59b9e23683e917cea671a2a4d1c659b0d458d74b3"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_darwin_arm64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_darwin_arm64.zip",
+          "shasum": "34346f36b04fcadc3cf39f9b9cd6804525cfac70a6326691480e2526020ce291"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-jumpcloud_0.3.22_freebsd_386.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_freebsd_386.zip",
+          "shasum": "427a3fe108c35cf2bac1b94218f5a015e5a7066e9f9995bb354b6122c056bd1c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_freebsd_amd64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_freebsd_amd64.zip",
+          "shasum": "15a34b7e17144ef92413cb6ff4a5c41072133a46eb3b083077b7f4672f2eb97e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-jumpcloud_0.3.22_freebsd_arm.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_freebsd_arm.zip",
+          "shasum": "0adacf9fa65ec2707b33e151afeeefbf5b4e0fd2e1789c5ccde5abb6cd006920"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_freebsd_arm64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_freebsd_arm64.zip",
+          "shasum": "5c26d59a7f4cbf5faf4ebf44400701ae16bf3512018b2a220aba50aded19d249"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-jumpcloud_0.3.22_linux_386.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_linux_386.zip",
+          "shasum": "e91d4e2e7c9cd494c12ba111b6cec10bb1477b538be27d497b0162346cdd3bf2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_linux_amd64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_linux_amd64.zip",
+          "shasum": "c09645a37d488a04ba84ebf57a1dcdf2181241a9c96ce0d0acb52f98f0225379"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-jumpcloud_0.3.22_linux_arm.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_linux_arm.zip",
+          "shasum": "4ce7c8c52fab5c715895714cf1461b754b8a5c7afad6d796e4ad4f4876dd1273"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_linux_arm64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_linux_arm64.zip",
+          "shasum": "c3314efc3994ce11c6f8292d51514a035902b989a4982671380fdb4fe9fce1ce"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-jumpcloud_0.3.22_windows_386.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_windows_386.zip",
+          "shasum": "0e086cd9253c56a0639e3ca3017c5cdf0d4d7dc1763ad3712985ad44e6fbb9c1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_windows_amd64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_windows_amd64.zip",
+          "shasum": "7a6a6a943cc271e5886390ad43d151214a0a9fff6faf4e56e133446e552509ed"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-jumpcloud_0.3.22_windows_arm64.zip",
+          "download_url": "https://github.com/cheelim1/terraform-provider-jumpcloud/releases/download/v0.3.22/terraform-provider-jumpcloud_0.3.22_windows_arm64.zip",
+          "shasum": "5f051fb6ca02252a4fb4365f57926c6d9b30d3b39dc1a052c051289cec753098"
+        }
+      ]
+    },
+    {
       "version": "0.3.21",
       "protocols": [
         "5.0"
