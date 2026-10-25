@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.5.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_darwin_amd64.zip",
+          "shasum": "c6d3aec43ef95a7a8283bf345d49e9be2279059e88c4967f865455854ddd0e0c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_darwin_arm64.zip",
+          "shasum": "0783f4aeddb4fffdb3fb6247054a1c9da5eaee544a327ca32e39779c7000fc16"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-vaultwarden_0.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_freebsd_386.zip",
+          "shasum": "e7ff4d7dea47df0cf068fef8318a03a64a3ee0ad9aa80565543b31868ef2c522"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_freebsd_amd64.zip",
+          "shasum": "9ec0783ee0a109a574123efdd7095c8e31afc66612d41a7ab49330958c2f6277"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-vaultwarden_0.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_freebsd_arm.zip",
+          "shasum": "30a6baae136d3a0ba27712329eb86dd67990d053dae15805f14528dddd5018b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_freebsd_arm64.zip",
+          "shasum": "3c3951aa40078bef4d31e502effe79a275d285c0da6e19ce185bd3ba4f4b58f8"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-vaultwarden_0.5.0_linux_386.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_linux_386.zip",
+          "shasum": "6252ae0156eb374b951bd2a76987f56403254cbefb17328e70f66f0013916a1e"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_linux_amd64.zip",
+          "shasum": "218438a72b2d866434b3ff9c9910fa85d9c084f2d2fd50dd08b3ddb880675eaa"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-vaultwarden_0.5.0_linux_arm.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_linux_arm.zip",
+          "shasum": "7e1fa7fb7120e818feda024c65ca5bc8b9a7f7378a3f8001ed8304df7c63301d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_linux_arm64.zip",
+          "shasum": "4f602f4162e9e8fb6e500ce8501ec964da28604e5add37575ba72dac03189b67"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-vaultwarden_0.5.0_windows_386.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_windows_386.zip",
+          "shasum": "6613f6a86af2f494eec04c5a8508b3c840ddf031e304a23977b008aee1f8611f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_windows_amd64.zip",
+          "shasum": "8fe662450a9598f6c70e2921533f6bdfbaca72f6f6b6c65031dabcdb9460d886"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-vaultwarden_0.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/ottramst/terraform-provider-vaultwarden/releases/download/v0.5.0/terraform-provider-vaultwarden_0.5.0_windows_arm64.zip",
+          "shasum": "e532bec4462bdcf14810d189f4a1a75281c990746c2718a8e46d17acd53d796a"
+        }
+      ]
+    },
+    {
       "version": "0.4.4",
       "protocols": [
         "6.0"
