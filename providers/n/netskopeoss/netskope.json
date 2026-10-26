@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.4.13",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-netskope_0.4.13_darwin_amd64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_darwin_amd64.zip",
+          "shasum": "6baa798bd2ebd01e1f41cae5f2879a0cf519a99e3598c5ada95eaf50d39bfc4f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-netskope_0.4.13_darwin_arm64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_darwin_arm64.zip",
+          "shasum": "3a3438fd93b27aba92117c65f402002e4ecd780e1c43cc2d6759b5de5a934aa3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-netskope_0.4.13_freebsd_386.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_freebsd_386.zip",
+          "shasum": "721d5285a71f6c8a3cc49a5e52f771945a30b8f3c7896380886331f31f83da05"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-netskope_0.4.13_freebsd_amd64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_freebsd_amd64.zip",
+          "shasum": "56c11366a342e95002a68539d1fe8b464e433d1c35771a90ad2cac6d47936211"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-netskope_0.4.13_freebsd_arm.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_freebsd_arm.zip",
+          "shasum": "e6761a3b2d49c5c8d227d0b8c3c8a3d44fdb5d87ffdaeba17b9990d79e8345f0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-netskope_0.4.13_freebsd_arm64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_freebsd_arm64.zip",
+          "shasum": "68c9b90e25975787997dd69d3dac2d5b574152102fa22d78847aab8e3cdecd65"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-netskope_0.4.13_linux_386.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_linux_386.zip",
+          "shasum": "58d02cd823b22a9e3f54a8703d6b20cdbea6d125a48e8f9af98e4812a2499022"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-netskope_0.4.13_linux_amd64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_linux_amd64.zip",
+          "shasum": "a61526cbc30fb59f782e29c9a4c131ab2e1d98ff67edb3af4b889d5585625ccd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-netskope_0.4.13_linux_arm.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_linux_arm.zip",
+          "shasum": "44e0ea6c5971afaf094f7c2519af1e144e3eb644007fc4e30a4589c853cc7f71"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-netskope_0.4.13_linux_arm64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_linux_arm64.zip",
+          "shasum": "9ac8a9c6f4c918c2137889da2c2e01d2d6fc066a275166db6d3d33ce10f6fb5e"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-netskope_0.4.13_windows_386.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_windows_386.zip",
+          "shasum": "11638106eeab4847ec682d589478c36cbd674e058f0701d3206b0a3092ae3000"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-netskope_0.4.13_windows_amd64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_windows_amd64.zip",
+          "shasum": "c6a14da52232335c563687fbabdc6c9dbd9bc0d51b9202c98d0e16056f78f54c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-netskope_0.4.13_windows_arm64.zip",
+          "download_url": "https://github.com/netskopeoss/terraform-provider-netskope/releases/download/v0.4.13/terraform-provider-netskope_0.4.13_windows_arm64.zip",
+          "shasum": "5419ad186b4c2997f2be45e99dbdb5fb05552cbbbbfa78114c92f37b0cc088d9"
+        }
+      ]
+    },
+    {
       "version": "0.4.12",
       "protocols": [
         "6.0"
