@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "10.1.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-fastly_10.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_darwin_amd64.zip",
+          "shasum": "7fcbd4ff24378f81952dac157351c7923cf4556888d125d8fdb5e66f0e0b3431"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-fastly_10.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_darwin_arm64.zip",
+          "shasum": "06fbc5c4c22819adb0ad60badf8e8c46fc084df907fddd2973ecd100cddf7f99"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-fastly_10.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_freebsd_386.zip",
+          "shasum": "374d52ecf7a8a3f9ac5dd46b71c654b3a67e7ff0562882f768b2052f7c19471b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-fastly_10.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_freebsd_amd64.zip",
+          "shasum": "0e089406d499a48ae3d16765d3d099b87deb13173d5c771225b5b7e039d822bf"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-fastly_10.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_freebsd_arm.zip",
+          "shasum": "cdf8a46f3aad28b3d1215b95c8673b714f2a722ce5b4dbf308f1957d61ede148"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-fastly_10.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_freebsd_arm64.zip",
+          "shasum": "b20013700e11f84608be32c5d1e23c70240a5fbe1dc384c7b5236363e483b5ae"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-fastly_10.1.0_linux_386.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_linux_386.zip",
+          "shasum": "ce30f8c4624988fefe03ad31d5a8e94a0b104db825e4058005b43d594acccb03"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-fastly_10.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_linux_amd64.zip",
+          "shasum": "cf234f61de83c8ca804e4ca47b66bacd86b2230deac63bdec4727ae6f5224fb4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-fastly_10.1.0_linux_arm.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_linux_arm.zip",
+          "shasum": "cc9cd2c1e434dc93bc8ef57a4542762447f56e1041fba393b0a5898f9ffd2616"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-fastly_10.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_linux_arm64.zip",
+          "shasum": "501889ebe1f25adaf6dcff2261afd83a941e3f37a55935d7cd17c75f86ba169d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-fastly_10.1.0_windows_386.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_windows_386.zip",
+          "shasum": "f0a86474ba5cb09e2248e6e3ee998b6205d91224a471cd2227087034fa881207"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-fastly_10.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_windows_amd64.zip",
+          "shasum": "82207d16d4556cc661d32373c741ab83130e859f987792c9064692fea227dd56"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-fastly_10.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/fastly/terraform-provider-fastly/releases/download/v10.1.0/terraform-provider-fastly_10.1.0_windows_arm64.zip",
+          "shasum": "daf5b9a004b626dbb107727d82f1dbe66487530a2f4a11b48ff6deeda19555e3"
+        }
+      ]
+    },
+    {
       "version": "10.0.0",
       "protocols": [
         "5.0"
