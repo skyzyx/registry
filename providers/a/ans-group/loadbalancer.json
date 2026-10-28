@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.7.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_darwin_amd64.zip",
+          "shasum": "4a088e5d546404e498970db8483e3bb97ae2984bff7387c6eee839f5ae7a3cb4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_darwin_arm64.zip",
+          "shasum": "60ec8625c48734e764889a7cf999fdbfb862c4958200a0ce515c8f97bf1b351f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-loadbalancer_1.7.0_freebsd_386.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_freebsd_386.zip",
+          "shasum": "d7c88c4c19bafd63d48b120fd3011aca9ff1ccb472ccff5956d4d18dd0ce169a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_freebsd_amd64.zip",
+          "shasum": "b671439be0d88c43926c0a77eac2e6212c5a3a44db25aca8c087eb99365df32b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-loadbalancer_1.7.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_freebsd_arm.zip",
+          "shasum": "46d3f4b178cd2dc61143e80cb340c99b3d2accca7f845aea7cbb88314e3b627e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_freebsd_arm64.zip",
+          "shasum": "bda2ee3dc9e72112e7cfaa8b3f1e9f659d323cf19aab4ebc34bffdf33f227024"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-loadbalancer_1.7.0_linux_386.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_linux_386.zip",
+          "shasum": "4f870508126d944d0ffe1fea21bd37f0293115729934058ca416d2f6aff12ec1"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_linux_amd64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_linux_amd64.zip",
+          "shasum": "6bcc219655c59c6a5fe5100aaaba7faae3ce08e2e9083196ae1913446232d823"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-loadbalancer_1.7.0_linux_arm.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_linux_arm.zip",
+          "shasum": "812d7e1fac6c32ff63c9069625d6cdb5c781f045eb2e681805adf5233e22cc68"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_linux_arm64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_linux_arm64.zip",
+          "shasum": "1531c3869a2dbe6349fb889840d51adcbab3ca18bab1b17064011c964e127ba9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-loadbalancer_1.7.0_windows_386.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_windows_386.zip",
+          "shasum": "070909c8ca0038fd22d4d35ce9e4b36ff70e61b34a7881ab859b6620a2cf128f"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_windows_amd64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_windows_amd64.zip",
+          "shasum": "e18535bd24d33eddcc72a3400c0a4240903e0c360b73e6f302dbec1d29b64d59"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-loadbalancer_1.7.0_windows_arm64.zip",
+          "download_url": "https://github.com/ans-group/terraform-provider-loadbalancer/releases/download/v1.7.0/terraform-provider-loadbalancer_1.7.0_windows_arm64.zip",
+          "shasum": "088875e01bd7709a5f1965a35b737890161ad4f7e7032ddcff24228c1f277faa"
+        }
+      ]
+    },
+    {
       "version": "1.6.0",
       "protocols": [
         "5.0"
