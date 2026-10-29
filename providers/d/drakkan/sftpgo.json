@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.0.28",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sftpgo_0.0.28_darwin_amd64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_darwin_amd64.zip",
+          "shasum": "74f19e0afae05d0448923b06430cc4b93b99d716d45d09b0e83135ef2e523a92"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sftpgo_0.0.28_darwin_arm64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_darwin_arm64.zip",
+          "shasum": "072768b0888b186e2c45fd9d9f074f0774335c99f66cfd4fa64795c4805e2936"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sftpgo_0.0.28_freebsd_386.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_freebsd_386.zip",
+          "shasum": "fd5c17e3de0ceca0e3b6e53db02c6a7cd0ded3eb8271cb0f50bec0b24ec3b2de"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sftpgo_0.0.28_freebsd_amd64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_freebsd_amd64.zip",
+          "shasum": "bb2d31368dccabe16de69a36fff0589fa580b2d76289e7a79bef5c5f883883f7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sftpgo_0.0.28_freebsd_arm.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_freebsd_arm.zip",
+          "shasum": "7dcaef6eaa058c8e37a1323201c495589b5e710184b95d69117f69004434b2f4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sftpgo_0.0.28_freebsd_arm64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_freebsd_arm64.zip",
+          "shasum": "e8797ab8c48aeef285dd1726793ce641be49cce4ed64f241804cf432da7c2f21"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sftpgo_0.0.28_linux_386.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_linux_386.zip",
+          "shasum": "f2174f1d8d186187738540943f255561d603f8d03519b9c786cc0f3378f2c955"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sftpgo_0.0.28_linux_amd64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_linux_amd64.zip",
+          "shasum": "9d856376c84f1847cef2724333898835e74e3036e20326fbc266da8c683150d8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sftpgo_0.0.28_linux_arm.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_linux_arm.zip",
+          "shasum": "61d096c7fc4e948b83f24a18be399891980dc9d5a225c7554d617f18e1405ab8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sftpgo_0.0.28_linux_arm64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_linux_arm64.zip",
+          "shasum": "803dfee1a1b64fb52b95895752d113ff2648b98df8acfa24dfb38689703af7c9"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sftpgo_0.0.28_windows_386.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_windows_386.zip",
+          "shasum": "c09573910d7b8e7693d9bf9d26a64edfbc1527d7ed5fa0bcdda94dd995ed3653"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sftpgo_0.0.28_windows_amd64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_windows_amd64.zip",
+          "shasum": "7403157e3b3caab72c0896b7f36fbfcc560bd2a661ea4ca5156f6bc7ac65b7df"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sftpgo_0.0.28_windows_arm64.zip",
+          "download_url": "https://github.com/drakkan/terraform-provider-sftpgo/releases/download/v0.0.28/terraform-provider-sftpgo_0.0.28_windows_arm64.zip",
+          "shasum": "2a22c2b5b239c324b6ba6e5273e9d8d3914467343120bfd4f6e2fda83ea43d5d"
+        }
+      ]
+    },
+    {
       "version": "0.0.27",
       "protocols": [
         "6.0"
