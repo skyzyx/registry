@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.12.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumos_0.12.0_darwin_amd64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_darwin_amd64.zip",
+          "shasum": "75936dbf5db7a12e832ef629db58e16e44259b1b0339363b62cb35ce65a8725f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumos_0.12.0_darwin_arm64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_darwin_arm64.zip",
+          "shasum": "ad6e38ae73fbe84cd591d9803cd0060fea2417c91a5e184f2b64a17da37a8c7b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-lumos_0.12.0_freebsd_386.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_freebsd_386.zip",
+          "shasum": "32fe67326204850e849fdb94019b7fa663ebb3ba77563fcb5303b16017a57782"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumos_0.12.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_freebsd_amd64.zip",
+          "shasum": "4b35ae251ab2fdc65af2f34d670bdaf8b527a16ba4f303e6ab109e6b74a8e71e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-lumos_0.12.0_freebsd_arm.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_freebsd_arm.zip",
+          "shasum": "090aa1569ed5c6b832b2dbb223186c9a4d2f16f7a31aff1b638cc4d07cd032f5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumos_0.12.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_freebsd_arm64.zip",
+          "shasum": "e98c32e61c37fd37760bc3fb191a47f3fad3141a3df1f71cbf8d2a3ad527c33f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-lumos_0.12.0_linux_386.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_linux_386.zip",
+          "shasum": "de8314b99e5e6f507d9e12ba9cf64503174af34e2faee3f73946134f186aa2c3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumos_0.12.0_linux_amd64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_linux_amd64.zip",
+          "shasum": "d6df757dc18139c262e2baa939ef412b49d8f683006cd9b22f192adb45f841eb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-lumos_0.12.0_linux_arm.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_linux_arm.zip",
+          "shasum": "140800aae8f2d08c1852b84581fd35294ac625b9f08f8b5b4a3fb918322d3c03"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumos_0.12.0_linux_arm64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_linux_arm64.zip",
+          "shasum": "59be7c1a63a5bcb0f3973d11f1380e5f180a8023e36a12964f466622662c41c4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-lumos_0.12.0_windows_386.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_windows_386.zip",
+          "shasum": "f2b17116e1ba363d504dad5a70f0edbfeb90e4f262300c5032dc9730a6112140"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-lumos_0.12.0_windows_amd64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_windows_amd64.zip",
+          "shasum": "8ecf122d4cd454b06cb7e3362093fe655bcd5759ee2ff1675bef47d1201b5981"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-lumos_0.12.0_windows_arm64.zip",
+          "download_url": "https://github.com/teamlumos/terraform-provider-lumos/releases/download/v0.12.0/terraform-provider-lumos_0.12.0_windows_arm64.zip",
+          "shasum": "bb6c252e5cacff59eb84af5fb610fbfbae4bc90725787152d1af72baad572548"
+        }
+      ]
+    },
+    {
       "version": "0.11.1",
       "protocols": [
         "6.0"
