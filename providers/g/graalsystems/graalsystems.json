@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-graalsystems_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_darwin_amd64.zip",
+          "shasum": "f369b6cb1d1024bcffabf481b30f3b1439da9b888cbb86662424ece0b51fdd82"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-graalsystems_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_darwin_arm64.zip",
+          "shasum": "54c709f8aeb6b1c3517b89d15cc007ed4a10b761c3036adce469eaea074d10a6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-graalsystems_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_freebsd_386.zip",
+          "shasum": "72bddda64fc4c33ec436efc7d9596e330372032f7cfa55a1efb6e5126aba4577"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-graalsystems_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_freebsd_amd64.zip",
+          "shasum": "fc961da11187fa45b2afd53631d4a05448864084fbfe5e12466d22eb9e3a75eb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-graalsystems_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_freebsd_arm.zip",
+          "shasum": "cf5af8f9d91e5c734ee37130dcfce527a240029ec0b40e9d4eef196a687849d3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-graalsystems_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_freebsd_arm64.zip",
+          "shasum": "ec4ecbdc4d1a987ef9a97332e27db8c75186f2821f7ac3dac58830df7237bbed"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-graalsystems_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_linux_386.zip",
+          "shasum": "60cd03b4087a662cabf581ebb19a7d9180f34e341adcf93d79b5c437c6cdf11c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-graalsystems_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_linux_amd64.zip",
+          "shasum": "02703fe27a7f3b6db1056ffb2244ad79ab9376531edef239127b28404384114d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-graalsystems_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_linux_arm.zip",
+          "shasum": "877b3edfd1f187530e2cdf5ee4870a508695387f02479aa31ab80fb2509d7966"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-graalsystems_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_linux_arm64.zip",
+          "shasum": "c66ff7857e435040f04c99889b72e036ec3667535eef4ed8ace8df61ee63b4d4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-graalsystems_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_windows_386.zip",
+          "shasum": "f5bf71665dac1ea0372cca3af6d049f8c51fd6131d5065d311d4285418be552d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-graalsystems_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_windows_amd64.zip",
+          "shasum": "f250c491c03a2425e4042ba5d225d05f235c8ee15a470bfa8bd58ce853504540"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-graalsystems_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/graalsystems/terraform-provider-graalsystems/releases/download/v1.3.0/terraform-provider-graalsystems_1.3.0_windows_arm64.zip",
+          "shasum": "6d9ca57efa395c1370fc6d121a5ea52142287bdf88df01821f9b42f861216610"
+        }
+      ]
+    },
+    {
       "version": "1.2.2",
       "protocols": [
         "5.0"
