@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.9.8",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-namecheap_2.9.8_darwin_amd64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_darwin_amd64.zip",
+          "shasum": "f59c648d421dc55ad2e7f5008a4a9645baed81befbc652884b8f941883ab523e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-namecheap_2.9.8_darwin_arm64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_darwin_arm64.zip",
+          "shasum": "ec008cb1c5626bc67269497fc96f9fa9e83b5e38d55b78a014aa0258d173b972"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-namecheap_2.9.8_freebsd_386.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_freebsd_386.zip",
+          "shasum": "030e38a84a1678e0b10e64cea8a9a799d8b81c5c0eb8367673222d50db04d332"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-namecheap_2.9.8_freebsd_amd64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_freebsd_amd64.zip",
+          "shasum": "f83519643eb37dc63d57b9b5c95689a2c724cd30748297abea63adee43f490ee"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-namecheap_2.9.8_freebsd_arm.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_freebsd_arm.zip",
+          "shasum": "7d5148f298435b5d8d46af708825522e67403375b4cac214e78d7b370c627692"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-namecheap_2.9.8_freebsd_arm64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_freebsd_arm64.zip",
+          "shasum": "100a27353dffd9b5650fe1f20ff6e63eacba894d96d65114a1ffab6bd59ddf7f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-namecheap_2.9.8_linux_386.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_linux_386.zip",
+          "shasum": "1b050d52aaaf3a575a62244be2a6dd799fed011490a5663fc5a43dea39c7576c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-namecheap_2.9.8_linux_amd64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_linux_amd64.zip",
+          "shasum": "502ebb1422e654f0a7c350486d4025282d2ced9587d774466f73b9dc934ed8e0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-namecheap_2.9.8_linux_arm.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_linux_arm.zip",
+          "shasum": "a5c01d6ba26de68fba80d48ef9fd170612992b6450dee663dc1b76c50b787543"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-namecheap_2.9.8_linux_arm64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_linux_arm64.zip",
+          "shasum": "26f6f1b609ef9ef1864137e7a0fc45f0d6d741c10908a2b4d4f358434fa8300d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-namecheap_2.9.8_windows_386.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_windows_386.zip",
+          "shasum": "66860b0a91eacb9c9184a8141bc0e1f8e4e161a081b722646918d25c9b1404f5"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-namecheap_2.9.8_windows_amd64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_windows_amd64.zip",
+          "shasum": "f10de9039615efb96b7d8fe5475d45c802edad7ad939bb0414c3c81ce6297e99"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-namecheap_2.9.8_windows_arm64.zip",
+          "download_url": "https://github.com/adamdecaf/terraform-provider-namecheap/releases/download/v2.9.8/terraform-provider-namecheap_2.9.8_windows_arm64.zip",
+          "shasum": "9e98b73cce0b07ff33d24634f0f4aa557cb1c841b79eb5b7d4f5056f05883556"
+        }
+      ]
+    },
+    {
       "version": "2.9.7",
       "protocols": [
         "5.0"

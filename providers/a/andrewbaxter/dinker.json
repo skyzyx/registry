@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-dinker_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_darwin_amd64.zip",
+          "shasum": "5c26c487d5b42b0b0d1944dd90a705f1043b11bdf3dc7bc3d13f83b73c76b49e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-dinker_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_darwin_arm64.zip",
+          "shasum": "ee6b739f6868d9bef8b05e3cca6f16f12c5cdcfd43351ce132904997db140dc6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-dinker_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_freebsd_386.zip",
+          "shasum": "3995c6d25bfe2efb80d2fe166129876ab722f30765fc9a18f0756cb00b240e43"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-dinker_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_freebsd_amd64.zip",
+          "shasum": "3fb543a7a7e6725a70ecba308a9a0708f8e02b1084a64c3ebd0c04403e051a8f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-dinker_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_freebsd_arm.zip",
+          "shasum": "93fcbb4f9ac0b8c93789f413c0cc78661d158a6f9907588e6d87eb16e20abe14"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-dinker_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_freebsd_arm64.zip",
+          "shasum": "9031c873ab700dca877b4ea7337a41794971ff5624158484f2bb7cf10194596c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-dinker_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_linux_386.zip",
+          "shasum": "e1a0f9f5b5c6d123ddac4e62b7129502e5772dc611035215ff4545025592dc1b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-dinker_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_linux_amd64.zip",
+          "shasum": "b53211f5e9d676bacd7cfe78529988c9bb07488bdcfd8e73849defff11e442ba"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-dinker_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_linux_arm.zip",
+          "shasum": "0e5df31c555ce03ad0d65d6a9a55632f9d83762cbc62f5089f93dbcb62551fa1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-dinker_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_linux_arm64.zip",
+          "shasum": "f77490a809766ce5b22b764c9c304095a9c5530100f18dbd5f74874c17846970"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-dinker_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_windows_386.zip",
+          "shasum": "1d45d61f3d5abdb091c9ebc30f9ef94b65c42087932ae17ecfa1e44a0573f6eb"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-dinker_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_windows_amd64.zip",
+          "shasum": "ac93b9b5453e6867d1532ed2656688e76e13d65a8470c55478bdae2791993caa"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-dinker_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/andrewbaxter/terraform-provider-dinker/releases/download/v0.1.0/terraform-provider-dinker_0.1.0_windows_arm64.zip",
+          "shasum": "b698225fa513ce668a873000532b83c8aee7a8a143bc8a3bb21672f03434a69f"
+        }
+      ]
+    },
+    {
       "version": "0.0.24",
       "protocols": [
         "6.0"
