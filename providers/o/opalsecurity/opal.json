@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "3.11.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-opal_3.11.4_darwin_amd64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_darwin_amd64.zip",
+          "shasum": "65b067738fc0a646c3321f1a4b7006c38c7089b2669c7ee61bd1d982b8907a5b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-opal_3.11.4_darwin_arm64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_darwin_arm64.zip",
+          "shasum": "d350749488563c1d2618eeabd452f407f35e11b234b08b2db98a5de5b7289e3c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-opal_3.11.4_freebsd_386.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_freebsd_386.zip",
+          "shasum": "1f51e6d9fbe5fca99dae4767d32410b3ee91bebcfd169bd5102e0e6dde0d0e78"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-opal_3.11.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_freebsd_amd64.zip",
+          "shasum": "ba6dfe453cc0916b7bda6108a6c10c9fe47663d75c014eec786091d0ec92f8c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-opal_3.11.4_freebsd_arm.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_freebsd_arm.zip",
+          "shasum": "209e3d99355b8cec1e639a2a329db1063ad3ec0049b8f1ee2947157d743d06b0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-opal_3.11.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_freebsd_arm64.zip",
+          "shasum": "4be121efd62152f49b227b36d6ad33b5e5fee936d95a968841f402488a8cbe60"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-opal_3.11.4_linux_386.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_linux_386.zip",
+          "shasum": "47c055166e6c6a007926ba3933ec08694f06f0a5ab33454d938a725dd7d30e5c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-opal_3.11.4_linux_amd64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_linux_amd64.zip",
+          "shasum": "81bb569df7e2f1423d6f0922458b6e5637f5710ff4f8bb171bba2a3e8ce2a6da"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-opal_3.11.4_linux_arm.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_linux_arm.zip",
+          "shasum": "1b5d4cb417c4e2906b0e68a830fc67f7d456128c33fa6bd9e8cfef969b68d44e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-opal_3.11.4_linux_arm64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_linux_arm64.zip",
+          "shasum": "2dad59709483534db8aa0e68781d45af7cf15a24b91d57138ebab529a11fbb60"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-opal_3.11.4_windows_386.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_windows_386.zip",
+          "shasum": "2703ea7648b588e90fbf686e8dbf9b1fde340c38b9279a691acbd5ff7a8b6995"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-opal_3.11.4_windows_amd64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_windows_amd64.zip",
+          "shasum": "b32bab966284c859152f1196552019ab36cd73357e9d200d064440a50981dc53"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-opal_3.11.4_windows_arm64.zip",
+          "download_url": "https://github.com/opalsecurity/terraform-provider-opal/releases/download/v3.11.4/terraform-provider-opal_3.11.4_windows_arm64.zip",
+          "shasum": "1b319d476d9482151d9ad75216f7b6113faece334f7e1f44bed5801033c2f443"
+        }
+      ]
+    },
+    {
       "version": "3.10.0",
       "protocols": [
         "6.0"
