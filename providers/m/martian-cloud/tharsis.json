@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.18.0-alpha.3",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_darwin_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_darwin_amd64.zip",
+          "shasum": "05e6e3abe7c6bfcce4979dae434e928a629640de744fdcd151a0b9e5f5570fc1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_darwin_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_darwin_arm64.zip",
+          "shasum": "738f98629d928f11899464c7c4d4ccfe8b5767a239c0a40016cfc368ab36182f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_freebsd_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_freebsd_386.zip",
+          "shasum": "d309959e6e36c15c0dbdddb0cd01f46fe00995510d2589f3173a0bbda104e9d9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_freebsd_amd64.zip",
+          "shasum": "4eccdb295644fe42be6f84af28642237f4292ef0a7afdff05da0d9206f5ba6a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_freebsd_arm.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_freebsd_arm.zip",
+          "shasum": "a4afd3f9047c2a8b870e74fb7ee8eccd35561f797673ec340e1c25804191f18c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_freebsd_arm64.zip",
+          "shasum": "8e41aa4b61f561a51ef024bb7772eca7b9c4c9b53b4b6861a0e51a819a42e881"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_linux_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_linux_386.zip",
+          "shasum": "d0481d18bd18c2e117f3bbfe8bf223aff86c056c614b52a6fb8fb2746cd1a923"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_linux_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_linux_amd64.zip",
+          "shasum": "c76a1411d23a56db30a67dbaff048f304f82f5c8aacd081cd8cc8f8ccf049b3a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_linux_arm.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_linux_arm.zip",
+          "shasum": "9686ee99a3ea28c4efb54ce2d095c5817aa14a54cb981aad1bf7af0eff8a5513"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_linux_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_linux_arm64.zip",
+          "shasum": "9fa444354baaefb4b8a1424287ba18919ee4fd42d4c62008dda8eec4b460f063"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_windows_386.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_windows_386.zip",
+          "shasum": "e8087b871572ce9535b93c748d164a5b03d4c68e9c5e72809aa5147f633ce5ce"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_windows_amd64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_windows_amd64.zip",
+          "shasum": "924e018c87598ab79909009075112ae081d8eb7890557897ccf5243e00f773e1"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tharsis_0.18.0-alpha.3_windows_arm64.zip",
+          "download_url": "https://github.com/martian-cloud/terraform-provider-tharsis/releases/download/v0.18.0-alpha.3/terraform-provider-tharsis_0.18.0-alpha.3_windows_arm64.zip",
+          "shasum": "7b2f4a4ca495e89e4458b3ccd2bf4c00371611cdcd501a2b50edb30b4d8f90b8"
+        }
+      ]
+    },
+    {
       "version": "0.18.0-alpha.2",
       "protocols": [
         "6.0"
