@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "3.5.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_darwin_amd64.zip",
+          "shasum": "aff4094048ad1154b10e2da3d5cafca1fd233bb68c7172ea91f502837d62f5ac"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_3.5.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_darwin_arm64.zip",
+          "shasum": "5f6698a4ea9d3806892c00d3f286c05cda539fb0165915a4da25b150407b3f0c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_3.5.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_freebsd_386.zip",
+          "shasum": "729aac2dc799256e1e49110c57e899d08a448a46732aeda7e9e628f1c9a8d218"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_freebsd_amd64.zip",
+          "shasum": "08a43c2d3805852cbe784d265bad2eb8e762b0381e25f9675c6e4b0cab8eff97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_3.5.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_freebsd_arm.zip",
+          "shasum": "8d70d5ffe45f14863a869e8dc1981e024e7fa3e32ac3d628f5f47689156f5bb2"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_3.5.0_linux_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_linux_386.zip",
+          "shasum": "58ab89be1a5e95eb613a073a608750f04a22ef8c1e08138e30497befa83666f2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_linux_amd64.zip",
+          "shasum": "4461a16c0e5002a39cd4334c3d68888300b8a5ff90568c48d2a3df5a631f07f9"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-kubernetes_3.5.0_linux_arm.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_linux_arm.zip",
+          "shasum": "bc0a0587c97849c51bee5514a9bd4171793902de18bd4d908d3cec05f71f1ffc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_3.5.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_linux_arm64.zip",
+          "shasum": "6c9a94eaf94eee3cdb383034d53d56a95338546e4bb10b6e0bd8cd50168b161f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_3.5.0_windows_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_windows_386.zip",
+          "shasum": "0134deda32046cc10a18b65f8e84616ab719493ad26202d75984181a5846601c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_windows_amd64.zip",
+          "shasum": "8aa8ce97e7d08e1641eda71ca6eeef98a297d21978626cb8aa87555134f0f8ea"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-kubernetes_3.5.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_windows_arm64.zip",
+          "shasum": "e3093facdda2540ec58722bb711fbc87b02549421ee117eabd74ec25d09bb6fe"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-kubernetes_3.5.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_openbsd_386.zip",
+          "shasum": "c8e66b40e9398693bde9e0c82d320985973f4fbf7ed101c60556ba714e6a4a59"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_openbsd_amd64.zip",
+          "shasum": "efc97073ef218f20a307563a0a27cc1952c8367747432ae874f4524a0e041fc3"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-kubernetes_3.5.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentffoundation/terraform-provider-kubernetes/releases/download/v3.5.0/terraform-provider-kubernetes_3.5.0_solaris_amd64.zip",
+          "shasum": "1f2fe6bc1c147b482652a1bd33b64ce601104b37c9c57ae3ef9dd1a35b325342"
+        }
+      ]
+    },
+    {
       "version": "3.4.0",
       "protocols": [
         "5.0"
