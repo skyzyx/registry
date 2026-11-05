@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.15.0-rc.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_darwin_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_darwin_amd64.zip",
+          "shasum": "90730c3f8fa790f8b11fcdcd7a9a8b7775a81e7f65193155d074243705ca6c4b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_darwin_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_darwin_arm64.zip",
+          "shasum": "d9a30ac788ac5cce74a75151eb2533f2ec96e4ef6c44285a3e7bebaab1daefe2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_freebsd_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_freebsd_386.zip",
+          "shasum": "2029b51a95b0e26fb974bfda488f19054361909dcea99cbe8c9548190d55ba9f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_freebsd_amd64.zip",
+          "shasum": "0a8858e48346e74fa42de58dffcc9975d40e6c0a6d3a722afd695ecd9f70c2a8"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_freebsd_arm.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_freebsd_arm.zip",
+          "shasum": "44f951f79e1015f6d9b36af258385134eb3a18a90a8d6e7b6bae205fc7629de7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_freebsd_arm64.zip",
+          "shasum": "de48c007174175e6fc508394625c5031e47fa1df44176384de322366ed34ad6c"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_linux_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_linux_386.zip",
+          "shasum": "5f9fbbbc7ec9be764c6e20649324a4da1b6b571438d247f3b538a8a7b73bd193"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_linux_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_linux_amd64.zip",
+          "shasum": "6ca6d76c3a904b579e1bb01c718f37900ff776301a9e0fc9e29a569a6d2f8827"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_linux_arm.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_linux_arm.zip",
+          "shasum": "2948a5bd7cd8912b681b42b0e093dd91b7f419e484aac0eb21ef2b62abd1c4bc"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_linux_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_linux_arm64.zip",
+          "shasum": "bafbcef04761980e987fe70185f6e37b3e9b4b6acc169698b60ad2780b5dc033"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_windows_386.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_windows_386.zip",
+          "shasum": "a5014e03ce6adfa0218e48536622757634c31b8056f53ef7d0aaf08c13e5f312"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_windows_amd64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_windows_amd64.zip",
+          "shasum": "2c53a8cc4e7b89259295660d7095590f8c9f282e576c8853eba36ef6303e2b13"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-turbot_1.15.0-rc.1_windows_arm64.zip",
+          "download_url": "https://github.com/turbot/terraform-provider-turbot/releases/download/v1.15.0-rc.1/terraform-provider-turbot_1.15.0-rc.1_windows_arm64.zip",
+          "shasum": "dea80dcdd34433de32dec559502f4982032024db385122016780fc1ee155b1f4"
+        }
+      ]
+    },
+    {
       "version": "1.14.2",
       "protocols": [
         "5.0"
