@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.58.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-buddy_1.58.0_darwin_amd64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_darwin_amd64.zip",
+          "shasum": "3c9f8f7c2faebdeba2caf5c5cc649988f1d395f022b3ec4eafe6f81c33c98e1c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-buddy_1.58.0_darwin_arm64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_darwin_arm64.zip",
+          "shasum": "9d42e873d1b945dc8f9095cb35c2db6c96d13c0f8254d5df4ef7e647b2723ab0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-buddy_1.58.0_freebsd_386.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_freebsd_386.zip",
+          "shasum": "deee5a08927cd16bf6c890e5bc78ac5845175af5e2fafde3707ddd8230f35bb0"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-buddy_1.58.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_freebsd_amd64.zip",
+          "shasum": "1a2008e657ba1f1114373d236a741a035b23fe55c81fdf5368923860a91dd0a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-buddy_1.58.0_freebsd_arm.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_freebsd_arm.zip",
+          "shasum": "6ab1b607027d6b11d4a65bf1d8b6cf365a188d0dbca5d26d9d6e36cc860b3c98"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-buddy_1.58.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_freebsd_arm64.zip",
+          "shasum": "d59315a6f7800b03974ce3b8cafc1a5e3e08df6726abb53c4f6f90ce29d135b5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-buddy_1.58.0_linux_386.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_linux_386.zip",
+          "shasum": "56587972d3712ac68ce75a3206e2593a252adc6180e82201f8a1329892941df8"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-buddy_1.58.0_linux_amd64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_linux_amd64.zip",
+          "shasum": "2325893f5a9fc094a147ec8c68a77522aceaeb0c0429d9dfa7b93b7d99329224"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-buddy_1.58.0_linux_arm.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_linux_arm.zip",
+          "shasum": "5042d5fa1f6e3089df78b696bce248d7164f15a5cc52f2fb1c4c150dd8a85ddf"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-buddy_1.58.0_linux_arm64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_linux_arm64.zip",
+          "shasum": "93834b1e30f8d0b84a37a9b8fc71c0f8815fcb436f27c122c96b32e14ec6c1da"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-buddy_1.58.0_windows_386.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_windows_386.zip",
+          "shasum": "97e38f00f16f233c5e570cf8c8caa034f7d59f3d7eab325f8b4eac4c502af1a2"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-buddy_1.58.0_windows_amd64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_windows_amd64.zip",
+          "shasum": "2a35a7846140995e2760274b726f11269633ecd32f9106876e0b604e6b9d6fb9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-buddy_1.58.0_windows_arm64.zip",
+          "download_url": "https://github.com/buddy/terraform-provider-buddy/releases/download/v1.58.0/terraform-provider-buddy_1.58.0_windows_arm64.zip",
+          "shasum": "d165476a4fe153b55b16d26ff8ed4c601e38e876c40351b04fa80a2eaec7857b"
+        }
+      ]
+    },
+    {
       "version": "1.57.0",
       "protocols": [
         "6.0"
