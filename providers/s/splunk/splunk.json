@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk_1.6.3_darwin_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_darwin_amd64.zip",
+          "shasum": "4f69c32b325b8bb10094fc828278178bc4ceda2daf88e88888c60cabae740a6c"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk_1.6.3_darwin_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_darwin_arm64.zip",
+          "shasum": "d73664cadd09cf65c184c597003c59315afe6058d0d47cc76346597ded5479df"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-splunk_1.6.3_freebsd_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_freebsd_386.zip",
+          "shasum": "30b9b444c01d61afab464e01653e3a4fc8bcab1c3c184641fa681eceba282056"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk_1.6.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_freebsd_amd64.zip",
+          "shasum": "714d429f9df16d8870906a3262cde169b92c20bc745505ed6a2f6109208440b9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-splunk_1.6.3_freebsd_arm.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_freebsd_arm.zip",
+          "shasum": "104e5a010dcc0407e9be393c375f07642aa0996deb077804b03ce87809989e41"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk_1.6.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_freebsd_arm64.zip",
+          "shasum": "446478ea72fcb4738ef1b8282ebf17a57c10e7fb9e08478cb1d76baf3a1dcf98"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-splunk_1.6.3_linux_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_linux_386.zip",
+          "shasum": "9cb93ca62017b62085a9bd4c30db8c582f4d1b278496ef7c5d4b33c46e680726"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk_1.6.3_linux_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_linux_amd64.zip",
+          "shasum": "de967ea70223994ab1f841659b04999c0202e991caa216a77b36c2f5720ca1d4"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-splunk_1.6.3_linux_arm.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_linux_arm.zip",
+          "shasum": "7ad2de0edf4d917490f77b8f4b36cc15bcb7b3ece3ea91fb54d1b9d3225ae765"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk_1.6.3_linux_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_linux_arm64.zip",
+          "shasum": "72748229a34967e41980710937e7b25a8c1a39f3da60148be79d16f202f593c0"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-splunk_1.6.3_windows_386.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_windows_386.zip",
+          "shasum": "2195ac911906d8e9d2d7d96f2d5eb31feb2fc95695d305fa790d74953ef7b2c3"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-splunk_1.6.3_windows_amd64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_windows_amd64.zip",
+          "shasum": "127e63f852ad4c76460be5f22373b52a26dd8f6bae0782f9db96d14067adb10a"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-splunk_1.6.3_windows_arm64.zip",
+          "download_url": "https://github.com/splunk/terraform-provider-splunk/releases/download/v1.6.3/terraform-provider-splunk_1.6.3_windows_arm64.zip",
+          "shasum": "e9ccffa96353001779a3894df43a3ce7c359dce241ceaa861af9977e8ae54fa3"
+        }
+      ]
+    },
+    {
       "version": "1.6.2",
       "protocols": [
         "5.0"
