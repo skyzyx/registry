@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.2.2",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mysql_1.2.2_darwin_amd64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_darwin_amd64.zip",
+          "shasum": "d8db7023fa09f03ac2f9d3fc80640eb3f682d0969ea91375b0861a5704c74149"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mysql_1.2.2_darwin_arm64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_darwin_arm64.zip",
+          "shasum": "7ceeeacf7052c56428b48c610b9dfbb0091632d71ee9450ab2f5081748800c7a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mysql_1.2.2_freebsd_386.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_freebsd_386.zip",
+          "shasum": "6a1998185b1f534372195bcec53bb58006b1200b5b5dabc2f1593b8f4ea51858"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mysql_1.2.2_freebsd_amd64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_freebsd_amd64.zip",
+          "shasum": "7fd208d55f59416d4b1f5f60f09f1f837f8c215b0d8d54472c5b88dd33237360"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mysql_1.2.2_freebsd_arm.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_freebsd_arm.zip",
+          "shasum": "1171466eec5fdab0f250e547df20a3c727ed8c580596b636394cd53fa9770831"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mysql_1.2.2_freebsd_arm64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_freebsd_arm64.zip",
+          "shasum": "adabaca842880fff42543b3a5b176c4b0e6f921ecb75a849118629e8b16a7f27"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mysql_1.2.2_linux_386.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_linux_386.zip",
+          "shasum": "610fadae8501be614cd931db1108310b3f5c9917bc6f0f539fc8dc919fd3a70c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mysql_1.2.2_linux_amd64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_linux_amd64.zip",
+          "shasum": "8008955ae7202095460363a2b62890965575858f9f97e36f65e5d3e62d594f8a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mysql_1.2.2_linux_arm.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_linux_arm.zip",
+          "shasum": "5f9936c794d2864d31e753def28202a6d17ba221a0c2376839be2b0452226037"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mysql_1.2.2_linux_arm64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_linux_arm64.zip",
+          "shasum": "894ff3feae2bbdf221f5c3a73407fd46e68d9ee82c488a764811817427c703b3"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mysql_1.2.2_windows_386.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_windows_386.zip",
+          "shasum": "cce543f81fe5e4d37c1977743e27a29989d465a51dfeddf521405d72d0c96922"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mysql_1.2.2_windows_amd64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_windows_amd64.zip",
+          "shasum": "6cfde3fc736e607a82be7de3f344f4e87d6ae2bda6c78e3b8acc65feaeed61e9"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mysql_1.2.2_windows_arm64.zip",
+          "download_url": "https://github.com/takatohano/terraform-provider-mysql/releases/download/v1.2.2/terraform-provider-mysql_1.2.2_windows_arm64.zip",
+          "shasum": "1b5460898597281ad8ce1fd3abf044bf57dac6f94313f87e248fc57131fa027b"
+        }
+      ]
+    },
+    {
       "version": "1.2.1",
       "protocols": [
         "5.0"
