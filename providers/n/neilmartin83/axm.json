@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.15.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-axm_1.15.0_darwin_amd64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_darwin_amd64.zip",
+          "shasum": "bd7823fc4177876a7d6c625ecd89a934153e46fd6df702839b4b5e862fc0eb13"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-axm_1.15.0_darwin_arm64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_darwin_arm64.zip",
+          "shasum": "3a171415170f2cf960386acd9845c61efa284ad3dc1a09751cf99a2e12e5cfc6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-axm_1.15.0_freebsd_386.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_freebsd_386.zip",
+          "shasum": "1d4aa7c8a35279af95cd70f0638ce279530644f12ea34f363f34e184cdfe0c1f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-axm_1.15.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_freebsd_amd64.zip",
+          "shasum": "bfcd39b5db6e6770afa08d8caaeb4825ae4928068e531435d28b790b20183b40"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-axm_1.15.0_freebsd_arm.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_freebsd_arm.zip",
+          "shasum": "bc16a7fecb9979cdf6cd26921c9185eda93fc2e0dd04c3b75b0b265d5813f2c5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-axm_1.15.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_freebsd_arm64.zip",
+          "shasum": "2e30ab5d3f42875610a01234c59cc08092b2054f54742663cd7f42844975dc79"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-axm_1.15.0_linux_386.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_linux_386.zip",
+          "shasum": "b9554ef0f9bff5693f0f4ea9884d45f6a8c0e81aa49d4410e12f64c6dd74dbdc"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-axm_1.15.0_linux_amd64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_linux_amd64.zip",
+          "shasum": "7f726758ea9c9dace638076e215d5d67d5b8df66e8224676644022463f1a289d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-axm_1.15.0_linux_arm.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_linux_arm.zip",
+          "shasum": "98caea67a58e787d967a053e301552b820bb1c05ae927eb43b5bf5eb07bc7814"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-axm_1.15.0_linux_arm64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_linux_arm64.zip",
+          "shasum": "8c70409c2e06dd286ec6c97a059567390bc2d8c023c10b9c83d5b3c4fdae11da"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-axm_1.15.0_windows_386.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_windows_386.zip",
+          "shasum": "5dbce96d957ee03f92894a7957f782c77b2f633ad803b0caa9a4409e8855d2a7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-axm_1.15.0_windows_amd64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_windows_amd64.zip",
+          "shasum": "506a69229288046fcaefb25daff98b9964d2df3423ecae7c90c7987da700d6cf"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-axm_1.15.0_windows_arm64.zip",
+          "download_url": "https://github.com/neilmartin83/terraform-provider-axm/releases/download/v1.15.0/terraform-provider-axm_1.15.0_windows_arm64.zip",
+          "shasum": "1531a9c1f1baaa635b538b66ddf6fd3d3f3d8c98ffef759af0ae04457d78caf6"
+        }
+      ]
+    },
+    {
       "version": "1.14.1",
       "protocols": [
         "6.0"
