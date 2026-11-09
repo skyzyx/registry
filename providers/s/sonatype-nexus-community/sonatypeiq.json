@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.3.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_darwin_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_darwin_amd64.zip",
+          "shasum": "6d646117d3fbaed9168645a3994278e1e34d69b0d63c61775f1ee3925326f2c0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_darwin_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_darwin_arm64.zip",
+          "shasum": "7db4e8e03d14af398477394d42aae34606480295dadee364a6b987f1be6c2584"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_freebsd_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_freebsd_386.zip",
+          "shasum": "b11d2a621eed5e74e3390be3c3cd0a798c564c66d8b813cb232d0b79b81a6f2b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_freebsd_amd64.zip",
+          "shasum": "cf37f0d548b5acc11556a2b2ee8508d12b462632ef7d1ab9075b9ea56fa422a9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_freebsd_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_freebsd_arm.zip",
+          "shasum": "5aad3b4d310ccaf9273e840d1d8e1042312e28d9628bdb9426eb41f4e24e2edd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_freebsd_arm64.zip",
+          "shasum": "3e8009389eaacaefbeba070adbf5d660d0da3b5bd73dea8ad1ad26cd44a0e3d7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_linux_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_linux_386.zip",
+          "shasum": "dc3c968184b5a30ce3644c231edb1e1ed07a349fd91b6d935c3a134665a91ad0"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_linux_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_linux_amd64.zip",
+          "shasum": "691f457b5194fba8434847607560997d216647b7ee2a4f4a6305decbf2a42e69"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_linux_arm.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_linux_arm.zip",
+          "shasum": "5e46e0a3125810300282cea481894a06f5b3e0e01169c60b9a3dfe34976d2c9c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_linux_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_linux_arm64.zip",
+          "shasum": "acc1b272fd2341f7cf44126d4130b3ead6ada0e32b30418665756a32fc564f80"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_windows_386.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_windows_386.zip",
+          "shasum": "68aef28acdcbf845ecb699080e6428a9b5d92c23c3601365687d0dc0994718b7"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_windows_amd64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_windows_amd64.zip",
+          "shasum": "659714865d7d4112ff6e596b4f8a008aae97b3d0a0185a593e19f8a2564e5e3d"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-sonatypeiq_1.3.0_windows_arm64.zip",
+          "download_url": "https://github.com/sonatype-nexus-community/terraform-provider-sonatypeiq/releases/download/v1.3.0/terraform-provider-sonatypeiq_1.3.0_windows_arm64.zip",
+          "shasum": "8b97f768cb7f4813e1cc7f1d28624e1929ef1271c620185371361dbe409967f8"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "protocols": [
         "6.0"
