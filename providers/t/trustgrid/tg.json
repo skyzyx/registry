@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "2.10.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tg_2.10.0_darwin_amd64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_darwin_amd64.zip",
+          "shasum": "c3241acc3f70176b34cec024a1b8172ce0f2acdca746185fdc2dbeaf8c903c1d"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tg_2.10.0_darwin_arm64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_darwin_arm64.zip",
+          "shasum": "850fde981e3b291044c70d6262a8553c1f459353bc0d58ddd174e1cc468441cd"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tg_2.10.0_freebsd_386.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_freebsd_386.zip",
+          "shasum": "28139c072f5650bd9b0edbda4be854ca8285e678c21848cfea4fffd4d84d8341"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tg_2.10.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_freebsd_amd64.zip",
+          "shasum": "2e58e1a309555e9e3dcb34bf2cc3fab96040bc201ffc66086d9b37979057c0e6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tg_2.10.0_freebsd_arm.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_freebsd_arm.zip",
+          "shasum": "f8f7bf615dc781a74b34c5971d99828dccb0161bf1b5fd7008ad4f995717c0fb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-tg_2.10.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_freebsd_arm64.zip",
+          "shasum": "a6719b368a654d1f43e3cba7c6345b6938928b0e8f332b2feb3ef52fd4e4267f"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tg_2.10.0_linux_386.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_linux_386.zip",
+          "shasum": "7c1770f4b26a01529c08d31d196093d2352dcb1e7151bd57a088c90e68a0148a"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tg_2.10.0_linux_amd64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_linux_amd64.zip",
+          "shasum": "7477be8bf6c0a5fddfeee6fa60f13212fcde07e4eafa8c6a7cb30cbd9d6f193c"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tg_2.10.0_linux_arm.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_linux_arm.zip",
+          "shasum": "f59593b5da126c421997b061f3f1c8cd5cf2e7e3a405cb6da8981d2f81de02ab"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tg_2.10.0_linux_arm64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_linux_arm64.zip",
+          "shasum": "64cc67314159fb4143a62796eec35a42fc0cee72836965f425731eeaf1f8ebb8"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tg_2.10.0_windows_386.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_windows_386.zip",
+          "shasum": "5d248950359ba176fcd34a4cf680a9d8854219c4d643d87e296516863ceba46d"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tg_2.10.0_windows_amd64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_windows_amd64.zip",
+          "shasum": "f29a30d9cb3e0b304282420d920a6b4ad367d2d5e3cb40326b620c07e533ff03"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tg_2.10.0_windows_arm64.zip",
+          "download_url": "https://github.com/trustgrid/terraform-provider-tg/releases/download/v2.10.0/terraform-provider-tg_2.10.0_windows_arm64.zip",
+          "shasum": "e371f5a750efccf03c47b51b06486631c428f385eb235af6f8155299a19f484b"
+        }
+      ]
+    },
+    {
       "version": "2.9.0",
       "protocols": [
         "5.0"
