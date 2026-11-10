@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.6.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-arcane_1.6.0_darwin_amd64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_darwin_amd64.zip",
+          "shasum": "721f3b8a4ba52fab02ef0aa17b405eca6fedfdc21397988a91002a96e7d7f2e8"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-arcane_1.6.0_darwin_arm64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_darwin_arm64.zip",
+          "shasum": "28d8d6a7784beb066859569a359eb5b9db2de7201e2d4479ba55a3dcaed8f6ce"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-arcane_1.6.0_freebsd_386.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_freebsd_386.zip",
+          "shasum": "b0e75de0577ad234e2ccde7a9864a0ae724ba952d1ffce61762853ffd41f6e59"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-arcane_1.6.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_freebsd_amd64.zip",
+          "shasum": "39481c9022c10aeab2cec3c3672d2f96e376c835381d9f931b221f2a15a4c33a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-arcane_1.6.0_freebsd_arm.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_freebsd_arm.zip",
+          "shasum": "1bc275f0dcf7306f33e854e1a59f32771ff1e152d92f6608b590e2f9cd46f59f"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-arcane_1.6.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_freebsd_arm64.zip",
+          "shasum": "261da353b7f5083b879b2a9e9a87914980043f34c158091131f9266445d6004a"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-arcane_1.6.0_linux_386.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_linux_386.zip",
+          "shasum": "52a63cac0a674d47db21aa9fe7bb926820d6ae47062e53b920dc2b652a651e30"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-arcane_1.6.0_linux_amd64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_linux_amd64.zip",
+          "shasum": "9b7d00aab8914b3fcb5b6a4758c352b97a2096ee020f4ca19ff5380aedb88d0d"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-arcane_1.6.0_linux_arm.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_linux_arm.zip",
+          "shasum": "705b6c8e3120ec3341bc11d2ca2168ade49a2e5f8f6e1470fc4e1ef421a8b9c1"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-arcane_1.6.0_linux_arm64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_linux_arm64.zip",
+          "shasum": "6c386171a2cf5e37be074fc05f1310a11d6583d39ec7aa754b84018d7c1b187d"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-arcane_1.6.0_windows_386.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_windows_386.zip",
+          "shasum": "95484dfac02bce17ea1b478ad5e94cd6427daddb1c66424f46134d66ab3cd6d9"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-arcane_1.6.0_windows_amd64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_windows_amd64.zip",
+          "shasum": "4dbf24d19a40bd499f0ec9e203dc6034c5370212e47ee37e4797959e2ac80b20"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-arcane_1.6.0_windows_arm64.zip",
+          "download_url": "https://github.com/hellscrimson/terraform-provider-arcane/releases/download/v1.6.0/terraform-provider-arcane_1.6.0_windows_arm64.zip",
+          "shasum": "b56147f824cab585a3521c3bde0a45edfdd43431cb564cf74908a375cca96832"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "6.0"
