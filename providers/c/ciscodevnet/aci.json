@@ -1,6 +1,142 @@
 {
   "versions": [
     {
+      "version": "2.21.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_darwin_amd64.zip",
+          "shasum": "61fcd723ae489aca1366fb7dd34c2ffc5323c74ad1097a13a2ea12a5ded9b2d4"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-aci_2.21.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_darwin_arm64.zip",
+          "shasum": "cc68326cee5381c0550cc18657bf859237a85e23c27ede5140e5421bdc2208f6"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-aci_2.21.0_freebsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_freebsd_386.zip",
+          "shasum": "0ce00d3b0edf4658e3b0fd8c4f90621b62b50542ca1d827293764f60492a6acc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_freebsd_amd64.zip",
+          "shasum": "8208f88165ff3f0503fa7a215b60a3008cfa32f95109180de21b19a2818fa24c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-aci_2.21.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_freebsd_arm.zip",
+          "shasum": "5d3e918c770fa78a2e412c4448ef68ee682ca86c8673037cb1d387ed09cc50a2"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-aci_2.21.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_freebsd_arm64.zip",
+          "shasum": "789466de32e5b03513c49e138f5f94e97f20bfa7e86b5c5aa882b2c10093ec3e"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-aci_2.21.0_linux_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_linux_386.zip",
+          "shasum": "2e505635343ae07846ec23b5e41e8f62dc68dba7c839e41d189bf2871e88b7b3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_linux_amd64.zip",
+          "shasum": "ae0dc5cd895358c0e84ecd8db78a621ec9cc2cafc69a2d653856d601e9c3a6e5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-aci_2.21.0_linux_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_linux_arm.zip",
+          "shasum": "8cf822b6bdec7afe2f114b08a43b154327d8aafeca52a89db7b8ae766e504b25"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-aci_2.21.0_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_linux_arm64.zip",
+          "shasum": "f1952d18a9b43e8f59e0a2219fb51a695a0d7b052b53ce1f689e910e0edd065f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-aci_2.21.0_windows_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_windows_386.zip",
+          "shasum": "c51fb1e6569ea62143f0adf4acd42bc4cfd63868763d9689f93c6262deab7576"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_windows_amd64.zip",
+          "shasum": "ce357db85578ef69f3e78a06711971e983a6332738f33942d45c0e95cbdc20c4"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-aci_2.21.0_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_windows_arm64.zip",
+          "shasum": "6e446424d9a0c53e5dc1c33c45348c06e5740b8369f8d13df8c2783d00a92672"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-aci_2.21.0_openbsd_386.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_openbsd_386.zip",
+          "shasum": "f74111ab1b83c10c2dff8aadaf1b068703f5db4cef929294f446a75ffd052df4"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_openbsd_amd64.zip",
+          "shasum": "7ef69c7f757a557a06792e61b26f64373e421c15817e548af113c67a56a4ba42"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-aci_2.21.0_openbsd_arm.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_openbsd_arm.zip",
+          "shasum": "91c7fec79f7556fb16357155bbbf947240356a45d9a3cd0d60d7e9df8c0a0f44"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-aci_2.21.0_openbsd_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_openbsd_arm64.zip",
+          "shasum": "1be13617cf7429e1a2b45b8950009749a54c86553a4889ddd39a907d75026d07"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-aci_2.21.0_solaris_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-aci/releases/download/v2.21.0/terraform-provider-aci_2.21.0_solaris_amd64.zip",
+          "shasum": "563566886a43733311f7ffac5f8592b82c3e987b974e5ad12512714108d34b97"
+        }
+      ]
+    },
+    {
       "version": "2.20.0",
       "protocols": [
         "5.0"
