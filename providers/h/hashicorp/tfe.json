@@ -1,6 +1,121 @@
 {
   "versions": [
     {
+      "version": "0.84.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_darwin_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_darwin_amd64.zip",
+          "shasum": "9aadb27a42c511dad53235cb7a166d7722fd89310be5357ac679b4443d415c2a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-tfe_0.84.0_darwin_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_darwin_arm64.zip",
+          "shasum": "e25cc54a4644bc81ed1e0742c0376721a693e8eaeebc60f43c2c148240ee5053"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-tfe_0.84.0_freebsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_freebsd_386.zip",
+          "shasum": "aba58556722b632eefbe462e045c5e5dc3b0cb7d7c6fc524842c8433d184fb1e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_freebsd_amd64.zip",
+          "shasum": "b8394490a1062ee7b7e2f451273c8eac937b2051af0a1fd54e3ea7834755ffd1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-tfe_0.84.0_freebsd_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_freebsd_arm.zip",
+          "shasum": "2f9da1551c75274121f80ac1a98e9527bd610b3cc0f9d7b03b7cfcaf3997efed"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-tfe_0.84.0_linux_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_linux_386.zip",
+          "shasum": "3913c927517f79b13fdd897ec71abe4da17ab837cde113746e12d165810a22ad"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_linux_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_linux_amd64.zip",
+          "shasum": "0a2be79f38e581e4ac815cc7daf4f34eb286631dd127a2b1cbfdcdba18509565"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-tfe_0.84.0_linux_arm.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_linux_arm.zip",
+          "shasum": "18ae2ea9368b05dd184d93884db8121ba67c256d12a4a74e5949425b343dfbbb"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-tfe_0.84.0_linux_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_linux_arm64.zip",
+          "shasum": "4c919150500b4fc37d547656282e658ce41ef327557c31f8d2151f99fd997989"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-tfe_0.84.0_windows_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_windows_386.zip",
+          "shasum": "a00a6ece168beaf42da183bdaf1a31b2a6a5fe7fbd804429f33bd0d2a37284c1"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_windows_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_windows_amd64.zip",
+          "shasum": "1483a3d418161160933e0efe0a1ad37cbfabbbb8c9b1ff78c6fd6fff0535cb88"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-tfe_0.84.0_windows_arm64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_windows_arm64.zip",
+          "shasum": "5a8d1e6769bd6505e9d161630c233fdcbeb844232cb6f76301738cafc2418c27"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-tfe_0.84.0_openbsd_386.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_openbsd_386.zip",
+          "shasum": "e1799965de2aee6c0566ef23b26f3746e6285bd723e3b997b89fe660576e9638"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_openbsd_amd64.zip",
+          "shasum": "38ef6116d5b9c629ee39dc4385364624e5881f911a29cbd375f68e06d3e983e4"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-tfe_0.84.0_solaris_amd64.zip",
+          "download_url": "https://github.com/opentofu/terraform-provider-tfe/releases/download/v0.84.0/terraform-provider-tfe_0.84.0_solaris_amd64.zip",
+          "shasum": "864fec5612f13a937857444b85cefe676b71ddc33d409bb088fd876e0d7dc73f"
+        }
+      ]
+    },
+    {
       "version": "0.83.0",
       "protocols": [
         "5.0"
