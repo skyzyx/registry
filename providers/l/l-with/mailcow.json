@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.12.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.12.1_darwin_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_darwin_amd64.zip",
+          "shasum": "d7c705ae7dc61cd9a9daaa26c52cfd3243f6d250a614a69d2a4a0c0d5e7208d1"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.12.1_darwin_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_darwin_arm64.zip",
+          "shasum": "b12eaf58ae363bf92e17485591f4e8269199a60df27dc0d471245f007ca627b5"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.12.1_freebsd_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_freebsd_386.zip",
+          "shasum": "151de996f7c776d818ba83befb50affb283b371647fd8f6e4ef0aaa2935eca67"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.12.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_freebsd_amd64.zip",
+          "shasum": "a2bb960926dc0b47ddadab8081f90fb63182dac1cb1273e503ad6b5adda3a775"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-mailcow_0.12.1_freebsd_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_freebsd_arm.zip",
+          "shasum": "5c83709ca196efb2057dfd15c7655b755919997465550ae35c45a101f9a4e47a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.12.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_freebsd_arm64.zip",
+          "shasum": "6787ff1fe318e9457fb67edf560bcae0b05151aa4facadf12855e25718669ebf"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.12.1_linux_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_linux_386.zip",
+          "shasum": "61d62b289839ed7263283ec84b6426b91ec9af05da6ef8c1f37ac2b1d4187570"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.12.1_linux_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_linux_amd64.zip",
+          "shasum": "bb2f4928c3751b102ca0221c9ffe3899f84e8c034fbb31cccf9bef5319b4802e"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-mailcow_0.12.1_linux_arm.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_linux_arm.zip",
+          "shasum": "145cef3fc6ffdfac917e96ebbabe2d82844732c71092bd3a326558e3160f8ad5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.12.1_linux_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_linux_arm64.zip",
+          "shasum": "c04aab28c11ab462a5a2bddd6f4803ab8d9a94f221cb8d41147ecb2fb402e58a"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-mailcow_0.12.1_windows_386.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_windows_386.zip",
+          "shasum": "cbec645c6e5ac6060495e2a510cc61f4ba9d34636bf5a53f9d0e41a6dcbdf1df"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-mailcow_0.12.1_windows_amd64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_windows_amd64.zip",
+          "shasum": "d06dfdab095a720de1543fddb187767b6e5e2b15f39caa994b71ba2da564d64c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-mailcow_0.12.1_windows_arm64.zip",
+          "download_url": "https://github.com/l-with/terraform-provider-mailcow/releases/download/v0.12.1/terraform-provider-mailcow_0.12.1_windows_arm64.zip",
+          "shasum": "5a82f32bc9842a602b96c006704f4c403ba3e0f58aa83eecc54f1ae5f940f14f"
+        }
+      ]
+    },
+    {
       "version": "0.12.0",
       "protocols": [
         "5.0"
