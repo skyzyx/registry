@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "1.5.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_1.5.1_darwin_amd64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_darwin_amd64.zip",
+          "shasum": "215f5f5f7139737442d9ef4ce17814116bc47b8af43ed3559dc94110c3eaf0b9"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_1.5.1_darwin_arm64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_darwin_arm64.zip",
+          "shasum": "7d64822f676b5d29b82f96a15432fa35aef12f0f1d080663c611e41bfe4f3fcc"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_1.5.1_freebsd_386.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_freebsd_386.zip",
+          "shasum": "abfe619482962b77c90b2b080683007c85d6d042fa0db11961b8529367749df7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_1.5.1_freebsd_amd64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_freebsd_amd64.zip",
+          "shasum": "e4d81d637e8c21d6436291994a5098ecfd6a4e8bf4af9732f7c1387bea20a520"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-ansible_1.5.1_freebsd_arm.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_freebsd_arm.zip",
+          "shasum": "30864e90a302c2b8a5646ac268e4be08b71af8175ce127f3eaccbe5ac019f395"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_1.5.1_freebsd_arm64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_freebsd_arm64.zip",
+          "shasum": "047f746a06e6d8976832554f57ec3d4676cbd0a3b19491403fc0b11619ad78ab"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_1.5.1_linux_386.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_linux_386.zip",
+          "shasum": "648b138b24f9c88c416bd7501a238cc06ada4e9359569652ec97d72dbcd639d3"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_1.5.1_linux_amd64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_linux_amd64.zip",
+          "shasum": "3a5951ed05b6425c349516022a6804066cf31ab54d06b112017f9d6fd0bd50af"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-ansible_1.5.1_linux_arm.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_linux_arm.zip",
+          "shasum": "3e029948e2e712f2facba4e88835c76e2380bc0dbc17aeda360855d61a7ebb78"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_1.5.1_linux_arm64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_linux_arm64.zip",
+          "shasum": "f4bb44faafb4ff15ef909414cea564b720416a55962dc0e86892cddc728c49d4"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-ansible_1.5.1_windows_386.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_windows_386.zip",
+          "shasum": "d0c9f9448b9736e85f2dc9fbc64a5d210b18be58bdcb848e5a4b57a8c2f8b2c6"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ansible_1.5.1_windows_amd64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_windows_amd64.zip",
+          "shasum": "cdbdabb6b866e29a36636c0189fd441fcae8161e4c3bf8c6b405f9249a645d8b"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ansible_1.5.1_windows_arm64.zip",
+          "download_url": "https://github.com/ansible/terraform-provider-ansible/releases/download/v1.5.1/terraform-provider-ansible_1.5.1_windows_arm64.zip",
+          "shasum": "ce08cd21433eb321c3256d97d8f1104ea974318b1c10f195ad0aab0f361ca81b"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "protocols": [
         "5.0"
