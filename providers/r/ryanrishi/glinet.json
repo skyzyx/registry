@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.1.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-glinet_0.1.0_darwin_amd64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_darwin_amd64.zip",
+          "shasum": "528465e6a7ff789a7b455524363053fa9ec1f907e3c0cdf2916375b809f7465b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-glinet_0.1.0_darwin_arm64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_darwin_arm64.zip",
+          "shasum": "1cda9dd3e5fd70d5b2bc76e99117bdae3883a926e72bf66e46a074480768312b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-glinet_0.1.0_freebsd_386.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_freebsd_386.zip",
+          "shasum": "857c711d7602a970cabc129b1e62e29d77c5645e22dd2571d3dbac02ed7bf826"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-glinet_0.1.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_freebsd_amd64.zip",
+          "shasum": "623bf4633e3a38b43720e5f6987497d1fcb50bc25c870fd8e1001bd4cad2095b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-glinet_0.1.0_freebsd_arm.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_freebsd_arm.zip",
+          "shasum": "bfac3bccd600a4f9c301f92daa2ae13ebdfad9cdb53511024e6cbc49bde4da97"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-glinet_0.1.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_freebsd_arm64.zip",
+          "shasum": "6cad94f6f8b56a393751380937e769932d4aea25fcc014e470c807f003e78a33"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-glinet_0.1.0_linux_386.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_linux_386.zip",
+          "shasum": "9aaa5a9153e9746e43e63444a317e91abfa872c660fc9b4a68360643f501dcce"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-glinet_0.1.0_linux_amd64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_linux_amd64.zip",
+          "shasum": "e03ffe93c5647df766bdaf5d928360cabce1947f43402f18aae6ef37a32178a8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-glinet_0.1.0_linux_arm.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_linux_arm.zip",
+          "shasum": "0743c89ecf70cd6bf6707754ac54da9b98d6d31fb6fa337a3d8ec80c785326e8"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-glinet_0.1.0_linux_arm64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_linux_arm64.zip",
+          "shasum": "b2dabf287b4f7e3f8576e30b297f577576ee9cf5d3f1dd3f2c9f5ad53aa47bde"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-glinet_0.1.0_windows_386.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_windows_386.zip",
+          "shasum": "2cd7c2120781f869c9bcd977351f975f1fd5fb922db856585d8cab9608ef43e0"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-glinet_0.1.0_windows_amd64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_windows_amd64.zip",
+          "shasum": "eae2409dd6bd8585316ecbe72dbcdd87b0c0f8875f2a4ccad4972a9609f1b406"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-glinet_0.1.0_windows_arm64.zip",
+          "download_url": "https://github.com/ryanrishi/terraform-provider-glinet/releases/download/v0.1.0/terraform-provider-glinet_0.1.0_windows_arm64.zip",
+          "shasum": "6aea4d5adf38641a8171d8f845b5fafdcd6d1abbe46951c6b11c1d7ee06a01cb"
+        }
+      ]
+    },
+    {
       "version": "0.0.4",
       "protocols": [
         "6.0"
