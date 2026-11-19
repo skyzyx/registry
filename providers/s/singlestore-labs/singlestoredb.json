@@ -1,6 +1,107 @@
 {
   "versions": [
     {
+      "version": "0.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_darwin_amd64.zip",
+          "shasum": "c61ed7902ed1bfc72485ea0d69908d8a493795faa22eb21dfabdba8acc6853e0"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_darwin_arm64.zip",
+          "shasum": "853114908db3ef99048583f9cdeb1de9534cf88e32b9f7cafe21c5cc1a111696"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-singlestoredb_0.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_freebsd_386.zip",
+          "shasum": "3bb0dbd00d40502dc4a54e1bd64f317a36963ac6fb9aa7f778c42d1544c378db"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_freebsd_amd64.zip",
+          "shasum": "297cb4930b8968a7ae217225e640c6334e280c5c2cd9e8aa70b5a6ff8562d9a1"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-singlestoredb_0.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_freebsd_arm.zip",
+          "shasum": "94d4d8b32cf80e2fbaddf80ebef38098fc8205c6d122feffaa33036760bc0c0b"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_freebsd_arm64.zip",
+          "shasum": "bf5f19e60c0a77dd989455bfa702639c10e340da28c0ff84621eedec44e7bd33"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-singlestoredb_0.2.0_linux_386.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_linux_386.zip",
+          "shasum": "787ead5ebc2aae790bd558c88c60580aed5fb42aa486bb6f9507de694271cbc2"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_linux_amd64.zip",
+          "shasum": "7c875057742202fdc98302262ee483ca734600bd4abda8e6bb31ccc5a260e631"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-singlestoredb_0.2.0_linux_arm.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_linux_arm.zip",
+          "shasum": "18d958da6b6c82454d5aaa9fc8a2ab7fa9b6c22bedc67a095520c64085e57bac"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_linux_arm64.zip",
+          "shasum": "b1b3227ee0cdb0b8dbb7f84fc3b748b4703857884616727cbabe4e2dd8f8a584"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-singlestoredb_0.2.0_windows_386.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_windows_386.zip",
+          "shasum": "b24e8b80f2ea3913adb337f8ab9acd4b03e74d930d587e489567d3c4520fd134"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_windows_amd64.zip",
+          "shasum": "17bfd601bf253ca7919ff60ea7e3c84ddd04c41de29e58a633c847610b227de6"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-singlestoredb_0.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/singlestore-labs/terraform-provider-singlestoredb/releases/download/v0.2.0/terraform-provider-singlestoredb_0.2.0_windows_arm64.zip",
+          "shasum": "a303073c53050ea5fee15c42c1b7735d71098fd979ddd37552eeb06ab3c76ffd"
+        }
+      ]
+    },
+    {
       "version": "0.1.19",
       "protocols": [
         "6.0"
