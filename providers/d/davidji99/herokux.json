@@ -1,6 +1,142 @@
 {
   "versions": [
     {
+      "version": "1.9.0",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_darwin_amd64.zip",
+          "shasum": "2c5d5812c906fe4ad95a0325c3ac53cc3b6c8f93a28cc31042bbd6fb93a86e7e"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-herokux_1.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_darwin_arm64.zip",
+          "shasum": "1296686140bd7376df0a02ac69fa908321c335d0e54461aece6b5b148681d957"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-herokux_1.9.0_freebsd_386.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_freebsd_386.zip",
+          "shasum": "91f8e88be4c56ea65b0889fae397f1c2e21608b58b7824a85c1f7dc560957d0d"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_freebsd_amd64.zip",
+          "shasum": "d814487224b87efaff88bf859bdeaaae8e4810810a410a5dcefab229833e8509"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-herokux_1.9.0_freebsd_arm.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_freebsd_arm.zip",
+          "shasum": "547c4d8620a1ade77bd518bbeb70cec170fce6db66674e256a4af1fd59be518c"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-herokux_1.9.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_freebsd_arm64.zip",
+          "shasum": "2939285232d672ab899d5e1001915af1ab80e4dc690e23c93f4fe062743b90a7"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-herokux_1.9.0_linux_386.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_linux_386.zip",
+          "shasum": "d4f6d2829d56b502a1ce6fb2f3d0f2f77ab70064a73cec1b641d4922ceb48488"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_linux_amd64.zip",
+          "shasum": "60516e29e1a298ad37f9341af6985fa77e5c7279d4d9d25e6abc28b91f210a14"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-herokux_1.9.0_linux_arm.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_linux_arm.zip",
+          "shasum": "6930cb5b39f6f4ae9ac43f59b4e397874216e0d056642da681a4a96ad95ce997"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-herokux_1.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_linux_arm64.zip",
+          "shasum": "f4f196957607631ffc2d6f2af7e843b449988f1729a9a006c4d8a97595f438ae"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-herokux_1.9.0_windows_386.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_windows_386.zip",
+          "shasum": "6bb49095a859ccd630ec82d32bda0ac7412946542d73763c6661a27c7d3f61ef"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_windows_amd64.zip",
+          "shasum": "4573eab2f773f0b74e90464a494e553d157daa36bf17d656139c98ecee58f053"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-herokux_1.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_windows_arm64.zip",
+          "shasum": "d95b2f038cf08db156bf4a54840bae644bb4d582c05527fd346b6bb07a6f164b"
+        },
+        {
+          "os": "openbsd",
+          "arch": "386",
+          "filename": "terraform-provider-herokux_1.9.0_openbsd_386.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_openbsd_386.zip",
+          "shasum": "bd5b186c9eab1846d3a2755a1919f79d9639a8a04625223ee198d586beab1ca4"
+        },
+        {
+          "os": "openbsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_openbsd_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_openbsd_amd64.zip",
+          "shasum": "ad5bd64079b6610a115c7e7d7d3f5081f951e294871c6e95352ad108f084c946"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm",
+          "filename": "terraform-provider-herokux_1.9.0_openbsd_arm.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_openbsd_arm.zip",
+          "shasum": "30b5a68fcc3efbde12c8c525cd919c52fca402cc0d093aa55589b6a5985b275b"
+        },
+        {
+          "os": "openbsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-herokux_1.9.0_openbsd_arm64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_openbsd_arm64.zip",
+          "shasum": "c18e87c74a348773266d988df9d02157d3811c3f01d6626ab8f4d8dc03717976"
+        },
+        {
+          "os": "solaris",
+          "arch": "amd64",
+          "filename": "terraform-provider-herokux_1.9.0_solaris_amd64.zip",
+          "download_url": "https://github.com/davidji99/terraform-provider-herokux/releases/download/v1.9.0/terraform-provider-herokux_1.9.0_solaris_amd64.zip",
+          "shasum": "8661435f11557516bcfb96c9bcfd0b4df63a906699f746640f2a0bac14d77e1c"
+        }
+      ]
+    },
+    {
       "version": "1.8.0",
       "protocols": [
         "5.0"
